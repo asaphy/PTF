@@ -22,6 +22,7 @@
 
 #import "CalendarViewController.h"
 #import <PDTSimpleCalendar/PDTSimpleCalendar.h>
+#import <Parse/Parse.h>
 
 @interface CalendarViewController () <PDTSimpleCalendarViewDelegate>
 
@@ -78,6 +79,11 @@
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (IBAction)logOut:(id)sender {
+    [PFUser logOut];
+    [self.navigationController popViewControllerAnimated:YES];
 }
 
 /*

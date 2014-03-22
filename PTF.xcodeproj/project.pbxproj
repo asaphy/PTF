@@ -9,8 +9,10 @@
 /* Begin PBXBuildFile section */
 		56655C473D5E47F1BDE4742B /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 31189C9E43B147CFA52DBC7C /* libPods.a */; };
 		833AA2BA18DD71C300C89860 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 833AA2B918DD71C300C89860 /* MessageUI.framework */; };
+		833AA2BD18DD7E0600C89860 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 833AA2BB18DD76F400C89860 /* QuartzCore.framework */; };
 		8360F1D918DD33E900337201 /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8360F1D818DD33E900337201 /* RegisterViewController.m */; };
 		8360F1FD18DD4F0B00337201 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8360F1FC18DD4F0B00337201 /* MapKit.framework */; };
+		8388048818DD976A0015B292 /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8388048718DD976A0015B292 /* AboutViewController.m */; };
 		83D1E53A18DD20A600457CCA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83D1E53918DD20A600457CCA /* Foundation.framework */; };
 		83D1E53C18DD20A600457CCA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83D1E53B18DD20A600457CCA /* CoreGraphics.framework */; };
 		83D1E53E18DD20A700457CCA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83D1E53D18DD20A700457CCA /* UIKit.framework */; };
@@ -50,6 +52,8 @@
 		8360F1D718DD33E900337201 /* RegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterViewController.h; sourceTree = "<group>"; };
 		8360F1D818DD33E900337201 /* RegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterViewController.m; sourceTree = "<group>"; };
 		8360F1FC18DD4F0B00337201 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		8388048618DD976A0015B292 /* AboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutViewController.h; sourceTree = "<group>"; };
+		8388048718DD976A0015B292 /* AboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutViewController.m; sourceTree = "<group>"; };
 		83D1E53618DD20A600457CCA /* PTF.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PTF.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		83D1E53918DD20A600457CCA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		83D1E53B18DD20A600457CCA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -85,6 +89,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				833AA2BD18DD7E0600C89860 /* QuartzCore.framework in Frameworks */,
 				833AA2BA18DD71C300C89860 /* MessageUI.framework in Frameworks */,
 				8360F1FD18DD4F0B00337201 /* MapKit.framework in Frameworks */,
 				83D1E53C18DD20A600457CCA /* CoreGraphics.framework in Frameworks */,
@@ -156,6 +161,8 @@
 				8360F1D818DD33E900337201 /* RegisterViewController.m */,
 				83D1E57A18DD32CC00457CCA /* InfoViewController.h */,
 				83D1E57B18DD32CC00457CCA /* InfoViewController.m */,
+				8388048618DD976A0015B292 /* AboutViewController.h */,
+				8388048718DD976A0015B292 /* AboutViewController.m */,
 				83D1E57D18DD32D700457CCA /* ContactViewController.h */,
 				83D1E57E18DD32D700457CCA /* ContactViewController.m */,
 				83D1E54E18DD20A700457CCA /* Main_iPad.storyboard */,
@@ -329,6 +336,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8388048818DD976A0015B292 /* AboutViewController.m in Sources */,
 				83D1E57318DD329B00457CCA /* CalendarViewController.m in Sources */,
 				83D1E55318DD20A700457CCA /* ViewController.m in Sources */,
 				83D1E57618DD32B600457CCA /* MapViewController.m in Sources */,

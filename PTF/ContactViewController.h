@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import <MessageUI/MessageUI.h>
+#import <QuartzCore/QuartzCore.h>
 
 @interface ContactViewController : UIViewController
 - (IBAction)showEmail:(id)sender;

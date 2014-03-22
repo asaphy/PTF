@@ -7,6 +7,7 @@
 //
 
 #import "InfoViewController.h"
+#import "Info.h"
 
 @interface InfoViewController ()
 
@@ -14,7 +15,6 @@
 
 @implementation InfoViewController {
     NSArray *about;
-    NSArray *volunteers;
 }
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
@@ -32,6 +32,21 @@
     // Do any additional setup after loading the view.
     // Initialize table data
     self.automaticallyAdjustsScrollViewInsets = NO;
+    
+    // Initialize table data
+    
+    Info *info1 = [Info new];
+    info1.title = @"Mission";
+    info1.text = @"This is our mission";
+    
+    Info *info2 = [Info new];
+    info2.title = @"Overnights of Hospitality";
+    info2.text = @"This is our home";
+    
+    Info *info3 = [Info new];
+    info3.title = @"Ways to Give";
+    info3.text = @"This is our gift to you";
+    
     
     about = [NSArray arrayWithObjects:@"Mission", @"Overnights of Hospitality", @"Ways to Give", nil];
 }

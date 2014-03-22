@@ -46,12 +46,22 @@
     info2.text = @"Through the Overnights of Hospitality program, we provide emergency sheltering for single homeless men on a seasonal basis, beginning mid-November and continuing through the middle of March. Based on the national model developed by Charles Stroebel from Tennessee, the shelter site rotates week by week among four different congregations in the Plymouth area.";
     
     Info *info3 = [Info new];
-    info3.title = @"Ways to Give";
-    info3.text = @"Checks may be made payable to the Plymouth Taskforce for the Homeless and mailed to PO Box 3896, Plymouth, MA 02361. We are an all volunteer organization, so 100% of funds raised go directly to programs and services. Thank you for your generosity that allows us to continue our shared mission.";
+    info3.title = @"Drivers' Role";
+    info3.text = @"Individuals help with transporting the men from the pickup spot at St. Peter’s parking lot to the shelter. Time involves about one hour, 5:30-6:30 PM each night. Volunteers may sign up to assist for one or more nights per week.";
     
-    infos = [NSArray arrayWithObjects:info1, info2, info3, nil];
+    Info *info4 = [Info new];
+    info4.title = @"Chaperones' Role";
+    info4.text = @"Two are needed each night to stay with the men. Two may be males, or one may be male and one may be female. Chaperones arrive around 6 PM and leave around 7 AM when the men leave.";
     
-    about = [NSArray arrayWithObjects:@"Mission", @"Overnights of Hospitality", @"Ways to Give", nil];
+    Info *info5 = [Info new];
+    info5.title = @"Meal Providers' Role";
+    info5.text = @" Individual(s), family, or  community groups are responsible for buying, preparing, and serving a meal. Generally, the meals are prepared at home and heated at the site. All sites have a kitchen. Dinner is usually served around 6:30 PM.";
+    
+    Info *info6 = [Info new];
+    info6.title = @"Ways to Give";
+    info6.text = @"Checks may be made payable to the Plymouth Taskforce for the Homeless and mailed to PO Box 3896, Plymouth, MA 02361. We are an all volunteer organization, so 100% of funds raised go directly to programs and services. Thank you for your generosity that allows us to continue our shared mission.";
+    
+    infos = [NSArray arrayWithObjects:info1, info2, info3, info4, info5, info6, nil];
 }
 
 - (void)didReceiveMemoryWarning

@@ -14,6 +14,8 @@
 		8360F1FD18DD4F0B00337201 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8360F1FC18DD4F0B00337201 /* MapKit.framework */; };
 		8388048818DD976A0015B292 /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8388048718DD976A0015B292 /* AboutViewController.m */; };
 		8388048E18DDA2E30015B292 /* Info.m in Sources */ = {isa = PBXBuildFile; fileRef = 8388048D18DDA2E30015B292 /* Info.m */; };
+		8388049318DDDBEA0015B292 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8388049218DDDBEA0015B292 /* LoginViewController.m */; };
+		8388049618DDE3030015B292 /* SignupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8388049518DDE3030015B292 /* SignupViewController.m */; };
 		83D1E53A18DD20A600457CCA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83D1E53918DD20A600457CCA /* Foundation.framework */; };
 		83D1E53C18DD20A600457CCA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83D1E53B18DD20A600457CCA /* CoreGraphics.framework */; };
 		83D1E53E18DD20A700457CCA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83D1E53D18DD20A700457CCA /* UIKit.framework */; };
@@ -57,6 +59,10 @@
 		8388048718DD976A0015B292 /* AboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutViewController.m; sourceTree = "<group>"; };
 		8388048C18DDA2E30015B292 /* Info.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Info.h; sourceTree = "<group>"; };
 		8388048D18DDA2E30015B292 /* Info.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Info.m; sourceTree = "<group>"; };
+		8388049118DDDBEA0015B292 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		8388049218DDDBEA0015B292 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		8388049418DDE3030015B292 /* SignupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignupViewController.h; sourceTree = "<group>"; };
+		8388049518DDE3030015B292 /* SignupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignupViewController.m; sourceTree = "<group>"; };
 		83D1E53618DD20A600457CCA /* PTF.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PTF.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		83D1E53918DD20A600457CCA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		83D1E53B18DD20A600457CCA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -156,12 +162,16 @@
 				83D1E54B18DD20A700457CCA /* Main_iPhone.storyboard */,
 				83D1E54818DD20A700457CCA /* AppDelegate.h */,
 				83D1E54918DD20A700457CCA /* AppDelegate.m */,
+				8388049118DDDBEA0015B292 /* LoginViewController.h */,
+				8388049218DDDBEA0015B292 /* LoginViewController.m */,
 				83D1E57118DD329B00457CCA /* CalendarViewController.h */,
 				83D1E57218DD329B00457CCA /* CalendarViewController.m */,
 				83D1E57418DD32B600457CCA /* MapViewController.h */,
 				83D1E57518DD32B600457CCA /* MapViewController.m */,
 				8360F1D718DD33E900337201 /* RegisterViewController.h */,
 				8360F1D818DD33E900337201 /* RegisterViewController.m */,
+				8388049418DDE3030015B292 /* SignupViewController.h */,
+				8388049518DDE3030015B292 /* SignupViewController.m */,
 				83D1E57A18DD32CC00457CCA /* InfoViewController.h */,
 				83D1E57B18DD32CC00457CCA /* InfoViewController.m */,
 				8388048618DD976A0015B292 /* AboutViewController.h */,
@@ -347,9 +357,11 @@
 				83D1E57618DD32B600457CCA /* MapViewController.m in Sources */,
 				83D1E54A18DD20A700457CCA /* AppDelegate.m in Sources */,
 				8388048E18DDA2E30015B292 /* Info.m in Sources */,
+				8388049618DDE3030015B292 /* SignupViewController.m in Sources */,
 				83D1E57F18DD32D700457CCA /* ContactViewController.m in Sources */,
 				83D1E57C18DD32CC00457CCA /* InfoViewController.m in Sources */,
 				83D1E54618DD20A700457CCA /* main.m in Sources */,
+				8388049318DDDBEA0015B292 /* LoginViewController.m in Sources */,
 				8360F1D918DD33E900337201 /* RegisterViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

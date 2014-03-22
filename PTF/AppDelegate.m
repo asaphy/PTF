@@ -5,13 +5,15 @@
 //  Created by Asaph Yuan on 3/21/14.
 //  Copyright (c) 2014 Global App Initiative. All rights reserved.
 //
-
+#import <Parse/Parse.h>
 #import "AppDelegate.h"
 
 @implementation AppDelegate
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     [GMSServices provideAPIKey:@"AIzaSyCOaDpCAlUgNMVNyMs_t6DnBkGZIr7Iz84"];
+    [Parse setApplicationId:@"Z5jgecdg86wQzZasn8Fp6Cl0SFtFhZBYAi11Io7U"
+                  clientKey:@"prRPxKM03KEDadCEt54dAxhj2RefXKJjXIgz4tcM"];
     return YES;
 }
 

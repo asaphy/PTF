@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		56655C473D5E47F1BDE4742B /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 31189C9E43B147CFA52DBC7C /* libPods.a */; };
+		833AA2BA18DD71C300C89860 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 833AA2B918DD71C300C89860 /* MessageUI.framework */; };
 		8360F1D918DD33E900337201 /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8360F1D818DD33E900337201 /* RegisterViewController.m */; };
 		8360F1FD18DD4F0B00337201 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8360F1FC18DD4F0B00337201 /* MapKit.framework */; };
 		83D1E53A18DD20A600457CCA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83D1E53918DD20A600457CCA /* Foundation.framework */; };
@@ -44,6 +45,8 @@
 /* Begin PBXFileReference section */
 		17443ACF6F2D4157A5F463A5 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 		31189C9E43B147CFA52DBC7C /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		833AA2B918DD71C300C89860 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		833AA2BB18DD76F400C89860 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		8360F1D718DD33E900337201 /* RegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterViewController.h; sourceTree = "<group>"; };
 		8360F1D818DD33E900337201 /* RegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterViewController.m; sourceTree = "<group>"; };
 		8360F1FC18DD4F0B00337201 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
@@ -82,6 +85,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				833AA2BA18DD71C300C89860 /* MessageUI.framework in Frameworks */,
 				8360F1FD18DD4F0B00337201 /* MapKit.framework in Frameworks */,
 				83D1E53C18DD20A600457CCA /* CoreGraphics.framework in Frameworks */,
 				83D1E53E18DD20A700457CCA /* UIKit.framework in Frameworks */,
@@ -126,6 +130,8 @@
 		83D1E53818DD20A600457CCA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				833AA2BB18DD76F400C89860 /* QuartzCore.framework */,
+				833AA2B918DD71C300C89860 /* MessageUI.framework */,
 				8360F1FC18DD4F0B00337201 /* MapKit.framework */,
 				83D1E53918DD20A600457CCA /* Foundation.framework */,
 				83D1E53B18DD20A600457CCA /* CoreGraphics.framework */,
@@ -139,9 +145,9 @@
 		83D1E53F18DD20A700457CCA /* PTF */ = {
 			isa = PBXGroup;
 			children = (
+				83D1E54B18DD20A700457CCA /* Main_iPhone.storyboard */,
 				83D1E54818DD20A700457CCA /* AppDelegate.h */,
 				83D1E54918DD20A700457CCA /* AppDelegate.m */,
-				83D1E54B18DD20A700457CCA /* Main_iPhone.storyboard */,
 				83D1E57118DD329B00457CCA /* CalendarViewController.h */,
 				83D1E57218DD329B00457CCA /* CalendarViewController.m */,
 				83D1E57418DD32B600457CCA /* MapViewController.h */,

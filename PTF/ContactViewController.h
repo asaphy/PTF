@@ -10,7 +10,7 @@
 #import <MessageUI/MessageUI.h>
 #import <QuartzCore/QuartzCore.h>
 
-@interface ContactViewController : UIViewController
+@interface ContactViewController : UIViewController <MFMailComposeViewControllerDelegate>
 - (IBAction)showEmail:(id)sender;
 
 @end

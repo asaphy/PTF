@@ -27,7 +27,10 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    [self.labelOutlet setText:self.message];
+    self.title = self.info.title;
+    self.titleLabel.text = self.info.title;
+    self.textLabel.text = self.info.text;
+
 }
 
 - (void)didReceiveMemoryWarning

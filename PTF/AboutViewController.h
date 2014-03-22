@@ -7,11 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Info.h"
 
 @interface AboutViewController : UIViewController
 
-@property (strong, nonatomic) IBOutlet UILabel *labelOutlet;
+@property (weak, nonatomic) IBOutlet UILabel *titleLabel;
+@property (weak, nonatomic) IBOutlet UILabel *textLabel;
+@property (nonatomic, strong) Info *info;
 
-@property (nonatomic, strong) NSString *message;
 
 @end

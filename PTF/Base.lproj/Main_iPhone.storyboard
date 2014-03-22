@@ -130,9 +130,19 @@
                     <view key="view" contentMode="scaleToFill" id="rPA-oQ-u7o">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="zaf-U6-X9m">
+                                <rect key="frame" x="0.0" y="-5" width="320" height="523"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            </webView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="7gC-cp-ePr"/>
+                    <connections>
+                        <outlet property="registerWebView" destination="zaf-U6-X9m" id="0wV-pF-dvv"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="MJb-hf-voK" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

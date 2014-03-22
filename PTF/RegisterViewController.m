@@ -27,6 +27,11 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    //load url into webview
+    NSString *strURL = @"https://docs.google.com/forms/d/1RM2oo3xF_8aGsRWQYYpFoUtqGxCq6wxjqmwMq7svTxo/viewform";
+    NSURL *url = [NSURL URLWithString:strURL];
+    NSURLRequest *urlRequest = [NSURLRequest requestWithURL:url];
+    [self.registerWebView loadRequest:urlRequest];
 }
 
 - (void)didReceiveMemoryWarning

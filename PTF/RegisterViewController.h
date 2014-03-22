@@ -10,4 +10,6 @@
 
 @interface RegisterViewController : UIViewController
 
+@property (strong, nonatomic) IBOutlet UIWebView *registerWebView;
+
 @end

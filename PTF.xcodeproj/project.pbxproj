@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		56655C473D5E47F1BDE4742B /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 31189C9E43B147CFA52DBC7C /* libPods.a */; };
 		8360F1D918DD33E900337201 /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8360F1D818DD33E900337201 /* RegisterViewController.m */; };
+		8360F1FD18DD4F0B00337201 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8360F1FC18DD4F0B00337201 /* MapKit.framework */; };
 		83D1E53A18DD20A600457CCA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83D1E53918DD20A600457CCA /* Foundation.framework */; };
 		83D1E53C18DD20A600457CCA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83D1E53B18DD20A600457CCA /* CoreGraphics.framework */; };
 		83D1E53E18DD20A700457CCA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83D1E53D18DD20A700457CCA /* UIKit.framework */; };
@@ -45,6 +46,7 @@
 		31189C9E43B147CFA52DBC7C /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		8360F1D718DD33E900337201 /* RegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterViewController.h; sourceTree = "<group>"; };
 		8360F1D818DD33E900337201 /* RegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterViewController.m; sourceTree = "<group>"; };
+		8360F1FC18DD4F0B00337201 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		83D1E53618DD20A600457CCA /* PTF.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PTF.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		83D1E53918DD20A600457CCA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		83D1E53B18DD20A600457CCA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -80,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8360F1FD18DD4F0B00337201 /* MapKit.framework in Frameworks */,
 				83D1E53C18DD20A600457CCA /* CoreGraphics.framework in Frameworks */,
 				83D1E53E18DD20A700457CCA /* UIKit.framework in Frameworks */,
 				83D1E53A18DD20A600457CCA /* Foundation.framework in Frameworks */,
@@ -123,6 +126,7 @@
 		83D1E53818DD20A600457CCA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				8360F1FC18DD4F0B00337201 /* MapKit.framework */,
 				83D1E53918DD20A600457CCA /* Foundation.framework */,
 				83D1E53B18DD20A600457CCA /* CoreGraphics.framework */,
 				83D1E53D18DD20A700457CCA /* UIKit.framework */,

@@ -7,9 +7,13 @@
 //
 
 #import "MapViewController.h"
+#import <GoogleMaps/GoogleMaps.h>
 
-@interface MapViewController ()
-
+@interface MapViewController (){
+    
+    GMSMapView *mapView_;
+    
+}
 @end
 
 @implementation MapViewController
@@ -27,6 +31,46 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    
+    // Create a GMSCameraPosition that tells the map to display the
+    // coordinate 41.9583,-70.6678 at zoom level 13
+    GMSCameraPosition *camera = [GMSCameraPosition cameraWithLatitude:41.9583
+                                                            longitude:-70.6678
+                                                                 zoom:13];
+    mapView_ = [GMSMapView mapWithFrame:CGRectZero camera:camera];
+    mapView_.myLocationEnabled = YES;
+    self.view = mapView_;
+    
+    // Creates a marker in the center of the map.
+    GMSMarker *marker = [[GMSMarker alloc] init];
+    marker.position = CLLocationCoordinate2DMake(41.9583, -70.6678);
+    marker.title = @"Plymouth";
+    marker.snippet = @"50-68 Court Street, Plymouth, MA";
+    marker.map = mapView_;
+    
+    GMSMarker *marker1 = [[GMSMarker alloc] init];
+    marker1.position = CLLocationCoordinate2DMake(41.9624747,-70.6740269);
+    marker1.title = @"Christ Church Parish";
+    marker1.snippet = @"149 Court Street, Plymouth, MA";
+    marker1.map = mapView_;
+    
+    GMSMarker *marker2 = [[GMSMarker alloc] init];
+    marker2.position = CLLocationCoordinate2DMake(41.9556684,-70.6647393);
+    marker2.title = @"Church of the Pilgrimage";
+    marker2.snippet = @"8 Town Square, Plymouth, MA";
+    marker2.map = mapView_;
+    
+    GMSMarker *marker3 = [[GMSMarker alloc] init];
+    marker3.position = CLLocationCoordinate2DMake(41.9488085,-70.6771664);
+    marker3.title = @"First Baptist";
+    marker3.snippet = @"41 Westerly Road, Plymouth, MA";
+    marker3.map = mapView_;
+    
+    GMSMarker *marker4 = [[GMSMarker alloc] init];
+    marker4.position = CLLocationCoordinate2DMake(41.978376,-70.6907745);
+    marker4.title = @"Zion Lutheran Church";
+    marker4.snippet = @"384 Court St, Plymouth, MA";
+    marker4.map = mapView_;
 }
 
 - (void)didReceiveMemoryWarning

@@ -36,11 +36,11 @@
 {
     [super viewDidAppear:animated];
     //Check if current user exists
+    [[self navigationController] setNavigationBarHidden:YES animated:animated];
     PFUser * currentUser = [PFUser currentUser];
     if (currentUser) {
         [self goToLoggedInViewController];
-    }
-    
+    }    
 }
 
 

@@ -83,7 +83,7 @@
 
 - (IBAction)logOut:(id)sender {
     [PFUser logOut];
-    [self.navigationController popViewControllerAnimated:YES];
+    [self.navigationController popToRootViewControllerAnimated:YES];
 }
 
 /*

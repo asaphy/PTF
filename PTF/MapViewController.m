@@ -8,6 +8,7 @@
 
 #import "MapViewController.h"
 #import <GoogleMaps/GoogleMaps.h>
+#import <Parse/Parse.h>
 
 @interface MapViewController (){
     
@@ -77,6 +78,10 @@
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+- (IBAction)logOutMap:(id)sender {
+    [PFUser logOut];
+    [self.navigationController.navigationController popToRootViewControllerAnimated:YES];
 }
 
 /*

@@ -7,6 +7,7 @@
 //
 
 #import "ContactViewController.h"
+#import <Parse/Parse.h>
 
 @interface ContactViewController ()
 
@@ -88,4 +89,9 @@
     // Close the Mail Interface
     [self dismissViewControllerAnimated:YES completion:NULL];
 }
+- (IBAction)logMeContact:(id)sender {
+    [PFUser logOut];
+    [self.navigationController.navigationController popToRootViewControllerAnimated:YES];
+}
+
 @end

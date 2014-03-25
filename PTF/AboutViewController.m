@@ -7,6 +7,7 @@
 //
 
 #import "AboutViewController.h"
+#import <Parse/Parse.h>
 
 @interface AboutViewController ()
 
@@ -37,6 +38,10 @@
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+- (IBAction)logOutDetailed:(id)sender {
+    [PFUser logOut];
+    [self.navigationController.navigationController popToRootViewControllerAnimated:YES];
 }
 
 /*

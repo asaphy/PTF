@@ -9,6 +9,7 @@
 #import "InfoViewController.h"
 #import "Info.h"
 #import "AboutViewController.h"
+#import <Parse/Parse.h>
 
 @interface InfoViewController ()
 
@@ -97,6 +98,11 @@
         AboutViewController *destViewController = segue.destinationViewController;
         destViewController.info = [infos objectAtIndex:indexPath.row];
     }
+}
+
+- (IBAction)logOutInfo:(id)sender {
+    [PFUser logOut];
+    [self.navigationController.navigationController popToRootViewControllerAnimated:YES];
 }
 
 /*

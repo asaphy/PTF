@@ -7,6 +7,7 @@
 //
 
 #import "RegisterViewController.h"
+#import <Parse/Parse.h>
 
 @interface RegisterViewController ()
 
@@ -38,6 +39,11 @@
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (IBAction)logOutRegistration:(id)sender {
+    [PFUser logOut];
+    [self.navigationController.navigationController popToRootViewControllerAnimated:YES];
 }
 
 /*

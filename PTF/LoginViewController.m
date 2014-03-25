@@ -70,6 +70,11 @@
     NSLog(@"%@", mvc);
     [self.navigationController pushViewController:mvc animated:YES];
 }
+- (IBAction)goToSignUp:(id)sender {
+    UIViewController * svc = [self.storyboard instantiateViewControllerWithIdentifier:@"SignUpViewController"];
+    NSLog(@"%@", svc);
+    [self.navigationController pushViewController:svc animated:YES];
+}
 /*
 #pragma mark - Navigation
 

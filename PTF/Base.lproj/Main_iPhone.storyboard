@@ -468,7 +468,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="xXG-fK-jMM" kind="modal" id="nqS-jw-V5V"/>
+                                    <action selector="goToSignUp:" destination="wfm-Zn-is8" eventType="touchUpInside" id="DTw-JG-U1K"/>
                                 </connections>
                             </button>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="fgd-aq-nNM">
@@ -500,7 +500,7 @@
         <!--Signup View Controller-->
         <scene sceneID="ftS-ta-idC">
             <objects>
-                <viewController id="xXG-fK-jMM" customClass="SignupViewController" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="SignUpViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="xXG-fK-jMM" customClass="SignupViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="kgj-B7-suS"/>
                         <viewControllerLayoutGuide type="bottom" id="rCg-u5-bnZ"/>
@@ -560,7 +560,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="wfm-Zn-is8" kind="modal" id="1eA-my-bqh"/>
+                                    <action selector="backToLogin:" destination="xXG-fK-jMM" eventType="touchUpInside" id="3w1-We-UI0"/>
                                 </connections>
                             </button>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="I2E-Na-OeM">
@@ -590,7 +590,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="GbK-yb-GLj" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-67" y="751"/>
+            <point key="canvasLocation" x="32" y="743"/>
         </scene>
     </scenes>
     <resources>
@@ -602,7 +602,4 @@
         <simulatedOrientationMetrics key="orientation"/>
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
-    <inferredMetricsTieBreakers>
-        <segue reference="yF0-2q-Gyy"/>
-    </inferredMetricsTieBreakers>
 </document>

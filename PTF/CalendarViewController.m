@@ -1,7 +1,6 @@
 //
 //  CalendarViewController.m
-//  PTF
-//
+//  PTF //
 //  Created by Asaph Yuan on 3/21/14.
 //  Copyright (c) 2014 Global App Initiative. All rights reserved.
 //
@@ -44,7 +43,13 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    NSDateFormatter* dateFormatter = [[NSDateFormatter alloc] init];
+    dateFormatter.dateFormat = @"dd/MM/yyyy";
+    _customDates = @[[dateFormatter dateFromString:@"01/05/2014"], [dateFormatter dateFromString:@"01/06/2014"], [dateFormatter dateFromString:@"01/07/2014"]];
     
+    PDTSimpleCalendarViewController *calendarViewController = [[PDTSimpleCalendarViewController alloc] init];
+    //This is the default behavior, will display a full year starting the first of the current month
+    [calendarViewController self];
 }
 
 

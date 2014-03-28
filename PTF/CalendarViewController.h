@@ -9,6 +9,5 @@
 #import <UIKit/UIKit.h>
 
 @interface CalendarViewController : UIViewController
-@property (strong, nonatomic) IBOutlet UIView *calendarView;
 
 @end

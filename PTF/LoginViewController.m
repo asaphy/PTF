@@ -30,6 +30,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     self.loginPassword.secureTextEntry = YES;
+    setNavigationBarHidden:YES;
 }
 
 -(void) viewDidAppear:(BOOL)animated

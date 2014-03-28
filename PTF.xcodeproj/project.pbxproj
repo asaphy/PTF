@@ -36,11 +36,11 @@
 		83D1E57618DD32B600457CCA /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83D1E57518DD32B600457CCA /* MapViewController.m */; };
 		83D1E57C18DD32CC00457CCA /* InfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83D1E57B18DD32CC00457CCA /* InfoViewController.m */; };
 		83D1E57F18DD32D700457CCA /* ContactViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83D1E57E18DD32D700457CCA /* ContactViewController.m */; };
-		83FBD10A18DE2C8600907F9A /* map.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 83FBD10518DE2C8600907F9A /* map.jpg */; };
-		83FBD10B18DE2C8600907F9A /* registration.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 83FBD10618DE2C8600907F9A /* registration.jpg */; };
-		83FBD10C18DE2C8600907F9A /* calendar.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 83FBD10718DE2C8600907F9A /* calendar.jpg */; };
-		83FBD10D18DE2C8600907F9A /* contact.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 83FBD10818DE2C8600907F9A /* contact.jpg */; };
-		83FBD10E18DE2C8600907F9A /* info.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 83FBD10918DE2C8600907F9A /* info.jpg */; };
+		83EC329618E4FECD00099E72 /* Map.png in Resources */ = {isa = PBXBuildFile; fileRef = 83EC329518E4FECD00099E72 /* Map.png */; };
+		83EC32A418E5062F00099E72 /* Contact.png in Resources */ = {isa = PBXBuildFile; fileRef = 83EC32A318E5062F00099E72 /* Contact.png */; };
+		83EC32A818E5076800099E72 /* Register.png in Resources */ = {isa = PBXBuildFile; fileRef = 83EC32A718E5076800099E72 /* Register.png */; };
+		83EC32AE18E5083100099E72 /* Info.png in Resources */ = {isa = PBXBuildFile; fileRef = 83EC32AD18E5083100099E72 /* Info.png */; };
+		83EC32B218E5C39400099E72 /* Calendar.png in Resources */ = {isa = PBXBuildFile; fileRef = 83EC32B118E5C39400099E72 /* Calendar.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -98,11 +98,11 @@
 		83D1E57B18DD32CC00457CCA /* InfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfoViewController.m; sourceTree = "<group>"; };
 		83D1E57D18DD32D700457CCA /* ContactViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactViewController.h; sourceTree = "<group>"; };
 		83D1E57E18DD32D700457CCA /* ContactViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactViewController.m; sourceTree = "<group>"; };
-		83FBD10518DE2C8600907F9A /* map.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = map.jpg; sourceTree = "<group>"; };
-		83FBD10618DE2C8600907F9A /* registration.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = registration.jpg; sourceTree = "<group>"; };
-		83FBD10718DE2C8600907F9A /* calendar.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = calendar.jpg; sourceTree = "<group>"; };
-		83FBD10818DE2C8600907F9A /* contact.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = contact.jpg; sourceTree = "<group>"; };
-		83FBD10918DE2C8600907F9A /* info.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = info.jpg; sourceTree = "<group>"; };
+		83EC329518E4FECD00099E72 /* Map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Map.png; sourceTree = "<group>"; };
+		83EC32A318E5062F00099E72 /* Contact.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Contact.png; sourceTree = "<group>"; };
+		83EC32A718E5076800099E72 /* Register.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Register.png; sourceTree = "<group>"; };
+		83EC32AD18E5083100099E72 /* Info.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Info.png; sourceTree = "<group>"; };
+		83EC32B118E5C39400099E72 /* Calendar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Calendar.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -204,11 +204,11 @@
 		83D1E54018DD20A700457CCA /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				83FBD10518DE2C8600907F9A /* map.jpg */,
-				83FBD10618DE2C8600907F9A /* registration.jpg */,
-				83FBD10718DE2C8600907F9A /* calendar.jpg */,
-				83FBD10818DE2C8600907F9A /* contact.jpg */,
-				83FBD10918DE2C8600907F9A /* info.jpg */,
+				83EC32B118E5C39400099E72 /* Calendar.png */,
+				83EC32AD18E5083100099E72 /* Info.png */,
+				83EC32A718E5076800099E72 /* Register.png */,
+				83EC32A318E5062F00099E72 /* Contact.png */,
+				83EC329518E4FECD00099E72 /* Map.png */,
 				83052AAF18DE1724001F7143 /* background_login.jpg */,
 				83D1E54118DD20A700457CCA /* PTF-Info.plist */,
 				83D1E54218DD20A700457CCA /* InfoPlist.strings */,
@@ -314,15 +314,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				83FBD10A18DE2C8600907F9A /* map.jpg in Resources */,
-				83FBD10E18DE2C8600907F9A /* info.jpg in Resources */,
+				83EC32AE18E5083100099E72 /* Info.png in Resources */,
+				83EC32B218E5C39400099E72 /* Calendar.png in Resources */,
 				83D1E55018DD20A700457CCA /* Main_iPad.storyboard in Resources */,
+				83EC32A418E5062F00099E72 /* Contact.png in Resources */,
+				83EC329618E4FECD00099E72 /* Map.png in Resources */,
 				83D1E55518DD20A700457CCA /* Images.xcassets in Resources */,
-				83FBD10D18DE2C8600907F9A /* contact.jpg in Resources */,
+				83EC32A818E5076800099E72 /* Register.png in Resources */,
 				83D1E54D18DD20A700457CCA /* Main_iPhone.storyboard in Resources */,
 				83052AB018DE1724001F7143 /* background_login.jpg in Resources */,
-				83FBD10C18DE2C8600907F9A /* calendar.jpg in Resources */,
-				83FBD10B18DE2C8600907F9A /* registration.jpg in Resources */,
 				83D1E54418DD20A700457CCA /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

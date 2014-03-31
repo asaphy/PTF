@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <PDTSimpleCalendar/PDTSimpleCalendar.h>
 
-@interface CalendarViewController : UIViewController
+@interface CalendarViewController : PDTSimpleCalendarViewController
 
 @end

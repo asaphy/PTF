@@ -47,37 +47,6 @@
     dateFormatter.dateFormat = @"dd/MM/yyyy";
     _customDates = @[[dateFormatter dateFromString:@"01/05/2014"], [dateFormatter dateFromString:@"01/06/2014"], [dateFormatter dateFromString:@"01/07/2014"]];
     
-    PDTSimpleCalendarViewController *calendarViewController = [[PDTSimpleCalendarViewController alloc] init];
-    //This is the default behavior, will display a full year starting the first of the current month
-    [calendarViewController self];
-}
-
-
-
-#pragma mark - PDTSimpleCalendarViewDelegate
-
-- (void)simpleCalendarViewController:(PDTSimpleCalendarViewController *)controller didSelectDate:(NSDate *)date
-{
-    NSLog(@"Date Selected : %@",date);
-}
-
-- (BOOL)simpleCalendarViewController:(PDTSimpleCalendarViewController *)controller shouldUseCustomColorsForDate:(NSDate *)date
-{
-    if ([self.customDates containsObject:date]) {
-        return YES;
-    }
-    
-    return NO;
-}
-
-- (UIColor *)simpleCalendarViewController:(PDTSimpleCalendarViewController *)controller circleColorForDate:(NSDate *)date
-{
-    return [UIColor whiteColor];
-}
-
-- (UIColor *)simpleCalendarViewController:(PDTSimpleCalendarViewController *)controller textColorForDate:(NSDate *)date
-{
-    return [UIColor orangeColor];
 }
 
 - (void)didReceiveMemoryWarning

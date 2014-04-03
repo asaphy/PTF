@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		56655C473D5E47F1BDE4742B /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 31189C9E43B147CFA52DBC7C /* libPods.a */; };
+		75B98C2718ED239C00564385 /* CalendarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75B98C2618ED239C00564385 /* CalendarViewController.m */; };
 		83052AB018DE1724001F7143 /* background_login.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 83052AAF18DE1724001F7143 /* background_login.jpg */; };
 		833AA2BA18DD71C300C89860 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 833AA2B918DD71C300C89860 /* MessageUI.framework */; };
 		833AA2BD18DD7E0600C89860 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 833AA2BB18DD76F400C89860 /* QuartzCore.framework */; };
@@ -32,7 +33,6 @@
 		83D1E55E18DD20A700457CCA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83D1E53D18DD20A700457CCA /* UIKit.framework */; };
 		83D1E56618DD20A700457CCA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 83D1E56418DD20A700457CCA /* InfoPlist.strings */; };
 		83D1E56818DD20A700457CCA /* PTFTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 83D1E56718DD20A700457CCA /* PTFTests.m */; };
-		83D1E57318DD329B00457CCA /* CalendarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83D1E57218DD329B00457CCA /* CalendarViewController.m */; };
 		83D1E57618DD32B600457CCA /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83D1E57518DD32B600457CCA /* MapViewController.m */; };
 		83D1E57C18DD32CC00457CCA /* InfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83D1E57B18DD32CC00457CCA /* InfoViewController.m */; };
 		83D1E57F18DD32D700457CCA /* ContactViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83D1E57E18DD32D700457CCA /* ContactViewController.m */; };
@@ -56,6 +56,8 @@
 /* Begin PBXFileReference section */
 		17443ACF6F2D4157A5F463A5 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 		31189C9E43B147CFA52DBC7C /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		75B98C2518ED239C00564385 /* CalendarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalendarViewController.h; sourceTree = "<group>"; };
+		75B98C2618ED239C00564385 /* CalendarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalendarViewController.m; sourceTree = "<group>"; };
 		83052AAF18DE1724001F7143 /* background_login.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background_login.jpg; sourceTree = "<group>"; };
 		833AA2B918DD71C300C89860 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 		833AA2BB18DD76F400C89860 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
@@ -90,8 +92,6 @@
 		83D1E56318DD20A700457CCA /* PTFTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PTFTests-Info.plist"; sourceTree = "<group>"; };
 		83D1E56518DD20A700457CCA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		83D1E56718DD20A700457CCA /* PTFTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PTFTests.m; sourceTree = "<group>"; };
-		83D1E57118DD329B00457CCA /* CalendarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalendarViewController.h; sourceTree = "<group>"; };
-		83D1E57218DD329B00457CCA /* CalendarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalendarViewController.m; sourceTree = "<group>"; };
 		83D1E57418DD32B600457CCA /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
 		83D1E57518DD32B600457CCA /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
 		83D1E57A18DD32CC00457CCA /* InfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfoViewController.h; sourceTree = "<group>"; };
@@ -176,8 +176,8 @@
 				83D1E54918DD20A700457CCA /* AppDelegate.m */,
 				8388049118DDDBEA0015B292 /* LoginViewController.h */,
 				8388049218DDDBEA0015B292 /* LoginViewController.m */,
-				83D1E57118DD329B00457CCA /* CalendarViewController.h */,
-				83D1E57218DD329B00457CCA /* CalendarViewController.m */,
+				75B98C2518ED239C00564385 /* CalendarViewController.h */,
+				75B98C2618ED239C00564385 /* CalendarViewController.m */,
 				83D1E57418DD32B600457CCA /* MapViewController.h */,
 				83D1E57518DD32B600457CCA /* MapViewController.m */,
 				8360F1D718DD33E900337201 /* RegisterViewController.h */,
@@ -376,10 +376,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				8388048818DD976A0015B292 /* AboutViewController.m in Sources */,
-				83D1E57318DD329B00457CCA /* CalendarViewController.m in Sources */,
 				83D1E55318DD20A700457CCA /* ViewController.m in Sources */,
 				83D1E57618DD32B600457CCA /* MapViewController.m in Sources */,
 				83D1E54A18DD20A700457CCA /* AppDelegate.m in Sources */,
+				75B98C2718ED239C00564385 /* CalendarViewController.m in Sources */,
 				8388048E18DDA2E30015B292 /* Info.m in Sources */,
 				8388049618DDE3030015B292 /* SignupViewController.m in Sources */,
 				83D1E57F18DD32D700457CCA /* ContactViewController.m in Sources */,

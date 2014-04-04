@@ -1,0 +1,1372 @@
+TPTF
+v6
+r1
+cCheck dependencies
+cPhaseScriptExecution Check\ Pods\ Manifest.lock /Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/PTF.build/Debug-iphonesimulator/PTF.build/Script-8B5CE8E16C7E45CCB2B8EF73.sh
+cProcessPCH /Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/PrecompiledHeaders/PTF-Prefix-hervfvacaggtzlfzenclcecsuyii/PTF-Prefix.pch.pch PTF/PTF-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/PTF.build/Debug-iphonesimulator/PTF.build/Objects-normal/i386/AboutViewController.o /Users/Jeremy_luo/Documents/XCode/PTF/PTF/AboutViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/PTF.build/Debug-iphonesimulator/PTF.build/Objects-normal/i386/CalendarViewController.o /Users/Jeremy_luo/Documents/XCode/PTF/PTF/CalendarViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/PTF.build/Debug-iphonesimulator/PTF.build/Objects-normal/i386/ViewController.o /Users/Jeremy_luo/Documents/XCode/PTF/PTF/ViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/PTF.build/Debug-iphonesimulator/PTF.build/Objects-normal/i386/MapViewController.o /Users/Jeremy_luo/Documents/XCode/PTF/PTF/MapViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/PTF.build/Debug-iphonesimulator/PTF.build/Objects-normal/i386/AppDelegate.o /Users/Jeremy_luo/Documents/XCode/PTF/PTF/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/PTF.build/Debug-iphonesimulator/PTF.build/Objects-normal/i386/Info.o /Users/Jeremy_luo/Documents/XCode/PTF/PTF/Info.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/PTF.build/Debug-iphonesimulator/PTF.build/Objects-normal/i386/SignupViewController.o /Users/Jeremy_luo/Documents/XCode/PTF/PTF/SignupViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/PTF.build/Debug-iphonesimulator/PTF.build/Objects-normal/i386/ContactViewController.o /Users/Jeremy_luo/Documents/XCode/PTF/PTF/ContactViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/PTF.build/Debug-iphonesimulator/PTF.build/Objects-normal/i386/InfoViewController.o /Users/Jeremy_luo/Documents/XCode/PTF/PTF/InfoViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/PTF.build/Debug-iphonesimulator/PTF.build/Objects-normal/i386/main.o /Users/Jeremy_luo/Documents/XCode/PTF/PTF/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/PTF.build/Debug-iphonesimulator/PTF.build/Objects-normal/i386/LoginViewController.o /Users/Jeremy_luo/Documents/XCode/PTF/PTF/LoginViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/PTF.build/Debug-iphonesimulator/PTF.build/Objects-normal/i386/RegisterViewController.o /Users/Jeremy_luo/Documents/XCode/PTF/PTF/RegisterViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/Jeremy_luo/Documents/XCode/PTF/Build/Products/Debug-iphonesimulator/PTF.app/PTF normal i386
+cCpResource PTF/Info.png Build/Products/Debug-iphonesimulator/PTF.app/Info.png
+cCpResource PTF/Calendar.png Build/Products/Debug-iphonesimulator/PTF.app/Calendar.png
+cCompileStoryboard /Users/Jeremy_luo/Documents/XCode/PTF/PTF/Base.lproj/Main_iPad.storyboard
+cCpResource PTF/Contact.png Build/Products/Debug-iphonesimulator/PTF.app/Contact.png
+cCpResource PTF/Map.png Build/Products/Debug-iphonesimulator/PTF.app/Map.png
+cCpResource PTF/Register.png Build/Products/Debug-iphonesimulator/PTF.app/Register.png
+cCompileStoryboard /Users/Jeremy_luo/Documents/XCode/PTF/PTF/Base.lproj/Main_iPhone.storyboard
+cCpResource PTF/background_login.jpg Build/Products/Debug-iphonesimulator/PTF.app/background_login.jpg
+cCopyStringsFile /Users/Jeremy_luo/Documents/XCode/PTF/Build/Products/Debug-iphonesimulator/PTF.app/en.lproj/InfoPlist.strings PTF/en.lproj/InfoPlist.strings
+cCompileAssetCatalog /Users/Jeremy_luo/Documents/XCode/PTF/Build/Products/Debug-iphonesimulator/PTF.app /Users/Jeremy_luo/Documents/XCode/PTF/PTF/Images.xcassets
+cProcessInfoPlistFile /Users/Jeremy_luo/Documents/XCode/PTF/Build/Products/Debug-iphonesimulator/PTF.app/Info.plist /Users/Jeremy_luo/Documents/XCode/PTF/PTF/PTF-Info.plist
+cGenerateDSYMFile /Users/Jeremy_luo/Documents/XCode/PTF/Build/Products/Debug-iphonesimulator/PTF.app.dSYM /Users/Jeremy_luo/Documents/XCode/PTF/Build/Products/Debug-iphonesimulator/PTF.app/PTF
+cPhaseScriptExecution Copy\ Pods\ Resources /Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/PTF.build/Debug-iphonesimulator/PTF.build/Script-FC2ECC5A407C4B95ABC63305.sh
+cTouch /Users/Jeremy_luo/Documents/XCode/PTF/Build/Products/Debug-iphonesimulator/PTF.app
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk
+c0000000053119F8A0000000000000198
+t1393663882
+s408
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/SDKSettings.plist
+c000000005324709900000000000003B4
+t1394897049
+s948
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/CoreServices/SystemVersion.plist
+c000000005324709D000000000000019E
+t1394897053
+s414
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000005324709E0000000000446820
+t1394897054
+s4483104
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c00000000532470A0000000000088D8C0
+t1394897056
+s8968384
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/MapKit.framework/MapKit
+c00000000532470A000000000002E6B60
+t1394897056
+s3042144
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/MessageUI.framework/MessageUI
+c00000000532470A000000000002E5520
+t1394897056
+s3036448
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+c00000000532470A1000000000048F720
+t1394897057
+s4781856
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c00000000532470A30000000001F1DE10
+t1394897059
+s32628240
+
+N/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/include/module.map
+c00000000532470BD0000000000000ADC
+t1394897085
+s2780
+
+N/Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/PTF.build/Debug-iphonesimulator/PTF.build/Objects-normal/i386/AboutViewController.o
+t1396497335
+s48992
+
+N/Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/PTF.build/Debug-iphonesimulator/PTF.build/Objects-normal/i386/AppDelegate.o
+t1396497335
+s63532
+
+N/Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/PTF.build/Debug-iphonesimulator/PTF.build/Objects-normal/i386/CalendarViewController.o
+t1396497335
+s50164
+
+N/Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/PTF.build/Debug-iphonesimulator/PTF.build/Objects-normal/i386/ContactViewController.o
+t1396497335
+s49836
+
+N/Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/PTF.build/Debug-iphonesimulator/PTF.build/Objects-normal/i386/Info.o
+t1396497335
+s7024
+
+N/Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/PTF.build/Debug-iphonesimulator/PTF.build/Objects-normal/i386/InfoViewController.o
+t1396497335
+s66860
+
+N/Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/PTF.build/Debug-iphonesimulator/PTF.build/Objects-normal/i386/LoginViewController.o
+t1396497335
+s62968
+
+N/Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/PTF.build/Debug-iphonesimulator/PTF.build/Objects-normal/i386/MapViewController.o
+t1396497335
+s53404
+
+N/Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/PTF.build/Debug-iphonesimulator/PTF.build/Objects-normal/i386/PTF.LinkFileList
+c00000000533CDBB70000000000000683
+t1396497335
+s1667
+
+N/Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/PTF.build/Debug-iphonesimulator/PTF.build/Objects-normal/i386/RegisterViewController.o
+t1396497335
+s46656
+
+N/Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/PTF.build/Debug-iphonesimulator/PTF.build/Objects-normal/i386/SignupViewController.o
+t1396497335
+s60116
+
+N/Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/PTF.build/Debug-iphonesimulator/PTF.build/Objects-normal/i386/ViewController.o
+t1396497335
+s38956
+
+N/Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/PTF.build/Debug-iphonesimulator/PTF.build/Objects-normal/i386/main.o
+t1396497335
+s3560
+
+N/Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/PTF.build/Debug-iphonesimulator/PTF.build/Script-8B5CE8E16C7E45CCB2B8EF73.sh
+c00000000533CDBB70000000000000103
+t1396497335
+s259
+
+N/Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/PTF.build/Debug-iphonesimulator/PTF.build/Script-FC2ECC5A407C4B95ABC63305.sh
+c00000000533CDBB7000000000000002F
+t1396497335
+s47
+
+N/Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/PTF.build/Debug-iphonesimulator/PTF.build/assetcatalog_dependencies.txt
+t1396497337
+s355
+
+N/Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/PTF.build/Debug-iphonesimulator/PTF.build/assetcatalog_generated_info.plist
+t1396497337
+s525
+
+N/Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/PrecompiledHeaders/PTF-Prefix-hervfvacaggtzlfzenclcecsuyii/PTF-Prefix.pch.pch
+t1396497335
+s123384
+
+N/Users/Jeremy_luo/Documents/XCode/PTF/Build/Products/Debug-iphonesimulator/PTF.app
+t1396497338
+s578
+
+N/Users/Jeremy_luo/Documents/XCode/PTF/Build/Products/Debug-iphonesimulator/PTF.app.dSYM
+t2
+s0
+
+N/Users/Jeremy_luo/Documents/XCode/PTF/Build/Products/Debug-iphonesimulator/PTF.app/Base.lproj/Main_iPad.storyboardc
+t1396497337
+s170
+
+N/Users/Jeremy_luo/Documents/XCode/PTF/Build/Products/Debug-iphonesimulator/PTF.app/Base.lproj/Main_iPhone.storyboardc
+t1396497338
+s612
+
+N/Users/Jeremy_luo/Documents/XCode/PTF/Build/Products/Debug-iphonesimulator/PTF.app/Calendar.png
+t1396497336
+s552
+
+N/Users/Jeremy_luo/Documents/XCode/PTF/Build/Products/Debug-iphonesimulator/PTF.app/Contact.png
+t1396497336
+s654
+
+N/Users/Jeremy_luo/Documents/XCode/PTF/Build/Products/Debug-iphonesimulator/PTF.app/Info.plist
+t1396497338
+s1262
+
+N/Users/Jeremy_luo/Documents/XCode/PTF/Build/Products/Debug-iphonesimulator/PTF.app/Info.png
+t1396497336
+s649
+
+N/Users/Jeremy_luo/Documents/XCode/PTF/Build/Products/Debug-iphonesimulator/PTF.app/Map.png
+t1396497336
+s695
+
+N/Users/Jeremy_luo/Documents/XCode/PTF/Build/Products/Debug-iphonesimulator/PTF.app/PTF
+t1396497336
+s8859852
+
+N/Users/Jeremy_luo/Documents/XCode/PTF/Build/Products/Debug-iphonesimulator/PTF.app/PkgInfo
+t1396497338
+s8
+
+N/Users/Jeremy_luo/Documents/XCode/PTF/Build/Products/Debug-iphonesimulator/PTF.app/Register.png
+t1396497336
+s275
+
+N/Users/Jeremy_luo/Documents/XCode/PTF/Build/Products/Debug-iphonesimulator/PTF.app/background_login.jpg
+t1396497336
+s33136
+
+N/Users/Jeremy_luo/Documents/XCode/PTF/Build/Products/Debug-iphonesimulator/PTF.app/en.lproj/InfoPlist.strings
+t1396497336
+s42
+
+N/Users/Jeremy_luo/Documents/XCode/PTF/Build/Products/Debug-iphonesimulator/libPods.a
+c00000000533CDBB700000000003F3FF8
+t1396497335
+s4145144
+
+N/Users/Jeremy_luo/Documents/XCode/PTF/PTF/AboutViewController.m
+c00000000533CDB7E000000000000055C
+t1396497278
+s1372
+
+N/Users/Jeremy_luo/Documents/XCode/PTF/PTF/AppDelegate.m
+c00000000533CDB7E0000000000000887
+t1396497278
+s2183
+
+N/Users/Jeremy_luo/Documents/XCode/PTF/PTF/Base.lproj/Main_iPad.storyboard
+c00000000533CDB7E0000000000000713
+t1396497278
+s1811
+
+N/Users/Jeremy_luo/Documents/XCode/PTF/PTF/Base.lproj/Main_iPhone.storyboard
+c00000000533CDB7E000000000000C82E
+t1396497278
+s51246
+
+N/Users/Jeremy_luo/Documents/XCode/PTF/PTF/Calendar.png
+c00000000533CDB7E0000000000000228
+t1396497278
+s552
+
+N/Users/Jeremy_luo/Documents/XCode/PTF/PTF/CalendarViewController.m
+c00000000533CDB7E00000000000008A0
+t1396497278
+s2208
+
+N/Users/Jeremy_luo/Documents/XCode/PTF/PTF/Contact.png
+c00000000533CDB7E000000000000028E
+t1396497278
+s654
+
+N/Users/Jeremy_luo/Documents/XCode/PTF/PTF/ContactViewController.m
+c00000000533CDB7E0000000000000A4A
+t1396497278
+s2634
+
+N/Users/Jeremy_luo/Documents/XCode/PTF/PTF/Images.xcassets
+c00000000533CDB7E0000000000000088
+t1396497278
+s136
+
+N/Users/Jeremy_luo/Documents/XCode/PTF/PTF/Info.m
+c00000000533CDB7E00000000000000D8
+t1396497278
+s216
+
+N/Users/Jeremy_luo/Documents/XCode/PTF/PTF/Info.png
+c00000000533CDB7E0000000000000289
+t1396497278
+s649
+
+N/Users/Jeremy_luo/Documents/XCode/PTF/PTF/InfoViewController.m
+c00000000533CDB7E0000000000001293
+t1396497278
+s4755
+
+N/Users/Jeremy_luo/Documents/XCode/PTF/PTF/LoginViewController.m
+c00000000533CDB7E0000000000000A01
+t1396497278
+s2561
+
+N/Users/Jeremy_luo/Documents/XCode/PTF/PTF/Map.png
+c00000000533CDB7E00000000000002B7
+t1396497278
+s695
+
+N/Users/Jeremy_luo/Documents/XCode/PTF/PTF/MapViewController.m
+c00000000533CDB7E0000000000000C32
+t1396497278
+s3122
+
+N/Users/Jeremy_luo/Documents/XCode/PTF/PTF/PTF-Info.plist
+c00000000533CDB7E000000000000062F
+t1396497278
+s1583
+
+N/Users/Jeremy_luo/Documents/XCode/PTF/PTF/PTF-Prefix.pch
+c00000000533CDB7E0000000000000158
+t1396497278
+s344
+
+N/Users/Jeremy_luo/Documents/XCode/PTF/PTF/Register.png
+c00000000533CDB7E0000000000000113
+t1396497278
+s275
+
+N/Users/Jeremy_luo/Documents/XCode/PTF/PTF/RegisterViewController.m
+c00000000533CDB7E00000000000005E2
+t1396497278
+s1506
+
+N/Users/Jeremy_luo/Documents/XCode/PTF/PTF/SignupViewController.m
+c00000000533CDB7E000000000000084C
+t1396497278
+s2124
+
+N/Users/Jeremy_luo/Documents/XCode/PTF/PTF/ViewController.m
+c00000000533CDB7E00000000000001F2
+t1396497278
+s498
+
+N/Users/Jeremy_luo/Documents/XCode/PTF/PTF/background_login.jpg
+c00000000533CDB7E0000000000008170
+t1396497278
+s33136
+
+N/Users/Jeremy_luo/Documents/XCode/PTF/PTF/en.lproj/InfoPlist.strings
+c00000000533CDB7E000000000000002D
+t1396497278
+s45
+
+N/Users/Jeremy_luo/Documents/XCode/PTF/PTF/main.m
+c00000000533CDB7E0000000000000156
+t1396497278
+s342
+
+CBuild AST from /Users/Jeremy_luo/Documents/XCode/PTF/PTF/AboutViewController.m
+r0
+
+CBuild AST from /Users/Jeremy_luo/Documents/XCode/PTF/PTF/AppDelegate.m
+r0
+
+CBuild AST from /Users/Jeremy_luo/Documents/XCode/PTF/PTF/CalendarViewController.m
+r0
+
+CBuild AST from /Users/Jeremy_luo/Documents/XCode/PTF/PTF/ContactViewController.m
+r0
+
+CBuild AST from /Users/Jeremy_luo/Documents/XCode/PTF/PTF/Info.m
+r0
+
+CBuild AST from /Users/Jeremy_luo/Documents/XCode/PTF/PTF/InfoViewController.m
+r0
+
+CBuild AST from /Users/Jeremy_luo/Documents/XCode/PTF/PTF/LoginViewController.m
+r0
+
+CBuild AST from /Users/Jeremy_luo/Documents/XCode/PTF/PTF/MapViewController.m
+r0
+
+CBuild AST from /Users/Jeremy_luo/Documents/XCode/PTF/PTF/RegisterViewController.m
+r0
+
+CBuild AST from /Users/Jeremy_luo/Documents/XCode/PTF/PTF/SignupViewController.m
+r0
+
+CBuild AST from /Users/Jeremy_luo/Documents/XCode/PTF/PTF/ViewController.m
+r0
+
+CBuild AST from /Users/Jeremy_luo/Documents/XCode/PTF/PTF/main.m
+r0
+
+CCheck dependencies
+r0
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies876f413713edb841^8ffc413713edb841^---0#1#1#--18"Check dependencies36"5E6ECCFC-8491-4BAE-9D01-808272165AF9-
+
+CCompileAssetCatalog /Users/Jeremy_luo/Documents/XCode/PTF/Build/Products/Debug-iphonesimulator/PTF.app /Users/Jeremy_luo/Documents/XCode/PTF/PTF/Images.xcassets
+s418190136.232187
+e418190137.015041
+r1
+xCompileAssetCatalog
+x/Users/Jeremy_luo/Documents/XCode/PTF/Build/Products/Debug-iphonesimulator/PTF.app
+x/Users/Jeremy_luo/Documents/XCode/PTF/PTF/Images.xcassets
+o/* com.apple.actool.compilation-results */
+o/Users/Jeremy_luo/Documents/XCode/PTF/Build/Products/Debug-iphonesimulator/PTF.app/LaunchImage-700-568h@2x.png
+o/Users/Jeremy_luo/Documents/XCode/PTF/Build/Products/Debug-iphonesimulator/PTF.app/Assets.car
+o/Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/PTF.build/Debug-iphonesimulator/PTF.build/assetcatalog_generated_info.plist
+o
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection84"CompileAssetCatalog Build/Products/Debug-iphonesimulator/PTF.app PTF/Images.xcassets84"CompileAssetCatalog Build/Products/Debug-iphonesimulator/PTF.app PTF/Images.xcassets118c3b3813edb841^ecd9033913edb841^-383"/* com.apple.actool.compilation-results *//Users/Jeremy_luo/Documents/XCode/PTF/Build/Products/Debug-iphonesimulator/PTF.app/LaunchImage-700-568h@2x.png/Users/Jeremy_luo/Documents/XCode/PTF/Build/Products/Debug-iphonesimulator/PTF.app/Assets.car/Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/PTF.build/Debug-iphonesimulator/PTF.build/assetcatalog_generated_info.plist-0#0#1#-19%DVTDocumentLocation2@65"file:///Users/Jeremy_luo/Documents/XCode/PTF/PTF/Images.xcassets/0000000000000000^1122"CompileAssetCatalog Build/Products/Debug-iphonesimulator/PTF.app PTF/Images.xcassets    cd /Users/Jeremy_luo/Documents/XCode/PTF    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/actool --output-format human-readable-text --notices --warnings --export-dependency-info /Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/PTF.build/Debug-iphonesimulator/PTF.build/assetcatalog_dependencies.txt --output-partial-info-plist /Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/PTF.build/Debug-iphonesimulator/PTF.build/assetcatalog_generated_info.plist --app-icon AppIcon --launch-image LaunchImage --platform iphonesimulator --minimum-deployment-target 7.1 --target-device iphone --target-device ipad --compress-pngs --compile /Users/Jeremy_luo/Documents/XCode/PTF/Build/Products/Debug-iphonesimulator/PTF.app /Users/Jeremy_luo/Documents/XCode/PTF/PTF/Images.xcassets36"EDF78CC4-2D36-408C-9DA0-4AAF035DC7F8-
+bA0EFD5F9-41B8-41E6-B71C-12C2807AC9E4
+
+CCompileC Build/Intermediates/PTF.build/Debug-iphonesimulator/PTF.build/Objects-normal/i386/AboutViewController.o /Users/Jeremy_luo/Documents/XCode/PTF/PTF/AboutViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s418190135.466912
+e418190135.640360
+r1
+xCompileC
+xBuild/Intermediates/PTF.build/Debug-iphonesimulator/PTF.build/Objects-normal/i386/AboutViewController.o
+x/Users/Jeremy_luo/Documents/XCode/PTF/PTF/AboutViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/Jeremy_luo/Documents/XCode/PTF/PTF/AboutViewController.m
+d/Users/Jeremy_luo/Documents/XCode/PTF/PTF/AboutViewController.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/PTF/Info.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse/Parse.framework/Headers/Parse.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse/Parse.framework/Headers/PFACL.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse/Parse.framework/Headers/PFAnalytics.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse/Parse.framework/Headers/PFAnonymousUtils.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse/Parse.framework/Headers/PFUser.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse/Parse.framework/Headers/PFConstants.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse/Parse.framework/Headers/PFObject.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse/Parse.framework/Headers/PFSubclassing.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse/Parse.framework/Headers/PFCloud.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse/Parse.framework/Headers/PFFile.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse/Parse.framework/Headers/PFGeoPoint.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse/Parse.framework/Headers/PFQuery.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse/Parse.framework/Headers/PFRelation.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse/Parse.framework/Headers/PFRole.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse/Parse.framework/Headers/PFImageView.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse/Parse.framework/Headers/PFInstallation.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse/Parse.framework/Headers/PFLogInViewController.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse/Parse.framework/Headers/PFLogInView.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse/Parse.framework/Headers/PFSignUpViewController.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse/Parse.framework/Headers/PFSignUpView.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse/Parse.framework/Headers/PFProduct.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse/Parse.framework/Headers/PFProductTableViewController.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse/Parse.framework/Headers/PFQueryTableViewController.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse/Parse.framework/Headers/PFTableViewCell.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse/Parse.framework/Headers/PF_EGORefreshTableHeaderView.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse/Parse.framework/Headers/PFPurchase.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse/Parse.framework/Headers/PFPush.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse/Parse.framework/Headers/PFTwitterUtils.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse/Parse.framework/Headers/PF_Twitter.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse/Parse.framework/Headers/PFFacebookUtils.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection71"Compile /Users/Jeremy_luo/Documents/XCode/PTF/PTF/AboutViewController.m206"CompileC Build/Intermediates/PTF.build/Debug-iphonesimulator/PTF.build/Objects-normal/i386/AboutViewController.o PTF/AboutViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler8ca2773713edb841^b309a43713edb841^---0#0#1#-19%DVTDocumentLocation2@70"file:///Users/Jeremy_luo/Documents/XCode/PTF/PTF/AboutViewController.m0000000000000000^4641"CompileC Build/Intermediates/PTF.build/Debug-iphonesimulator/PTF.build/Objects-normal/i386/AboutViewController.o PTF/AboutViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Jeremy_luo/Documents/XCode/PTF    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/Jeremy_luo/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.1 -iquote /Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/PTF.build/Debug-iphonesimulator/PTF.build/PTF-generated-files.hmap -I/Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/PTF.build/Debug-iphonesimulator/PTF.build/PTF-own-target-headers.hmap -I/Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/PTF.build/Debug-iphonesimulator/PTF.build/PTF-all-target-headers.hmap -iquote /Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/PTF.build/Debug-iphonesimulator/PTF.build/PTF-project-headers.hmap -I/Users/Jeremy_luo/Documents/XCode/PTF/Build/Products/Debug-iphonesimulator/include -I/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Headers -I/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Headers/Facebook-iOS-SDK -I/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Headers/Facebook-iOS-SDK/FacebookSDK -I/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Headers/Google-Maps-iOS-SDK -I/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Headers/Google-Maps-iOS-SDK/GoogleMaps -I/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Headers/PDTSimpleCalendar -I/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Headers/Parse -I/Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/PTF.build/Debug-iphonesimulator/PTF.build/DerivedSources/i386 -I/Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/PTF.build/Debug-iphonesimulator/PTF.build/DerivedSources -F/Users/Jeremy_luo/Documents/XCode/PTF/Build/Products/Debug-iphonesimulator -F/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Google-Maps-iOS-SDK -F/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse -isystem/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Headers -isystem/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Headers/Facebook-iOS-SDK -isystem/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Headers/Facebook-iOS-SDK/FacebookSDK -isystem/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Headers/Google-Maps-iOS-SDK -isystem/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Headers/Google-Maps-iOS-SDK/GoogleMaps -isystem/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Headers/PDTSimpleCalendar -isystem/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Headers/Parse -include /Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/PrecompiledHeaders/PTF-Prefix-hervfvacaggtzlfzenclcecsuyii/PTF-Prefix.pch -MMD -MT dependencies -MF /Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/PTF.build/Debug-iphonesimulator/PTF.build/Objects-normal/i386/AboutViewController.d --serialize-diagnostics /Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/PTF.build/Debug-iphonesimulator/PTF.build/Objects-normal/i386/AboutViewController.dia -c /Users/Jeremy_luo/Documents/XCode/PTF/PTF/AboutViewController.m -o /Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/PTF.build/Debug-iphonesimulator/PTF.build/Objects-normal/i386/AboutViewController.o36"C14D4965-BE60-4973-B267-379A45256943-
+bA0EFD5F9-41B8-41E6-B71C-12C2807AC9E4
+
+CCompileC Build/Intermediates/PTF.build/Debug-iphonesimulator/PTF.build/Objects-normal/i386/AppDelegate.o /Users/Jeremy_luo/Documents/XCode/PTF/PTF/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s418190135.467958
+e418190135.667063
+r1
+xCompileC
+xBuild/Intermediates/PTF.build/Debug-iphonesimulator/PTF.build/Objects-normal/i386/AppDelegate.o
+x/Users/Jeremy_luo/Documents/XCode/PTF/PTF/AppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/Jeremy_luo/Documents/XCode/PTF/PTF/AppDelegate.m
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse/Parse.framework/Headers/Parse.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse/Parse.framework/Headers/PFACL.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse/Parse.framework/Headers/PFAnalytics.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse/Parse.framework/Headers/PFAnonymousUtils.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse/Parse.framework/Headers/PFUser.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse/Parse.framework/Headers/PFConstants.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse/Parse.framework/Headers/PFObject.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse/Parse.framework/Headers/PFSubclassing.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse/Parse.framework/Headers/PFCloud.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse/Parse.framework/Headers/PFFile.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse/Parse.framework/Headers/PFGeoPoint.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse/Parse.framework/Headers/PFQuery.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse/Parse.framework/Headers/PFRelation.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse/Parse.framework/Headers/PFRole.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse/Parse.framework/Headers/PFImageView.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse/Parse.framework/Headers/PFInstallation.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse/Parse.framework/Headers/PFLogInViewController.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse/Parse.framework/Headers/PFLogInView.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse/Parse.framework/Headers/PFSignUpViewController.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse/Parse.framework/Headers/PFSignUpView.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse/Parse.framework/Headers/PFProduct.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse/Parse.framework/Headers/PFProductTableViewController.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse/Parse.framework/Headers/PFQueryTableViewController.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse/Parse.framework/Headers/PFTableViewCell.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse/Parse.framework/Headers/PF_EGORefreshTableHeaderView.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse/Parse.framework/Headers/PFPurchase.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse/Parse.framework/Headers/PFPush.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse/Parse.framework/Headers/PFTwitterUtils.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse/Parse.framework/Headers/PF_Twitter.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse/Parse.framework/Headers/PFFacebookUtils.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/PTF/AppDelegate.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Google-Maps-iOS-SDK/GoogleMaps.framework/Headers/GoogleMaps.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Google-Maps-iOS-SDK/GoogleMaps.framework/Headers/GMSAddress.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Google-Maps-iOS-SDK/GoogleMaps.framework/Headers/GMSMapView.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Google-Maps-iOS-SDK/GoogleMaps.framework/Headers/GMSMapLayer.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Google-Maps-iOS-SDK/GoogleMaps.framework/Headers/GMSCALayer.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Google-Maps-iOS-SDK/GoogleMaps.framework/Headers/GMSUISettings.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Google-Maps-iOS-SDK/GoogleMaps.framework/Headers/GMSCameraPosition.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Google-Maps-iOS-SDK/GoogleMaps.framework/Headers/GMSCameraUpdate.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Google-Maps-iOS-SDK/GoogleMaps.framework/Headers/GMSCircle.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Google-Maps-iOS-SDK/GoogleMaps.framework/Headers/GMSOverlay.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Google-Maps-iOS-SDK/GoogleMaps.framework/Headers/GMSCoordinateBounds.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Google-Maps-iOS-SDK/GoogleMaps.framework/Headers/GMSProjection.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Google-Maps-iOS-SDK/GoogleMaps.framework/Headers/GMSGeocoder.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Google-Maps-iOS-SDK/GoogleMaps.framework/Headers/GMSGeometryUtils.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Google-Maps-iOS-SDK/GoogleMaps.framework/Headers/GMSPath.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Google-Maps-iOS-SDK/GoogleMaps.framework/Headers/GMSGroundOverlay.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Google-Maps-iOS-SDK/GoogleMaps.framework/Headers/GMSIndoorBuilding.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Google-Maps-iOS-SDK/GoogleMaps.framework/Headers/GMSIndoorDisplay.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Google-Maps-iOS-SDK/GoogleMaps.framework/Headers/GMSIndoorLevel.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Google-Maps-iOS-SDK/GoogleMaps.framework/Headers/GMSMapView+Animation.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Google-Maps-iOS-SDK/GoogleMaps.framework/Headers/GMSMarker.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Google-Maps-iOS-SDK/GoogleMaps.framework/Headers/GMSMarkerLayer.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Google-Maps-iOS-SDK/GoogleMaps.framework/Headers/GMSMutablePath.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Google-Maps-iOS-SDK/GoogleMaps.framework/Headers/GMSOrientation.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Google-Maps-iOS-SDK/GoogleMaps.framework/Headers/GMSPanorama.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Google-Maps-iOS-SDK/GoogleMaps.framework/Headers/GMSPanoramaCamera.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Google-Maps-iOS-SDK/GoogleMaps.framework/Headers/GMSPanoramaCameraUpdate.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Google-Maps-iOS-SDK/GoogleMaps.framework/Headers/GMSPanoramaLayer.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Google-Maps-iOS-SDK/GoogleMaps.framework/Headers/GMSPanoramaLink.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Google-Maps-iOS-SDK/GoogleMaps.framework/Headers/GMSPanoramaService.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Google-Maps-iOS-SDK/GoogleMaps.framework/Headers/GMSPanoramaView.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Google-Maps-iOS-SDK/GoogleMaps.framework/Headers/GMSPolygon.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Google-Maps-iOS-SDK/GoogleMaps.framework/Headers/GMSPolyline.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Google-Maps-iOS-SDK/GoogleMaps.framework/Headers/GMSServices.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Google-Maps-iOS-SDK/GoogleMaps.framework/Headers/GMSSyncTileLayer.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Google-Maps-iOS-SDK/GoogleMaps.framework/Headers/GMSTileLayer.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Google-Maps-iOS-SDK/GoogleMaps.framework/Headers/GMSURLTileLayer.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection63"Compile /Users/Jeremy_luo/Documents/XCode/PTF/PTF/AppDelegate.m190"CompileC Build/Intermediates/PTF.build/Debug-iphonesimulator/PTF.build/Objects-normal/i386/AppDelegate.o PTF/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler82e6773713edb841^e3c5aa3713edb841^---0#0#1#-19%DVTDocumentLocation2@62"file:///Users/Jeremy_luo/Documents/XCode/PTF/PTF/AppDelegate.m0000000000000000^4593"CompileC Build/Intermediates/PTF.build/Debug-iphonesimulator/PTF.build/Objects-normal/i386/AppDelegate.o PTF/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Jeremy_luo/Documents/XCode/PTF    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/Jeremy_luo/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.1 -iquote /Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/PTF.build/Debug-iphonesimulator/PTF.build/PTF-generated-files.hmap -I/Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/PTF.build/Debug-iphonesimulator/PTF.build/PTF-own-target-headers.hmap -I/Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/PTF.build/Debug-iphonesimulator/PTF.build/PTF-all-target-headers.hmap -iquote /Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/PTF.build/Debug-iphonesimulator/PTF.build/PTF-project-headers.hmap -I/Users/Jeremy_luo/Documents/XCode/PTF/Build/Products/Debug-iphonesimulator/include -I/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Headers -I/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Headers/Facebook-iOS-SDK -I/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Headers/Facebook-iOS-SDK/FacebookSDK -I/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Headers/Google-Maps-iOS-SDK -I/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Headers/Google-Maps-iOS-SDK/GoogleMaps -I/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Headers/PDTSimpleCalendar -I/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Headers/Parse -I/Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/PTF.build/Debug-iphonesimulator/PTF.build/DerivedSources/i386 -I/Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/PTF.build/Debug-iphonesimulator/PTF.build/DerivedSources -F/Users/Jeremy_luo/Documents/XCode/PTF/Build/Products/Debug-iphonesimulator -F/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Google-Maps-iOS-SDK -F/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse -isystem/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Headers -isystem/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Headers/Facebook-iOS-SDK -isystem/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Headers/Facebook-iOS-SDK/FacebookSDK -isystem/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Headers/Google-Maps-iOS-SDK -isystem/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Headers/Google-Maps-iOS-SDK/GoogleMaps -isystem/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Headers/PDTSimpleCalendar -isystem/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Headers/Parse -include /Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/PrecompiledHeaders/PTF-Prefix-hervfvacaggtzlfzenclcecsuyii/PTF-Prefix.pch -MMD -MT dependencies -MF /Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/PTF.build/Debug-iphonesimulator/PTF.build/Objects-normal/i386/AppDelegate.d --serialize-diagnostics /Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/PTF.build/Debug-iphonesimulator/PTF.build/Objects-normal/i386/AppDelegate.dia -c /Users/Jeremy_luo/Documents/XCode/PTF/PTF/AppDelegate.m -o /Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/PTF.build/Debug-iphonesimulator/PTF.build/Objects-normal/i386/AppDelegate.o36"753FD3C2-6740-4CBE-9697-317A744F7075-
+bA0EFD5F9-41B8-41E6-B71C-12C2807AC9E4
+
+CCompileC Build/Intermediates/PTF.build/Debug-iphonesimulator/PTF.build/Objects-normal/i386/CalendarViewController.o /Users/Jeremy_luo/Documents/XCode/PTF/PTF/CalendarViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s418190135.467104
+e418190135.644594
+r1
+xCompileC
+xBuild/Intermediates/PTF.build/Debug-iphonesimulator/PTF.build/Objects-normal/i386/CalendarViewController.o
+x/Users/Jeremy_luo/Documents/XCode/PTF/PTF/CalendarViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/Jeremy_luo/Documents/XCode/PTF/PTF/CalendarViewController.m
+d/Users/Jeremy_luo/Documents/XCode/PTF/PTF/CalendarViewController.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse/Parse.framework/Headers/Parse.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse/Parse.framework/Headers/PFACL.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse/Parse.framework/Headers/PFAnalytics.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse/Parse.framework/Headers/PFAnonymousUtils.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse/Parse.framework/Headers/PFUser.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse/Parse.framework/Headers/PFConstants.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse/Parse.framework/Headers/PFObject.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse/Parse.framework/Headers/PFSubclassing.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse/Parse.framework/Headers/PFCloud.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse/Parse.framework/Headers/PFFile.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse/Parse.framework/Headers/PFGeoPoint.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse/Parse.framework/Headers/PFQuery.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse/Parse.framework/Headers/PFRelation.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse/Parse.framework/Headers/PFRole.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse/Parse.framework/Headers/PFImageView.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse/Parse.framework/Headers/PFInstallation.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse/Parse.framework/Headers/PFLogInViewController.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse/Parse.framework/Headers/PFLogInView.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse/Parse.framework/Headers/PFSignUpViewController.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse/Parse.framework/Headers/PFSignUpView.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse/Parse.framework/Headers/PFProduct.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse/Parse.framework/Headers/PFProductTableViewController.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse/Parse.framework/Headers/PFQueryTableViewController.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse/Parse.framework/Headers/PFTableViewCell.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse/Parse.framework/Headers/PF_EGORefreshTableHeaderView.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse/Parse.framework/Headers/PFPurchase.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse/Parse.framework/Headers/PFPush.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse/Parse.framework/Headers/PFTwitterUtils.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse/Parse.framework/Headers/PF_Twitter.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse/Parse.framework/Headers/PFFacebookUtils.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection74"Compile /Users/Jeremy_luo/Documents/XCode/PTF/PTF/CalendarViewController.m212"CompileC Build/Intermediates/PTF.build/Debug-iphonesimulator/PTF.build/Objects-normal/i386/CalendarViewController.o PTF/CalendarViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilerb9a7773713edb841^d504a53713edb841^---0#0#1#-19%DVTDocumentLocation2@73"file:///Users/Jeremy_luo/Documents/XCode/PTF/PTF/CalendarViewController.m0000000000000000^4659"CompileC Build/Intermediates/PTF.build/Debug-iphonesimulator/PTF.build/Objects-normal/i386/CalendarViewController.o PTF/CalendarViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Jeremy_luo/Documents/XCode/PTF    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/Jeremy_luo/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.1 -iquote /Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/PTF.build/Debug-iphonesimulator/PTF.build/PTF-generated-files.hmap -I/Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/PTF.build/Debug-iphonesimulator/PTF.build/PTF-own-target-headers.hmap -I/Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/PTF.build/Debug-iphonesimulator/PTF.build/PTF-all-target-headers.hmap -iquote /Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/PTF.build/Debug-iphonesimulator/PTF.build/PTF-project-headers.hmap -I/Users/Jeremy_luo/Documents/XCode/PTF/Build/Products/Debug-iphonesimulator/include -I/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Headers -I/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Headers/Facebook-iOS-SDK -I/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Headers/Facebook-iOS-SDK/FacebookSDK -I/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Headers/Google-Maps-iOS-SDK -I/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Headers/Google-Maps-iOS-SDK/GoogleMaps -I/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Headers/PDTSimpleCalendar -I/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Headers/Parse -I/Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/PTF.build/Debug-iphonesimulator/PTF.build/DerivedSources/i386 -I/Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/PTF.build/Debug-iphonesimulator/PTF.build/DerivedSources -F/Users/Jeremy_luo/Documents/XCode/PTF/Build/Products/Debug-iphonesimulator -F/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Google-Maps-iOS-SDK -F/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse -isystem/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Headers -isystem/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Headers/Facebook-iOS-SDK -isystem/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Headers/Facebook-iOS-SDK/FacebookSDK -isystem/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Headers/Google-Maps-iOS-SDK -isystem/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Headers/Google-Maps-iOS-SDK/GoogleMaps -isystem/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Headers/PDTSimpleCalendar -isystem/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Headers/Parse -include /Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/PrecompiledHeaders/PTF-Prefix-hervfvacaggtzlfzenclcecsuyii/PTF-Prefix.pch -MMD -MT dependencies -MF /Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/PTF.build/Debug-iphonesimulator/PTF.build/Objects-normal/i386/CalendarViewController.d --serialize-diagnostics /Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/PTF.build/Debug-iphonesimulator/PTF.build/Objects-normal/i386/CalendarViewController.dia -c /Users/Jeremy_luo/Documents/XCode/PTF/PTF/CalendarViewController.m -o /Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/PTF.build/Debug-iphonesimulator/PTF.build/Objects-normal/i386/CalendarViewController.o36"FC0D6180-9E34-4A33-BD13-2683BAD246EA-
+bA0EFD5F9-41B8-41E6-B71C-12C2807AC9E4
+
+CCompileC Build/Intermediates/PTF.build/Debug-iphonesimulator/PTF.build/Objects-normal/i386/ContactViewController.o /Users/Jeremy_luo/Documents/XCode/PTF/PTF/ContactViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s418190135.469416
+e418190135.642080
+r1
+xCompileC
+xBuild/Intermediates/PTF.build/Debug-iphonesimulator/PTF.build/Objects-normal/i386/ContactViewController.o
+x/Users/Jeremy_luo/Documents/XCode/PTF/PTF/ContactViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/Jeremy_luo/Documents/XCode/PTF/PTF/ContactViewController.m
+d/Users/Jeremy_luo/Documents/XCode/PTF/PTF/ContactViewController.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse/Parse.framework/Headers/Parse.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse/Parse.framework/Headers/PFACL.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse/Parse.framework/Headers/PFAnalytics.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse/Parse.framework/Headers/PFAnonymousUtils.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse/Parse.framework/Headers/PFUser.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse/Parse.framework/Headers/PFConstants.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse/Parse.framework/Headers/PFObject.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse/Parse.framework/Headers/PFSubclassing.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse/Parse.framework/Headers/PFCloud.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse/Parse.framework/Headers/PFFile.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse/Parse.framework/Headers/PFGeoPoint.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse/Parse.framework/Headers/PFQuery.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse/Parse.framework/Headers/PFRelation.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse/Parse.framework/Headers/PFRole.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse/Parse.framework/Headers/PFImageView.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse/Parse.framework/Headers/PFInstallation.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse/Parse.framework/Headers/PFLogInViewController.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse/Parse.framework/Headers/PFLogInView.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse/Parse.framework/Headers/PFSignUpViewController.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse/Parse.framework/Headers/PFSignUpView.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse/Parse.framework/Headers/PFProduct.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse/Parse.framework/Headers/PFProductTableViewController.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse/Parse.framework/Headers/PFQueryTableViewController.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse/Parse.framework/Headers/PFTableViewCell.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse/Parse.framework/Headers/PF_EGORefreshTableHeaderView.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse/Parse.framework/Headers/PFPurchase.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse/Parse.framework/Headers/PFPush.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse/Parse.framework/Headers/PFTwitterUtils.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse/Parse.framework/Headers/PF_Twitter.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse/Parse.framework/Headers/PFFacebookUtils.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection73"Compile /Users/Jeremy_luo/Documents/XCode/PTF/PTF/ContactViewController.m210"CompileC Build/Intermediates/PTF.build/Debug-iphonesimulator/PTF.build/Objects-normal/i386/ContactViewController.o PTF/ContactViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler344d783713edb841^e869a43713edb841^---0#0#1#-19%DVTDocumentLocation2@72"file:///Users/Jeremy_luo/Documents/XCode/PTF/PTF/ContactViewController.m0000000000000000^4653"CompileC Build/Intermediates/PTF.build/Debug-iphonesimulator/PTF.build/Objects-normal/i386/ContactViewController.o PTF/ContactViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Jeremy_luo/Documents/XCode/PTF    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/Jeremy_luo/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.1 -iquote /Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/PTF.build/Debug-iphonesimulator/PTF.build/PTF-generated-files.hmap -I/Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/PTF.build/Debug-iphonesimulator/PTF.build/PTF-own-target-headers.hmap -I/Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/PTF.build/Debug-iphonesimulator/PTF.build/PTF-all-target-headers.hmap -iquote /Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/PTF.build/Debug-iphonesimulator/PTF.build/PTF-project-headers.hmap -I/Users/Jeremy_luo/Documents/XCode/PTF/Build/Products/Debug-iphonesimulator/include -I/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Headers -I/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Headers/Facebook-iOS-SDK -I/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Headers/Facebook-iOS-SDK/FacebookSDK -I/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Headers/Google-Maps-iOS-SDK -I/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Headers/Google-Maps-iOS-SDK/GoogleMaps -I/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Headers/PDTSimpleCalendar -I/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Headers/Parse -I/Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/PTF.build/Debug-iphonesimulator/PTF.build/DerivedSources/i386 -I/Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/PTF.build/Debug-iphonesimulator/PTF.build/DerivedSources -F/Users/Jeremy_luo/Documents/XCode/PTF/Build/Products/Debug-iphonesimulator -F/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Google-Maps-iOS-SDK -F/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse -isystem/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Headers -isystem/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Headers/Facebook-iOS-SDK -isystem/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Headers/Facebook-iOS-SDK/FacebookSDK -isystem/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Headers/Google-Maps-iOS-SDK -isystem/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Headers/Google-Maps-iOS-SDK/GoogleMaps -isystem/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Headers/PDTSimpleCalendar -isystem/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Headers/Parse -include /Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/PrecompiledHeaders/PTF-Prefix-hervfvacaggtzlfzenclcecsuyii/PTF-Prefix.pch -MMD -MT dependencies -MF /Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/PTF.build/Debug-iphonesimulator/PTF.build/Objects-normal/i386/ContactViewController.d --serialize-diagnostics /Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/PTF.build/Debug-iphonesimulator/PTF.build/Objects-normal/i386/ContactViewController.dia -c /Users/Jeremy_luo/Documents/XCode/PTF/PTF/ContactViewController.m -o /Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/PTF.build/Debug-iphonesimulator/PTF.build/Objects-normal/i386/ContactViewController.o36"54422426-E0A2-49C7-A93E-2F8F9BF77D55-
+bA0EFD5F9-41B8-41E6-B71C-12C2807AC9E4
+
+CCompileC Build/Intermediates/PTF.build/Debug-iphonesimulator/PTF.build/Objects-normal/i386/Info.o /Users/Jeremy_luo/Documents/XCode/PTF/PTF/Info.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s418190135.468398
+e418190135.530583
+r1
+xCompileC
+xBuild/Intermediates/PTF.build/Debug-iphonesimulator/PTF.build/Objects-normal/i386/Info.o
+x/Users/Jeremy_luo/Documents/XCode/PTF/PTF/Info.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/Jeremy_luo/Documents/XCode/PTF/PTF/Info.m
+d/Users/Jeremy_luo/Documents/XCode/PTF/PTF/Info.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection56"Compile /Users/Jeremy_luo/Documents/XCode/PTF/PTF/Info.m176"CompileC Build/Intermediates/PTF.build/Debug-iphonesimulator/PTF.build/Objects-normal/i386/Info.o PTF/Info.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler7105783713edb841^c51a923713edb841^---0#0#1#-19%DVTDocumentLocation2@55"file:///Users/Jeremy_luo/Documents/XCode/PTF/PTF/Info.m0000000000000000^4551"CompileC Build/Intermediates/PTF.build/Debug-iphonesimulator/PTF.build/Objects-normal/i386/Info.o PTF/Info.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Jeremy_luo/Documents/XCode/PTF    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/Jeremy_luo/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.1 -iquote /Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/PTF.build/Debug-iphonesimulator/PTF.build/PTF-generated-files.hmap -I/Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/PTF.build/Debug-iphonesimulator/PTF.build/PTF-own-target-headers.hmap -I/Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/PTF.build/Debug-iphonesimulator/PTF.build/PTF-all-target-headers.hmap -iquote /Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/PTF.build/Debug-iphonesimulator/PTF.build/PTF-project-headers.hmap -I/Users/Jeremy_luo/Documents/XCode/PTF/Build/Products/Debug-iphonesimulator/include -I/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Headers -I/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Headers/Facebook-iOS-SDK -I/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Headers/Facebook-iOS-SDK/FacebookSDK -I/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Headers/Google-Maps-iOS-SDK -I/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Headers/Google-Maps-iOS-SDK/GoogleMaps -I/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Headers/PDTSimpleCalendar -I/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Headers/Parse -I/Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/PTF.build/Debug-iphonesimulator/PTF.build/DerivedSources/i386 -I/Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/PTF.build/Debug-iphonesimulator/PTF.build/DerivedSources -F/Users/Jeremy_luo/Documents/XCode/PTF/Build/Products/Debug-iphonesimulator -F/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Google-Maps-iOS-SDK -F/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse -isystem/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Headers -isystem/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Headers/Facebook-iOS-SDK -isystem/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Headers/Facebook-iOS-SDK/FacebookSDK -isystem/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Headers/Google-Maps-iOS-SDK -isystem/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Headers/Google-Maps-iOS-SDK/GoogleMaps -isystem/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Headers/PDTSimpleCalendar -isystem/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Headers/Parse -include /Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/PrecompiledHeaders/PTF-Prefix-hervfvacaggtzlfzenclcecsuyii/PTF-Prefix.pch -MMD -MT dependencies -MF /Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/PTF.build/Debug-iphonesimulator/PTF.build/Objects-normal/i386/Info.d --serialize-diagnostics /Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/PTF.build/Debug-iphonesimulator/PTF.build/Objects-normal/i386/Info.dia -c /Users/Jeremy_luo/Documents/XCode/PTF/PTF/Info.m -o /Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/PTF.build/Debug-iphonesimulator/PTF.build/Objects-normal/i386/Info.o36"96CE2EEC-56CF-4E31-8267-623A80CDB745-
+bA0EFD5F9-41B8-41E6-B71C-12C2807AC9E4
+
+CCompileC Build/Intermediates/PTF.build/Debug-iphonesimulator/PTF.build/Objects-normal/i386/InfoViewController.o /Users/Jeremy_luo/Documents/XCode/PTF/PTF/InfoViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s418190135.530989
+e418190135.680707
+r1
+xCompileC
+xBuild/Intermediates/PTF.build/Debug-iphonesimulator/PTF.build/Objects-normal/i386/InfoViewController.o
+x/Users/Jeremy_luo/Documents/XCode/PTF/PTF/InfoViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/Jeremy_luo/Documents/XCode/PTF/PTF/InfoViewController.m
+d/Users/Jeremy_luo/Documents/XCode/PTF/PTF/InfoViewController.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/PTF/Info.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/PTF/AboutViewController.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse/Parse.framework/Headers/Parse.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse/Parse.framework/Headers/PFACL.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse/Parse.framework/Headers/PFAnalytics.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse/Parse.framework/Headers/PFAnonymousUtils.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse/Parse.framework/Headers/PFUser.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse/Parse.framework/Headers/PFConstants.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse/Parse.framework/Headers/PFObject.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse/Parse.framework/Headers/PFSubclassing.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse/Parse.framework/Headers/PFCloud.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse/Parse.framework/Headers/PFFile.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse/Parse.framework/Headers/PFGeoPoint.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse/Parse.framework/Headers/PFQuery.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse/Parse.framework/Headers/PFRelation.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse/Parse.framework/Headers/PFRole.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse/Parse.framework/Headers/PFImageView.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse/Parse.framework/Headers/PFInstallation.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse/Parse.framework/Headers/PFLogInViewController.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse/Parse.framework/Headers/PFLogInView.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse/Parse.framework/Headers/PFSignUpViewController.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse/Parse.framework/Headers/PFSignUpView.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse/Parse.framework/Headers/PFProduct.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse/Parse.framework/Headers/PFProductTableViewController.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse/Parse.framework/Headers/PFQueryTableViewController.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse/Parse.framework/Headers/PFTableViewCell.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse/Parse.framework/Headers/PF_EGORefreshTableHeaderView.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse/Parse.framework/Headers/PFPurchase.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse/Parse.framework/Headers/PFPush.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse/Parse.framework/Headers/PFTwitterUtils.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse/Parse.framework/Headers/PF_Twitter.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse/Parse.framework/Headers/PFFacebookUtils.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection70"Compile /Users/Jeremy_luo/Documents/XCode/PTF/PTF/InfoViewController.m204"CompileC Build/Intermediates/PTF.build/Debug-iphonesimulator/PTF.build/Objects-normal/i386/InfoViewController.o PTF/InfoViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler880f883713edb841^5f45ae3713edb841^---0#0#1#-19%DVTDocumentLocation2@69"file:///Users/Jeremy_luo/Documents/XCode/PTF/PTF/InfoViewController.m0000000000000000^4635"CompileC Build/Intermediates/PTF.build/Debug-iphonesimulator/PTF.build/Objects-normal/i386/InfoViewController.o PTF/InfoViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Jeremy_luo/Documents/XCode/PTF    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/Jeremy_luo/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.1 -iquote /Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/PTF.build/Debug-iphonesimulator/PTF.build/PTF-generated-files.hmap -I/Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/PTF.build/Debug-iphonesimulator/PTF.build/PTF-own-target-headers.hmap -I/Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/PTF.build/Debug-iphonesimulator/PTF.build/PTF-all-target-headers.hmap -iquote /Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/PTF.build/Debug-iphonesimulator/PTF.build/PTF-project-headers.hmap -I/Users/Jeremy_luo/Documents/XCode/PTF/Build/Products/Debug-iphonesimulator/include -I/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Headers -I/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Headers/Facebook-iOS-SDK -I/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Headers/Facebook-iOS-SDK/FacebookSDK -I/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Headers/Google-Maps-iOS-SDK -I/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Headers/Google-Maps-iOS-SDK/GoogleMaps -I/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Headers/PDTSimpleCalendar -I/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Headers/Parse -I/Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/PTF.build/Debug-iphonesimulator/PTF.build/DerivedSources/i386 -I/Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/PTF.build/Debug-iphonesimulator/PTF.build/DerivedSources -F/Users/Jeremy_luo/Documents/XCode/PTF/Build/Products/Debug-iphonesimulator -F/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Google-Maps-iOS-SDK -F/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse -isystem/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Headers -isystem/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Headers/Facebook-iOS-SDK -isystem/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Headers/Facebook-iOS-SDK/FacebookSDK -isystem/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Headers/Google-Maps-iOS-SDK -isystem/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Headers/Google-Maps-iOS-SDK/GoogleMaps -isystem/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Headers/PDTSimpleCalendar -isystem/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Headers/Parse -include /Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/PrecompiledHeaders/PTF-Prefix-hervfvacaggtzlfzenclcecsuyii/PTF-Prefix.pch -MMD -MT dependencies -MF /Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/PTF.build/Debug-iphonesimulator/PTF.build/Objects-normal/i386/InfoViewController.d --serialize-diagnostics /Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/PTF.build/Debug-iphonesimulator/PTF.build/Objects-normal/i386/InfoViewController.dia -c /Users/Jeremy_luo/Documents/XCode/PTF/PTF/InfoViewController.m -o /Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/PTF.build/Debug-iphonesimulator/PTF.build/Objects-normal/i386/InfoViewController.o36"87F7C4D8-DA01-4D8E-A2F5-8BE005D47D42-
+bA0EFD5F9-41B8-41E6-B71C-12C2807AC9E4
+
+CCompileC Build/Intermediates/PTF.build/Debug-iphonesimulator/PTF.build/Objects-normal/i386/LoginViewController.o /Users/Jeremy_luo/Documents/XCode/PTF/PTF/LoginViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s418190135.640664
+e418190135.743157
+r1
+xCompileC
+xBuild/Intermediates/PTF.build/Debug-iphonesimulator/PTF.build/Objects-normal/i386/LoginViewController.o
+x/Users/Jeremy_luo/Documents/XCode/PTF/PTF/LoginViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/Jeremy_luo/Documents/XCode/PTF/PTF/LoginViewController.m
+d/Users/Jeremy_luo/Documents/XCode/PTF/PTF/LoginViewController.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/PTF/CalendarViewController.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse/Parse.framework/Headers/Parse.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse/Parse.framework/Headers/PFACL.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse/Parse.framework/Headers/PFAnalytics.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse/Parse.framework/Headers/PFAnonymousUtils.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse/Parse.framework/Headers/PFUser.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse/Parse.framework/Headers/PFConstants.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse/Parse.framework/Headers/PFObject.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse/Parse.framework/Headers/PFSubclassing.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse/Parse.framework/Headers/PFCloud.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse/Parse.framework/Headers/PFFile.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse/Parse.framework/Headers/PFGeoPoint.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse/Parse.framework/Headers/PFQuery.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse/Parse.framework/Headers/PFRelation.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse/Parse.framework/Headers/PFRole.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse/Parse.framework/Headers/PFImageView.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse/Parse.framework/Headers/PFInstallation.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse/Parse.framework/Headers/PFLogInViewController.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse/Parse.framework/Headers/PFLogInView.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse/Parse.framework/Headers/PFSignUpViewController.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse/Parse.framework/Headers/PFSignUpView.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse/Parse.framework/Headers/PFProduct.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse/Parse.framework/Headers/PFProductTableViewController.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse/Parse.framework/Headers/PFQueryTableViewController.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse/Parse.framework/Headers/PFTableViewCell.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse/Parse.framework/Headers/PF_EGORefreshTableHeaderView.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse/Parse.framework/Headers/PFPurchase.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse/Parse.framework/Headers/PFPush.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse/Parse.framework/Headers/PFTwitterUtils.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse/Parse.framework/Headers/PF_Twitter.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse/Parse.framework/Headers/PFFacebookUtils.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection71"Compile /Users/Jeremy_luo/Documents/XCode/PTF/PTF/LoginViewController.m206"CompileC Build/Intermediates/PTF.build/Debug-iphonesimulator/PTF.build/Objects-normal/i386/LoginViewController.o PTF/LoginViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler1c24a43713edb841^3140be3713edb841^---0#0#1#-19%DVTDocumentLocation2@70"file:///Users/Jeremy_luo/Documents/XCode/PTF/PTF/LoginViewController.m0000000000000000^4641"CompileC Build/Intermediates/PTF.build/Debug-iphonesimulator/PTF.build/Objects-normal/i386/LoginViewController.o PTF/LoginViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Jeremy_luo/Documents/XCode/PTF    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/Jeremy_luo/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.1 -iquote /Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/PTF.build/Debug-iphonesimulator/PTF.build/PTF-generated-files.hmap -I/Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/PTF.build/Debug-iphonesimulator/PTF.build/PTF-own-target-headers.hmap -I/Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/PTF.build/Debug-iphonesimulator/PTF.build/PTF-all-target-headers.hmap -iquote /Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/PTF.build/Debug-iphonesimulator/PTF.build/PTF-project-headers.hmap -I/Users/Jeremy_luo/Documents/XCode/PTF/Build/Products/Debug-iphonesimulator/include -I/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Headers -I/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Headers/Facebook-iOS-SDK -I/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Headers/Facebook-iOS-SDK/FacebookSDK -I/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Headers/Google-Maps-iOS-SDK -I/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Headers/Google-Maps-iOS-SDK/GoogleMaps -I/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Headers/PDTSimpleCalendar -I/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Headers/Parse -I/Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/PTF.build/Debug-iphonesimulator/PTF.build/DerivedSources/i386 -I/Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/PTF.build/Debug-iphonesimulator/PTF.build/DerivedSources -F/Users/Jeremy_luo/Documents/XCode/PTF/Build/Products/Debug-iphonesimulator -F/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Google-Maps-iOS-SDK -F/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse -isystem/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Headers -isystem/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Headers/Facebook-iOS-SDK -isystem/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Headers/Facebook-iOS-SDK/FacebookSDK -isystem/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Headers/Google-Maps-iOS-SDK -isystem/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Headers/Google-Maps-iOS-SDK/GoogleMaps -isystem/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Headers/PDTSimpleCalendar -isystem/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Headers/Parse -include /Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/PrecompiledHeaders/PTF-Prefix-hervfvacaggtzlfzenclcecsuyii/PTF-Prefix.pch -MMD -MT dependencies -MF /Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/PTF.build/Debug-iphonesimulator/PTF.build/Objects-normal/i386/LoginViewController.d --serialize-diagnostics /Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/PTF.build/Debug-iphonesimulator/PTF.build/Objects-normal/i386/LoginViewController.dia -c /Users/Jeremy_luo/Documents/XCode/PTF/PTF/LoginViewController.m -o /Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/PTF.build/Debug-iphonesimulator/PTF.build/Objects-normal/i386/LoginViewController.o36"0451E56B-1F07-423B-8B8E-74A2B7FD2506-
+bA0EFD5F9-41B8-41E6-B71C-12C2807AC9E4
+
+CCompileC Build/Intermediates/PTF.build/Debug-iphonesimulator/PTF.build/Objects-normal/i386/MapViewController.o /Users/Jeremy_luo/Documents/XCode/PTF/PTF/MapViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s418190135.467597
+e418190135.653740
+r1
+xCompileC
+xBuild/Intermediates/PTF.build/Debug-iphonesimulator/PTF.build/Objects-normal/i386/MapViewController.o
+x/Users/Jeremy_luo/Documents/XCode/PTF/PTF/MapViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/Jeremy_luo/Documents/XCode/PTF/PTF/MapViewController.m
+d/Users/Jeremy_luo/Documents/XCode/PTF/PTF/MapViewController.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Google-Maps-iOS-SDK/GoogleMaps.framework/Headers/GoogleMaps.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Google-Maps-iOS-SDK/GoogleMaps.framework/Headers/GMSAddress.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Google-Maps-iOS-SDK/GoogleMaps.framework/Headers/GMSMapView.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Google-Maps-iOS-SDK/GoogleMaps.framework/Headers/GMSMapLayer.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Google-Maps-iOS-SDK/GoogleMaps.framework/Headers/GMSCALayer.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Google-Maps-iOS-SDK/GoogleMaps.framework/Headers/GMSUISettings.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Google-Maps-iOS-SDK/GoogleMaps.framework/Headers/GMSCameraPosition.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Google-Maps-iOS-SDK/GoogleMaps.framework/Headers/GMSCameraUpdate.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Google-Maps-iOS-SDK/GoogleMaps.framework/Headers/GMSCircle.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Google-Maps-iOS-SDK/GoogleMaps.framework/Headers/GMSOverlay.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Google-Maps-iOS-SDK/GoogleMaps.framework/Headers/GMSCoordinateBounds.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Google-Maps-iOS-SDK/GoogleMaps.framework/Headers/GMSProjection.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Google-Maps-iOS-SDK/GoogleMaps.framework/Headers/GMSGeocoder.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Google-Maps-iOS-SDK/GoogleMaps.framework/Headers/GMSGeometryUtils.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Google-Maps-iOS-SDK/GoogleMaps.framework/Headers/GMSPath.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Google-Maps-iOS-SDK/GoogleMaps.framework/Headers/GMSGroundOverlay.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Google-Maps-iOS-SDK/GoogleMaps.framework/Headers/GMSIndoorBuilding.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Google-Maps-iOS-SDK/GoogleMaps.framework/Headers/GMSIndoorDisplay.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Google-Maps-iOS-SDK/GoogleMaps.framework/Headers/GMSIndoorLevel.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Google-Maps-iOS-SDK/GoogleMaps.framework/Headers/GMSMapView+Animation.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Google-Maps-iOS-SDK/GoogleMaps.framework/Headers/GMSMarker.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Google-Maps-iOS-SDK/GoogleMaps.framework/Headers/GMSMarkerLayer.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Google-Maps-iOS-SDK/GoogleMaps.framework/Headers/GMSMutablePath.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Google-Maps-iOS-SDK/GoogleMaps.framework/Headers/GMSOrientation.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Google-Maps-iOS-SDK/GoogleMaps.framework/Headers/GMSPanorama.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Google-Maps-iOS-SDK/GoogleMaps.framework/Headers/GMSPanoramaCamera.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Google-Maps-iOS-SDK/GoogleMaps.framework/Headers/GMSPanoramaCameraUpdate.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Google-Maps-iOS-SDK/GoogleMaps.framework/Headers/GMSPanoramaLayer.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Google-Maps-iOS-SDK/GoogleMaps.framework/Headers/GMSPanoramaLink.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Google-Maps-iOS-SDK/GoogleMaps.framework/Headers/GMSPanoramaService.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Google-Maps-iOS-SDK/GoogleMaps.framework/Headers/GMSPanoramaView.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Google-Maps-iOS-SDK/GoogleMaps.framework/Headers/GMSPolygon.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Google-Maps-iOS-SDK/GoogleMaps.framework/Headers/GMSPolyline.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Google-Maps-iOS-SDK/GoogleMaps.framework/Headers/GMSServices.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Google-Maps-iOS-SDK/GoogleMaps.framework/Headers/GMSSyncTileLayer.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Google-Maps-iOS-SDK/GoogleMaps.framework/Headers/GMSTileLayer.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Google-Maps-iOS-SDK/GoogleMaps.framework/Headers/GMSURLTileLayer.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse/Parse.framework/Headers/Parse.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse/Parse.framework/Headers/PFACL.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse/Parse.framework/Headers/PFAnalytics.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse/Parse.framework/Headers/PFAnonymousUtils.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse/Parse.framework/Headers/PFUser.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse/Parse.framework/Headers/PFConstants.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse/Parse.framework/Headers/PFObject.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse/Parse.framework/Headers/PFSubclassing.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse/Parse.framework/Headers/PFCloud.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse/Parse.framework/Headers/PFFile.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse/Parse.framework/Headers/PFGeoPoint.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse/Parse.framework/Headers/PFQuery.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse/Parse.framework/Headers/PFRelation.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse/Parse.framework/Headers/PFRole.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse/Parse.framework/Headers/PFImageView.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse/Parse.framework/Headers/PFInstallation.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse/Parse.framework/Headers/PFLogInViewController.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse/Parse.framework/Headers/PFLogInView.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse/Parse.framework/Headers/PFSignUpViewController.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse/Parse.framework/Headers/PFSignUpView.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse/Parse.framework/Headers/PFProduct.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse/Parse.framework/Headers/PFProductTableViewController.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse/Parse.framework/Headers/PFQueryTableViewController.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse/Parse.framework/Headers/PFTableViewCell.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse/Parse.framework/Headers/PF_EGORefreshTableHeaderView.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse/Parse.framework/Headers/PFPurchase.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse/Parse.framework/Headers/PFPush.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse/Parse.framework/Headers/PFTwitterUtils.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse/Parse.framework/Headers/PF_Twitter.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse/Parse.framework/Headers/PFFacebookUtils.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection69"Compile /Users/Jeremy_luo/Documents/XCode/PTF/PTF/MapViewController.m202"CompileC Build/Intermediates/PTF.build/Debug-iphonesimulator/PTF.build/Objects-normal/i386/MapViewController.o PTF/MapViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilerdfdc773713edb841^7d5ca73713edb841^---0#0#1#-19%DVTDocumentLocation2@68"file:///Users/Jeremy_luo/Documents/XCode/PTF/PTF/MapViewController.m0000000000000000^4629"CompileC Build/Intermediates/PTF.build/Debug-iphonesimulator/PTF.build/Objects-normal/i386/MapViewController.o PTF/MapViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Jeremy_luo/Documents/XCode/PTF    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/Jeremy_luo/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.1 -iquote /Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/PTF.build/Debug-iphonesimulator/PTF.build/PTF-generated-files.hmap -I/Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/PTF.build/Debug-iphonesimulator/PTF.build/PTF-own-target-headers.hmap -I/Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/PTF.build/Debug-iphonesimulator/PTF.build/PTF-all-target-headers.hmap -iquote /Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/PTF.build/Debug-iphonesimulator/PTF.build/PTF-project-headers.hmap -I/Users/Jeremy_luo/Documents/XCode/PTF/Build/Products/Debug-iphonesimulator/include -I/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Headers -I/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Headers/Facebook-iOS-SDK -I/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Headers/Facebook-iOS-SDK/FacebookSDK -I/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Headers/Google-Maps-iOS-SDK -I/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Headers/Google-Maps-iOS-SDK/GoogleMaps -I/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Headers/PDTSimpleCalendar -I/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Headers/Parse -I/Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/PTF.build/Debug-iphonesimulator/PTF.build/DerivedSources/i386 -I/Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/PTF.build/Debug-iphonesimulator/PTF.build/DerivedSources -F/Users/Jeremy_luo/Documents/XCode/PTF/Build/Products/Debug-iphonesimulator -F/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Google-Maps-iOS-SDK -F/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse -isystem/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Headers -isystem/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Headers/Facebook-iOS-SDK -isystem/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Headers/Facebook-iOS-SDK/FacebookSDK -isystem/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Headers/Google-Maps-iOS-SDK -isystem/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Headers/Google-Maps-iOS-SDK/GoogleMaps -isystem/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Headers/PDTSimpleCalendar -isystem/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Headers/Parse -include /Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/PrecompiledHeaders/PTF-Prefix-hervfvacaggtzlfzenclcecsuyii/PTF-Prefix.pch -MMD -MT dependencies -MF /Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/PTF.build/Debug-iphonesimulator/PTF.build/Objects-normal/i386/MapViewController.d --serialize-diagnostics /Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/PTF.build/Debug-iphonesimulator/PTF.build/Objects-normal/i386/MapViewController.dia -c /Users/Jeremy_luo/Documents/XCode/PTF/PTF/MapViewController.m -o /Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/PTF.build/Debug-iphonesimulator/PTF.build/Objects-normal/i386/MapViewController.o36"D44A7E71-31F0-4344-8741-883B171F999C-
+bA0EFD5F9-41B8-41E6-B71C-12C2807AC9E4
+
+CCompileC Build/Intermediates/PTF.build/Debug-iphonesimulator/PTF.build/Objects-normal/i386/RegisterViewController.o /Users/Jeremy_luo/Documents/XCode/PTF/PTF/RegisterViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s418190135.643394
+e418190135.737682
+r1
+xCompileC
+xBuild/Intermediates/PTF.build/Debug-iphonesimulator/PTF.build/Objects-normal/i386/RegisterViewController.o
+x/Users/Jeremy_luo/Documents/XCode/PTF/PTF/RegisterViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/Jeremy_luo/Documents/XCode/PTF/PTF/RegisterViewController.m
+d/Users/Jeremy_luo/Documents/XCode/PTF/PTF/RegisterViewController.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse/Parse.framework/Headers/Parse.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse/Parse.framework/Headers/PFACL.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse/Parse.framework/Headers/PFAnalytics.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse/Parse.framework/Headers/PFAnonymousUtils.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse/Parse.framework/Headers/PFUser.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse/Parse.framework/Headers/PFConstants.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse/Parse.framework/Headers/PFObject.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse/Parse.framework/Headers/PFSubclassing.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse/Parse.framework/Headers/PFCloud.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse/Parse.framework/Headers/PFFile.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse/Parse.framework/Headers/PFGeoPoint.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse/Parse.framework/Headers/PFQuery.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse/Parse.framework/Headers/PFRelation.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse/Parse.framework/Headers/PFRole.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse/Parse.framework/Headers/PFImageView.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse/Parse.framework/Headers/PFInstallation.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse/Parse.framework/Headers/PFLogInViewController.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse/Parse.framework/Headers/PFLogInView.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse/Parse.framework/Headers/PFSignUpViewController.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse/Parse.framework/Headers/PFSignUpView.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse/Parse.framework/Headers/PFProduct.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse/Parse.framework/Headers/PFProductTableViewController.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse/Parse.framework/Headers/PFQueryTableViewController.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse/Parse.framework/Headers/PFTableViewCell.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse/Parse.framework/Headers/PF_EGORefreshTableHeaderView.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse/Parse.framework/Headers/PFPurchase.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse/Parse.framework/Headers/PFPush.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse/Parse.framework/Headers/PFTwitterUtils.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse/Parse.framework/Headers/PF_Twitter.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse/Parse.framework/Headers/PFFacebookUtils.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection74"Compile /Users/Jeremy_luo/Documents/XCode/PTF/PTF/RegisterViewController.m212"CompileC Build/Intermediates/PTF.build/Debug-iphonesimulator/PTF.build/Objects-normal/i386/RegisterViewController.o PTF/RegisterViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler151da53713edb841^f9d9bc3713edb841^---0#0#1#-19%DVTDocumentLocation2@73"file:///Users/Jeremy_luo/Documents/XCode/PTF/PTF/RegisterViewController.m0000000000000000^4659"CompileC Build/Intermediates/PTF.build/Debug-iphonesimulator/PTF.build/Objects-normal/i386/RegisterViewController.o PTF/RegisterViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Jeremy_luo/Documents/XCode/PTF    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/Jeremy_luo/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.1 -iquote /Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/PTF.build/Debug-iphonesimulator/PTF.build/PTF-generated-files.hmap -I/Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/PTF.build/Debug-iphonesimulator/PTF.build/PTF-own-target-headers.hmap -I/Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/PTF.build/Debug-iphonesimulator/PTF.build/PTF-all-target-headers.hmap -iquote /Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/PTF.build/Debug-iphonesimulator/PTF.build/PTF-project-headers.hmap -I/Users/Jeremy_luo/Documents/XCode/PTF/Build/Products/Debug-iphonesimulator/include -I/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Headers -I/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Headers/Facebook-iOS-SDK -I/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Headers/Facebook-iOS-SDK/FacebookSDK -I/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Headers/Google-Maps-iOS-SDK -I/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Headers/Google-Maps-iOS-SDK/GoogleMaps -I/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Headers/PDTSimpleCalendar -I/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Headers/Parse -I/Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/PTF.build/Debug-iphonesimulator/PTF.build/DerivedSources/i386 -I/Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/PTF.build/Debug-iphonesimulator/PTF.build/DerivedSources -F/Users/Jeremy_luo/Documents/XCode/PTF/Build/Products/Debug-iphonesimulator -F/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Google-Maps-iOS-SDK -F/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse -isystem/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Headers -isystem/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Headers/Facebook-iOS-SDK -isystem/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Headers/Facebook-iOS-SDK/FacebookSDK -isystem/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Headers/Google-Maps-iOS-SDK -isystem/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Headers/Google-Maps-iOS-SDK/GoogleMaps -isystem/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Headers/PDTSimpleCalendar -isystem/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Headers/Parse -include /Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/PrecompiledHeaders/PTF-Prefix-hervfvacaggtzlfzenclcecsuyii/PTF-Prefix.pch -MMD -MT dependencies -MF /Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/PTF.build/Debug-iphonesimulator/PTF.build/Objects-normal/i386/RegisterViewController.d --serialize-diagnostics /Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/PTF.build/Debug-iphonesimulator/PTF.build/Objects-normal/i386/RegisterViewController.dia -c /Users/Jeremy_luo/Documents/XCode/PTF/PTF/RegisterViewController.m -o /Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/PTF.build/Debug-iphonesimulator/PTF.build/Objects-normal/i386/RegisterViewController.o36"9DCCBA74-6288-4C47-BC19-5B415CC80D03-
+bA0EFD5F9-41B8-41E6-B71C-12C2807AC9E4
+
+CCompileC Build/Intermediates/PTF.build/Debug-iphonesimulator/PTF.build/Objects-normal/i386/SignupViewController.o /Users/Jeremy_luo/Documents/XCode/PTF/PTF/SignupViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s418190135.469026
+e418190135.650093
+r1
+xCompileC
+xBuild/Intermediates/PTF.build/Debug-iphonesimulator/PTF.build/Objects-normal/i386/SignupViewController.o
+x/Users/Jeremy_luo/Documents/XCode/PTF/PTF/SignupViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/Jeremy_luo/Documents/XCode/PTF/PTF/SignupViewController.m
+d/Users/Jeremy_luo/Documents/XCode/PTF/PTF/SignupViewController.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse/Parse.framework/Headers/Parse.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse/Parse.framework/Headers/PFACL.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse/Parse.framework/Headers/PFAnalytics.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse/Parse.framework/Headers/PFAnonymousUtils.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse/Parse.framework/Headers/PFUser.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse/Parse.framework/Headers/PFConstants.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse/Parse.framework/Headers/PFObject.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse/Parse.framework/Headers/PFSubclassing.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse/Parse.framework/Headers/PFCloud.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse/Parse.framework/Headers/PFFile.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse/Parse.framework/Headers/PFGeoPoint.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse/Parse.framework/Headers/PFQuery.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse/Parse.framework/Headers/PFRelation.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse/Parse.framework/Headers/PFRole.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse/Parse.framework/Headers/PFImageView.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse/Parse.framework/Headers/PFInstallation.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse/Parse.framework/Headers/PFLogInViewController.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse/Parse.framework/Headers/PFLogInView.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse/Parse.framework/Headers/PFSignUpViewController.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse/Parse.framework/Headers/PFSignUpView.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse/Parse.framework/Headers/PFProduct.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse/Parse.framework/Headers/PFProductTableViewController.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse/Parse.framework/Headers/PFQueryTableViewController.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse/Parse.framework/Headers/PFTableViewCell.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse/Parse.framework/Headers/PF_EGORefreshTableHeaderView.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse/Parse.framework/Headers/PFPurchase.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse/Parse.framework/Headers/PFPush.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse/Parse.framework/Headers/PFTwitterUtils.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse/Parse.framework/Headers/PF_Twitter.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse/Parse.framework/Headers/PFFacebookUtils.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection72"Compile /Users/Jeremy_luo/Documents/XCode/PTF/PTF/SignupViewController.m208"CompileC Build/Intermediates/PTF.build/Debug-iphonesimulator/PTF.build/Objects-normal/i386/SignupViewController.o PTF/SignupViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compileraa45783713edb841^f374a63713edb841^---0#0#1#-19%DVTDocumentLocation2@71"file:///Users/Jeremy_luo/Documents/XCode/PTF/PTF/SignupViewController.m0000000000000000^4647"CompileC Build/Intermediates/PTF.build/Debug-iphonesimulator/PTF.build/Objects-normal/i386/SignupViewController.o PTF/SignupViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Jeremy_luo/Documents/XCode/PTF    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/Jeremy_luo/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.1 -iquote /Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/PTF.build/Debug-iphonesimulator/PTF.build/PTF-generated-files.hmap -I/Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/PTF.build/Debug-iphonesimulator/PTF.build/PTF-own-target-headers.hmap -I/Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/PTF.build/Debug-iphonesimulator/PTF.build/PTF-all-target-headers.hmap -iquote /Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/PTF.build/Debug-iphonesimulator/PTF.build/PTF-project-headers.hmap -I/Users/Jeremy_luo/Documents/XCode/PTF/Build/Products/Debug-iphonesimulator/include -I/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Headers -I/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Headers/Facebook-iOS-SDK -I/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Headers/Facebook-iOS-SDK/FacebookSDK -I/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Headers/Google-Maps-iOS-SDK -I/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Headers/Google-Maps-iOS-SDK/GoogleMaps -I/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Headers/PDTSimpleCalendar -I/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Headers/Parse -I/Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/PTF.build/Debug-iphonesimulator/PTF.build/DerivedSources/i386 -I/Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/PTF.build/Debug-iphonesimulator/PTF.build/DerivedSources -F/Users/Jeremy_luo/Documents/XCode/PTF/Build/Products/Debug-iphonesimulator -F/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Google-Maps-iOS-SDK -F/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse -isystem/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Headers -isystem/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Headers/Facebook-iOS-SDK -isystem/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Headers/Facebook-iOS-SDK/FacebookSDK -isystem/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Headers/Google-Maps-iOS-SDK -isystem/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Headers/Google-Maps-iOS-SDK/GoogleMaps -isystem/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Headers/PDTSimpleCalendar -isystem/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Headers/Parse -include /Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/PrecompiledHeaders/PTF-Prefix-hervfvacaggtzlfzenclcecsuyii/PTF-Prefix.pch -MMD -MT dependencies -MF /Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/PTF.build/Debug-iphonesimulator/PTF.build/Objects-normal/i386/SignupViewController.d --serialize-diagnostics /Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/PTF.build/Debug-iphonesimulator/PTF.build/Objects-normal/i386/SignupViewController.dia -c /Users/Jeremy_luo/Documents/XCode/PTF/PTF/SignupViewController.m -o /Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/PTF.build/Debug-iphonesimulator/PTF.build/Objects-normal/i386/SignupViewController.o36"3A367C8C-6F4D-4F24-94D9-8A3249E051FE-
+bA0EFD5F9-41B8-41E6-B71C-12C2807AC9E4
+
+CCompileC Build/Intermediates/PTF.build/Debug-iphonesimulator/PTF.build/Objects-normal/i386/ViewController.o /Users/Jeremy_luo/Documents/XCode/PTF/PTF/ViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s418190135.467358
+e418190135.580729
+r1
+xCompileC
+xBuild/Intermediates/PTF.build/Debug-iphonesimulator/PTF.build/Objects-normal/i386/ViewController.o
+x/Users/Jeremy_luo/Documents/XCode/PTF/PTF/ViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/Jeremy_luo/Documents/XCode/PTF/PTF/ViewController.m
+d/Users/Jeremy_luo/Documents/XCode/PTF/PTF/ViewController.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection66"Compile /Users/Jeremy_luo/Documents/XCode/PTF/PTF/ViewController.m196"CompileC Build/Intermediates/PTF.build/Debug-iphonesimulator/PTF.build/Objects-normal/i386/ViewController.o PTF/ViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilerc9c6773713edb841^67d4943713edb841^---0#0#1#-19%DVTDocumentLocation2@65"file:///Users/Jeremy_luo/Documents/XCode/PTF/PTF/ViewController.m0000000000000000^4611"CompileC Build/Intermediates/PTF.build/Debug-iphonesimulator/PTF.build/Objects-normal/i386/ViewController.o PTF/ViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Jeremy_luo/Documents/XCode/PTF    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/Jeremy_luo/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.1 -iquote /Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/PTF.build/Debug-iphonesimulator/PTF.build/PTF-generated-files.hmap -I/Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/PTF.build/Debug-iphonesimulator/PTF.build/PTF-own-target-headers.hmap -I/Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/PTF.build/Debug-iphonesimulator/PTF.build/PTF-all-target-headers.hmap -iquote /Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/PTF.build/Debug-iphonesimulator/PTF.build/PTF-project-headers.hmap -I/Users/Jeremy_luo/Documents/XCode/PTF/Build/Products/Debug-iphonesimulator/include -I/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Headers -I/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Headers/Facebook-iOS-SDK -I/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Headers/Facebook-iOS-SDK/FacebookSDK -I/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Headers/Google-Maps-iOS-SDK -I/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Headers/Google-Maps-iOS-SDK/GoogleMaps -I/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Headers/PDTSimpleCalendar -I/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Headers/Parse -I/Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/PTF.build/Debug-iphonesimulator/PTF.build/DerivedSources/i386 -I/Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/PTF.build/Debug-iphonesimulator/PTF.build/DerivedSources -F/Users/Jeremy_luo/Documents/XCode/PTF/Build/Products/Debug-iphonesimulator -F/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Google-Maps-iOS-SDK -F/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse -isystem/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Headers -isystem/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Headers/Facebook-iOS-SDK -isystem/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Headers/Facebook-iOS-SDK/FacebookSDK -isystem/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Headers/Google-Maps-iOS-SDK -isystem/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Headers/Google-Maps-iOS-SDK/GoogleMaps -isystem/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Headers/PDTSimpleCalendar -isystem/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Headers/Parse -include /Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/PrecompiledHeaders/PTF-Prefix-hervfvacaggtzlfzenclcecsuyii/PTF-Prefix.pch -MMD -MT dependencies -MF /Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/PTF.build/Debug-iphonesimulator/PTF.build/Objects-normal/i386/ViewController.d --serialize-diagnostics /Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/PTF.build/Debug-iphonesimulator/PTF.build/Objects-normal/i386/ViewController.dia -c /Users/Jeremy_luo/Documents/XCode/PTF/PTF/ViewController.m -o /Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/PTF.build/Debug-iphonesimulator/PTF.build/Objects-normal/i386/ViewController.o36"207D903F-E1C5-47E6-90D3-E826E370B2F9-
+bA0EFD5F9-41B8-41E6-B71C-12C2807AC9E4
+
+CCompileC Build/Intermediates/PTF.build/Debug-iphonesimulator/PTF.build/Objects-normal/i386/main.o /Users/Jeremy_luo/Documents/XCode/PTF/PTF/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s418190135.581071
+e418190135.649761
+r1
+xCompileC
+xBuild/Intermediates/PTF.build/Debug-iphonesimulator/PTF.build/Objects-normal/i386/main.o
+x/Users/Jeremy_luo/Documents/XCode/PTF/PTF/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/Jeremy_luo/Documents/XCode/PTF/PTF/main.m
+d/Users/Jeremy_luo/Documents/XCode/PTF/PTF/AppDelegate.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Google-Maps-iOS-SDK/GoogleMaps.framework/Headers/GoogleMaps.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Google-Maps-iOS-SDK/GoogleMaps.framework/Headers/GMSAddress.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Google-Maps-iOS-SDK/GoogleMaps.framework/Headers/GMSMapView.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Google-Maps-iOS-SDK/GoogleMaps.framework/Headers/GMSMapLayer.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Google-Maps-iOS-SDK/GoogleMaps.framework/Headers/GMSCALayer.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Google-Maps-iOS-SDK/GoogleMaps.framework/Headers/GMSUISettings.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Google-Maps-iOS-SDK/GoogleMaps.framework/Headers/GMSCameraPosition.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Google-Maps-iOS-SDK/GoogleMaps.framework/Headers/GMSCameraUpdate.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Google-Maps-iOS-SDK/GoogleMaps.framework/Headers/GMSCircle.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Google-Maps-iOS-SDK/GoogleMaps.framework/Headers/GMSOverlay.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Google-Maps-iOS-SDK/GoogleMaps.framework/Headers/GMSCoordinateBounds.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Google-Maps-iOS-SDK/GoogleMaps.framework/Headers/GMSProjection.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Google-Maps-iOS-SDK/GoogleMaps.framework/Headers/GMSGeocoder.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Google-Maps-iOS-SDK/GoogleMaps.framework/Headers/GMSGeometryUtils.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Google-Maps-iOS-SDK/GoogleMaps.framework/Headers/GMSPath.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Google-Maps-iOS-SDK/GoogleMaps.framework/Headers/GMSGroundOverlay.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Google-Maps-iOS-SDK/GoogleMaps.framework/Headers/GMSIndoorBuilding.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Google-Maps-iOS-SDK/GoogleMaps.framework/Headers/GMSIndoorDisplay.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Google-Maps-iOS-SDK/GoogleMaps.framework/Headers/GMSIndoorLevel.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Google-Maps-iOS-SDK/GoogleMaps.framework/Headers/GMSMapView+Animation.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Google-Maps-iOS-SDK/GoogleMaps.framework/Headers/GMSMarker.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Google-Maps-iOS-SDK/GoogleMaps.framework/Headers/GMSMarkerLayer.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Google-Maps-iOS-SDK/GoogleMaps.framework/Headers/GMSMutablePath.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Google-Maps-iOS-SDK/GoogleMaps.framework/Headers/GMSOrientation.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Google-Maps-iOS-SDK/GoogleMaps.framework/Headers/GMSPanorama.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Google-Maps-iOS-SDK/GoogleMaps.framework/Headers/GMSPanoramaCamera.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Google-Maps-iOS-SDK/GoogleMaps.framework/Headers/GMSPanoramaCameraUpdate.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Google-Maps-iOS-SDK/GoogleMaps.framework/Headers/GMSPanoramaLayer.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Google-Maps-iOS-SDK/GoogleMaps.framework/Headers/GMSPanoramaLink.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Google-Maps-iOS-SDK/GoogleMaps.framework/Headers/GMSPanoramaService.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Google-Maps-iOS-SDK/GoogleMaps.framework/Headers/GMSPanoramaView.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Google-Maps-iOS-SDK/GoogleMaps.framework/Headers/GMSPolygon.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Google-Maps-iOS-SDK/GoogleMaps.framework/Headers/GMSPolyline.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Google-Maps-iOS-SDK/GoogleMaps.framework/Headers/GMSServices.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Google-Maps-iOS-SDK/GoogleMaps.framework/Headers/GMSSyncTileLayer.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Google-Maps-iOS-SDK/GoogleMaps.framework/Headers/GMSTileLayer.h
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Google-Maps-iOS-SDK/GoogleMaps.framework/Headers/GMSURLTileLayer.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection56"Compile /Users/Jeremy_luo/Documents/XCode/PTF/PTF/main.m176"CompileC Build/Intermediates/PTF.build/Debug-iphonesimulator/PTF.build/Objects-normal/i386/main.o PTF/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler48fe943713edb841^9757a63713edb841^---0#0#1#-19%DVTDocumentLocation2@55"file:///Users/Jeremy_luo/Documents/XCode/PTF/PTF/main.m0000000000000000^4551"CompileC Build/Intermediates/PTF.build/Debug-iphonesimulator/PTF.build/Objects-normal/i386/main.o PTF/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Jeremy_luo/Documents/XCode/PTF    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/Jeremy_luo/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.1 -iquote /Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/PTF.build/Debug-iphonesimulator/PTF.build/PTF-generated-files.hmap -I/Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/PTF.build/Debug-iphonesimulator/PTF.build/PTF-own-target-headers.hmap -I/Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/PTF.build/Debug-iphonesimulator/PTF.build/PTF-all-target-headers.hmap -iquote /Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/PTF.build/Debug-iphonesimulator/PTF.build/PTF-project-headers.hmap -I/Users/Jeremy_luo/Documents/XCode/PTF/Build/Products/Debug-iphonesimulator/include -I/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Headers -I/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Headers/Facebook-iOS-SDK -I/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Headers/Facebook-iOS-SDK/FacebookSDK -I/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Headers/Google-Maps-iOS-SDK -I/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Headers/Google-Maps-iOS-SDK/GoogleMaps -I/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Headers/PDTSimpleCalendar -I/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Headers/Parse -I/Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/PTF.build/Debug-iphonesimulator/PTF.build/DerivedSources/i386 -I/Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/PTF.build/Debug-iphonesimulator/PTF.build/DerivedSources -F/Users/Jeremy_luo/Documents/XCode/PTF/Build/Products/Debug-iphonesimulator -F/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Google-Maps-iOS-SDK -F/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse -isystem/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Headers -isystem/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Headers/Facebook-iOS-SDK -isystem/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Headers/Facebook-iOS-SDK/FacebookSDK -isystem/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Headers/Google-Maps-iOS-SDK -isystem/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Headers/Google-Maps-iOS-SDK/GoogleMaps -isystem/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Headers/PDTSimpleCalendar -isystem/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Headers/Parse -include /Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/PrecompiledHeaders/PTF-Prefix-hervfvacaggtzlfzenclcecsuyii/PTF-Prefix.pch -MMD -MT dependencies -MF /Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/PTF.build/Debug-iphonesimulator/PTF.build/Objects-normal/i386/main.d --serialize-diagnostics /Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/PTF.build/Debug-iphonesimulator/PTF.build/Objects-normal/i386/main.dia -c /Users/Jeremy_luo/Documents/XCode/PTF/PTF/main.m -o /Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/PTF.build/Debug-iphonesimulator/PTF.build/Objects-normal/i386/main.o36"4D645422-CC22-4E9B-BB3A-20E2660593EE-
+bA0EFD5F9-41B8-41E6-B71C-12C2807AC9E4
+
+CCompileStoryboard /Users/Jeremy_luo/Documents/XCode/PTF/PTF/Base.lproj/Main_iPad.storyboard
+s418190136.229699
+e418190137.034454
+r1
+xCompileStoryboard
+x/Users/Jeremy_luo/Documents/XCode/PTF/PTF/Base.lproj/Main_iPad.storyboard
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection53"CompileStoryboard PTF/Base.lproj/Main_iPad.storyboard53"CompileStoryboard PTF/Base.lproj/Main_iPad.storyboard7ee03a3813edb841^4ed2083913edb841^---0#0#1#-19%DVTDocumentLocation2@80"file:///Users/Jeremy_luo/Documents/XCode/PTF/PTF/Base.lproj/Main_iPad.storyboard0000000000000000^839"CompileStoryboard PTF/Base.lproj/Main_iPad.storyboard    cd /Users/Jeremy_luo/Documents/XCode/PTF    export IBSC_MINIMUM_COMPATIBILITY_VERSION=7.1    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    export XCODE_DEVELOPER_USR_PATH=/Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/ibtool --errors --warnings --notices --minimum-deployment-target 7.1 --output-format human-readable-text --compile /Users/Jeremy_luo/Documents/XCode/PTF/Build/Products/Debug-iphonesimulator/PTF.app/Base.lproj/Main_iPad.storyboardc /Users/Jeremy_luo/Documents/XCode/PTF/PTF/Base.lproj/Main_iPad.storyboard36"A652180B-DAA8-4156-B24B-F54ECCF98F99-
+bA0EFD5F9-41B8-41E6-B71C-12C2807AC9E4
+
+CCompileStoryboard /Users/Jeremy_luo/Documents/XCode/PTF/PTF/Base.lproj/Main_iPhone.storyboard
+s418190136.231088
+e418190138.120198
+r1
+xCompileStoryboard
+x/Users/Jeremy_luo/Documents/XCode/PTF/PTF/Base.lproj/Main_iPhone.storyboard
+onwi_state: registration failed (1000000)
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection55"CompileStoryboard PTF/Base.lproj/Main_iPhone.storyboard55"CompileStoryboard PTF/Base.lproj/Main_iPhone.storyboard52433b3813edb841^69c61e3a13edb841^-41"nwi_state: registration failed (1000000)-0#0#1#-19%DVTDocumentLocation2@82"file:///Users/Jeremy_luo/Documents/XCode/PTF/PTF/Base.lproj/Main_iPhone.storyboard0000000000000000^845"CompileStoryboard PTF/Base.lproj/Main_iPhone.storyboard    cd /Users/Jeremy_luo/Documents/XCode/PTF    export IBSC_MINIMUM_COMPATIBILITY_VERSION=7.1    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    export XCODE_DEVELOPER_USR_PATH=/Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/ibtool --errors --warnings --notices --minimum-deployment-target 7.1 --output-format human-readable-text --compile /Users/Jeremy_luo/Documents/XCode/PTF/Build/Products/Debug-iphonesimulator/PTF.app/Base.lproj/Main_iPhone.storyboardc /Users/Jeremy_luo/Documents/XCode/PTF/PTF/Base.lproj/Main_iPhone.storyboard36"5A5BC1F7-B95E-4FA6-A51E-183663E24236-
+bA0EFD5F9-41B8-41E6-B71C-12C2807AC9E4
+
+CCopyStringsFile /Users/Jeremy_luo/Documents/XCode/PTF/Build/Products/Debug-iphonesimulator/PTF.app/en.lproj/InfoPlist.strings PTF/en.lproj/InfoPlist.strings
+s418190136.231620
+e418190136.248694
+r1
+xCopyStringsFile
+x/Users/Jeremy_luo/Documents/XCode/PTF/Build/Products/Debug-iphonesimulator/PTF.app/en.lproj/InfoPlist.strings
+xPTF/en.lproj/InfoPlist.strings
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection35"Copy PTF/en.lproj/InfoPlist.strings118"CopyStringsFile Build/Products/Debug-iphonesimulator/PTF.app/en.lproj/InfoPlist.strings PTF/en.lproj/InfoPlist.stringsbc5d3b3813edb841^54ab3f3813edb841^---0#0#1#-19%DVTDocumentLocation2@75"file:///Users/Jeremy_luo/Documents/XCode/PTF/PTF/en.lproj/InfoPlist.strings0000000000000000^575"CopyStringsFile Build/Products/Debug-iphonesimulator/PTF.app/en.lproj/InfoPlist.strings PTF/en.lproj/InfoPlist.strings    cd /Users/Jeremy_luo/Documents/XCode/PTF    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/Jeremy_luo/Documents/XCode/PTF/Build/Products/Debug-iphonesimulator/PTF.app/en.lproj -- PTF/en.lproj/InfoPlist.strings36"D07DD7A6-F593-44E3-9DF5-B26081B29D9E-
+bA0EFD5F9-41B8-41E6-B71C-12C2807AC9E4
+
+CCpResource PTF/Calendar.png Build/Products/Debug-iphonesimulator/PTF.app/Calendar.png
+s418190136.229556
+e418190136.230701
+r1
+xCpResource
+xPTF/Calendar.png
+xBuild/Products/Debug-iphonesimulator/PTF.app/Calendar.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection62"Copy Build/Products/Debug-iphonesimulator/PTF.app/Calendar.png85"CpResource PTF/Calendar.png Build/Products/Debug-iphonesimulator/PTF.app/Calendar.png3ed03a3813edb841^98143b3813edb841^---0#0#1#-19%DVTDocumentLocation2@102"file:///Users/Jeremy_luo/Documents/XCode/PTF/Build/Products/Debug-iphonesimulator/PTF.app/Calendar.png00340020deffdf42^576"CpResource PTF/Calendar.png Build/Products/Debug-iphonesimulator/PTF.app/Calendar.png    cd /Users/Jeremy_luo/Documents/XCode/PTF    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/Jeremy_luo/Documents/XCode/PTF/PTF/Calendar.png /Users/Jeremy_luo/Documents/XCode/PTF/Build/Products/Debug-iphonesimulator/PTF.app36"9D4785CE-1F2D-414F-841C-9BE7B4CEA4BA-
+bA0EFD5F9-41B8-41E6-B71C-12C2807AC9E4
+
+CCpResource PTF/Contact.png Build/Products/Debug-iphonesimulator/PTF.app/Contact.png
+s418190136.229845
+e418190136.231044
+r1
+xCpResource
+xPTF/Contact.png
+xBuild/Products/Debug-iphonesimulator/PTF.app/Contact.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection61"Copy Build/Products/Debug-iphonesimulator/PTF.app/Contact.png83"CpResource PTF/Contact.png Build/Products/Debug-iphonesimulator/PTF.app/Contact.png31ea3a3813edb841^672b3b3813edb841^---0#0#1#-19%DVTDocumentLocation2@101"file:///Users/Jeremy_luo/Documents/XCode/PTF/Build/Products/Debug-iphonesimulator/PTF.app/Contact.png00340020deffdf42^573"CpResource PTF/Contact.png Build/Products/Debug-iphonesimulator/PTF.app/Contact.png    cd /Users/Jeremy_luo/Documents/XCode/PTF    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/Jeremy_luo/Documents/XCode/PTF/PTF/Contact.png /Users/Jeremy_luo/Documents/XCode/PTF/Build/Products/Debug-iphonesimulator/PTF.app36"77FC223A-8A65-4AF7-AA11-704C67CB7DB8-
+bA0EFD5F9-41B8-41E6-B71C-12C2807AC9E4
+
+CCpResource PTF/Info.png Build/Products/Debug-iphonesimulator/PTF.app/Info.png
+s418190136.229425
+e418190136.230577
+r1
+xCpResource
+xPTF/Info.png
+xBuild/Products/Debug-iphonesimulator/PTF.app/Info.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection58"Copy Build/Products/Debug-iphonesimulator/PTF.app/Info.png77"CpResource PTF/Info.png Build/Products/Debug-iphonesimulator/PTF.app/Info.pngd1cd3a3813edb841^46083b3813edb841^---0#0#1#-19%DVTDocumentLocation2@98"file:///Users/Jeremy_luo/Documents/XCode/PTF/Build/Products/Debug-iphonesimulator/PTF.app/Info.png00340020deffdf42^564"CpResource PTF/Info.png Build/Products/Debug-iphonesimulator/PTF.app/Info.png    cd /Users/Jeremy_luo/Documents/XCode/PTF    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/Jeremy_luo/Documents/XCode/PTF/PTF/Info.png /Users/Jeremy_luo/Documents/XCode/PTF/Build/Products/Debug-iphonesimulator/PTF.app36"E1E76167-C471-4835-B587-9FD91B89153D-
+bA0EFD5F9-41B8-41E6-B71C-12C2807AC9E4
+
+CCpResource PTF/Map.png Build/Products/Debug-iphonesimulator/PTF.app/Map.png
+s418190136.230306
+e418190136.231298
+r1
+xCpResource
+xPTF/Map.png
+xBuild/Products/Debug-iphonesimulator/PTF.app/Map.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection57"Copy Build/Products/Debug-iphonesimulator/PTF.app/Map.png75"CpResource PTF/Map.png Build/Products/Debug-iphonesimulator/PTF.app/Map.png9f033b3813edb841^26363b3813edb841^---0#0#1#-19%DVTDocumentLocation2@97"file:///Users/Jeremy_luo/Documents/XCode/PTF/Build/Products/Debug-iphonesimulator/PTF.app/Map.png00340020deffdf42^561"CpResource PTF/Map.png Build/Products/Debug-iphonesimulator/PTF.app/Map.png    cd /Users/Jeremy_luo/Documents/XCode/PTF    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/Jeremy_luo/Documents/XCode/PTF/PTF/Map.png /Users/Jeremy_luo/Documents/XCode/PTF/Build/Products/Debug-iphonesimulator/PTF.app36"A53742C8-BF53-4422-9DB3-4FA42E3719BC-
+bA0EFD5F9-41B8-41E6-B71C-12C2807AC9E4
+
+CCpResource PTF/Register.png Build/Products/Debug-iphonesimulator/PTF.app/Register.png
+s418190136.230807
+e418190136.232353
+r1
+xCpResource
+xPTF/Register.png
+xBuild/Products/Debug-iphonesimulator/PTF.app/Register.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection62"Copy Build/Products/Debug-iphonesimulator/PTF.app/Register.png85"CpResource PTF/Register.png Build/Products/Debug-iphonesimulator/PTF.app/Register.pngd32d3b3813edb841^73813b3813edb841^---0#0#1#-19%DVTDocumentLocation2@102"file:///Users/Jeremy_luo/Documents/XCode/PTF/Build/Products/Debug-iphonesimulator/PTF.app/Register.png00340020deffdf42^576"CpResource PTF/Register.png Build/Products/Debug-iphonesimulator/PTF.app/Register.png    cd /Users/Jeremy_luo/Documents/XCode/PTF    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/Jeremy_luo/Documents/XCode/PTF/PTF/Register.png /Users/Jeremy_luo/Documents/XCode/PTF/Build/Products/Debug-iphonesimulator/PTF.app36"503B5369-B86C-4189-954F-ADFD752A3B89-
+bA0EFD5F9-41B8-41E6-B71C-12C2807AC9E4
+
+CCpResource PTF/background_login.jpg Build/Products/Debug-iphonesimulator/PTF.app/background_login.jpg
+s418190136.231379
+e418190136.232691
+r1
+xCpResource
+xPTF/background_login.jpg
+xBuild/Products/Debug-iphonesimulator/PTF.app/background_login.jpg
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection70"Copy Build/Products/Debug-iphonesimulator/PTF.app/background_login.jpg101"CpResource PTF/background_login.jpg Build/Products/Debug-iphonesimulator/PTF.app/background_login.jpg594d3b3813edb841^9a933b3813edb841^---0#0#1#-19%DVTDocumentLocation2@110"file:///Users/Jeremy_luo/Documents/XCode/PTF/Build/Products/Debug-iphonesimulator/PTF.app/background_login.jpg00340020deffdf42^600"CpResource PTF/background_login.jpg Build/Products/Debug-iphonesimulator/PTF.app/background_login.jpg    cd /Users/Jeremy_luo/Documents/XCode/PTF    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/Jeremy_luo/Documents/XCode/PTF/PTF/background_login.jpg /Users/Jeremy_luo/Documents/XCode/PTF/Build/Products/Debug-iphonesimulator/PTF.app36"7C1CCD83-5133-4011-AFEA-5FD1FE39F681-
+bA0EFD5F9-41B8-41E6-B71C-12C2807AC9E4
+
+CGenerateDSYMFile /Users/Jeremy_luo/Documents/XCode/PTF/Build/Products/Debug-iphonesimulator/PTF.app.dSYM /Users/Jeremy_luo/Documents/XCode/PTF/Build/Products/Debug-iphonesimulator/PTF.app/PTF
+s418190138.122803
+e418190138.364347
+r1
+xGenerateDSYMFile
+x/Users/Jeremy_luo/Documents/XCode/PTF/Build/Products/Debug-iphonesimulator/PTF.app.dSYM
+x/Users/Jeremy_luo/Documents/XCode/PTF/Build/Products/Debug-iphonesimulator/PTF.app/PTF
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection96"Generate /Users/Jeremy_luo/Documents/XCode/PTF/Build/Products/Debug-iphonesimulator/PTF.app.dSYM115"GenerateDSYMFile Build/Products/Debug-iphonesimulator/PTF.app.dSYM Build/Products/Debug-iphonesimulator/PTF.app/PTF8d7b1f3a13edb841^80465d3a13edb841^---0#0#1#-19%DVTDocumentLocation2@94"file:///Users/Jeremy_luo/Documents/XCode/PTF/Build/Products/Debug-iphonesimulator/PTF.app.dSYM00340020deffdf42^634"GenerateDSYMFile Build/Products/Debug-iphonesimulator/PTF.app.dSYM Build/Products/Debug-iphonesimulator/PTF.app/PTF    cd /Users/Jeremy_luo/Documents/XCode/PTF    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/Jeremy_luo/Documents/XCode/PTF/Build/Products/Debug-iphonesimulator/PTF.app/PTF -o /Users/Jeremy_luo/Documents/XCode/PTF/Build/Products/Debug-iphonesimulator/PTF.app.dSYM36"64576B22-F6BC-402C-86DE-E9F833E815AA-
+bA0EFD5F9-41B8-41E6-B71C-12C2807AC9E4
+
+CLd /Users/Jeremy_luo/Documents/XCode/PTF/Build/Products/Debug-iphonesimulator/PTF.app/PTF normal i386
+s418190135.744326
+e418190136.228311
+r1
+xLd
+x/Users/Jeremy_luo/Documents/XCode/PTF/Build/Products/Debug-iphonesimulator/PTF.app/PTF
+xnormal
+xi386
+d/Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/PTF.build/Debug-iphonesimulator/PTF.build/Objects-normal/i386/PTF.LinkFileList
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/crt1.o
+d/Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/PTF.build/Debug-iphonesimulator/PTF.build/Objects-normal/i386/AboutViewController.o
+d/Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/PTF.build/Debug-iphonesimulator/PTF.build/Objects-normal/i386/CalendarViewController.o
+d/Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/PTF.build/Debug-iphonesimulator/PTF.build/Objects-normal/i386/ViewController.o
+d/Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/PTF.build/Debug-iphonesimulator/PTF.build/Objects-normal/i386/MapViewController.o
+d/Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/PTF.build/Debug-iphonesimulator/PTF.build/Objects-normal/i386/AppDelegate.o
+d/Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/PTF.build/Debug-iphonesimulator/PTF.build/Objects-normal/i386/Info.o
+d/Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/PTF.build/Debug-iphonesimulator/PTF.build/Objects-normal/i386/SignupViewController.o
+d/Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/PTF.build/Debug-iphonesimulator/PTF.build/Objects-normal/i386/ContactViewController.o
+d/Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/PTF.build/Debug-iphonesimulator/PTF.build/Objects-normal/i386/InfoViewController.o
+d/Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/PTF.build/Debug-iphonesimulator/PTF.build/Objects-normal/i386/main.o
+d/Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/PTF.build/Debug-iphonesimulator/PTF.build/Objects-normal/i386/LoginViewController.o
+d/Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/PTF.build/Debug-iphonesimulator/PTF.build/Objects-normal/i386/RegisterViewController.o
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libc++.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libicucore.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libz.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/AVFoundation.framework/AVFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreData.framework/CoreData
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreLocation.framework/CoreLocation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreText.framework/CoreText
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/GLKit.framework/GLKit
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Google-Maps-iOS-SDK/GoogleMaps.framework/GoogleMaps
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/ImageIO.framework/ImageIO
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/MobileCoreServices.framework/MobileCoreServices
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/OpenGLES.framework/OpenGLES
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse/Parse.framework/Parse
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/Security.framework/Security
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/StoreKit.framework/StoreKit
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/SystemConfiguration.framework/SystemConfiguration
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/Accounts.framework/Accounts
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/AdSupport.framework/AdSupport
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/Social.framework/Social
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/MessageUI.framework/MessageUI
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/MapKit.framework/MapKit
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+d/Users/Jeremy_luo/Documents/XCode/PTF/Build/Products/Debug-iphonesimulator/libPods.a
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libobjc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libSystem.dylib
+d/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/lib/darwin/libclang_rt.ios.a
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreMIDI.framework/CoreMIDI
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreAudio.framework/CoreAudio
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreVideo.framework/CoreVideo
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreImage.framework/CoreImage
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/AVFoundation.framework/libAVFAudio.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/PrivateFrameworks/UIFoundation.framework/UIFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libc++abi.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_override.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcache_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcommonCrypto_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcorecrypto_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcompiler_rt_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcopyfile_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libdispatch.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libdyld_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libmacho_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libnotify_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libremovefile_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_blocks.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_c.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_dnssd.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_info.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_m.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_network.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libunwind_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libxpc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_configuration.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_asl.dylib
+d/usr/lib/libSystem.B.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/host/libdyld.dylib
+d/usr/lib/system/libcache.dylib
+d/usr/lib/system/libcommonCrypto.dylib
+d/usr/lib/system/libcompiler_rt.dylib
+d/usr/lib/system/libcopyfile.dylib
+d/usr/lib/system/libcorecrypto.dylib
+d/usr/lib/system/libkeymgr.dylib
+d/usr/lib/system/liblaunch.dylib
+d/usr/lib/system/libmacho.dylib
+d/usr/lib/system/libquarantine.dylib
+d/usr/lib/system/libremovefile.dylib
+d/usr/lib/system/libsystem_asl.dylib
+d/usr/lib/system/libsystem_blocks.dylib
+d/usr/lib/system/libsystem_c.dylib
+d/usr/lib/system/libsystem_configuration.dylib
+d/usr/lib/system/libsystem_dnssd.dylib
+d/usr/lib/system/libsystem_info.dylib
+d/usr/lib/system/libsystem_kernel.dylib
+d/usr/lib/system/libsystem_m.dylib
+d/usr/lib/system/libsystem_malloc.dylib
+d/usr/lib/system/libsystem_notify.dylib
+d/usr/lib/system/libsystem_platform.dylib
+d/usr/lib/system/libsystem_pthread.dylib
+d/usr/lib/system/libsystem_sandbox.dylib
+d/usr/lib/system/libunc.dylib
+d/usr/lib/system/libunwind.dylib
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection91"Link /Users/Jeremy_luo/Documents/XCode/PTF/Build/Products/Debug-iphonesimulator/PTF.app/PTF63"Ld Build/Products/Debug-iphonesimulator/PTF.app/PTF normal i3866f9ebe3713edb841^71733a3813edb841^---0#0#1#--2027"Ld Build/Products/Debug-iphonesimulator/PTF.app/PTF normal i386    cd /Users/Jeremy_luo/Documents/XCode/PTF    export IPHONEOS_DEPLOYMENT_TARGET=7.1    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -L/Users/Jeremy_luo/Documents/XCode/PTF/Build/Products/Debug-iphonesimulator -F/Users/Jeremy_luo/Documents/XCode/PTF/Build/Products/Debug-iphonesimulator -F/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Google-Maps-iOS-SDK -F/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse -filelist /Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/PTF.build/Debug-iphonesimulator/PTF.build/Objects-normal/i386/PTF.LinkFileList -Xlinker -objc_abi_version -Xlinker 2 -ObjC -lc++ -licucore -lz -framework AVFoundation -framework AudioToolbox -framework CFNetwork -framework CoreData -framework CoreGraphics -framework CoreLocation -framework CoreText -framework GLKit -framework GoogleMaps -framework ImageIO -framework MobileCoreServices -framework OpenGLES -framework Parse -framework QuartzCore -framework Security -framework StoreKit -framework SystemConfiguration -weak_framework Accounts -weak_framework AdSupport -weak_framework Security -weak_framework Social -fobjc-arc -fobjc-link-runtime -Xlinker -no_implicit_dylibs -mios-simulator-version-min=7.1 -framework QuartzCore -framework MessageUI -framework MapKit -framework CoreGraphics -framework UIKit -framework Foundation -lPods -Xlinker -dependency_info -Xlinker /Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/PTF.build/Debug-iphonesimulator/PTF.build/Objects-normal/i386/PTF_dependency_info.dat -o /Users/Jeremy_luo/Documents/XCode/PTF/Build/Products/Debug-iphonesimulator/PTF.app/PTF36"A88E63BA-9C66-430D-8A18-F731661B6765-
+bA0EFD5F9-41B8-41E6-B71C-12C2807AC9E4
+
+CPhaseScriptExecution Check\ Pods\ Manifest.lock /Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/PTF.build/Debug-iphonesimulator/PTF.build/Script-8B5CE8E16C7E45CCB2B8EF73.sh
+s418190135.258734
+e418190135.271927
+r1
+xPhaseScriptExecution
+xCheck Pods Manifest.lock
+x/Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/PTF.build/Debug-iphonesimulator/PTF.build/Script-8B5CE8E16C7E45CCB2B8EF73.sh
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection50"Run custom shell script 'Check Pods Manifest.lock'144"PhaseScriptExecution Check\ Pods\ Manifest.lock Build/Intermediates/PTF.build/Debug-iphonesimulator/PTF.build/Script-8B5CE8E16C7E45CCB2B8EF73.sh588c423713edb841^ed9d453713edb841^---0#0#1#--340"PhaseScriptExecution Check\ Pods\ Manifest.lock Build/Intermediates/PTF.build/Debug-iphonesimulator/PTF.build/Script-8B5CE8E16C7E45CCB2B8EF73.sh    cd /Users/Jeremy_luo/Documents/XCode/PTF    /bin/sh -c /Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/PTF.build/Debug-iphonesimulator/PTF.build/Script-8B5CE8E16C7E45CCB2B8EF73.sh36"18C9AEE3-41C1-4F73-8F81-533315B12CDF-
+bA0EFD5F9-41B8-41E6-B71C-12C2807AC9E4
+
+CPhaseScriptExecution Copy\ Pods\ Resources /Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/PTF.build/Debug-iphonesimulator/PTF.build/Script-FC2ECC5A407C4B95ABC63305.sh
+s418190138.365276
+e418190138.733950
+r1
+xPhaseScriptExecution
+xCopy Pods Resources
+x/Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/PTF.build/Debug-iphonesimulator/PTF.build/Script-FC2ECC5A407C4B95ABC63305.sh
+o/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Facebook-iOS-SDK/src/FBUserSettingsViewResources.bundle
+o/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Google-Maps-iOS-SDK/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle
+obuilding file list ... done
+oFBUserSettingsViewResources.bundle/
+oFBUserSettingsViewResources.bundle/Contents/
+oFBUserSettingsViewResources.bundle/Contents/Resources/
+oFBUserSettingsViewResources.bundle/Contents/Resources/en.lproj/
+oFBUserSettingsViewResources.bundle/Contents/Resources/en.lproj/Localizable.strings
+oFBUserSettingsViewResources.bundle/Contents/Resources/he.lproj/
+oFBUserSettingsViewResources.bundle/Contents/Resources/he.lproj/Localizable.strings
+oFBUserSettingsViewResources.bundle/images/
+oFBUserSettingsViewResources.bundle/images/facebook-logo.png
+oFBUserSettingsViewResources.bundle/images/facebook-logo@2x.png
+oFBUserSettingsViewResources.bundle/images/loginBackgroundIPadLandscape.jpg
+oFBUserSettingsViewResources.bundle/images/loginBackgroundIPadLandscape@2x.jpg
+oFBUserSettingsViewResources.bundle/images/loginBackgroundIPadPortrait.jpg
+oFBUserSettingsViewResources.bundle/images/loginBackgroundIPadPortrait@2x.jpg
+oFBUserSettingsViewResources.bundle/images/loginBackgroundIPhonePortrait.jpg
+oFBUserSettingsViewResources.bundle/images/loginBackgroundIPhonePortrait@2x.jpg
+oFBUserSettingsViewResources.bundle/images/silver-button-normal.png
+oFBUserSettingsViewResources.bundle/images/silver-button-normal@2x.png
+oFBUserSettingsViewResources.bundle/images/silver-button-pressed.png
+oFBUserSettingsViewResources.bundle/images/silver-button-pressed@2x.png
+oGoogleMaps.bundle/
+oGoogleMaps.bundle/Info.plist
+oGoogleMaps.bundle/bubble_left.png
+oGoogleMaps.bundle/bubble_left@2x.png
+oGoogleMaps.bundle/bubble_right.png
+oGoogleMaps.bundle/bubble_right@2x.png
+oGoogleMaps.bundle/default_marker.png
+oGoogleMaps.bundle/default_marker@2x.png
+oGoogleMaps.bundle/GMSCacheStorage.momd/
+oGoogleMaps.bundle/GMSCacheStorage.momd/Storage.mom
+oGoogleMaps.bundle/GMSCacheStorage.momd/Storage.omo
+oGoogleMaps.bundle/GMSCacheStorage.momd/VersionInfo.plist
+oGoogleMaps.bundle/GMSCoreResources.bundle/
+oGoogleMaps.bundle/GMSCoreResources.bundle/GMSSprites-0.png
+oGoogleMaps.bundle/GMSCoreResources.bundle/GMSSprites-0_retina.png
+oGoogleMaps.bundle/GMSCoreResources.bundle/Info.plist
+oGoogleMaps.bundle/GMSCoreResources.bundle/button_background.png
+oGoogleMaps.bundle/GMSCoreResources.bundle/button_background@2x.png
+oGoogleMaps.bundle/GMSCoreResources.bundle/button_compass.png
+oGoogleMaps.bundle/GMSCoreResources.bundle/button_compass@2x.png
+oGoogleMaps.bundle/GMSCoreResources.bundle/button_my_location.png
+oGoogleMaps.bundle/GMSCoreResources.bundle/button_my_location@2x.png
+oGoogleMaps.bundle/GMSCoreResources.bundle/compass_pin.png
+oGoogleMaps.bundle/GMSCoreResources.bundle/compass_pin@2x.png
+oGoogleMaps.bundle/GMSCoreResources.bundle/dav_one_way_16_256.png
+oGoogleMaps.bundle/GMSCoreResources.bundle/polyline_colors_texture.png
+oGoogleMaps.bundle/GMSCoreResources.bundle/road_1-1.png
+oGoogleMaps.bundle/GMSCoreResources.bundle/road_128-32.png
+oGoogleMaps.bundle/GMSCoreResources.bundle/road_16-4.png
+oGoogleMaps.bundle/GMSCoreResources.bundle/road_2-1.png
+oGoogleMaps.bundle/GMSCoreResources.bundle/road_256-64.png
+oGoogleMaps.bundle/GMSCoreResources.bundle/road_32-8.png
+oGoogleMaps.bundle/GMSCoreResources.bundle/road_4-1.png
+oGoogleMaps.bundle/GMSCoreResources.bundle/road_64-16.png
+oGoogleMaps.bundle/GMSCoreResources.bundle/road_8-2.png
+oGoogleMaps.bundle/GMSCoreResources.bundle/watermark_dark.png
+oGoogleMaps.bundle/GMSCoreResources.bundle/watermark_dark@2x.png
+oGoogleMaps.bundle/GMSCoreResources.bundle/watermark_light.png
+oGoogleMaps.bundle/GMSCoreResources.bundle/watermark_light@2x.png
+oGoogleMaps.bundle/GMSCoreResources.bundle/ar.lproj/
+oGoogleMaps.bundle/GMSCoreResources.bundle/ar.lproj/GMSCore.strings
+oGoogleMaps.bundle/GMSCoreResources.bundle/ca.lproj/
+oGoogleMaps.bundle/GMSCoreResources.bundle/ca.lproj/GMSCore.strings
+oGoogleMaps.bundle/GMSCoreResources.bundle/cs.lproj/
+oGoogleMaps.bundle/GMSCoreResources.bundle/cs.lproj/GMSCore.strings
+oGoogleMaps.bundle/GMSCoreResources.bundle/da.lproj/
+oGoogleMaps.bundle/GMSCoreResources.bundle/da.lproj/GMSCore.strings
+oGoogleMaps.bundle/GMSCoreResources.bundle/de.lproj/
+oGoogleMaps.bundle/GMSCoreResources.bundle/de.lproj/GMSCore.strings
+oGoogleMaps.bundle/GMSCoreResources.bundle/el.lproj/
+oGoogleMaps.bundle/GMSCoreResources.bundle/el.lproj/GMSCore.strings
+oGoogleMaps.bundle/GMSCoreResources.bundle/en.lproj/
+oGoogleMaps.bundle/GMSCoreResources.bundle/en.lproj/GMSCore.strings
+oGoogleMaps.bundle/GMSCoreResources.bundle/en_GB.lproj/
+oGoogleMaps.bundle/GMSCoreResources.bundle/en_GB.lproj/GMSCore.strings
+oGoogleMaps.bundle/GMSCoreResources.bundle/es.lproj/
+oGoogleMaps.bundle/GMSCoreResources.bundle/es.lproj/GMSCore.strings
+oGoogleMaps.bundle/GMSCoreResources.bundle/fi.lproj/
+oGoogleMaps.bundle/GMSCoreResources.bundle/fi.lproj/GMSCore.strings
+oGoogleMaps.bundle/GMSCoreResources.bundle/fr.lproj/
+oGoogleMaps.bundle/GMSCoreResources.bundle/fr.lproj/GMSCore.strings
+oGoogleMaps.bundle/GMSCoreResources.bundle/he.lproj/
+oGoogleMaps.bundle/GMSCoreResources.bundle/he.lproj/GMSCore.strings
+oGoogleMaps.bundle/GMSCoreResources.bundle/hr.lproj/
+oGoogleMaps.bundle/GMSCoreResources.bundle/hr.lproj/GMSCore.strings
+oGoogleMaps.bundle/GMSCoreResources.bundle/hu.lproj/
+oGoogleMaps.bundle/GMSCoreResources.bundle/hu.lproj/GMSCore.strings
+oGoogleMaps.bundle/GMSCoreResources.bundle/id.lproj/
+oGoogleMaps.bundle/GMSCoreResources.bundle/id.lproj/GMSCore.strings
+oGoogleMaps.bundle/GMSCoreResources.bundle/it.lproj/
+oGoogleMaps.bundle/GMSCoreResources.bundle/it.lproj/GMSCore.strings
+oGoogleMaps.bundle/GMSCoreResources.bundle/ja.lproj/
+oGoogleMaps.bundle/GMSCoreResources.bundle/ja.lproj/GMSCore.strings
+oGoogleMaps.bundle/GMSCoreResources.bundle/ko.lproj/
+oGoogleMaps.bundle/GMSCoreResources.bundle/ko.lproj/GMSCore.strings
+oGoogleMaps.bundle/GMSCoreResources.bundle/ms.lproj/
+oGoogleMaps.bundle/GMSCoreResources.bundle/ms.lproj/GMSCore.strings
+oGoogleMaps.bundle/GMSCoreResources.bundle/nl.lproj/
+oGoogleMaps.bundle/GMSCoreResources.bundle/nl.lproj/GMSCore.strings
+oGoogleMaps.bundle/GMSCoreResources.bundle/no.lproj/
+oGoogleMaps.bundle/GMSCoreResources.bundle/no.lproj/GMSCore.strings
+oGoogleMaps.bundle/GMSCoreResources.bundle/pl.lproj/
+oGoogleMaps.bundle/GMSCoreResources.bundle/pl.lproj/GMSCore.strings
+oGoogleMaps.bundle/GMSCoreResources.bundle/pt.lproj/
+oGoogleMaps.bundle/GMSCoreResources.bundle/pt.lproj/GMSCore.strings
+oGoogleMaps.bundle/GMSCoreResources.bundle/pt_PT.lproj/
+oGoogleMaps.bundle/GMSCoreResources.bundle/pt_PT.lproj/GMSCore.strings
+oGoogleMaps.bundle/GMSCoreResources.bundle/ro.lproj/
+oGoogleMaps.bundle/GMSCoreResources.bundle/ro.lproj/GMSCore.strings
+oGoogleMaps.bundle/GMSCoreResources.bundle/ru.lproj/
+oGoogleMaps.bundle/GMSCoreResources.bundle/ru.lproj/GMSCore.strings
+oGoogleMaps.bundle/GMSCoreResources.bundle/sk.lproj/
+oGoogleMaps.bundle/GMSCoreResources.bundle/sk.lproj/GMSCore.strings
+oGoogleMaps.bundle/GMSCoreResources.bundle/sv.lproj/
+oGoogleMaps.bundle/GMSCoreResources.bundle/sv.lproj/GMSCore.strings
+oGoogleMaps.bundle/GMSCoreResources.bundle/th.lproj/
+oGoogleMaps.bundle/GMSCoreResources.bundle/th.lproj/GMSCore.strings
+oGoogleMaps.bundle/GMSCoreResources.bundle/tr.lproj/
+oGoogleMaps.bundle/GMSCoreResources.bundle/tr.lproj/GMSCore.strings
+oGoogleMaps.bundle/GMSCoreResources.bundle/uk.lproj/
+oGoogleMaps.bundle/GMSCoreResources.bundle/uk.lproj/GMSCore.strings
+oGoogleMaps.bundle/GMSCoreResources.bundle/vi.lproj/
+oGoogleMaps.bundle/GMSCoreResources.bundle/vi.lproj/GMSCore.strings
+oGoogleMaps.bundle/GMSCoreResources.bundle/zh_CN.lproj/
+oGoogleMaps.bundle/GMSCoreResources.bundle/zh_CN.lproj/GMSCore.strings
+oGoogleMaps.bundle/GMSCoreResources.bundle/zh_TW.lproj/
+oGoogleMaps.bundle/GMSCoreResources.bundle/zh_TW.lproj/GMSCore.strings
+oGoogleMaps.bundle/en.lproj/
+oGoogleMaps.bundle/en.lproj/InfoPlist.strings
+o
+osent 1188110 bytes  received 2154 bytes  2380528.00 bytes/sec
+ototal size is 1180861  speedup is 0.99
+o/* com.apple.actool.compilation-results */
+o/Users/Jeremy_luo/Documents/XCode/PTF/Build/Products/Debug-iphonesimulator/PTF.app/Assets.car
+o
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection45"Run custom shell script 'Copy Pods Resources'139"PhaseScriptExecution Copy\ Pods\ Resources Build/Intermediates/PTF.build/Debug-iphonesimulator/PTF.build/Script-FC2ECC5A407C4B95ABC63305.sh18d25d3a13edb841^cde4bb3a13edb841^-8053"/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Facebook-iOS-SDK/src/FBUserSettingsViewResources.bundle/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Google-Maps-iOS-SDK/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundlebuilding file list ... doneFBUserSettingsViewResources.bundle/FBUserSettingsViewResources.bundle/Contents/FBUserSettingsViewResources.bundle/Contents/Resources/FBUserSettingsViewResources.bundle/Contents/Resources/en.lproj/FBUserSettingsViewResources.bundle/Contents/Resources/en.lproj/Localizable.stringsFBUserSettingsViewResources.bundle/Contents/Resources/he.lproj/FBUserSettingsViewResources.bundle/Contents/Resources/he.lproj/Localizable.stringsFBUserSettingsViewResources.bundle/images/FBUserSettingsViewResources.bundle/images/facebook-logo.pngFBUserSettingsViewResources.bundle/images/facebook-logo@2x.pngFBUserSettingsViewResources.bundle/images/loginBackgroundIPadLandscape.jpgFBUserSettingsViewResources.bundle/images/loginBackgroundIPadLandscape@2x.jpgFBUserSettingsViewResources.bundle/images/loginBackgroundIPadPortrait.jpgFBUserSettingsViewResources.bundle/images/loginBackgroundIPadPortrait@2x.jpgFBUserSettingsViewResources.bundle/images/loginBackgroundIPhonePortrait.jpgFBUserSettingsViewResources.bundle/images/loginBackgroundIPhonePortrait@2x.jpgFBUserSettingsViewResources.bundle/images/silver-button-normal.pngFBUserSettingsViewResources.bundle/images/silver-button-normal@2x.pngFBUserSettingsViewResources.bundle/images/silver-button-pressed.pngFBUserSettingsViewResources.bundle/images/silver-button-pressed@2x.pngGoogleMaps.bundle/GoogleMaps.bundle/Info.plistGoogleMaps.bundle/bubble_left.pngGoogleMaps.bundle/bubble_left@2x.pngGoogleMaps.bundle/bubble_right.pngGoogleMaps.bundle/bubble_right@2x.pngGoogleMaps.bundle/default_marker.pngGoogleMaps.bundle/default_marker@2x.pngGoogleMaps.bundle/GMSCacheStorage.momd/GoogleMaps.bundle/GMSCacheStorage.momd/Storage.momGoogleMaps.bundle/GMSCacheStorage.momd/Storage.omoGoogleMaps.bundle/GMSCacheStorage.momd/VersionInfo.plistGoogleMaps.bundle/GMSCoreResources.bundle/GoogleMaps.bundle/GMSCoreResources.bundle/GMSSprites-0.pngGoogleMaps.bundle/GMSCoreResources.bundle/GMSSprites-0_retina.pngGoogleMaps.bundle/GMSCoreResources.bundle/Info.plistGoogleMaps.bundle/GMSCoreResources.bundle/button_background.pngGoogleMaps.bundle/GMSCoreResources.bundle/button_background@2x.pngGoogleMaps.bundle/GMSCoreResources.bundle/button_compass.pngGoogleMaps.bundle/GMSCoreResources.bundle/button_compass@2x.pngGoogleMaps.bundle/GMSCoreResources.bundle/button_my_location.pngGoogleMaps.bundle/GMSCoreResources.bundle/button_my_location@2x.pngGoogleMaps.bundle/GMSCoreResources.bundle/compass_pin.pngGoogleMaps.bundle/GMSCoreResources.bundle/compass_pin@2x.pngGoogleMaps.bundle/GMSCoreResources.bundle/dav_one_way_16_256.pngGoogleMaps.bundle/GMSCoreResources.bundle/polyline_colors_texture.pngGoogleMaps.bundle/GMSCoreResources.bundle/road_1-1.pngGoogleMaps.bundle/GMSCoreResources.bundle/road_128-32.pngGoogleMaps.bundle/GMSCoreResources.bundle/road_16-4.pngGoogleMaps.bundle/GMSCoreResources.bundle/road_2-1.pngGoogleMaps.bundle/GMSCoreResources.bundle/road_256-64.pngGoogleMaps.bundle/GMSCoreResources.bundle/road_32-8.pngGoogleMaps.bundle/GMSCoreResources.bundle/road_4-1.pngGoogleMaps.bundle/GMSCoreResources.bundle/road_64-16.pngGoogleMaps.bundle/GMSCoreResources.bundle/road_8-2.pngGoogleMaps.bundle/GMSCoreResources.bundle/watermark_dark.pngGoogleMaps.bundle/GMSCoreResources.bundle/watermark_dark@2x.pngGoogleMaps.bundle/GMSCoreResources.bundle/watermark_light.pngGoogleMaps.bundle/GMSCoreResources.bundle/watermark_light@2x.pngGoogleMaps.bundle/GMSCoreResources.bundle/ar.lproj/GoogleMaps.bundle/GMSCoreResources.bundle/ar.lproj/GMSCore.stringsGoogleMaps.bundle/GMSCoreResources.bundle/ca.lproj/GoogleMaps.bundle/GMSCoreResources.bundle/ca.lproj/GMSCore.stringsGoogleMaps.bundle/GMSCoreResources.bundle/cs.lproj/GoogleMaps.bundle/GMSCoreResources.bundle/cs.lproj/GMSCore.stringsGoogleMaps.bundle/GMSCoreResources.bundle/da.lproj/GoogleMaps.bundle/GMSCoreResources.bundle/da.lproj/GMSCore.stringsGoogleMaps.bundle/GMSCoreResources.bundle/de.lproj/GoogleMaps.bundle/GMSCoreResources.bundle/de.lproj/GMSCore.stringsGoogleMaps.bundle/GMSCoreResources.bundle/el.lproj/GoogleMaps.bundle/GMSCoreResources.bundle/el.lproj/GMSCore.stringsGoogleMaps.bundle/GMSCoreResources.bundle/en.lproj/GoogleMaps.bundle/GMSCoreResources.bundle/en.lproj/GMSCore.stringsGoogleMaps.bundle/GMSCoreResources.bundle/en_GB.lproj/GoogleMaps.bundle/GMSCoreResources.bundle/en_GB.lproj/GMSCore.stringsGoogleMaps.bundle/GMSCoreResources.bundle/es.lproj/GoogleMaps.bundle/GMSCoreResources.bundle/es.lproj/GMSCore.stringsGoogleMaps.bundle/GMSCoreResources.bundle/fi.lproj/GoogleMaps.bundle/GMSCoreResources.bundle/fi.lproj/GMSCore.stringsGoogleMaps.bundle/GMSCoreResources.bundle/fr.lproj/GoogleMaps.bundle/GMSCoreResources.bundle/fr.lproj/GMSCore.stringsGoogleMaps.bundle/GMSCoreResources.bundle/he.lproj/GoogleMaps.bundle/GMSCoreResources.bundle/he.lproj/GMSCore.stringsGoogleMaps.bundle/GMSCoreResources.bundle/hr.lproj/GoogleMaps.bundle/GMSCoreResources.bundle/hr.lproj/GMSCore.stringsGoogleMaps.bundle/GMSCoreResources.bundle/hu.lproj/GoogleMaps.bundle/GMSCoreResources.bundle/hu.lproj/GMSCore.stringsGoogleMaps.bundle/GMSCoreResources.bundle/id.lproj/GoogleMaps.bundle/GMSCoreResources.bundle/id.lproj/GMSCore.stringsGoogleMaps.bundle/GMSCoreResources.bundle/it.lproj/GoogleMaps.bundle/GMSCoreResources.bundle/it.lproj/GMSCore.stringsGoogleMaps.bundle/GMSCoreResources.bundle/ja.lproj/GoogleMaps.bundle/GMSCoreResources.bundle/ja.lproj/GMSCore.stringsGoogleMaps.bundle/GMSCoreResources.bundle/ko.lproj/GoogleMaps.bundle/GMSCoreResources.bundle/ko.lproj/GMSCore.stringsGoogleMaps.bundle/GMSCoreResources.bundle/ms.lproj/GoogleMaps.bundle/GMSCoreResources.bundle/ms.lproj/GMSCore.stringsGoogleMaps.bundle/GMSCoreResources.bundle/nl.lproj/GoogleMaps.bundle/GMSCoreResources.bundle/nl.lproj/GMSCore.stringsGoogleMaps.bundle/GMSCoreResources.bundle/no.lproj/GoogleMaps.bundle/GMSCoreResources.bundle/no.lproj/GMSCore.stringsGoogleMaps.bundle/GMSCoreResources.bundle/pl.lproj/GoogleMaps.bundle/GMSCoreResources.bundle/pl.lproj/GMSCore.stringsGoogleMaps.bundle/GMSCoreResources.bundle/pt.lproj/GoogleMaps.bundle/GMSCoreResources.bundle/pt.lproj/GMSCore.stringsGoogleMaps.bundle/GMSCoreResources.bundle/pt_PT.lproj/GoogleMaps.bundle/GMSCoreResources.bundle/pt_PT.lproj/GMSCore.stringsGoogleMaps.bundle/GMSCoreResources.bundle/ro.lproj/GoogleMaps.bundle/GMSCoreResources.bundle/ro.lproj/GMSCore.stringsGoogleMaps.bundle/GMSCoreResources.bundle/ru.lproj/GoogleMaps.bundle/GMSCoreResources.bundle/ru.lproj/GMSCore.stringsGoogleMaps.bundle/GMSCoreResources.bundle/sk.lproj/GoogleMaps.bundle/GMSCoreResources.bundle/sk.lproj/GMSCore.stringsGoogleMaps.bundle/GMSCoreResources.bundle/sv.lproj/GoogleMaps.bundle/GMSCoreResources.bundle/sv.lproj/GMSCore.stringsGoogleMaps.bundle/GMSCoreResources.bundle/th.lproj/GoogleMaps.bundle/GMSCoreResources.bundle/th.lproj/GMSCore.stringsGoogleMaps.bundle/GMSCoreResources.bundle/tr.lproj/GoogleMaps.bundle/GMSCoreResources.bundle/tr.lproj/GMSCore.stringsGoogleMaps.bundle/GMSCoreResources.bundle/uk.lproj/GoogleMaps.bundle/GMSCoreResources.bundle/uk.lproj/GMSCore.stringsGoogleMaps.bundle/GMSCoreResources.bundle/vi.lproj/GoogleMaps.bundle/GMSCoreResources.bundle/vi.lproj/GMSCore.stringsGoogleMaps.bundle/GMSCoreResources.bundle/zh_CN.lproj/GoogleMaps.bundle/GMSCoreResources.bundle/zh_CN.lproj/GMSCore.stringsGoogleMaps.bundle/GMSCoreResources.bundle/zh_TW.lproj/GoogleMaps.bundle/GMSCoreResources.bundle/zh_TW.lproj/GMSCore.stringsGoogleMaps.bundle/en.lproj/GoogleMaps.bundle/en.lproj/InfoPlist.stringssent 1188110 bytes  received 2154 bytes  2380528.00 bytes/sectotal size is 1180861  speedup is 0.99/* com.apple.actool.compilation-results *//Users/Jeremy_luo/Documents/XCode/PTF/Build/Products/Debug-iphonesimulator/PTF.app/Assets.car136(21%IDEActivityLogMessage2@99"/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Facebook-iOS-SDK/src/FBUserSettingsViewResources.bundle-418190138#0#99#-0#-----2@123"/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Google-Maps-iOS-SDK/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle-418190138#99#123#-0#-----2@28"building file list ... done-418190138#222#28#-0#-----2@36"FBUserSettingsViewResources.bundle/-418190138#250#36#-0#-----2@45"FBUserSettingsViewResources.bundle/Contents/-418190138#286#45#-0#-----2@55"FBUserSettingsViewResources.bundle/Contents/Resources/-418190138#331#55#-0#-----2@64"FBUserSettingsViewResources.bundle/Contents/Resources/en.lproj/-418190138#386#64#-0#-----2@83"FBUserSettingsViewResources.bundle/Contents/Resources/en.lproj/Localizable.strings-418190138#450#83#-0#-----2@64"FBUserSettingsViewResources.bundle/Contents/Resources/he.lproj/-418190138#533#64#-0#-----2@83"FBUserSettingsViewResources.bundle/Contents/Resources/he.lproj/Localizable.strings-418190138#597#83#-0#-----2@43"FBUserSettingsViewResources.bundle/images/-418190138#680#43#-0#-----2@60"FBUserSettingsViewResources.bundle/images/facebook-logo.png-418190138#723#60#-0#-----2@63"FBUserSettingsViewResources.bundle/images/facebook-logo@2x.png-418190138#783#63#-0#-----2@75"FBUserSettingsViewResources.bundle/images/loginBackgroundIPadLandscape.jpg-418190138#846#75#-0#-----2@78"FBUserSettingsViewResources.bundle/images/loginBackgroundIPadLandscape@2x.jpg-418190138#921#78#-0#-----2@74"FBUserSettingsViewResources.bundle/images/loginBackgroundIPadPortrait.jpg-418190138#999#74#-0#-----2@77"FBUserSettingsViewResources.bundle/images/loginBackgroundIPadPortrait@2x.jpg-418190138#1073#77#-0#-----2@76"FBUserSettingsViewResources.bundle/images/loginBackgroundIPhonePortrait.jpg-418190138#1150#76#-0#-----2@79"FBUserSettingsViewResources.bundle/images/loginBackgroundIPhonePortrait@2x.jpg-418190138#1226#79#-0#-----2@67"FBUserSettingsViewResources.bundle/images/silver-button-normal.png-418190138#1305#67#-0#-----2@70"FBUserSettingsViewResources.bundle/images/silver-button-normal@2x.png-418190138#1372#70#-0#-----2@68"FBUserSettingsViewResources.bundle/images/silver-button-pressed.png-418190138#1442#68#-0#-----2@71"FBUserSettingsViewResources.bundle/images/silver-button-pressed@2x.png-418190138#1510#71#-0#-----2@19"GoogleMaps.bundle/-418190138#1581#19#-0#-----2@29"GoogleMaps.bundle/Info.plist-418190138#1600#29#-0#-----2@34"GoogleMaps.bundle/bubble_left.png-418190138#1629#34#-0#-----2@37"GoogleMaps.bundle/bubble_left@2x.png-418190138#1663#37#-0#-----2@35"GoogleMaps.bundle/bubble_right.png-418190138#1700#35#-0#-----2@38"GoogleMaps.bundle/bubble_right@2x.png-418190138#1735#38#-0#-----2@37"GoogleMaps.bundle/default_marker.png-418190138#1773#37#-0#-----2@40"GoogleMaps.bundle/default_marker@2x.png-418190138#1810#40#-0#-----2@40"GoogleMaps.bundle/GMSCacheStorage.momd/-418190138#1850#40#-0#-----2@51"GoogleMaps.bundle/GMSCacheStorage.momd/Storage.mom-418190138#1890#51#-0#-----2@51"GoogleMaps.bundle/GMSCacheStorage.momd/Storage.omo-418190138#1941#51#-0#-----2@57"GoogleMaps.bundle/GMSCacheStorage.momd/VersionInfo.plist-418190138#1992#57#-0#-----2@43"GoogleMaps.bundle/GMSCoreResources.bundle/-418190138#2049#43#-0#-----2@59"GoogleMaps.bundle/GMSCoreResources.bundle/GMSSprites-0.png-418190138#2092#59#-0#-----2@66"GoogleMaps.bundle/GMSCoreResources.bundle/GMSSprites-0_retina.png-418190138#2151#66#-0#-----2@53"GoogleMaps.bundle/GMSCoreResources.bundle/Info.plist-418190138#2217#53#-0#-----2@64"GoogleMaps.bundle/GMSCoreResources.bundle/button_background.png-418190138#2270#64#-0#-----2@67"GoogleMaps.bundle/GMSCoreResources.bundle/button_background@2x.png-418190138#2334#67#-0#-----2@61"GoogleMaps.bundle/GMSCoreResources.bundle/button_compass.png-418190138#2401#61#-0#-----2@64"GoogleMaps.bundle/GMSCoreResources.bundle/button_compass@2x.png-418190138#2462#64#-0#-----2@65"GoogleMaps.bundle/GMSCoreResources.bundle/button_my_location.png-418190138#2526#65#-0#-----2@68"GoogleMaps.bundle/GMSCoreResources.bundle/button_my_location@2x.png-418190138#2591#68#-0#-----2@58"GoogleMaps.bundle/GMSCoreResources.bundle/compass_pin.png-418190138#2659#58#-0#-----2@61"GoogleMaps.bundle/GMSCoreResources.bundle/compass_pin@2x.png-418190138#2717#61#-0#-----2@65"GoogleMaps.bundle/GMSCoreResources.bundle/dav_one_way_16_256.png-418190138#2778#65#-0#-----2@70"GoogleMaps.bundle/GMSCoreResources.bundle/polyline_colors_texture.png-418190138#2843#70#-0#-----2@55"GoogleMaps.bundle/GMSCoreResources.bundle/road_1-1.png-418190138#2913#55#-0#-----2@58"GoogleMaps.bundle/GMSCoreResources.bundle/road_128-32.png-418190138#2968#58#-0#-----2@56"GoogleMaps.bundle/GMSCoreResources.bundle/road_16-4.png-418190138#3026#56#-0#-----2@55"GoogleMaps.bundle/GMSCoreResources.bundle/road_2-1.png-418190138#3082#55#-0#-----2@58"GoogleMaps.bundle/GMSCoreResources.bundle/road_256-64.png-418190138#3137#58#-0#-----2@56"GoogleMaps.bundle/GMSCoreResources.bundle/road_32-8.png-418190138#3195#56#-0#-----2@55"GoogleMaps.bundle/GMSCoreResources.bundle/road_4-1.png-418190138#3251#55#-0#-----2@57"GoogleMaps.bundle/GMSCoreResources.bundle/road_64-16.png-418190138#3306#57#-0#-----2@55"GoogleMaps.bundle/GMSCoreResources.bundle/road_8-2.png-418190138#3363#55#-0#-----2@61"GoogleMaps.bundle/GMSCoreResources.bundle/watermark_dark.png-418190138#3418#61#-0#-----2@64"GoogleMaps.bundle/GMSCoreResources.bundle/watermark_dark@2x.png-418190138#3479#64#-0#-----2@62"GoogleMaps.bundle/GMSCoreResources.bundle/watermark_light.png-418190138#3543#62#-0#-----2@65"GoogleMaps.bundle/GMSCoreResources.bundle/watermark_light@2x.png-418190138#3605#65#-0#-----2@52"GoogleMaps.bundle/GMSCoreResources.bundle/ar.lproj/-418190138#3670#52#-0#-----2@67"GoogleMaps.bundle/GMSCoreResources.bundle/ar.lproj/GMSCore.strings-418190138#3722#67#-0#-----2@52"GoogleMaps.bundle/GMSCoreResources.bundle/ca.lproj/-418190138#3789#52#-0#-----2@67"GoogleMaps.bundle/GMSCoreResources.bundle/ca.lproj/GMSCore.strings-418190138#3841#67#-0#-----2@52"GoogleMaps.bundle/GMSCoreResources.bundle/cs.lproj/-418190138#3908#52#-0#-----2@67"GoogleMaps.bundle/GMSCoreResources.bundle/cs.lproj/GMSCore.strings-418190138#3960#67#-0#-----2@52"GoogleMaps.bundle/GMSCoreResources.bundle/da.lproj/-418190138#4027#52#-0#-----2@67"GoogleMaps.bundle/GMSCoreResources.bundle/da.lproj/GMSCore.strings-418190138#4079#67#-0#-----2@52"GoogleMaps.bundle/GMSCoreResources.bundle/de.lproj/-418190138#4146#52#-0#-----2@67"GoogleMaps.bundle/GMSCoreResources.bundle/de.lproj/GMSCore.strings-418190138#4198#67#-0#-----2@52"GoogleMaps.bundle/GMSCoreResources.bundle/el.lproj/-418190138#4265#52#-0#-----2@67"GoogleMaps.bundle/GMSCoreResources.bundle/el.lproj/GMSCore.strings-418190138#4317#67#-0#-----2@52"GoogleMaps.bundle/GMSCoreResources.bundle/en.lproj/-418190138#4384#52#-0#-----2@67"GoogleMaps.bundle/GMSCoreResources.bundle/en.lproj/GMSCore.strings-418190138#4436#67#-0#-----2@55"GoogleMaps.bundle/GMSCoreResources.bundle/en_GB.lproj/-418190138#4503#55#-0#-----2@70"GoogleMaps.bundle/GMSCoreResources.bundle/en_GB.lproj/GMSCore.strings-418190138#4558#70#-0#-----2@52"GoogleMaps.bundle/GMSCoreResources.bundle/es.lproj/-418190138#4628#52#-0#-----2@67"GoogleMaps.bundle/GMSCoreResources.bundle/es.lproj/GMSCore.strings-418190138#4680#67#-0#-----2@52"GoogleMaps.bundle/GMSCoreResources.bundle/fi.lproj/-418190138#4747#52#-0#-----2@67"GoogleMaps.bundle/GMSCoreResources.bundle/fi.lproj/GMSCore.strings-418190138#4799#67#-0#-----2@52"GoogleMaps.bundle/GMSCoreResources.bundle/fr.lproj/-418190138#4866#52#-0#-----2@67"GoogleMaps.bundle/GMSCoreResources.bundle/fr.lproj/GMSCore.strings-418190138#4918#67#-0#-----2@52"GoogleMaps.bundle/GMSCoreResources.bundle/he.lproj/-418190138#4985#52#-0#-----2@67"GoogleMaps.bundle/GMSCoreResources.bundle/he.lproj/GMSCore.strings-418190138#5037#67#-0#-----2@52"GoogleMaps.bundle/GMSCoreResources.bundle/hr.lproj/-418190138#5104#52#-0#-----2@67"GoogleMaps.bundle/GMSCoreResources.bundle/hr.lproj/GMSCore.strings-418190138#5156#67#-0#-----2@52"GoogleMaps.bundle/GMSCoreResources.bundle/hu.lproj/-418190138#5223#52#-0#-----2@67"GoogleMaps.bundle/GMSCoreResources.bundle/hu.lproj/GMSCore.strings-418190138#5275#67#-0#-----2@52"GoogleMaps.bundle/GMSCoreResources.bundle/id.lproj/-418190138#5342#52#-0#-----2@67"GoogleMaps.bundle/GMSCoreResources.bundle/id.lproj/GMSCore.strings-418190138#5394#67#-0#-----2@52"GoogleMaps.bundle/GMSCoreResources.bundle/it.lproj/-418190138#5461#52#-0#-----2@67"GoogleMaps.bundle/GMSCoreResources.bundle/it.lproj/GMSCore.strings-418190138#5513#67#-0#-----2@52"GoogleMaps.bundle/GMSCoreResources.bundle/ja.lproj/-418190138#5580#52#-0#-----2@67"GoogleMaps.bundle/GMSCoreResources.bundle/ja.lproj/GMSCore.strings-418190138#5632#67#-0#-----2@52"GoogleMaps.bundle/GMSCoreResources.bundle/ko.lproj/-418190138#5699#52#-0#-----2@67"GoogleMaps.bundle/GMSCoreResources.bundle/ko.lproj/GMSCore.strings-418190138#5751#67#-0#-----2@52"GoogleMaps.bundle/GMSCoreResources.bundle/ms.lproj/-418190138#5818#52#-0#-----2@67"GoogleMaps.bundle/GMSCoreResources.bundle/ms.lproj/GMSCore.strings-418190138#5870#67#-0#-----2@52"GoogleMaps.bundle/GMSCoreResources.bundle/nl.lproj/-418190138#5937#52#-0#-----2@67"GoogleMaps.bundle/GMSCoreResources.bundle/nl.lproj/GMSCore.strings-418190138#5989#67#-0#-----2@52"GoogleMaps.bundle/GMSCoreResources.bundle/no.lproj/-418190138#6056#52#-0#-----2@67"GoogleMaps.bundle/GMSCoreResources.bundle/no.lproj/GMSCore.strings-418190138#6108#67#-0#-----2@52"GoogleMaps.bundle/GMSCoreResources.bundle/pl.lproj/-418190138#6175#52#-0#-----2@67"GoogleMaps.bundle/GMSCoreResources.bundle/pl.lproj/GMSCore.strings-418190138#6227#67#-0#-----2@52"GoogleMaps.bundle/GMSCoreResources.bundle/pt.lproj/-418190138#6294#52#-0#-----2@67"GoogleMaps.bundle/GMSCoreResources.bundle/pt.lproj/GMSCore.strings-418190138#6346#67#-0#-----2@55"GoogleMaps.bundle/GMSCoreResources.bundle/pt_PT.lproj/-418190138#6413#55#-0#-----2@70"GoogleMaps.bundle/GMSCoreResources.bundle/pt_PT.lproj/GMSCore.strings-418190138#6468#70#-0#-----2@52"GoogleMaps.bundle/GMSCoreResources.bundle/ro.lproj/-418190138#6538#52#-0#-----2@67"GoogleMaps.bundle/GMSCoreResources.bundle/ro.lproj/GMSCore.strings-418190138#6590#67#-0#-----2@52"GoogleMaps.bundle/GMSCoreResources.bundle/ru.lproj/-418190138#6657#52#-0#-----2@67"GoogleMaps.bundle/GMSCoreResources.bundle/ru.lproj/GMSCore.strings-418190138#6709#67#-0#-----2@52"GoogleMaps.bundle/GMSCoreResources.bundle/sk.lproj/-418190138#6776#52#-0#-----2@67"GoogleMaps.bundle/GMSCoreResources.bundle/sk.lproj/GMSCore.strings-418190138#6828#67#-0#-----2@52"GoogleMaps.bundle/GMSCoreResources.bundle/sv.lproj/-418190138#6895#52#-0#-----2@67"GoogleMaps.bundle/GMSCoreResources.bundle/sv.lproj/GMSCore.strings-418190138#6947#67#-0#-----2@52"GoogleMaps.bundle/GMSCoreResources.bundle/th.lproj/-418190138#7014#52#-0#-----2@67"GoogleMaps.bundle/GMSCoreResources.bundle/th.lproj/GMSCore.strings-418190138#7066#67#-0#-----2@52"GoogleMaps.bundle/GMSCoreResources.bundle/tr.lproj/-418190138#7133#52#-0#-----2@67"GoogleMaps.bundle/GMSCoreResources.bundle/tr.lproj/GMSCore.strings-418190138#7185#67#-0#-----2@52"GoogleMaps.bundle/GMSCoreResources.bundle/uk.lproj/-418190138#7252#52#-0#-----2@67"GoogleMaps.bundle/GMSCoreResources.bundle/uk.lproj/GMSCore.strings-418190138#7304#67#-0#-----2@52"GoogleMaps.bundle/GMSCoreResources.bundle/vi.lproj/-418190138#7371#52#-0#-----2@67"GoogleMaps.bundle/GMSCoreResources.bundle/vi.lproj/GMSCore.strings-418190138#7423#67#-0#-----2@55"GoogleMaps.bundle/GMSCoreResources.bundle/zh_CN.lproj/-418190138#7490#55#-0#-----2@70"GoogleMaps.bundle/GMSCoreResources.bundle/zh_CN.lproj/GMSCore.strings-418190138#7545#70#-0#-----2@55"GoogleMaps.bundle/GMSCoreResources.bundle/zh_TW.lproj/-418190138#7615#55#-0#-----2@70"GoogleMaps.bundle/GMSCoreResources.bundle/zh_TW.lproj/GMSCore.strings-418190138#7670#70#-0#-----2@28"GoogleMaps.bundle/en.lproj/-418190138#7740#28#-0#-----2@45"GoogleMaps.bundle/en.lproj/InfoPlist.strings-418190138#7768#45#-0#-----2@62"sent 1188110 bytes  received 2154 bytes  2380528.00 bytes/sec-418190138#7814#62#-0#-----2@39"total size is 1180861  speedup is 0.99-418190138#7876#39#-0#-----2@43"/* com.apple.actool.compilation-results */-418190138#7915#43#-0#-----2@94"/Users/Jeremy_luo/Documents/XCode/PTF/Build/Products/Debug-iphonesimulator/PTF.app/Assets.car-418190138#7958#94#-0#-----0#0#1#--335"PhaseScriptExecution Copy\ Pods\ Resources Build/Intermediates/PTF.build/Debug-iphonesimulator/PTF.build/Script-FC2ECC5A407C4B95ABC63305.sh    cd /Users/Jeremy_luo/Documents/XCode/PTF    /bin/sh -c /Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/PTF.build/Debug-iphonesimulator/PTF.build/Script-FC2ECC5A407C4B95ABC63305.sh36"0D29C438-FF7D-4AA1-AD7A-D5510A03A320-
+bA0EFD5F9-41B8-41E6-B71C-12C2807AC9E4
+
+CProcessInfoPlistFile /Users/Jeremy_luo/Documents/XCode/PTF/Build/Products/Debug-iphonesimulator/PTF.app/Info.plist /Users/Jeremy_luo/Documents/XCode/PTF/PTF/PTF-Info.plist
+s418190138.120704
+e418190138.122323
+r1
+xProcessInfoPlistFile
+x/Users/Jeremy_luo/Documents/XCode/PTF/Build/Products/Debug-iphonesimulator/PTF.app/Info.plist
+x/Users/Jeremy_luo/Documents/XCode/PTF/PTF/PTF-Info.plist
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection64"Process /Users/Jeremy_luo/Documents/XCode/PTF/PTF/PTF-Info.plist95"ProcessInfoPlistFile Build/Products/Debug-iphonesimulator/PTF.app/Info.plist PTF/PTF-Info.plist12f51e3a13edb841^05511f3a13edb841^---0#0#1#-19%DVTDocumentLocation2@63"file:///Users/Jeremy_luo/Documents/XCode/PTF/PTF/PTF-Info.plist0000000000000000^841"ProcessInfoPlistFile Build/Products/Debug-iphonesimulator/PTF.app/Info.plist PTF/PTF-Info.plist    cd /Users/Jeremy_luo/Documents/XCode/PTF    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility /Users/Jeremy_luo/Documents/XCode/PTF/PTF/PTF-Info.plist -genpkginfo /Users/Jeremy_luo/Documents/XCode/PTF/Build/Products/Debug-iphonesimulator/PTF.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -additionalcontentfile /Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/PTF.build/Debug-iphonesimulator/PTF.build/assetcatalog_generated_info.plist -o /Users/Jeremy_luo/Documents/XCode/PTF/Build/Products/Debug-iphonesimulator/PTF.app/Info.plist36"7399671C-BD42-4154-8287-4F0562365D36-
+bA0EFD5F9-41B8-41E6-B71C-12C2807AC9E4
+
+CProcessPCH /Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/PrecompiledHeaders/PTF-Prefix-hervfvacaggtzlfzenclcecsuyii/PTF-Prefix.pch.pch PTF/PTF-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s418190135.272572
+e418190135.466328
+r1
+xProcessPCH
+x/Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/PrecompiledHeaders/PTF-Prefix-hervfvacaggtzlfzenclcecsuyii/PTF-Prefix.pch.pch
+xPTF/PTF-Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/Jeremy_luo/Documents/XCode/PTF/PTF/PTF-Prefix.pch
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection29"Precompile PTF/PTF-Prefix.pch195"ProcessPCH Build/Intermediates/PrecompiledHeaders/PTF-Prefix-hervfvacaggtzlfzenclcecsuyii/PTF-Prefix.pch.pch PTF/PTF-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler87db453713edb841^b263773713edb841^---0#0#1#-19%DVTDocumentLocation2@63"file:///Users/Jeremy_luo/Documents/XCode/PTF/PTF/PTF-Prefix.pch0000000000000000^4467"ProcessPCH Build/Intermediates/PrecompiledHeaders/PTF-Prefix-hervfvacaggtzlfzenclcecsuyii/PTF-Prefix.pch.pch PTF/PTF-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Jeremy_luo/Documents/XCode/PTF    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/Jeremy_luo/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.1 -iquote /Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/PTF.build/Debug-iphonesimulator/PTF.build/PTF-generated-files.hmap -I/Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/PTF.build/Debug-iphonesimulator/PTF.build/PTF-own-target-headers.hmap -I/Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/PTF.build/Debug-iphonesimulator/PTF.build/PTF-all-target-headers.hmap -iquote /Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/PTF.build/Debug-iphonesimulator/PTF.build/PTF-project-headers.hmap -I/Users/Jeremy_luo/Documents/XCode/PTF/Build/Products/Debug-iphonesimulator/include -I/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Headers -I/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Headers/Facebook-iOS-SDK -I/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Headers/Facebook-iOS-SDK/FacebookSDK -I/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Headers/Google-Maps-iOS-SDK -I/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Headers/Google-Maps-iOS-SDK/GoogleMaps -I/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Headers/PDTSimpleCalendar -I/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Headers/Parse -I/Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/PTF.build/Debug-iphonesimulator/PTF.build/DerivedSources/i386 -I/Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/PTF.build/Debug-iphonesimulator/PTF.build/DerivedSources -F/Users/Jeremy_luo/Documents/XCode/PTF/Build/Products/Debug-iphonesimulator -F/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Google-Maps-iOS-SDK -F/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse -isystem/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Headers -isystem/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Headers/Facebook-iOS-SDK -isystem/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Headers/Facebook-iOS-SDK/FacebookSDK -isystem/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Headers/Google-Maps-iOS-SDK -isystem/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Headers/Google-Maps-iOS-SDK/GoogleMaps -isystem/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Headers/PDTSimpleCalendar -isystem/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Headers/Parse --serialize-diagnostics /Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/PrecompiledHeaders/PTF-Prefix-hervfvacaggtzlfzenclcecsuyii/PTF-Prefix.pch.dia -MMD -MT dependencies -MF /Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/PrecompiledHeaders/PTF-Prefix-hervfvacaggtzlfzenclcecsuyii/PTF-Prefix.pch.d -c /Users/Jeremy_luo/Documents/XCode/PTF/PTF/PTF-Prefix.pch -o /Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/PrecompiledHeaders/PTF-Prefix-hervfvacaggtzlfzenclcecsuyii/PTF-Prefix.pch.pch36"C078033B-48CF-466D-B2AC-333F1E048812-
+bA0EFD5F9-41B8-41E6-B71C-12C2807AC9E4
+
+CProcessPCH /Users/Jeremy_luo/Library/Developer/Xcode/DerivedData/PTF-cdvkrigxxqcvhqcxxcstamaonmag/Index/PrecompiledHeaders/PTF-Prefix-gpacadxulgbjnldpwyvrxdrlxhna_ast/PTF-Prefix.pch.pch PTF/PTF-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CTouch /Users/Jeremy_luo/Documents/XCode/PTF/Build/Products/Debug-iphonesimulator/PTF.app
+r0
+

@@ -1,0 +1,19 @@
+PODS:
+  - Facebook-iOS-SDK (3.13.0)
+  - Google-Maps-iOS-SDK (1.7.2)
+  - Parse (1.2.18):
+    - Facebook-iOS-SDK (~> 3.11)
+  - PDTSimpleCalendar (0.6)
+
+DEPENDENCIES:
+  - Google-Maps-iOS-SDK (~> 1.7)
+  - Parse
+  - PDTSimpleCalendar (~> 0.6)
+
+SPEC CHECKSUMS:
+  Facebook-iOS-SDK: 5788541337dc88265bc940cb5ffb05915f9b64e3
+  Google-Maps-iOS-SDK: 5ac063b3d020b6a7f91dcbf59b3b0e3c17170d27
+  Parse: 6dd57f2af9f89dc6facc755cec4e96f8b739b1fb
+  PDTSimpleCalendar: 4e0afd73d00cd15a08f7eaca67b60bd3aaab2059
+
+COCOAPODS: 0.29.0

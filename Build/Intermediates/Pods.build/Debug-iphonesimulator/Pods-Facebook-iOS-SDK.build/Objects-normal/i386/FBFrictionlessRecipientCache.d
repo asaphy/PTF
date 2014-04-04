@@ -1,0 +1,20 @@
+dependencies: \
+  /Users/Jeremy_luo/Documents/XCode/PTF/Pods/Facebook-iOS-SDK/src/UI/FBFrictionlessRecipientCache.m \
+  /Users/Jeremy_luo/Documents/XCode/PTF/Pods/Facebook-iOS-SDK/src/FBFrictionlessRecipientCache.h \
+  /Users/Jeremy_luo/Documents/XCode/PTF/Pods/Facebook-iOS-SDK/src/FBCacheDescriptor.h \
+  /Users/Jeremy_luo/Documents/XCode/PTF/Pods/Facebook-iOS-SDK/src/FBSession.h \
+  /Users/Jeremy_luo/Documents/XCode/PTF/Pods/Facebook-iOS-SDK/src/FBRequest.h \
+  /Users/Jeremy_luo/Documents/XCode/PTF/Pods/Facebook-iOS-SDK/src/FBGraphObject.h \
+  /Users/Jeremy_luo/Documents/XCode/PTF/Pods/Facebook-iOS-SDK/src/FBOpenGraphAction.h \
+  /Users/Jeremy_luo/Documents/XCode/PTF/Pods/Facebook-iOS-SDK/src/FBOpenGraphObject.h \
+  /Users/Jeremy_luo/Documents/XCode/PTF/Pods/Facebook-iOS-SDK/src/FBRequestConnection.h \
+  /Users/Jeremy_luo/Documents/XCode/PTF/Pods/Facebook-iOS-SDK/src/FBWebDialogs.h \
+  /Users/Jeremy_luo/Documents/XCode/PTF/Pods/Facebook-iOS-SDK/src/UI/FBFrictionlessDialogSupportDelegate.h \
+  /Users/Jeremy_luo/Documents/XCode/PTF/Pods/Facebook-iOS-SDK/src/Legacy/FBFrictionlessRequestSettings.h \
+  /Users/Jeremy_luo/Documents/XCode/PTF/Pods/Facebook-iOS-SDK/src/Login/FBSession+Internal.h \
+  /Users/Jeremy_luo/Documents/XCode/PTF/Pods/Facebook-iOS-SDK/src/Login/FBSessionAppEventsState.h \
+  /Users/Jeremy_luo/Documents/XCode/PTF/Pods/Facebook-iOS-SDK/src/Login/FBSystemAccountStoreAdapter.h \
+  /Users/Jeremy_luo/Documents/XCode/PTF/Pods/Facebook-iOS-SDK/src/FBTask.h \
+  /Users/Jeremy_luo/Documents/XCode/PTF/Pods/Facebook-iOS-SDK/src/FBTaskCompletionSource.h \
+  /Users/Jeremy_luo/Documents/XCode/PTF/Pods/Facebook-iOS-SDK/src/Core/FBUtility.h \
+  /Users/Jeremy_luo/Documents/XCode/PTF/Pods/Facebook-iOS-SDK/src/Core/FBFetchedAppSettings.h

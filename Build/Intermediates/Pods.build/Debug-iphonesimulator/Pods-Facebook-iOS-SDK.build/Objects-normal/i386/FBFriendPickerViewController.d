@@ -1,0 +1,33 @@
+dependencies: \
+  /Users/Jeremy_luo/Documents/XCode/PTF/Pods/Facebook-iOS-SDK/src/UI/FBFriendPickerViewController.m \
+  /Users/Jeremy_luo/Documents/XCode/PTF/Pods/Facebook-iOS-SDK/src/FBFriendPickerViewController.h \
+  /Users/Jeremy_luo/Documents/XCode/PTF/Pods/Facebook-iOS-SDK/src/FBCacheDescriptor.h \
+  /Users/Jeremy_luo/Documents/XCode/PTF/Pods/Facebook-iOS-SDK/src/FBSession.h \
+  /Users/Jeremy_luo/Documents/XCode/PTF/Pods/Facebook-iOS-SDK/src/FBGraphUser.h \
+  /Users/Jeremy_luo/Documents/XCode/PTF/Pods/Facebook-iOS-SDK/src/FBGraphObject.h \
+  /Users/Jeremy_luo/Documents/XCode/PTF/Pods/Facebook-iOS-SDK/src/FBGraphPlace.h \
+  /Users/Jeremy_luo/Documents/XCode/PTF/Pods/Facebook-iOS-SDK/src/FBGraphLocation.h \
+  /Users/Jeremy_luo/Documents/XCode/PTF/Pods/Facebook-iOS-SDK/src/FBViewController.h \
+  /Users/Jeremy_luo/Documents/XCode/PTF/Pods/Facebook-iOS-SDK/src/UI/FBFriendPickerViewController+Internal.h \
+  /Users/Jeremy_luo/Documents/XCode/PTF/Pods/Facebook-iOS-SDK/src/Network/FBGraphObjectTableDataSource.h \
+  /Users/Jeremy_luo/Documents/XCode/PTF/Pods/Facebook-iOS-SDK/src/FBRequest.h \
+  /Users/Jeremy_luo/Documents/XCode/PTF/Pods/Facebook-iOS-SDK/src/FBOpenGraphAction.h \
+  /Users/Jeremy_luo/Documents/XCode/PTF/Pods/Facebook-iOS-SDK/src/FBOpenGraphObject.h \
+  /Users/Jeremy_luo/Documents/XCode/PTF/Pods/Facebook-iOS-SDK/src/FBRequestConnection.h \
+  /Users/Jeremy_luo/Documents/XCode/PTF/Pods/Facebook-iOS-SDK/src/Insights/FBAppEvents+Internal.h \
+  /Users/Jeremy_luo/Documents/XCode/PTF/Pods/Facebook-iOS-SDK/src/FBAppEvents.h \
+  /Users/Jeremy_luo/Documents/XCode/PTF/Pods/Facebook-iOS-SDK/src/FBError.h \
+  /Users/Jeremy_luo/Documents/XCode/PTF/Pods/Facebook-iOS-SDK/src/UI/FBFriendPickerCacheDescriptor.h \
+  /Users/Jeremy_luo/Documents/XCode/PTF/Pods/Facebook-iOS-SDK/src/FBFriendPickerViewDefaultPNG.h \
+  /Users/Jeremy_luo/Documents/XCode/PTF/Pods/Facebook-iOS-SDK/src/Network/FBGraphObjectPagingLoader.h \
+  /Users/Jeremy_luo/Documents/XCode/PTF/Pods/Facebook-iOS-SDK/src/Network/FBGraphObjectTableCell.h \
+  /Users/Jeremy_luo/Documents/XCode/PTF/Pods/Facebook-iOS-SDK/src/Network/FBGraphObjectTableSelection.h \
+  /Users/Jeremy_luo/Documents/XCode/PTF/Pods/Facebook-iOS-SDK/src/Core/FBLogger.h \
+  /Users/Jeremy_luo/Documents/XCode/PTF/Pods/Facebook-iOS-SDK/src/Login/FBSession+Internal.h \
+  /Users/Jeremy_luo/Documents/XCode/PTF/Pods/Facebook-iOS-SDK/src/Login/FBSessionAppEventsState.h \
+  /Users/Jeremy_luo/Documents/XCode/PTF/Pods/Facebook-iOS-SDK/src/Login/FBSystemAccountStoreAdapter.h \
+  /Users/Jeremy_luo/Documents/XCode/PTF/Pods/Facebook-iOS-SDK/src/FBTask.h \
+  /Users/Jeremy_luo/Documents/XCode/PTF/Pods/Facebook-iOS-SDK/src/FBTaskCompletionSource.h \
+  /Users/Jeremy_luo/Documents/XCode/PTF/Pods/Facebook-iOS-SDK/src/FBSettings.h \
+  /Users/Jeremy_luo/Documents/XCode/PTF/Pods/Facebook-iOS-SDK/src/Core/FBUtility.h \
+  /Users/Jeremy_luo/Documents/XCode/PTF/Pods/Facebook-iOS-SDK/src/Core/FBFetchedAppSettings.h

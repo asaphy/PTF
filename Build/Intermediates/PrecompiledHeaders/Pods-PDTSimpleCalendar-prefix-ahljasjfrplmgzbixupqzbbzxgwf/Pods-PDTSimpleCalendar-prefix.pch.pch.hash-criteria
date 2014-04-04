@@ -1,0 +1,37 @@
+Contents of /Users/Jeremy_luo/Documents/XCode/PTF/Pods/Pods-PDTSimpleCalendar-prefix.pch
+-x
+objective-c
+-arch
+x86_64
+-std=gnu99
+-fmodules
+-fmodules-cache-path=/Users/Jeremy_luo/Library/Developer/Xcode/DerivedData/ModuleCache
+-fpascal-strings
+-O0
+-DDEBUG=1
+-DCOCOAPODS=1
+-isysroot
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk
+-fexceptions
+-fasm-blocks
+-g
+-fobjc-abi-version=2
+-fobjc-legacy-dispatch
+-mios-simulator-version-min=6.0
+-iquote
+-iquote
+-I/Users/Jeremy_luo/Documents/XCode/PTF/Build/Products/Debug-iphonesimulator/include
+-I/Users/Jeremy_luo/Documents/XCode/PTF/Pods/BuildHeaders
+-I/Users/Jeremy_luo/Documents/XCode/PTF/Pods/BuildHeaders/PDTSimpleCalendar
+-I/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Headers
+-I/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Headers/Facebook-iOS-SDK
+-I/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Headers/Facebook-iOS-SDK/FacebookSDK
+-I/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Headers/Google-Maps-iOS-SDK
+-I/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Headers/Google-Maps-iOS-SDK/GoogleMaps
+-I/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Headers/PDTSimpleCalendar
+-I/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Headers/Parse
+-F/Users/Jeremy_luo/Documents/XCode/PTF/Build/Products/Debug-iphonesimulator
+x86_64-apple-darwin13.1.0
+"4.2.1 Compatible Apple LLVM 5.1 (clang-503.0.38)"
+SDK_PRODUCT_BUILD_VERSION=11D167
+11D167

@@ -1,0 +1,157 @@
+TPods-Parse
+v6
+r1
+cCheck dependencies
+cProcessPCH /Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/PrecompiledHeaders/Pods-Parse-prefix-ckobvaurddgbrchbstsjbfjvjkem/Pods-Parse-prefix.pch.pch Pods-Parse-prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Parse.build/Objects-normal/i386/Pods-Parse-dummy.o /Users/Jeremy_luo/Documents/XCode/PTF/Pods/Pods-Parse-dummy.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLibtool /Users/Jeremy_luo/Documents/XCode/PTF/Build/Products/Debug-iphonesimulator/libPods-Parse.a normal i386
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+c00000000000000000000000000000000
+t2
+s0
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork
+c00000000000000000000000000000000
+t2
+s0
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c00000000000000000000000000000000
+t2
+s0
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/CoreLocation.framework/CoreLocation
+c00000000000000000000000000000000
+t2
+s0
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c00000000000000000000000000000000
+t2
+s0
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/MobileCoreServices.framework/MobileCoreServices
+c00000000000000000000000000000000
+t2
+s0
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+c00000000000000000000000000000000
+t2
+s0
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/Security.framework/Security
+c00000000000000000000000000000000
+t2
+s0
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/StoreKit.framework/StoreKit
+c00000000000000000000000000000000
+t2
+s0
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/SystemConfiguration.framework/SystemConfiguration
+c00000000000000000000000000000000
+t2
+s0
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk
+c0000000053119F8A0000000000000198
+t1393663882
+s408
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/SDKSettings.plist
+c000000005324709900000000000003B4
+t1394897049
+s948
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/CoreServices/SystemVersion.plist
+c000000005324709D000000000000019E
+t1394897053
+s414
+
+N/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/include/module.map
+c00000000532470BD0000000000000ADC
+t1394897085
+s2780
+
+N/Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Parse.build/Objects-normal/i386/Pods-Parse-dummy.o
+t1396497335
+s3384
+
+N/Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Parse.build/Objects-normal/i386/Pods-Parse.LinkFileList
+c00000000533CDBB70000000000000093
+t1396497335
+s147
+
+N/Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/PrecompiledHeaders/Pods-Parse-prefix-ckobvaurddgbrchbstsjbfjvjkem/Pods-Parse-prefix.pch.pch
+t1396497335
+s124372
+
+N/Users/Jeremy_luo/Documents/XCode/PTF/Build/Products/Debug-iphonesimulator/libPods-Parse.a
+t2
+s0
+
+N/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Pods-Parse-dummy.m
+c00000000533CDBA8000000000000007C
+t1396497320
+s124
+
+N/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Pods-Parse-prefix.pch
+c00000000533CDBA8000000000000004D
+t1396497320
+s77
+
+CBuild AST from /Users/Jeremy_luo/Documents/XCode/PTF/Pods/Pods-Parse-dummy.m
+r0
+
+CCheck dependencies
+r0
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependenciesb9ff083713edb841^d5ec093713edb841^---0#1#1#--18"Check dependencies36"2BE13898-98CA-41E4-A870-4F8DC18B952B-
+
+CCompileC /Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Parse.build/Objects-normal/i386/Pods-Parse-dummy.o /Users/Jeremy_luo/Documents/XCode/PTF/Pods/Pods-Parse-dummy.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s418190135.080448
+e418190135.110063
+r1
+xCompileC
+x/Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Parse.build/Objects-normal/i386/Pods-Parse-dummy.o
+x/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Pods-Parse-dummy.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Pods-Parse-dummy.m
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection69"Compile /Users/Jeremy_luo/Documents/XCode/PTF/Pods/Pods-Parse-dummy.m242"CompileC /Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Parse.build/Objects-normal/i386/Pods-Parse-dummy.o Pods-Parse-dummy.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler4bac143713edb841^f12d1c3713edb841^---0#0#1#-19%DVTDocumentLocation2@68"file:///Users/Jeremy_luo/Documents/XCode/PTF/Pods/Pods-Parse-dummy.m0000000000000000^4260"CompileC /Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Parse.build/Objects-normal/i386/Pods-Parse-dummy.o Pods-Parse-dummy.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Jeremy_luo/Documents/XCode/PTF/Pods    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/Jeremy_luo/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.0 -iquote /Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Parse.build/Pods-Parse-generated-files.hmap -I/Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Parse.build/Pods-Parse-own-target-headers.hmap -I/Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Parse.build/Pods-Parse-all-target-headers.hmap -iquote /Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Parse.build/Pods-Parse-project-headers.hmap -I/Users/Jeremy_luo/Documents/XCode/PTF/Build/Products/Debug-iphonesimulator/include -I/Users/Jeremy_luo/Documents/XCode/PTF/Pods/BuildHeaders -I/Users/Jeremy_luo/Documents/XCode/PTF/Pods/BuildHeaders/Parse -I/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Headers -I/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Headers/Facebook-iOS-SDK -I/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Headers/Facebook-iOS-SDK/FacebookSDK -I/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Headers/Google-Maps-iOS-SDK -I/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Headers/Google-Maps-iOS-SDK/GoogleMaps -I/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Headers/PDTSimpleCalendar -I/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Headers/Parse -I/Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Parse.build/DerivedSources/i386 -I/Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Parse.build/DerivedSources -F/Users/Jeremy_luo/Documents/XCode/PTF/Build/Products/Debug-iphonesimulator -F/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse -include /Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/PrecompiledHeaders/Pods-Parse-prefix-ckobvaurddgbrchbstsjbfjvjkem/Pods-Parse-prefix.pch -MMD -MT dependencies -MF /Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Parse.build/Objects-normal/i386/Pods-Parse-dummy.d --serialize-diagnostics /Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Parse.build/Objects-normal/i386/Pods-Parse-dummy.dia -c /Users/Jeremy_luo/Documents/XCode/PTF/Pods/Pods-Parse-dummy.m -o /Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Parse.build/Objects-normal/i386/Pods-Parse-dummy.o36"4D32EEEA-086A-40EE-BA26-084868C56CE0-
+b76A9827D-7F4D-4AEE-8B01-CF6239531C9B
+
+CLibtool /Users/Jeremy_luo/Documents/XCode/PTF/Build/Products/Debug-iphonesimulator/libPods-Parse.a normal i386
+s418190135.111107
+e418190135.115679
+r1
+xLibtool
+x/Users/Jeremy_luo/Documents/XCode/PTF/Build/Products/Debug-iphonesimulator/libPods-Parse.a
+xnormal
+xi386
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection110"Libtool /Users/Jeremy_luo/Documents/XCode/PTF/Build/Products/Debug-iphonesimulator/libPods-Parse.a normal i386110"Libtool /Users/Jeremy_luo/Documents/XCode/PTF/Build/Products/Debug-iphonesimulator/libPods-Parse.a normal i38630801c3713edb841^419e1d3713edb841^---0#0#1#--1220"Libtool /Users/Jeremy_luo/Documents/XCode/PTF/Build/Products/Debug-iphonesimulator/libPods-Parse.a normal i386    cd /Users/Jeremy_luo/Documents/XCode/PTF/Pods    export IPHONEOS_DEPLOYMENT_TARGET=6.0    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only i386 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -L/Users/Jeremy_luo/Documents/XCode/PTF/Build/Products/Debug-iphonesimulator -filelist /Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Parse.build/Objects-normal/i386/Pods-Parse.LinkFileList -framework AudioToolbox -framework CFNetwork -framework CoreGraphics -framework CoreLocation -framework Foundation -framework MobileCoreServices -framework QuartzCore -framework Security -framework StoreKit -framework SystemConfiguration -o /Users/Jeremy_luo/Documents/XCode/PTF/Build/Products/Debug-iphonesimulator/libPods-Parse.a36"2B2F9033-7609-4F35-A9DA-4D0F980C48FC-
+b76A9827D-7F4D-4AEE-8B01-CF6239531C9B
+
+CProcessPCH /Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/PrecompiledHeaders/Pods-Parse-prefix-ckobvaurddgbrchbstsjbfjvjkem/Pods-Parse-prefix.pch.pch Pods-Parse-prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s418190135.039346
+e418190135.079831
+r1
+xProcessPCH
+x/Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/PrecompiledHeaders/Pods-Parse-prefix-ckobvaurddgbrchbstsjbfjvjkem/Pods-Parse-prefix.pch.pch
+xPods-Parse-prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Pods-Parse-prefix.pch
+d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Pods-environment.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection32"Precompile Pods-Parse-prefix.pch250"ProcessPCH /Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/PrecompiledHeaders/Pods-Parse-prefix-ckobvaurddgbrchbstsjbfjvjkem/Pods-Parse-prefix.pch.pch Pods-Parse-prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler99280a3713edb841^6171143713edb841^---0#0#1#-19%DVTDocumentLocation2@71"file:///Users/Jeremy_luo/Documents/XCode/PTF/Pods/Pods-Parse-prefix.pch0000000000000000^4128"ProcessPCH /Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/PrecompiledHeaders/Pods-Parse-prefix-ckobvaurddgbrchbstsjbfjvjkem/Pods-Parse-prefix.pch.pch Pods-Parse-prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Jeremy_luo/Documents/XCode/PTF/Pods    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/Jeremy_luo/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.0 -iquote /Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Parse.build/Pods-Parse-generated-files.hmap -I/Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Parse.build/Pods-Parse-own-target-headers.hmap -I/Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Parse.build/Pods-Parse-all-target-headers.hmap -iquote /Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Parse.build/Pods-Parse-project-headers.hmap -I/Users/Jeremy_luo/Documents/XCode/PTF/Build/Products/Debug-iphonesimulator/include -I/Users/Jeremy_luo/Documents/XCode/PTF/Pods/BuildHeaders -I/Users/Jeremy_luo/Documents/XCode/PTF/Pods/BuildHeaders/Parse -I/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Headers -I/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Headers/Facebook-iOS-SDK -I/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Headers/Facebook-iOS-SDK/FacebookSDK -I/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Headers/Google-Maps-iOS-SDK -I/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Headers/Google-Maps-iOS-SDK/GoogleMaps -I/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Headers/PDTSimpleCalendar -I/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Headers/Parse -I/Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Parse.build/DerivedSources/i386 -I/Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Parse.build/DerivedSources -F/Users/Jeremy_luo/Documents/XCode/PTF/Build/Products/Debug-iphonesimulator -F/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse --serialize-diagnostics /Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/PrecompiledHeaders/Pods-Parse-prefix-ckobvaurddgbrchbstsjbfjvjkem/Pods-Parse-prefix.pch.dia -MMD -MT dependencies -MF /Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/PrecompiledHeaders/Pods-Parse-prefix-ckobvaurddgbrchbstsjbfjvjkem/Pods-Parse-prefix.pch.d -c /Users/Jeremy_luo/Documents/XCode/PTF/Pods/Pods-Parse-prefix.pch -o /Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/PrecompiledHeaders/Pods-Parse-prefix-ckobvaurddgbrchbstsjbfjvjkem/Pods-Parse-prefix.pch.pch36"7B4D1C5D-A3CB-4F8E-A04B-901E23F16A86-
+b76A9827D-7F4D-4AEE-8B01-CF6239531C9B
+
+CProcessPCH /Users/Jeremy_luo/Library/Developer/Xcode/DerivedData/PTF-cdvkrigxxqcvhqcxxcstamaonmag/Index/PrecompiledHeaders/Pods-Parse-prefix-cxmtfwwumqwkxcgdcjabsullbnqh_ast/Pods-Parse-prefix.pch.pch Pods-Parse-prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+

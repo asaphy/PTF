@@ -1,18 +1,18 @@
 //
-//  CalChildViewController.m
+//  VolunteerViewController.m
 //  PTF
 //
 //  Created by Jeremy_Luo on 4/3/14.
 //  Copyright (c) 2014 Global App Initiative. All rights reserved.
 //
 
-#import "CalChildViewController.h"
+#import "VolunteerViewController.h"
 
-@interface CalChildViewController ()
+@interface VolunteerViewController ()
 
 @end
 
-@implementation CalChildViewController
+@implementation VolunteerViewController
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -27,25 +27,12 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    
-    /*
-    NSDateComponents *components = [self.calendar components:NSCalendarUnitDay | NSCalendarUnitMonth | NSCalendarUnitYear fromDate:self.today];
-    
-    int year = (int)[components year];
-    int month = (int)[components month];
-    int day = (int)[components day];
-    
-    NSString * d = [NSString stringWithFormat:@"%d%d%d", month,day, year];
-    NSLog(@"%@",d);
-    */
-
 }
 
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
-    
 }
 
 /*
@@ -58,26 +45,5 @@
     // Pass the selected object to the new view controller.
 }
 */
-
-- (void) facultyChangedTo:(int)type
-{
-    switch (type) {
-        case 0: // driver
-            
-            break;
-            
-        case 1: // food provider
-            
-            break;
-        
-        case 2: // chaperone
-            
-            break;
-            
-        default:
-            break;
-    }
-}
-
 
 @end

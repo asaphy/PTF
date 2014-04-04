@@ -329,6 +329,24 @@
             </objects>
             <point key="canvasLocation" x="2436" y="838"/>
         </scene>
+        <!--Volunteer View Controller-->
+        <scene sceneID="0hn-Cw-4us">
+            <objects>
+                <viewController storyboardIdentifier="VolunteerViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="keF-cA-l8J" customClass="VolunteerViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="cZr-RF-joD"/>
+                        <viewControllerLayoutGuide type="bottom" id="FPU-NW-I1n"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="dLw-1z-q2Q">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Zio-r2-FOi" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2409" y="-2160"/>
+        </scene>
         <!--Calendar View Controller - Calendar-->
         <scene sceneID="Tya-8o-RkQ">
             <objects>

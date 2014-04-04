@@ -8,7 +8,7 @@
 
 #import "CalendarViewController.h"
 
-@interface CalendarViewController ()
+@interface CalendarViewController () <PDTSimpleCalendarViewDelegate>
 {
     PDTSimpleCalendarViewController * calViewContainer;
 }
@@ -35,7 +35,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     calViewContainer = self.childViewControllers.lastObject;
-
+    calViewContainer.delegate = self;
     
 }
 
@@ -64,7 +64,7 @@
 
 - (IBAction)facultyTypeChanged:(UISegmentedControl *)sender
 {
-    
+    /*
     NSDateComponents *components = [calViewContainer.calendar components:NSCalendarUnitDay | NSCalendarUnitMonth | NSCalendarUnitYear fromDate:calViewContainer.today];
     
     int year = (int)[components year];
@@ -73,6 +73,7 @@
     
     NSString * d = [NSString stringWithFormat:@"%d%d%d", month,day, year];
     NSLog(@"%@",d);
+     */
     switch (sender.selectedSegmentIndex) {
         case 0: // Driver
             
@@ -90,4 +91,12 @@
             break;
     }
 }
+
+- (void)simpleCalendarViewController:(PDTSimpleCalendarViewController *)controller didSelectDate:(NSDate *)date
+{
+    UIViewController * volunteerView = [self.storyboard instantiateViewControllerWithIdentifier:@"VolunteerViewController"];
+    NSLog(@"%@", volunteerView);
+    [self.navigationController pushViewController:volunteerView animated:YES];
+}
+
 @end

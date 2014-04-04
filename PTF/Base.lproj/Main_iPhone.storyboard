@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5053" systemVersion="13C64" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="RWZ-jX-wVF">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5053" systemVersion="13C64" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="WOX-Uc-5vm">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
     </dependencies>
@@ -329,10 +329,10 @@
             </objects>
             <point key="canvasLocation" x="2436" y="838"/>
         </scene>
-        <!--Calendar View Controller - Cl-->
+        <!--Calendar View Controller - Calendar-->
         <scene sceneID="Tya-8o-RkQ">
             <objects>
-                <viewController storyboardIdentifier="CalendarViewController" autoresizesArchivedViewToFullSize="NO" title="Cl" wantsFullScreenLayout="YES" useStoryboardIdentifierAsRestorationIdentifier="YES" id="lHm-z4-rG0" customClass="CalendarViewController" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="CalendarViewController" autoresizesArchivedViewToFullSize="NO" wantsFullScreenLayout="YES" useStoryboardIdentifierAsRestorationIdentifier="YES" id="lHm-z4-rG0" customClass="CalendarViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="gvu-Gf-XWG"/>
                         <viewControllerLayoutGuide type="bottom" id="C8i-3Z-Z9t"/>
@@ -341,14 +341,6 @@
                         <rect key="frame" x="0.0" y="64" width="320" height="455"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <containerView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bzx-eY-Hxa">
-                                <rect key="frame" x="0.0" y="41" width="320" height="414"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                                <connections>
-                                    <segue destination="nXK-Hi-HF6" kind="embed" id="2tu-bD-mSL"/>
-                                </connections>
-                            </containerView>
                             <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="zk2-Qs-psS">
                                 <rect key="frame" x="0.0" y="5" width="320" height="29"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -357,7 +349,18 @@
                                     <segment title="Food Provider"/>
                                     <segment title="Chaperone"/>
                                 </segments>
+                                <connections>
+                                    <action selector="facultyTypeChanged:" destination="lHm-z4-rG0" eventType="valueChanged" id="rwo-OW-nOs"/>
+                                </connections>
                             </segmentedControl>
+                            <containerView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="zYM-en-zcg">
+                                <rect key="frame" x="0.0" y="41" width="320" height="414"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                <connections>
+                                    <segue destination="t2k-d8-iS7" kind="embed" id="KwQ-G6-L63"/>
+                                </connections>
+                            </containerView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
@@ -372,12 +375,15 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="logOut:" destination="lHm-z4-rG0" eventType="touchUpInside" id="VMS-bX-uZT"/>
+                                    <action selector="logOutDetailed:" destination="lHm-z4-rG0" eventType="touchUpInside" id="NU3-Ag-N0k"/>
                                 </connections>
                             </button>
                         </barButtonItem>
                     </navigationItem>
                     <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" translucent="NO" prompted="NO"/>
+                    <connections>
+                        <outlet property="facultyTypeSegmentedControl" destination="zk2-Qs-psS" id="lpm-xS-fK9"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="y0t-xe-fek" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -584,7 +590,6 @@
                                 </state>
                                 <connections>
                                     <action selector="registerUser:" destination="xXG-fK-jMM" eventType="touchUpInside" id="QHm-5d-rhb"/>
-                                    <segue destination="wfm-Zn-is8" kind="modal" id="jfU-pS-i1B"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dRO-9e-KXf">
@@ -628,24 +633,24 @@
             </objects>
             <point key="canvasLocation" x="41" y="615"/>
         </scene>
-        <!--Simple Calendar View Controller-->
-        <scene sceneID="L7F-nu-hNg">
+        <!--Cal Child View Controller-->
+        <scene sceneID="LdY-eQ-0zA">
             <objects>
-                <viewController automaticallyAdjustsScrollViewInsets="NO" id="nXK-Hi-HF6" customClass="PDTSimpleCalendarViewController" sceneMemberID="viewController">
+                <viewController automaticallyAdjustsScrollViewInsets="NO" id="t2k-d8-iS7" customClass="CalChildViewController" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="bEd-Bi-ldP"/>
-                        <viewControllerLayoutGuide type="bottom" id="wiB-V1-IGR"/>
+                        <viewControllerLayoutGuide type="top" id="w8f-Q9-Qjl"/>
+                        <viewControllerLayoutGuide type="bottom" id="2ag-qA-VtO"/>
                     </layoutGuides>
-                    <view key="view" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="1TP-tt-cgv">
+                    <view key="view" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gfQ-a1-uDv">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="414"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <toolbarItems/>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="ung-C9-2hH" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ycH-MX-Kmv" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2464" y="-1525"/>
+            <point key="canvasLocation" x="2428" y="-1504"/>
         </scene>
     </scenes>
     <resources>
@@ -661,7 +666,4 @@
         <simulatedOrientationMetrics key="orientation"/>
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
-    <inferredMetricsTieBreakers>
-        <segue reference="jfU-pS-i1B"/>
-    </inferredMetricsTieBreakers>
 </document>

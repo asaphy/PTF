@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		56655C473D5E47F1BDE4742B /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 31189C9E43B147CFA52DBC7C /* libPods.a */; };
+		75A8D2DA18ED507F0035BBEC /* CalChildViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75A8D2D918ED507F0035BBEC /* CalChildViewController.m */; };
 		75B98C2718ED239C00564385 /* CalendarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75B98C2618ED239C00564385 /* CalendarViewController.m */; };
 		83052AB018DE1724001F7143 /* background_login.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 83052AAF18DE1724001F7143 /* background_login.jpg */; };
 		833AA2BA18DD71C300C89860 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 833AA2B918DD71C300C89860 /* MessageUI.framework */; };
@@ -56,6 +57,8 @@
 /* Begin PBXFileReference section */
 		17443ACF6F2D4157A5F463A5 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 		31189C9E43B147CFA52DBC7C /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		75A8D2D818ED507F0035BBEC /* CalChildViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalChildViewController.h; sourceTree = "<group>"; };
+		75A8D2D918ED507F0035BBEC /* CalChildViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalChildViewController.m; sourceTree = "<group>"; };
 		75B98C2518ED239C00564385 /* CalendarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalendarViewController.h; sourceTree = "<group>"; };
 		75B98C2618ED239C00564385 /* CalendarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalendarViewController.m; sourceTree = "<group>"; };
 		83052AAF18DE1724001F7143 /* background_login.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background_login.jpg; sourceTree = "<group>"; };
@@ -176,6 +179,8 @@
 				83D1E54918DD20A700457CCA /* AppDelegate.m */,
 				8388049118DDDBEA0015B292 /* LoginViewController.h */,
 				8388049218DDDBEA0015B292 /* LoginViewController.m */,
+				75A8D2D818ED507F0035BBEC /* CalChildViewController.h */,
+				75A8D2D918ED507F0035BBEC /* CalChildViewController.m */,
 				75B98C2518ED239C00564385 /* CalendarViewController.h */,
 				75B98C2618ED239C00564385 /* CalendarViewController.m */,
 				83D1E57418DD32B600457CCA /* MapViewController.h */,
@@ -378,6 +383,7 @@
 				8388048818DD976A0015B292 /* AboutViewController.m in Sources */,
 				83D1E55318DD20A700457CCA /* ViewController.m in Sources */,
 				83D1E57618DD32B600457CCA /* MapViewController.m in Sources */,
+				75A8D2DA18ED507F0035BBEC /* CalChildViewController.m in Sources */,
 				83D1E54A18DD20A700457CCA /* AppDelegate.m in Sources */,
 				75B98C2718ED239C00564385 /* CalendarViewController.m in Sources */,
 				8388048E18DDA2E30015B292 /* Info.m in Sources */,

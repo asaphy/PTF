@@ -1,25 +1,18 @@
 //
-//  CalendarViewController.m
+//  CalChildViewController.m
 //  PTF
 //
 //  Created by Jeremy_Luo on 4/3/14.
 //  Copyright (c) 2014 Global App Initiative. All rights reserved.
 //
 
-#import "CalendarViewController.h"
+#import "CalChildViewController.h"
 
-@interface CalendarViewController ()
-{
-    PDTSimpleCalendarViewController * calViewContainer;
-}
-
+@interface CalChildViewController ()
 
 @end
 
-@implementation CalendarViewController
-
-@synthesize facultyTypeSegmentedControl;
-
+@implementation CalChildViewController
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -34,9 +27,18 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    calViewContainer = self.childViewControllers.lastObject;
-
     
+    
+    NSDateComponents *components = [self.calendar components:NSCalendarUnitDay | NSCalendarUnitMonth | NSCalendarUnitYear fromDate:self.today];
+    
+    int year = (int)[components year];
+    int month = (int)[components month];
+    int day = (int)[components day];
+    
+    NSString * d = [NSString stringWithFormat:@"%d%d%d", month,day, year];
+    NSLog(@"%@",d);
+    
+
 }
 
 - (void)didReceiveMemoryWarning
@@ -57,31 +59,17 @@
 }
 */
 
-- (IBAction)logOutDetailed:(id)sender {
-    [PFUser logOut];
-    [self.navigationController.navigationController popToRootViewControllerAnimated:YES];
-}
-
-- (IBAction)facultyTypeChanged:(UISegmentedControl *)sender
+- (void) facultyChangedTo:(int)type
 {
-    
-    NSDateComponents *components = [calViewContainer.calendar components:NSCalendarUnitDay | NSCalendarUnitMonth | NSCalendarUnitYear fromDate:calViewContainer.today];
-    
-    int year = (int)[components year];
-    int month = (int)[components month];
-    int day = (int)[components day];
-    
-    NSString * d = [NSString stringWithFormat:@"%d%d%d", month,day, year];
-    NSLog(@"%@",d);
-    switch (sender.selectedSegmentIndex) {
-        case 0: // Driver
+    switch (type) {
+        case 0: // driver
             
             break;
             
         case 1: // food provider
             
             break;
-            
+        
         case 2: // chaperone
             
             break;
@@ -90,4 +78,5 @@
             break;
     }
 }
+
 @end

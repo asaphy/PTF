@@ -7,7 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <PDTSimpleCalendar/PDTSimpleCalendar.h>
+#import <Parse/Parse.h>
 
 @interface CalendarViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UISegmentedControl *facultyTypeSegmentedControl;
+
+
+- (IBAction)facultyTypeChanged:(UISegmentedControl *)sender;
 @end

@@ -65,12 +65,6 @@
     infos = [NSArray arrayWithObjects:info1, info2, info3, info4, info5, info6, nil];
 }
 
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
-
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
@@ -103,6 +97,12 @@
 - (IBAction)logOutInfo:(id)sender {
     [PFUser logOut];
     [self.navigationController.navigationController popToRootViewControllerAnimated:YES];
+}
+
+- (void)didReceiveMemoryWarning
+{
+    [super didReceiveMemoryWarning];
+    // Dispose of any resources that can be recreated.
 }
 
 /*

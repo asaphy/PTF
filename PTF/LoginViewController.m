@@ -57,10 +57,12 @@
             
             if (user) {
                 [self goToLoggedInViewController];
+                [self.loginPassword resignFirstResponder];
             }else
             {
-                UIAlertView * view = [[UIAlertView alloc]initWithTitle:@"Log In Error" message:@"Unable to Login, please try again" delegate:nil cancelButtonTitle:@"Okay" otherButtonTitles:nil];
+                UIAlertView * view = [[UIAlertView alloc]initWithTitle:@"Log In Error" message:@"Unable to login, please try again" delegate:nil cancelButtonTitle:@"Okay" otherButtonTitles:nil];
                 [view show];
+                [self.loginPassword resignFirstResponder];
             }
         }];
 }
@@ -73,7 +75,6 @@
 }
 - (IBAction)goToSignUp:(id)sender {
     UIViewController * svc = [self.storyboard instantiateViewControllerWithIdentifier:@"SignUpViewController"];
-    NSLog(@"%@", svc);
     [self.navigationController pushViewController:svc animated:YES];
 }
 /*

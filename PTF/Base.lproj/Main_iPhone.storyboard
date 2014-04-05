@@ -777,8 +777,8 @@
                     </view>
                     <navigationItem key="navigationItem" id="7hs-4W-GkE"/>
                     <connections>
-                        <outlet property="signUpFirstname" destination="pMw-qq-CGe" id="VQ7-7X-vdG"/>
                         <outlet property="signupEmail" destination="YSr-44-Cx0" id="bXv-cx-bQN"/>
+                        <outlet property="signupFirstname" destination="pMw-qq-CGe" id="GCK-Uj-PKF"/>
                         <outlet property="signupLastname" destination="6Xs-bI-3zC" id="ixR-UI-uTF"/>
                         <outlet property="signupPassword" destination="LPe-e7-yDi" id="P1f-9V-oHm"/>
                         <outlet property="signupUsername" destination="8VB-vs-ym9" id="atc-0K-lqm"/>

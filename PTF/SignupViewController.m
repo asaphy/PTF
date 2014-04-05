@@ -10,12 +10,7 @@
 #import <Parse/Parse.h>
 
 @interface SignupViewController ()
-@property (strong, nonatomic) IBOutlet UITextField *signUpFirstname;
-@property (strong, nonatomic) IBOutlet UITextField *signupLastname;
-@property (strong, nonatomic) IBOutlet UITextField *signupUsername;
-@property (strong, nonatomic) IBOutlet UITextField *signupEmail;
-@property (strong, nonatomic) IBOutlet UITextField *signupPassword;
-@property (strong, nonatomic) IBOutlet UILabel *statusLabel;
+
 
 @end
 
@@ -46,17 +41,23 @@
 - (IBAction)registerUser:(id)sender {
     
     PFUser * user = [PFUser user];
-    user.password = self.signupPassword.text;
+    user[@"firstname"] = self.signupFirstname.text;
+    user[@"lastname"] = self.signupLastname.text;
+    user.username = self.signupUsername.text;
     user.username = self.signupUsername.text;
     user.email = self.signupEmail.text;
-    
+    user.password = self.signupPassword.text;
+
     [user signUpInBackgroundWithBlock:^(BOOL succeeded, NSError *error) {
         if(succeeded)
         {
-            self.statusLabel.text = @"Succeeded";
+            self.statusLabel.text = @"Registration Succeeded!";
+            [self.signupPassword resignFirstResponder];
+            [self.navigationController popToRootViewControllerAnimated:YES];
         }else
         {
-            self.statusLabel.text = @"Try Again";
+            self.statusLabel.text = @"Please Try Again";
+            [self.signupPassword resignFirstResponder];
         }
     }];
 }

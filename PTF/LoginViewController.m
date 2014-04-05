@@ -70,7 +70,6 @@
 -(void) goToLoggedInViewController
 {
     UITabBarController * mvc = [self.storyboard instantiateViewControllerWithIdentifier:@"TabBarController"];
-    NSLog(@"%@", mvc);
     [self.navigationController pushViewController:mvc animated:YES];
 }
 - (IBAction)goToSignUp:(id)sender {

@@ -102,8 +102,6 @@
     NSDateFormatter *dateFormat = [[NSDateFormatter alloc] init];
     [dateFormat setDateFormat:@"yyyy-MM-dd"];
     NSString *theDate = [dateFormat stringFromDate:todayDate];
-    NSLog(@"Todays date is %@", theDate);
-
     PFQuery *query = [PFQuery queryWithClassName:@"EventDates"];
     [query whereKey:@"date" equalTo:theDate];
     [query getFirstObjectInBackgroundWithBlock:^(PFObject *object, NSError *error) {

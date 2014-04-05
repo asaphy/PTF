@@ -7,11 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import <Parse/Parse.h>
 @interface EventViewController : UIViewController
 - (IBAction)driver:(id)sender;
 - (IBAction)food:(id)sender;
 - (IBAction)chaperone1:(id)sender;
 - (IBAction)chaperone2:(id)sender;
+@property (nonatomic, retain) NSString *username;
 
 @end

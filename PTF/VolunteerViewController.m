@@ -74,6 +74,11 @@
     eventDates[@"location"] = select;
     eventDates[@"date"] = theDate;
     eventDates[@"time"] = eventStartTime;
+    eventDates[@"driver"] = @"";
+    eventDates[@"foodProvider"] = @"";
+    eventDates[@"chaperone1"] = @"";
+    eventDates[@"chaperone2"] = @"";
+    
     [eventDates saveInBackground];
     
     NSString *title = [[NSString alloc] initWithFormat:@"You have succesfully added an event at %@ on %@ starting at %@!", select, theDate, eventStartTime];

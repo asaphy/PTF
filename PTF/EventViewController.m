@@ -27,6 +27,7 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    _username = [[PFUser currentUser]username];
 }
 
 - (void)didReceiveMemoryWarning
@@ -47,14 +48,86 @@
 */
 
 - (IBAction)driver:(id)sender {
+    NSDate *tmpDate = [[NSUserDefaults standardUserDefaults] objectForKey:@"date"];
+    NSDateFormatter *dateFormat = [[NSDateFormatter alloc] init];
+    [dateFormat setDateFormat:@"yyyy-MM-dd"];
+    NSString *theDate = [dateFormat stringFromDate:tmpDate];
+    PFQuery *query = [PFQuery queryWithClassName:@"EventDates"];
+    [query whereKey:@"date" equalTo:theDate];
+    [query getFirstObjectInBackgroundWithBlock:^(PFObject * driver, NSError *error) {
+        if (!error) {
+            // Found Driver
+            [driver setObject:_username forKey:@"driver"];
+            
+            // Save
+            [driver saveInBackground];
+        } else {
+            // Did not find any for the current user
+            NSLog(@"Error: %@", error);
+        }
+    }];
 }
 
 - (IBAction)food:(id)sender {
+    NSDate *tmpDate = [[NSUserDefaults standardUserDefaults] objectForKey:@"date"];
+    NSDateFormatter *dateFormat = [[NSDateFormatter alloc] init];
+    [dateFormat setDateFormat:@"yyyy-MM-dd"];
+    NSString *theDate = [dateFormat stringFromDate:tmpDate];
+    PFQuery *query = [PFQuery queryWithClassName:@"EventDates"];
+    [query whereKey:@"date" equalTo:theDate];
+    [query getFirstObjectInBackgroundWithBlock:^(PFObject * foodProvider, NSError *error) {
+        if (!error) {
+            // Found Driver
+            [foodProvider setObject:_username forKey:@"foodProvider"];
+            
+            // Save
+            [foodProvider saveInBackground];
+        } else {
+            // Did not find any for the current user
+            NSLog(@"Error: %@", error);
+        }
+    }];
 }
 
 - (IBAction)chaperone1:(id)sender {
+    NSDate *tmpDate = [[NSUserDefaults standardUserDefaults] objectForKey:@"date"];
+    NSDateFormatter *dateFormat = [[NSDateFormatter alloc] init];
+    [dateFormat setDateFormat:@"yyyy-MM-dd"];
+    NSString *theDate = [dateFormat stringFromDate:tmpDate];
+    PFQuery *query = [PFQuery queryWithClassName:@"EventDates"];
+    [query whereKey:@"date" equalTo:theDate];
+    [query getFirstObjectInBackgroundWithBlock:^(PFObject * chaperone1, NSError *error) {
+        if (!error) {
+            // Found Driver
+            [chaperone1 setObject:_username forKey:@"chaperone1"];
+            
+            // Save
+            [chaperone1 saveInBackground];
+        } else {
+            // Did not find any for the current user
+            NSLog(@"Error: %@", error);
+        }
+    }];
 }
 
 - (IBAction)chaperone2:(id)sender {
+    NSDate *tmpDate = [[NSUserDefaults standardUserDefaults] objectForKey:@"date"];
+    NSDateFormatter *dateFormat = [[NSDateFormatter alloc] init];
+    [dateFormat setDateFormat:@"yyyy-MM-dd"];
+    NSString *theDate = [dateFormat stringFromDate:tmpDate];
+    PFQuery *query = [PFQuery queryWithClassName:@"EventDates"];
+    [query whereKey:@"date" equalTo:theDate];
+    [query getFirstObjectInBackgroundWithBlock:^(PFObject * chaperone2, NSError *error) {
+        if (!error) {
+            // Found Driver
+            [chaperone2 setObject:_username forKey:@"chaperone2"];
+            
+            // Save
+            [chaperone2 saveInBackground];
+        } else {
+            // Did not find any for the current user
+            NSLog(@"Error: %@", error);
+        }
+    }];
 }
 @end

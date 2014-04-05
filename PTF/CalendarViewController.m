@@ -94,9 +94,30 @@
 
 - (void)simpleCalendarViewController:(PDTSimpleCalendarViewController *)controller didSelectDate:(NSDate *)date
 {
-    UIViewController * volunteerView = [self.storyboard instantiateViewControllerWithIdentifier:@"VolunteerViewController"];
-    NSLog(@"%@", volunteerView);
-    [self.navigationController pushViewController:volunteerView animated:YES];
+    
+    NSDate *todayDate = [[NSUserDefaults standardUserDefaults] objectForKey:@"date"];
+    todayDate = date;
+    [[NSUserDefaults standardUserDefaults] setObject:date forKey:@"date"];
+
+    NSDateFormatter *dateFormat = [[NSDateFormatter alloc] init];
+    [dateFormat setDateFormat:@"yyyy-MM-dd"];
+    NSString *theDate = [dateFormat stringFromDate:todayDate];
+    NSLog(@"Todays date is %@", theDate);
+
+    PFQuery *query = [PFQuery queryWithClassName:@"EventDates"];
+    [query whereKey:@"date" equalTo:theDate];
+    [query getFirstObjectInBackgroundWithBlock:^(PFObject *object, NSError *error) {
+        if (!object) {
+            //no event for day, so push to volunteerView
+            UIViewController * volunteerView = [self.storyboard instantiateViewControllerWithIdentifier:@"VolunteerViewController"];
+            [self.navigationController pushViewController:volunteerView animated:YES];
+        } else {
+            //event for day exists already
+            UIViewController * eventView = [self.storyboard instantiateViewControllerWithIdentifier:@"EventViewController"];
+            [self.navigationController pushViewController:eventView animated:YES];
+        }
+    }];
+    
 }
 
 @end

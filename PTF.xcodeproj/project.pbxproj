@@ -43,6 +43,7 @@
 		83EC32A818E5076800099E72 /* Register.png in Resources */ = {isa = PBXBuildFile; fileRef = 83EC32A718E5076800099E72 /* Register.png */; };
 		83EC32AE18E5083100099E72 /* Info.png in Resources */ = {isa = PBXBuildFile; fileRef = 83EC32AD18E5083100099E72 /* Info.png */; };
 		83EC32B218E5C39400099E72 /* Calendar.png in Resources */ = {isa = PBXBuildFile; fileRef = 83EC32B118E5C39400099E72 /* Calendar.png */; };
+		83F55BFB18EFB35000C8B52D /* EventViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83F55BFA18EFB35000C8B52D /* EventViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -109,6 +110,8 @@
 		83EC32A718E5076800099E72 /* Register.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Register.png; sourceTree = "<group>"; };
 		83EC32AD18E5083100099E72 /* Info.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Info.png; sourceTree = "<group>"; };
 		83EC32B118E5C39400099E72 /* Calendar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Calendar.png; sourceTree = "<group>"; };
+		83F55BF918EFB35000C8B52D /* EventViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventViewController.h; sourceTree = "<group>"; };
+		83F55BFA18EFB35000C8B52D /* EventViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -178,6 +181,8 @@
 			isa = PBXGroup;
 			children = (
 				83D1E54B18DD20A700457CCA /* Main_iPhone.storyboard */,
+				83F55BF918EFB35000C8B52D /* EventViewController.h */,
+				83F55BFA18EFB35000C8B52D /* EventViewController.m */,
 				7519706B18EE39CE00B307C9 /* VolunteerViewController.h */,
 				7519706C18EE39CE00B307C9 /* VolunteerViewController.m */,
 				83D1E54818DD20A700457CCA /* AppDelegate.h */,
@@ -397,6 +402,7 @@
 				83D1E57C18DD32CC00457CCA /* InfoViewController.m in Sources */,
 				83D1E54618DD20A700457CCA /* main.m in Sources */,
 				8388049318DDDBEA0015B292 /* LoginViewController.m in Sources */,
+				83F55BFB18EFB35000C8B52D /* EventViewController.m in Sources */,
 				8360F1D918DD33E900337201 /* RegisterViewController.m in Sources */,
 				7519706D18EE39CE00B307C9 /* VolunteerViewController.m in Sources */,
 			);

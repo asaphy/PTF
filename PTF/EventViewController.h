@@ -9,5 +9,9 @@
 #import <UIKit/UIKit.h>
 
 @interface EventViewController : UIViewController
+- (IBAction)driver:(id)sender;
+- (IBAction)food:(id)sender;
+- (IBAction)chaperone1:(id)sender;
+- (IBAction)chaperone2:(id)sender;
 
 @end

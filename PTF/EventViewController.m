@@ -58,7 +58,6 @@
         if (!error) {
             // Found Driver
             [driver setObject:_username forKey:@"driver"];
-            
             // Save
             [driver saveInBackground];
         } else {

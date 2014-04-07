@@ -74,6 +74,30 @@
     NSString * d = [NSString stringWithFormat:@"%d%d%d", month,day, year];
     NSLog(@"%@",d);
      */
+    
+    if (sender.selectedSegmentIndex == 0) {
+        
+        
+        NSString *title = [[NSString alloc] initWithFormat:@"Driver!"];
+        UIAlertView *alert = [[UIAlertView alloc] initWithTitle:title message:@"" delegate:nil cancelButtonTitle:@"OK" otherButtonTitles: nil];
+        
+        [alert show];
+    }
+    
+    if (sender.selectedSegmentIndex == 1) {
+        NSString *title = [[NSString alloc] initWithFormat:@"Food Provider!"];
+        UIAlertView *alert = [[UIAlertView alloc] initWithTitle:title message:@"" delegate:nil cancelButtonTitle:@"OK" otherButtonTitles: nil];
+        
+        [alert show];
+    }
+    
+    if (sender.selectedSegmentIndex == 2) {
+        NSString *title = [[NSString alloc] initWithFormat:@"Chaperone!"];
+        UIAlertView *alert = [[UIAlertView alloc] initWithTitle:title message:@"" delegate:nil cancelButtonTitle:@"OK" otherButtonTitles: nil];
+        
+        [alert show];
+    }
+    
     switch (sender.selectedSegmentIndex) {
         case 0: // Driver
             

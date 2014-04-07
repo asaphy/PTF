@@ -485,7 +485,6 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="chaperone2:" destination="0UM-ok-y1K" eventType="touchUpInside" id="x60-SG-0KV"/>
                                     <action selector="driver:" destination="0UM-ok-y1K" eventType="touchUpInside" id="LnV-ab-5JZ"/>
                                 </connections>
                             </button>

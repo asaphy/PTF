@@ -94,6 +94,7 @@
     
     [alert show];
     
+    [self.navigationController popViewControllerAnimated:YES];
     
 }
 

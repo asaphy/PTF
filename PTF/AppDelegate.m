@@ -19,6 +19,16 @@
     [[UITabBar appearance] setTintColor:[UIColor whiteColor]];
     [[UITabBar appearance] setBarTintColor:[UIColor colorWithRed:123.0/255.0 green:63.0/255.0 blue:0.0/255.0 alpha:1]];
     
+    // Sets the tint color which typically sets the color of the segment images, text, dividers,
+    // borders, and selected segment. A translucent version of this color is also used to tint a
+    // segment when it is pressed and transitioning to being selected, as shown on the first
+    // segment below.
+    [[UISegmentedControl appearance] setTintColor:[UIColor colorWithRed:211.0/255.0 green:106.0/255.0 blue:18.0/255.0 alpha:1]];
+    
+    // The attributes dictionary can specify the font, text color, text shadow color, and text
+    // shadow offset for the title in the text attributes dictionary
+    [[UISegmentedControl appearance] setTitleTextAttributes:@{NSForegroundColorAttributeName:[UIColor colorWithRed:211.0/255.0 green:106.0/255.0 blue:18.0/255.0 alpha:1]} forState:UIControlStateNormal];
+    
     return YES;
 }
 

@@ -189,24 +189,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Registration" id="7gC-cp-ePr">
-                        <barButtonItem key="rightBarButtonItem" id="kbe-bG-pDF">
-                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="right" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="vK0-Wk-Xkq">
-                                <rect key="frame" x="233" y="5" width="71" height="33"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
-                                <state key="normal" title="Logout">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="logOutRegistration:" destination="3JQ-6B-P1e" eventType="touchUpInside" id="G9C-9G-bkh"/>
-                                </connections>
-                            </button>
-                            <connections>
-                                <action selector="logOutRegistration:" destination="3JQ-6B-P1e" id="6u2-1f-YLJ"/>
-                            </connections>
-                        </barButtonItem>
-                    </navigationItem>
+                    <navigationItem key="navigationItem" title="Registration" id="7gC-cp-ePr"/>
                     <connections>
                         <outlet property="registerWebView" destination="zaf-U6-X9m" id="0wV-pF-dvv"/>
                     </connections>
@@ -252,24 +235,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Info" id="8mR-J8-TXo">
-                        <barButtonItem key="rightBarButtonItem" id="ujQ-kE-qeJ">
-                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="right" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="ysp-39-AeA">
-                                <rect key="frame" x="233" y="5" width="71" height="33"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
-                                <state key="normal" title="Logout">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="logOutInfo:" destination="TLu-vq-4Tv" eventType="touchUpInside" id="8Da-VI-GzW"/>
-                                </connections>
-                            </button>
-                            <connections>
-                                <action selector="logOutInfo:" destination="TLu-vq-4Tv" id="j84-zI-sWB"/>
-                            </connections>
-                        </barButtonItem>
-                    </navigationItem>
+                    <navigationItem key="navigationItem" title="Info" id="8mR-J8-TXo"/>
                     <connections>
                         <outlet property="tableView" destination="4Z0-dr-AEY" id="boD-6H-Y10"/>
                     </connections>
@@ -345,20 +311,7 @@
                     </view>
                     <extendedEdge key="edgesForExtendedLayout" top="YES"/>
                     <tabBarItem key="tabBarItem" title="Item" image="Calendar.png" id="iby-le-3b0"/>
-                    <navigationItem key="navigationItem" title="Calendar" id="Efl-nQ-LO4" colorLabel="IBBuiltInLabel-Red">
-                        <barButtonItem key="rightBarButtonItem" id="LAT-4N-Z0W">
-                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="right" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="x9Z-IW-NCK">
-                                <rect key="frame" x="255" y="7" width="49" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Logout">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="logOutDetailed:" destination="lHm-z4-rG0" eventType="touchUpInside" id="NU3-Ag-N0k"/>
-                                </connections>
-                            </button>
-                        </barButtonItem>
-                    </navigationItem>
+                    <navigationItem key="navigationItem" title="Calendar" id="Efl-nQ-LO4" colorLabel="IBBuiltInLabel-Red"/>
                     <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" translucent="NO" prompted="NO"/>
                     <connections>
                         <outlet property="facultyTypeSegmentedControl" destination="zk2-Qs-psS" id="lpm-xS-fK9"/>
@@ -387,21 +340,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Map" id="Zrd-1b-ZDn">
-                        <barButtonItem key="rightBarButtonItem" id="ucN-Tu-7aU">
-                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="right" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="2Rv-6I-anq">
-                                <rect key="frame" x="233" y="5" width="71" height="33"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
-                                <state key="normal" title="Logout">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="logOutMap:" destination="Tzj-UJ-bzK" eventType="touchUpInside" id="uCt-3Z-XuI"/>
-                                </connections>
-                            </button>
-                        </barButtonItem>
-                    </navigationItem>
+                    <navigationItem key="navigationItem" title="Map" id="Zrd-1b-ZDn"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="s88-aw-dR8" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

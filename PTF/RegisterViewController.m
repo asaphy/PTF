@@ -33,7 +33,8 @@
     self.navigationController.navigationBar.barTintColor = [UIColor colorWithRed:123.0/255.0 green:63.0/255.0 blue:0.0/255.0 alpha:1];
     self.navigationController.navigationBar.tintColor = [UIColor whiteColor];
     [self.navigationController.navigationBar setTitleTextAttributes:@{NSForegroundColorAttributeName : [UIColor whiteColor]}];
-    self.navigationController.navigationBar.translucent = YES;
+    self.navigationController.navigationBar.translucent = NO;
+    self.tabBarController.tabBar.translucent = NO;
     
     //load url into webview
     NSString *strURL = @"https://docs.google.com/forms/d/1RM2oo3xF_8aGsRWQYYpFoUtqGxCq6wxjqmwMq7svTxo/viewform";

@@ -31,17 +31,17 @@
     // Do any additional setup after loading the view.
     self.loginPassword.secureTextEntry = YES;
     setNavigationBarHidden:YES;
+    //Check if current user exists
+    [[self navigationController] setNavigationBarHidden:YES animated:NO];
+    PFUser * currentUser = [PFUser currentUser];
+    if (currentUser) {
+        [self alreadyLoggedInViewController];
+    }
 }
 
 -(void) viewDidAppear:(BOOL)animated
 {
     [super viewDidAppear:animated];
-    //Check if current user exists
-    [[self navigationController] setNavigationBarHidden:YES animated:animated];
-    PFUser * currentUser = [PFUser currentUser];
-    if (currentUser) {
-        [self goToLoggedInViewController];
-    }    
 }
 
 
@@ -65,6 +65,12 @@
                 [self.loginPassword resignFirstResponder];
             }
         }];
+}
+
+-(void) alreadyLoggedInViewController
+{
+    UITabBarController * mvc = [self.storyboard instantiateViewControllerWithIdentifier:@"TabBarController"];
+    [self.navigationController pushViewController:mvc animated:NO];
 }
 
 -(void) goToLoggedInViewController

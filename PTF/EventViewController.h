@@ -14,6 +14,7 @@
 - (IBAction)chaperone1:(id)sender;
 - (IBAction)chaperone2:(id)sender;
 - (IBAction)deleteEvent:(id)sender;
+@property (strong, nonatomic) NSString *dateFromCal;
 @property (nonatomic, retain) NSString *username;
 
 @end

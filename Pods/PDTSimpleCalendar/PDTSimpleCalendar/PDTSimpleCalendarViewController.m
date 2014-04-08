@@ -358,6 +358,7 @@ static NSString *PDTSimpleCalendarViewHeaderIdentifier = @"com.producteev.collec
 
     NSLog(@"compare:%d",[cellDate compare:self.today]);
     */
+    
     if (isToday) {
         [cell setIsToday:isToday];
 
@@ -375,13 +376,21 @@ static NSString *PDTSimpleCalendarViewHeaderIdentifier = @"com.producteev.collec
     }
     else if (!_today || [cellDate compare:self.today] < 0)
     {
-        if ([self isEnabledDate:cellDate])
+        
+        NSDate *today = [NSDate date];
+        
+        NSComparisonResult compareResult = [today compare : cellDate];
+        
+        if (compareResult == NSOrderedDescending)
+        {
+                if ([self isEnabledDate:cellDate])
         {
             cell.circleDefaultColor = [UIColor colorWithRed:192.0/255.0 green:192.0/255.0 blue:192.0/255.0 alpha:1];
             cell.circleSelectedColor = [UIColor colorWithRed:192.0/255.0 green:192.0/255.0 blue:192.0/255.0 alpha:1];
             cell.textSelectedColor = [UIColor blackColor];
             //[cell setSelected:YES];
             [cell refreshCellColors];
+        }
         }
     }
     else

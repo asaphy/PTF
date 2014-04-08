@@ -93,6 +93,8 @@
     }
     
     if (sender.selectedSegmentIndex == 1) {
+        
+        //circleDefaultColor = [UIColor redColor];
         NSString *title = [[NSString alloc] initWithFormat:@"Food Provider!"];
         UIAlertView *alert = [[UIAlertView alloc] initWithTitle:title message:@"" delegate:nil cancelButtonTitle:@"OK" otherButtonTitles: nil];
         

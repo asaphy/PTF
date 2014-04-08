@@ -28,6 +28,14 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     _username = [[PFUser currentUser]username];
+    NSDate *tmpDate = [[NSUserDefaults standardUserDefaults] objectForKey:@"date"];
+    
+    NSDateFormatter *dateFormat = [[NSDateFormatter alloc] init];
+    [dateFormat setDateFormat:@"M/d/yyyy"];
+    
+    NSString *theDate = [dateFormat stringFromDate:tmpDate];
+    self.dateFromCal = theDate;
+    self.navigationItem.title = theDate;
 }
 
 - (void)didReceiveMemoryWarning

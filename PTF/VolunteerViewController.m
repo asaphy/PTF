@@ -30,10 +30,10 @@
     NSDate *tmpDate = [[NSUserDefaults standardUserDefaults] objectForKey:@"date"];
     
     NSDateFormatter *dateFormat = [[NSDateFormatter alloc] init];
-    [dateFormat setDateFormat:@"yyyy-MM-dd"];
+    [dateFormat setDateFormat:@"M/d/yyyy"];
     
     NSString *theDate = [dateFormat stringFromDate:tmpDate];
-    self.dateFromCal.text = theDate;
+    self.dateFromCal = theDate;
     NSArray *data = [[NSArray alloc] initWithObjects:@"Zion Lutheran Church", @"Christ Church Parish", @"Church of the Pilgrimage", @"First Baptist", nil];
     NSArray *startTime = [[NSArray alloc] initWithObjects:@"5pm", @"6pm", @"7pm", @"8pm", @"9pm", @"10pm", @"11pm", nil];
     self.navigationItem.title = theDate;

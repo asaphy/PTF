@@ -12,7 +12,7 @@
 @property (strong, nonatomic) IBOutlet UIPickerView *locationPicker;
 @property (strong, nonatomic) IBOutlet UIPickerView *timePicker;
 @property (strong, nonatomic) NSArray *array;
-@property (strong, nonatomic) IBOutlet UILabel *dateFromCal;
+@property (strong, nonatomic) NSString *dateFromCal;
 @property (strong, nonatomic) NSArray *startTimeArray;
 - (IBAction)addEvent:(id)sender;
 @end

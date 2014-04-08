@@ -162,4 +162,36 @@
     [self.navigationController popViewControllerAnimated:YES];
     
 }
+
+- (IBAction)deleteEvent:(id)sender {
+    NSDate *tmpDate = [[NSUserDefaults standardUserDefaults] objectForKey:@"date"];
+    NSDateFormatter *dateFormat = [[NSDateFormatter alloc] init];
+    [dateFormat setDateFormat:@"yyyy-MM-dd"];
+    NSString *theDate = [dateFormat stringFromDate:tmpDate];
+    
+    PFQuery *query = [PFQuery queryWithClassName:@"EventDates"];
+    [query whereKey:@"date" equalTo:theDate];
+    [query findObjectsInBackgroundWithBlock:^(NSArray *objects, NSError *error) {
+        if (!error) {
+            // The find succeeded.
+            // Do something with the found objects
+            for (PFObject *object in objects) {
+                NSString *objectID = object.objectId;
+                PFObject *object = [PFObject objectWithoutDataWithClassName:@"EventDates" objectId: objectID];
+                [object deleteEventually];
+            }
+            NSString *title = [[NSString alloc] initWithFormat:@"You have succesfully deleted the event."];
+            
+            UIAlertView *alert = [[UIAlertView alloc] initWithTitle:title message:@"" delegate:nil cancelButtonTitle:@"OK" otherButtonTitles: nil];
+            
+            [alert show];
+            
+            [self.navigationController popViewControllerAnimated:YES];
+            
+        } else {
+            // Log details of the failure
+            NSLog(@"Error: %@ %@", error, [error userInfo]);
+        }
+    }];
+}
 @end

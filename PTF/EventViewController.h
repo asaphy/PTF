@@ -13,6 +13,7 @@
 - (IBAction)food:(id)sender;
 - (IBAction)chaperone1:(id)sender;
 - (IBAction)chaperone2:(id)sender;
+- (IBAction)deleteEvent:(id)sender;
 @property (nonatomic, retain) NSString *username;
 
 @end

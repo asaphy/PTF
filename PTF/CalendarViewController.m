@@ -127,29 +127,64 @@
     }
 }
 
-- (void)simpleCalendarViewController:(PDTSimpleCalendarViewController *)controller didSelectDate:(NSDate *)date
+- (void)simpleCalendarViewController:(PDTSimpleCalendarViewController *)controller didSelectDate:(NSDate *)clickedDate
 {
     
     NSDate *todayDate = [[NSUserDefaults standardUserDefaults] objectForKey:@"date"];
-    todayDate = date;
-    [[NSUserDefaults standardUserDefaults] setObject:date forKey:@"date"];
-
+    todayDate = clickedDate;
+    [[NSUserDefaults standardUserDefaults] setObject:clickedDate forKey:@"date"];
+    NSDate *today = [NSDate date];
     NSDateFormatter *dateFormat = [[NSDateFormatter alloc] init];
     [dateFormat setDateFormat:@"yyyy-MM-dd"];
     NSString *theDate = [dateFormat stringFromDate:todayDate];
-    PFQuery *query = [PFQuery queryWithClassName:@"EventDates"];
-    [query whereKey:@"date" equalTo:theDate];
-    [query getFirstObjectInBackgroundWithBlock:^(PFObject *object, NSError *error) {
-        if (!object) {
-            //no event for day, so push to volunteerView
-            UIViewController * volunteerView = [self.storyboard instantiateViewControllerWithIdentifier:@"VolunteerViewController"];
-            [self.navigationController pushViewController:volunteerView animated:YES];
-        } else {
-            //event for day exists already
-            UIViewController * eventView = [self.storyboard instantiateViewControllerWithIdentifier:@"EventViewController"];
-            [self.navigationController pushViewController:eventView animated:YES];
-        }
-    }];
+    NSString *theToday = [dateFormat stringFromDate:today];
+    
+    
+    
+    //NSDate *today = [NSDate date];
+   // NSDate *compareDate = [NSDate dateWithString:@"your date"];
+    
+    NSComparisonResult compareResult = [theDate compare : theToday];
+    
+    if (compareResult == NSOrderedAscending)
+    {
+        //date is passed
+    }
+    else if (compareResult == NSOrderedDescending)
+    {
+        PFQuery *query = [PFQuery queryWithClassName:@"EventDates"];
+        [query whereKey:@"date" equalTo:theDate];
+        [query getFirstObjectInBackgroundWithBlock:^(PFObject *object, NSError *error) {
+            if (!object) {
+                //no event for day, so push to volunteerView
+                UIViewController * volunteerView = [self.storyboard instantiateViewControllerWithIdentifier:@"VolunteerViewController"];
+                [self.navigationController pushViewController:volunteerView animated:YES];
+            } else {
+                //event for day exists already
+                UIViewController * eventView = [self.storyboard instantiateViewControllerWithIdentifier:@"EventViewController"];
+                [self.navigationController pushViewController:eventView animated:YES];
+            }
+        }];
+    }
+    else
+    {
+        PFQuery *query = [PFQuery queryWithClassName:@"EventDates"];
+        [query whereKey:@"date" equalTo:theDate];
+        [query getFirstObjectInBackgroundWithBlock:^(PFObject *object, NSError *error) {
+            if (!object) {
+                //no event for day, so push to volunteerView
+                UIViewController * volunteerView = [self.storyboard instantiateViewControllerWithIdentifier:@"VolunteerViewController"];
+                [self.navigationController pushViewController:volunteerView animated:YES];
+            } else {
+                //event for day exists already
+                UIViewController * eventView = [self.storyboard instantiateViewControllerWithIdentifier:@"EventViewController"];
+                [self.navigationController pushViewController:eventView animated:YES];
+            }
+        }];
+    }
+    
+    
+
     
 }
 

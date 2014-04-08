@@ -37,6 +37,14 @@
     calViewContainer = self.childViewControllers.lastObject;
     calViewContainer.delegate = self;
     
+    //nav colors
+    self.navigationController.navigationBar.barTintColor = [UIColor colorWithRed:211.0/255.0 green:106.0/255.0 blue:18.0/255.0 alpha:1];
+    self.navigationController.navigationBar.tintColor = [UIColor whiteColor];
+    [self.navigationController.navigationBar setTitleTextAttributes:@{NSForegroundColorAttributeName : [UIColor whiteColor]}];
+    self.navigationController.navigationBar.translucent = NO;
+    
+    //tab bar colors
+    [[UITabBar appearance] setTintColor:[UIColor redColor]];
 }
 
 - (void)didReceiveMemoryWarning
@@ -97,6 +105,9 @@
         
         [alert show];
     }
+
+
+
     
     switch (sender.selectedSegmentIndex) {
         case 0: // Driver

@@ -112,7 +112,7 @@
                     </view>
                     <navigationItem key="navigationItem" title="Contact" id="iv5-PG-QLP">
                         <barButtonItem key="rightBarButtonItem" id="Tca-8O-kxX">
-                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="yTA-FE-CDT">
+                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="right" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="yTA-FE-CDT">
                                 <rect key="frame" x="233" y="5" width="71" height="33"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
@@ -191,7 +191,7 @@
                     </view>
                     <navigationItem key="navigationItem" title="Registration" id="7gC-cp-ePr">
                         <barButtonItem key="rightBarButtonItem" id="kbe-bG-pDF">
-                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="vK0-Wk-Xkq">
+                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="right" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="vK0-Wk-Xkq">
                                 <rect key="frame" x="233" y="5" width="71" height="33"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
@@ -254,7 +254,7 @@
                     </view>
                     <navigationItem key="navigationItem" title="Info" id="8mR-J8-TXo">
                         <barButtonItem key="rightBarButtonItem" id="ujQ-kE-qeJ">
-                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="ysp-39-AeA">
+                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="right" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="ysp-39-AeA">
                                 <rect key="frame" x="233" y="5" width="71" height="33"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
@@ -342,7 +342,7 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="zk2-Qs-psS">
-                                <rect key="frame" x="0.0" y="5" width="320" height="29"/>
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="29"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <segments>
                                     <segment title="Driver"/>
@@ -354,7 +354,7 @@
                                 </connections>
                             </segmentedControl>
                             <containerView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="zYM-en-zcg">
-                                <rect key="frame" x="0.0" y="41" width="320" height="414"/>
+                                <rect key="frame" x="0.0" y="29" width="320" height="426"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                 <connections>
@@ -368,7 +368,7 @@
                     <tabBarItem key="tabBarItem" title="Item" image="Calendar.png" id="iby-le-3b0"/>
                     <navigationItem key="navigationItem" title="Calendar" id="Efl-nQ-LO4" colorLabel="IBBuiltInLabel-Red">
                         <barButtonItem key="rightBarButtonItem" id="LAT-4N-Z0W">
-                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="x9Z-IW-NCK">
+                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="right" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="x9Z-IW-NCK">
                                 <rect key="frame" x="255" y="7" width="49" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Logout">
@@ -410,7 +410,7 @@
                     </view>
                     <navigationItem key="navigationItem" title="Map" id="Zrd-1b-ZDn">
                         <barButtonItem key="rightBarButtonItem" id="ucN-Tu-7aU">
-                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="2Rv-6I-anq">
+                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="right" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="2Rv-6I-anq">
                                 <rect key="frame" x="233" y="5" width="71" height="33"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
@@ -785,7 +785,7 @@
                         <viewControllerLayoutGuide type="bottom" id="2ag-qA-VtO"/>
                     </layoutGuides>
                     <view key="view" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gfQ-a1-uDv">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="414"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="426"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>

@@ -28,6 +28,12 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    //navbar colors
+    self.navigationController.navigationBar.barTintColor = [UIColor colorWithRed:211.0/255.0 green:106.0/255.0 blue:18.0/255.0 alpha:1];
+    self.navigationController.navigationBar.tintColor = [UIColor whiteColor];
+    [self.navigationController.navigationBar setTitleTextAttributes:@{NSForegroundColorAttributeName : [UIColor whiteColor]}];
+    self.navigationController.navigationBar.translucent = NO;
+    
     //load url into webview
     NSString *strURL = @"https://docs.google.com/forms/d/1RM2oo3xF_8aGsRWQYYpFoUtqGxCq6wxjqmwMq7svTxo/viewform";
     NSURL *url = [NSURL URLWithString:strURL];

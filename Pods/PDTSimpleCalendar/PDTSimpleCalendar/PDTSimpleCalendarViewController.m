@@ -7,7 +7,6 @@
 //
 
 #import "PDTSimpleCalendarViewController.h"
-
 #import "PDTSimpleCalendarViewFlowLayout.h"
 #import "PDTSimpleCalendarViewCell.h"
 #import "PDTSimpleCalendarViewHeader.h"
@@ -255,9 +254,7 @@ static NSString *PDTSimpleCalendarViewHeaderIdentifier = @"com.producteev.collec
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
-
-    //Configure the Collection View
+    // Do any additional setup after loading the view.    
     [self.collectionView registerClass:[PDTSimpleCalendarViewCell class] forCellWithReuseIdentifier:PDTSimpleCalendarViewCellIdentifier];
     [self.collectionView registerClass:[PDTSimpleCalendarViewHeader class] forSupplementaryViewOfKind:UICollectionElementKindSectionHeader withReuseIdentifier:PDTSimpleCalendarViewHeaderIdentifier];
 

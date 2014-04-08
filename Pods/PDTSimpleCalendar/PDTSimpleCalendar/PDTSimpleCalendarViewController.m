@@ -362,8 +362,8 @@ static NSString *PDTSimpleCalendarViewHeaderIdentifier = @"com.producteev.collec
         [cell setIsToday:isToday];
 
         cell.circleTodayColor = [UIColor colorWithRed:211.0/255.0 green:106.0/255.0 blue:18.0/255.0 alpha:1];
-        cell.circleSelectedColor = [UIColor blackColor];
-        cell.circleDefaultColor = [UIColor whiteColor];
+        cell.circleSelectedColor = [UIColor colorWithRed:211.0/255.0 green:106.0/255.0 blue:18.0/255.0 alpha:1];
+        cell.textSelectedColor = [UIColor whiteColor];
         // I add it
         if (!_today)
         {
@@ -378,7 +378,8 @@ static NSString *PDTSimpleCalendarViewHeaderIdentifier = @"com.producteev.collec
         if ([self isEnabledDate:cellDate])
         {
             cell.circleDefaultColor = [UIColor colorWithRed:192.0/255.0 green:192.0/255.0 blue:192.0/255.0 alpha:1];
-            cell.circleSelectedColor = [UIColor blackColor];
+            cell.circleSelectedColor = [UIColor colorWithRed:192.0/255.0 green:192.0/255.0 blue:192.0/255.0 alpha:1];
+            cell.textSelectedColor = [UIColor blackColor];
             //[cell setSelected:YES];
             [cell refreshCellColors];
         }
@@ -386,8 +387,10 @@ static NSString *PDTSimpleCalendarViewHeaderIdentifier = @"com.producteev.collec
     else
     {
         cell.circleTodayColor = [UIColor colorWithRed:211.0/255.0 green:106.0/255.0 blue:18.0/255.0 alpha:1];
-        cell.circleSelectedColor = [UIColor blackColor];
+        cell.circleSelectedColor = [UIColor whiteColor];
         cell.circleDefaultColor = [UIColor whiteColor];
+        cell.textSelectedColor = [UIColor blackColor];
+
     }
     
     

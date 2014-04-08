@@ -14,6 +14,11 @@
     [GMSServices provideAPIKey:@"AIzaSyCOaDpCAlUgNMVNyMs_t6DnBkGZIr7Iz84"];
     [Parse setApplicationId:@"BdpmFORUWoLdn2KA5Zs4hGR4i6aGBWsPWGi46hUN"
                   clientKey:@"7OknIkTlvSbBLEX0jfpby3g8K8pNQKx8FNunhNSL"];
+    
+    //tab bar colors
+    [[UITabBar appearance] setTintColor:[UIColor whiteColor]];
+    [[UITabBar appearance] setBarTintColor:[UIColor colorWithRed:123.0/255.0 green:63.0/255.0 blue:0.0/255.0 alpha:1]];
+    
     return YES;
 }
 

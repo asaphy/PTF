@@ -15,3 +15,17 @@ To Do List:
 DONE       make a “delete event” button
 -       design the volunteer page, and show the names of people who have already volunteered
 -       design, design, and more design!!!
+-		change passed dates to grey text and no circle color
+-		add in contact info
+-		add site coordinator contact info
+-		priviledge
+-		registration page, search, check in
+-		change tab icons
+-		change frontpage
+-		send color scheme to Joel
+-		optimize for 3.5 inch
+-		iPad registration
+-		reminder
+
+After April 18th:
+-		test on iPhone

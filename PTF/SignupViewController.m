@@ -30,7 +30,12 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     self.signupPassword.secureTextEntry = YES;
-
+    self.signupUsername.delegate = self;
+    self.signupLastname.delegate = self;
+    self.signupEmail.delegate = self;
+    self.signupPassword.delegate = self;
+    self.signupFirstname.delegate = self;
+    
 }
 
 - (void)didReceiveMemoryWarning
@@ -47,7 +52,7 @@
     user.username = self.signupUsername.text;
     user.email = self.signupEmail.text;
     user.password = self.signupPassword.text;
-
+    
     [user signUpInBackgroundWithBlock:^(BOOL succeeded, NSError *error) {
         if(succeeded)
         {
@@ -62,20 +67,48 @@
     }];
 }
 
+- (BOOL)textFieldShouldReturn:(UITextField *)textField {
+    
+    if (textField == self.signupFirstname) {
+        [self.signupLastname becomeFirstResponder];
+        textField.returnKeyType = UIReturnKeyNext;
+    }
+    else if (textField == self.signupLastname) {
+        [self.signupUsername becomeFirstResponder];
+        textField.returnKeyType = UIReturnKeyNext;
+    }
+    else if (textField == self.signupUsername) {
+        [self.signupEmail becomeFirstResponder];
+        textField.returnKeyType = UIReturnKeyNext;
+    }
+    else if (textField == self.signupEmail) {
+        [self.signupPassword becomeFirstResponder];
+        textField.returnKeyType = UIReturnKeyNext;
+    }
+    else if (textField == self.signupPassword) {
+        [textField resignFirstResponder];
+        textField.returnKeyType = UIReturnKeyDone;
+    }
+    [self registerUser:nil];
+    return YES;
+    
+}
+
+
 - (IBAction)backToLogin:(id)sender {
     [self.navigationController popToRootViewControllerAnimated:YES];
 }
 
 
 /*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
-{
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
+ #pragma mark - Navigation
+ 
+ // In a storyboard-based application, you will often want to do a little preparation before navigation
+ - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
+ {
+ // Get the new view controller using [segue destinationViewController].
+ // Pass the selected object to the new view controller.
+ }
+ */
 
 @end

@@ -2,8 +2,8 @@ TPods
 v6
 r1
 cCheck dependencies
-cCompileC /Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Objects-normal/i386/Pods-dummy.o /Users/Jeremy_luo/Documents/XCode/PTF/Pods/Pods-dummy.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cLibtool /Users/Jeremy_luo/Documents/XCode/PTF/Build/Products/Debug-iphonesimulator/libPods.a normal i386
+cCompileC /Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Objects-normal/x86_64/Pods-dummy.o /Users/Jeremy_luo/Documents/XCode/PTF/Pods/Pods-dummy.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLibtool /Users/Jeremy_luo/Documents/XCode/PTF/Build/Products/Debug-iphonesimulator/libPods.a normal x86_64
 
 N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
 c00000000000000000000000000000000
@@ -30,42 +30,42 @@ c00000000532470BD0000000000000ADC
 t1394897085
 s2780
 
-N/Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Objects-normal/i386/Pods-dummy.o
-t1396497335
-s3096
+N/Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Objects-normal/x86_64/Pods-dummy.o
+t1397411151
+s3532
 
-N/Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Objects-normal/i386/Pods.LinkFileList
-c00000000533CDBB70000000000000087
-t1396497335
-s135
+N/Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Objects-normal/x86_64/Pods.LinkFileList
+c00000000534ACD4F0000000000000089
+t1397411151
+s137
 
 N/Users/Jeremy_luo/Documents/XCode/PTF/Build/Products/Debug-iphonesimulator/libPods-Facebook-iOS-SDK.a
-c00000000533CDBB700000000003A4F60
-t1396497335
-s3821408
+c00000000534ACD4F00000000003F27C0
+t1397411151
+s4138944
 
 N/Users/Jeremy_luo/Documents/XCode/PTF/Build/Products/Debug-iphonesimulator/libPods-Google-Maps-iOS-SDK.a
-c00000000533CDBB50000000000000EE0
-t1396497333
-s3808
+c00000000534ACD4E00000000000010A8
+t1397411150
+s4264
 
 N/Users/Jeremy_luo/Documents/XCode/PTF/Build/Products/Debug-iphonesimulator/libPods-PDTSimpleCalendar.a
-c00000000533CDBB5000000000004C7D8
-t1396497333
-s313304
+c00000000534ACD4E0000000000052350
+t1397411150
+s336720
 
 N/Users/Jeremy_luo/Documents/XCode/PTF/Build/Products/Debug-iphonesimulator/libPods-Parse.a
-c00000000533CDBB70000000000000E50
-t1396497335
-s3664
+c00000000534ACD4F0000000000001018
+t1397411151
+s4120
 
 N/Users/Jeremy_luo/Documents/XCode/PTF/Build/Products/Debug-iphonesimulator/libPods.a
 t2
 s0
 
 N/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Pods-dummy.m
-c00000000533CDBA80000000000000070
-t1396497320
+c0000000053483B670000000000000070
+t1397242727
 s112
 
 CBuild AST from /Users/Jeremy_luo/Documents/XCode/PTF/Pods/Pods-dummy.m
@@ -73,31 +73,31 @@ r0
 
 CCheck dependencies
 r0
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependenciesc6f71d3713edb841^86911e3713edb841^---0#1#1#--18"Check dependencies36"21BC696E-19DE-47EE-A7A8-5D853E6996DF-
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependenciesca70b8cf04fbb841^d907b9cf04fbb841^---0#1#1#--18"Check dependencies36"AD66EC70-EC96-4324-8B87-F12C7BA43F7B-
 
-CCompileC /Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Objects-normal/i386/Pods-dummy.o /Users/Jeremy_luo/Documents/XCode/PTF/Pods/Pods-dummy.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s418190135.119857
-e418190135.143770
+CCompileC /Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Objects-normal/x86_64/Pods-dummy.o /Users/Jeremy_luo/Documents/XCode/PTF/Pods/Pods-dummy.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s419103951.723256
+e419103951.916844
 r1
 xCompileC
-x/Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Objects-normal/i386/Pods-dummy.o
+x/Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Objects-normal/x86_64/Pods-dummy.o
 x/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Pods-dummy.m
 xnormal
-xi386
+xx86_64
 xobjective-c
 xcom.apple.compilers.llvm.clang.1_0.compiler
 d/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Pods-dummy.m
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection63"Compile /Users/Jeremy_luo/Documents/XCode/PTF/Pods/Pods-dummy.m224"CompileC /Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Objects-normal/i386/Pods-dummy.o Pods-dummy.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler6ccd1e3713edb841^89d0243713edb841^---0#0#1#-19%DVTDocumentLocation2@62"file:///Users/Jeremy_luo/Documents/XCode/PTF/Pods/Pods-dummy.m0000000000000000^4552"CompileC /Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Objects-normal/i386/Pods-dummy.o Pods-dummy.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Jeremy_luo/Documents/XCode/PTF/Pods    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/Jeremy_luo/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.0 -iquote /Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Pods-generated-files.hmap -I/Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Pods-own-target-headers.hmap -I/Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Pods-all-target-headers.hmap -iquote /Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Pods-project-headers.hmap -I/Users/Jeremy_luo/Documents/XCode/PTF/Build/Products/Debug-iphonesimulator/include -I/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Pods/Headers -I/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Pods/Headers/Facebook-iOS-SDK -I/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Pods/Headers/Facebook-iOS-SDK/FacebookSDK -I/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Pods/Headers/Google-Maps-iOS-SDK -I/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Pods/Headers/Google-Maps-iOS-SDK/GoogleMaps -I/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Pods/Headers/PDTSimpleCalendar -I/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Pods/Headers/Parse -I/Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/DerivedSources/i386 -I/Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/DerivedSources -F/Users/Jeremy_luo/Documents/XCode/PTF/Build/Products/Debug-iphonesimulator -F/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Pods/Google-Maps-iOS-SDK -F/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Pods/Parse -isystem/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Pods/Headers -isystem/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Pods/Headers/Facebook-iOS-SDK -isystem/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Pods/Headers/Facebook-iOS-SDK/FacebookSDK -isystem/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Pods/Headers/Google-Maps-iOS-SDK -isystem/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Pods/Headers/Google-Maps-iOS-SDK/GoogleMaps -isystem/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Pods/Headers/PDTSimpleCalendar -isystem/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Pods/Headers/Parse -MMD -MT dependencies -MF /Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Objects-normal/i386/Pods-dummy.d --serialize-diagnostics /Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Objects-normal/i386/Pods-dummy.dia -c /Users/Jeremy_luo/Documents/XCode/PTF/Pods/Pods-dummy.m -o /Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Objects-normal/i386/Pods-dummy.o36"2DFCF3E2-0ACF-42DD-B65A-C44D1CD89DB7-
-bA3272F96-67AA-459A-A20A-EF2C1380EE54
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection63"Compile /Users/Jeremy_luo/Documents/XCode/PTF/Pods/Pods-dummy.m228"CompileC /Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Objects-normal/x86_64/Pods-dummy.o Pods-dummy.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler683cb9cf04fbb841^feb7eacf04fbb841^---0#0#1#-19%DVTDocumentLocation2@62"file:///Users/Jeremy_luo/Documents/XCode/PTF/Pods/Pods-dummy.m0000000000000000^4566"CompileC /Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Objects-normal/x86_64/Pods-dummy.o Pods-dummy.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Jeremy_luo/Documents/XCode/PTF/Pods    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/Jeremy_luo/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.0 -iquote /Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Pods-generated-files.hmap -I/Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Pods-own-target-headers.hmap -I/Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Pods-all-target-headers.hmap -iquote /Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Pods-project-headers.hmap -I/Users/Jeremy_luo/Documents/XCode/PTF/Build/Products/Debug-iphonesimulator/include -I/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Pods/Headers -I/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Pods/Headers/Facebook-iOS-SDK -I/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Pods/Headers/Facebook-iOS-SDK/FacebookSDK -I/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Pods/Headers/Google-Maps-iOS-SDK -I/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Pods/Headers/Google-Maps-iOS-SDK/GoogleMaps -I/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Pods/Headers/PDTSimpleCalendar -I/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Pods/Headers/Parse -I/Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/DerivedSources/x86_64 -I/Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/DerivedSources -F/Users/Jeremy_luo/Documents/XCode/PTF/Build/Products/Debug-iphonesimulator -F/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Pods/Google-Maps-iOS-SDK -F/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Pods/Parse -isystem/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Pods/Headers -isystem/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Pods/Headers/Facebook-iOS-SDK -isystem/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Pods/Headers/Facebook-iOS-SDK/FacebookSDK -isystem/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Pods/Headers/Google-Maps-iOS-SDK -isystem/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Pods/Headers/Google-Maps-iOS-SDK/GoogleMaps -isystem/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Pods/Headers/PDTSimpleCalendar -isystem/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Pods/Headers/Parse -MMD -MT dependencies -MF /Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Objects-normal/x86_64/Pods-dummy.d --serialize-diagnostics /Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Objects-normal/x86_64/Pods-dummy.dia -c /Users/Jeremy_luo/Documents/XCode/PTF/Pods/Pods-dummy.m -o /Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Objects-normal/x86_64/Pods-dummy.o36"C5B12A30-67F6-4B16-80A3-B72925EADBDC-
+b1E2FC9AD-8C35-40BA-9CDC-E9D1E3B68E62
 
-CLibtool /Users/Jeremy_luo/Documents/XCode/PTF/Build/Products/Debug-iphonesimulator/libPods.a normal i386
-s418190135.144345
-e418190135.254130
+CLibtool /Users/Jeremy_luo/Documents/XCode/PTF/Build/Products/Debug-iphonesimulator/libPods.a normal x86_64
+s419103951.917422
+e419103952.092011
 r1
 xLibtool
 x/Users/Jeremy_luo/Documents/XCode/PTF/Build/Products/Debug-iphonesimulator/libPods.a
 xnormal
-xi386
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection104"Libtool /Users/Jeremy_luo/Documents/XCode/PTF/Build/Products/Debug-iphonesimulator/libPods.a normal i386104"Libtool /Users/Jeremy_luo/Documents/XCode/PTF/Build/Products/Debug-iphonesimulator/libPods.a normal i386b001253713edb841^9010413713edb841^---0#0#1#--1069"Libtool /Users/Jeremy_luo/Documents/XCode/PTF/Build/Products/Debug-iphonesimulator/libPods.a normal i386    cd /Users/Jeremy_luo/Documents/XCode/PTF/Pods    export IPHONEOS_DEPLOYMENT_TARGET=6.0    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only i386 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -L/Users/Jeremy_luo/Documents/XCode/PTF/Build/Products/Debug-iphonesimulator -filelist /Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Objects-normal/i386/Pods.LinkFileList -framework Foundation -lPods-Facebook-iOS-SDK -lPods-Google-Maps-iOS-SDK -lPods-PDTSimpleCalendar -lPods-Parse -o /Users/Jeremy_luo/Documents/XCode/PTF/Build/Products/Debug-iphonesimulator/libPods.a36"ACD132B2-94C4-45B6-8AC9-85C982C4095A-
-bA3272F96-67AA-459A-A20A-EF2C1380EE54
+xx86_64
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection106"Libtool /Users/Jeremy_luo/Documents/XCode/PTF/Build/Products/Debug-iphonesimulator/libPods.a normal x86_64106"Libtool /Users/Jeremy_luo/Documents/XCode/PTF/Build/Products/Debug-iphonesimulator/libPods.a normal x86_6485eaeacf04fbb841^eb9017d004fbb841^---0#0#1#--1075"Libtool /Users/Jeremy_luo/Documents/XCode/PTF/Build/Products/Debug-iphonesimulator/libPods.a normal x86_64    cd /Users/Jeremy_luo/Documents/XCode/PTF/Pods    export IPHONEOS_DEPLOYMENT_TARGET=6.0    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only x86_64 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -L/Users/Jeremy_luo/Documents/XCode/PTF/Build/Products/Debug-iphonesimulator -filelist /Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Objects-normal/x86_64/Pods.LinkFileList -framework Foundation -lPods-Facebook-iOS-SDK -lPods-Google-Maps-iOS-SDK -lPods-PDTSimpleCalendar -lPods-Parse -o /Users/Jeremy_luo/Documents/XCode/PTF/Build/Products/Debug-iphonesimulator/libPods.a36"4C89E6E1-E509-4687-A780-20D226FA6AB2-
+b1E2FC9AD-8C35-40BA-9CDC-E9D1E3B68E62
 

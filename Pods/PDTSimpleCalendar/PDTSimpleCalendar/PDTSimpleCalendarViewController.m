@@ -308,7 +308,9 @@ static NSString *PDTSimpleCalendarViewHeaderIdentifier = @"com.producteev.collec
 {
     PDTSimpleCalendarViewCell *cell = [self.collectionView dequeueReusableCellWithReuseIdentifier:PDTSimpleCalendarViewCellIdentifier
                                                                                      forIndexPath:indexPath];
-
+    
+    //cell.circleDefaultColor = [UIColor whiteColor];
+    
     cell.delegate = self;
     
     NSDate *firstOfMonth = [self firstOfMonthForSection:indexPath.section];
@@ -336,28 +338,6 @@ static NSString *PDTSimpleCalendarViewHeaderIdentifier = @"com.producteev.collec
 
 
     }
-    /*
-    NSDateComponents *components = [self.calendar components:NSCalendarUnitDay | NSCalendarUnitMonth | NSCalendarUnitYear fromDate:cellDate];
-    
-    int year = (int)[components year];
-    int month = (int)[components month];
-    int day = (int)[components day];
-    
-    NSString * d = [NSString stringWithFormat:@"%d%d%d", month,day, year];
-    NSLog(@"%@",d);
-
-
-    components = [self.calendar components:NSCalendarUnitDay | NSCalendarUnitMonth | NSCalendarUnitYear fromDate:self.today];
-    
-    year = (int)[components year];
-    month = (int)[components month];
-    day = (int)[components day];
-    
-    d = [NSString stringWithFormat:@"%d%d%d", month,day, year];
-    NSLog(@"%@",d);
-
-    NSLog(@"compare:%d",[cellDate compare:self.today]);
-    */
     
     if (isToday) {
         [cell setIsToday:isToday];
@@ -370,27 +350,23 @@ static NSString *PDTSimpleCalendarViewHeaderIdentifier = @"com.producteev.collec
         {
             _today = cellDate;
         }
-        [cell refreshCellColors];
-
         
     }
-    else if (!_today || [cellDate compare:self.today] < 0)
+    else if (!self.today || [cellDate compare:self.today] < 0)
     {
-        
+
         NSDate *today = [NSDate date];
         
         NSComparisonResult compareResult = [today compare : cellDate];
         
         if (compareResult == NSOrderedDescending)
         {
-                if ([self isEnabledDate:cellDate])
-        {
-            cell.circleDefaultColor = [UIColor colorWithRed:192.0/255.0 green:192.0/255.0 blue:192.0/255.0 alpha:1];
-            cell.circleSelectedColor = [UIColor colorWithRed:192.0/255.0 green:192.0/255.0 blue:192.0/255.0 alpha:1];
-            cell.textSelectedColor = [UIColor blackColor];
-            //[cell setSelected:YES];
-            [cell refreshCellColors];
-        }
+            if ([self isEnabledDate:cellDate])
+            {
+                cell.circleDefaultColor = [UIColor colorWithRed:192.0/255.0 green:192.0/255.0 blue:192.0/255.0 alpha:1];
+                cell.circleSelectedColor = [UIColor colorWithRed:192.0/255.0 green:192.0/255.0 blue:192.0/255.0 alpha:1];
+                cell.textSelectedColor = [UIColor blackColor];
+            }
         }
     }
     else
@@ -399,9 +375,9 @@ static NSString *PDTSimpleCalendarViewHeaderIdentifier = @"com.producteev.collec
         cell.circleSelectedColor = [UIColor whiteColor];
         cell.circleDefaultColor = [UIColor whiteColor];
         cell.textSelectedColor = [UIColor blackColor];
-
     }
-    
+    [cell refreshCellColors];
+
     
     
 

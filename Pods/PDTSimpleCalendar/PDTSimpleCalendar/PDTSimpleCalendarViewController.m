@@ -372,9 +372,10 @@ static NSString *PDTSimpleCalendarViewHeaderIdentifier = @"com.producteev.collec
         {
             if ([self isEnabledDate:cellDate])
             {
-                cell.circleDefaultColor = [UIColor colorWithRed:192.0/255.0 green:192.0/255.0 blue:192.0/255.0 alpha:1];
-                cell.circleSelectedColor = [UIColor colorWithRed:192.0/255.0 green:192.0/255.0 blue:192.0/255.0 alpha:1];
-                cell.textSelectedColor = [UIColor blackColor];
+                cell.circleDefaultColor = [UIColor whiteColor];
+                cell.circleSelectedColor = [UIColor whiteColor];
+                cell.textDefaultColor = [UIColor colorWithRed:192.0/255.0 green:192.0/255.0 blue:192.0/255.0 alpha:1];
+                cell.textSelectedColor = [UIColor colorWithRed:192.0/255.0 green:192.0/255.0 blue:192.0/255.0 alpha:1];
             }
         }
     }
@@ -386,6 +387,7 @@ static NSString *PDTSimpleCalendarViewHeaderIdentifier = @"com.producteev.collec
     }
     else
     {
+        cell.textDefaultColor = [UIColor blackColor];
         cell.circleTodayColor = [UIColor colorWithRed:211.0/255.0 green:106.0/255.0 blue:18.0/255.0 alpha:1];
         cell.circleSelectedColor = [UIColor whiteColor];
         cell.circleDefaultColor = [UIColor whiteColor];

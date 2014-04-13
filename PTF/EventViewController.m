@@ -28,6 +28,14 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     _username = [[PFUser currentUser]username];
+    
+    //hide name label
+    
+    _driverName.hidden=YES;
+    _foodProviderName.hidden=YES;
+    _chaperone1Name.hidden=YES;
+    _chaperone2Name.hidden=YES;
+    
     NSDate *tmpDate = [[NSUserDefaults standardUserDefaults] objectForKey:@"date"];
     
     NSDateFormatter *dateFormat = [[NSDateFormatter alloc] init];
@@ -36,6 +44,50 @@
     NSString *theDate = [dateFormat stringFromDate:tmpDate];
     self.dateFromCal = theDate;
     self.navigationItem.title = theDate;
+    dateFormat = [[NSDateFormatter alloc] init];
+    [dateFormat setDateFormat:@"yyyy-MM-dd"];
+    theDate = [dateFormat stringFromDate:tmpDate];
+    
+    PFQuery *query = [PFQuery queryWithClassName:@"EventDates"];
+    [query whereKey:@"date" equalTo:theDate];
+    [query getFirstObjectInBackgroundWithBlock:^(PFObject * driver, NSError *error) {
+        if (!error) {
+            // Found Driver
+            if ([driver objectForKey:@"driver"]) {
+                // the object has a value for key driver
+                PFUser *user = [PFUser currentUser];
+                NSString *firstnameString = [user objectForKey:@"firstname"];
+                NSString *lastnameString = [user objectForKey:@"lastname"];
+                
+                NSString *space = @" ";
+                
+                NSString *fullName = [firstnameString stringByAppendingString:space];
+                fullName = [fullName stringByAppendingString:lastnameString];
+                _driverName.text = (fullName);
+                _driverName.hidden=NO;
+                _driverButton.hidden=YES;
+                
+//                //get First/Last Name
+//                PFQuery *query = [PFQuery queryWithClassName:@"User"];
+//                [query whereKey:@"username" equalTo:[PFUser currentUser]];
+//                
+//                [query getFirstObjectInBackgroundWithBlock:^(PFObject * driverID, NSError *error) {
+//                    
+//                NSString *currentDriver = driverID[@"firstname"];
+//                 NSLog(@"firstname: %@", currentDriver);
+//                _driverName.text = currentDriver;
+//                _driverName.hidden=NO;
+//                _driverButton.hidden=YES;
+//                }];
+            }
+
+            // Save
+            [driver saveInBackground];
+        } else {
+            // Did not find any for the current user
+            NSLog(@"Error: %@", error);
+        }
+    }];
 }
 
 - (void)didReceiveMemoryWarning

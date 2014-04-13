@@ -50,9 +50,9 @@ t1397411150
 s4264
 
 N/Users/Jeremy_luo/Documents/XCode/PTF/Build/Products/Debug-iphonesimulator/libPods-PDTSimpleCalendar.a
-c00000000534AD89D0000000000052358
-t1397414045
-s336728
+c00000000534AEB1E0000000000054C68
+t1397418782
+s347240
 
 N/Users/Jeremy_luo/Documents/XCode/PTF/Build/Products/Debug-iphonesimulator/libPods-Parse.a
 c00000000534ACD4F0000000000001018
@@ -60,8 +60,8 @@ t1397411151
 s4120
 
 N/Users/Jeremy_luo/Documents/XCode/PTF/Build/Products/Debug-iphonesimulator/libPods.a
-t1397414024
-s4487048
+t1397418602
+s4497968
 
 N/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Pods-dummy.m
 c0000000053483B670000000000000070
@@ -73,7 +73,7 @@ r0
 
 CCheck dependencies
 r0
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies50c4161d10fbb841^36e9161d10fbb841^---0#1#1#--18"Check dependencies36"73BC35B7-385D-4718-AFC6-9FFA3F904121-
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependenciesb6bbb79e22fbb841^0adbb79e22fbb841^---0#1#1#--18"Check dependencies36"D7CD60D2-939C-43BC-B449-DD3D37A8B466-
 
 CCompileC /Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Objects-normal/x86_64/Pods-dummy.o /Users/Jeremy_luo/Documents/XCode/PTF/Pods/Pods-dummy.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 s419103951.723256
@@ -91,13 +91,13 @@ lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection63"Compile
 b1E2FC9AD-8C35-40BA-9CDC-E9D1E3B68E62
 
 CLibtool /Users/Jeremy_luo/Documents/XCode/PTF/Build/Products/Debug-iphonesimulator/libPods.a normal x86_64
-s419106845.090212
-e419106845.126227
+s419111582.718730
+e419111582.757843
 r1
 xLibtool
 x/Users/Jeremy_luo/Documents/XCode/PTF/Build/Products/Debug-iphonesimulator/libPods.a
 xnormal
 xx86_64
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection106"Libtool /Users/Jeremy_luo/Documents/XCode/PTF/Build/Products/Debug-iphonesimulator/libPods.a normal x86_64106"Libtool /Users/Jeremy_luo/Documents/XCode/PTF/Build/Products/Debug-iphonesimulator/libPods.a normal x86_649624171d10fbb841^5551201d10fbb841^---0#0#1#--1075"Libtool /Users/Jeremy_luo/Documents/XCode/PTF/Build/Products/Debug-iphonesimulator/libPods.a normal x86_64    cd /Users/Jeremy_luo/Documents/XCode/PTF/Pods    export IPHONEOS_DEPLOYMENT_TARGET=6.0    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only x86_64 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -L/Users/Jeremy_luo/Documents/XCode/PTF/Build/Products/Debug-iphonesimulator -filelist /Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Objects-normal/x86_64/Pods.LinkFileList -framework Foundation -lPods-Facebook-iOS-SDK -lPods-Google-Maps-iOS-SDK -lPods-PDTSimpleCalendar -lPods-Parse -o /Users/Jeremy_luo/Documents/XCode/PTF/Build/Products/Debug-iphonesimulator/libPods.a36"F28FDDEC-AF5C-4D99-8AB4-41BBBED3E803-
-b81811A59-4209-4758-8965-A0DC9D536AC5
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection106"Libtool /Users/Jeremy_luo/Documents/XCode/PTF/Build/Products/Debug-iphonesimulator/libPods.a normal x86_64106"Libtool /Users/Jeremy_luo/Documents/XCode/PTF/Build/Products/Debug-iphonesimulator/libPods.a normal x86_64780bb89e22fbb841^6003c29e22fbb841^---0#0#1#--1075"Libtool /Users/Jeremy_luo/Documents/XCode/PTF/Build/Products/Debug-iphonesimulator/libPods.a normal x86_64    cd /Users/Jeremy_luo/Documents/XCode/PTF/Pods    export IPHONEOS_DEPLOYMENT_TARGET=6.0    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only x86_64 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -L/Users/Jeremy_luo/Documents/XCode/PTF/Build/Products/Debug-iphonesimulator -filelist /Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Objects-normal/x86_64/Pods.LinkFileList -framework Foundation -lPods-Facebook-iOS-SDK -lPods-Google-Maps-iOS-SDK -lPods-PDTSimpleCalendar -lPods-Parse -o /Users/Jeremy_luo/Documents/XCode/PTF/Build/Products/Debug-iphonesimulator/libPods.a36"89CB5F45-7AD9-4578-9164-CFE7C6991C6C-
+b209C34E8-5642-4194-AB3A-C79FB3945370
 

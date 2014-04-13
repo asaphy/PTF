@@ -45,6 +45,7 @@ static NSString *PDTSimpleCalendarViewHeaderIdentifier = @"com.producteev.collec
 
 // I add it
 @synthesize today = _today;
+@synthesize checkingType = _checkingType;
 
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
@@ -254,7 +255,12 @@ static NSString *PDTSimpleCalendarViewHeaderIdentifier = @"com.producteev.collec
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.    
+    // Do any additional setup after loading the view.
+    
+    // I add it
+    // set the default checkType to driver
+    self.checkingType = @"driver";
+    
     [self.collectionView registerClass:[PDTSimpleCalendarViewCell class] forCellWithReuseIdentifier:PDTSimpleCalendarViewCellIdentifier];
     [self.collectionView registerClass:[PDTSimpleCalendarViewHeader class] forSupplementaryViewOfKind:UICollectionElementKindSectionHeader withReuseIdentifier:PDTSimpleCalendarViewHeaderIdentifier];
 
@@ -276,6 +282,9 @@ static NSString *PDTSimpleCalendarViewHeaderIdentifier = @"com.producteev.collec
 
     [self.view addConstraints:[NSLayoutConstraint constraintsWithVisualFormat:@"|[overlayView]|" options:NSLayoutFormatAlignAllTop metrics:nil views:viewsDictionary]];
     [self.view addConstraints:[NSLayoutConstraint constraintsWithVisualFormat:@"V:|[overlayView(==overlayViewHeight)]" options:NSLayoutFormatAlignAllTop metrics:metricsDictionary views:viewsDictionary]];
+    
+    
+
 }
 
 #pragma mark - Rotation Handling
@@ -369,13 +378,24 @@ static NSString *PDTSimpleCalendarViewHeaderIdentifier = @"com.producteev.collec
             }
         }
     }
+    else if (![self isEnabledDate:cellDate])
+    {
+        cell.circleDefaultColor = [UIColor whiteColor];
+        cell.circleSelectedColor = [UIColor whiteColor];
+        cell.textDefaultColor = [UIColor whiteColor];
+    }
     else
     {
         cell.circleTodayColor = [UIColor colorWithRed:211.0/255.0 green:106.0/255.0 blue:18.0/255.0 alpha:1];
         cell.circleSelectedColor = [UIColor whiteColor];
         cell.circleDefaultColor = [UIColor whiteColor];
         cell.textSelectedColor = [UIColor blackColor];
+        [cell checkVolunteerOfType:self.checkingType];
+        
     }
+    //NSLog(@"%@", self.checkingType);
+    //NSLog(@"%@", cellDate);
+
     [cell refreshCellColors];
 
     
@@ -633,5 +653,7 @@ static NSString *PDTSimpleCalendarViewHeaderIdentifier = @"com.producteev.collec
     
     return nil;
 }
+
+
 
 @end

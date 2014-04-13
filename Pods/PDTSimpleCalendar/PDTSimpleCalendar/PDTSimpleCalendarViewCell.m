@@ -211,10 +211,49 @@ const CGFloat PDTSimpleCalendarCircleSize = 32.0f;
     return [UIColor lightGrayColor];
 }
 
-/*
-- (void)setCircleColor:(UIColor *)color
+
+- (void)checkVolunteerOfType:(NSString * )type
 {
-    _
+    //NSLog(@"%@", self.date);
+    if (!self.date)
+    {
+        return;
+    }
+
+    PFQuery * query = [PFQuery queryWithClassName:@"EventDates"];
+    [query whereKey:@"date" equalTo:self.date];
+    //NSLog(@"%@", self.date);
+
+    [query getFirstObjectInBackgroundWithBlock:^(PFObject *object, NSError *error) {
+        if (error)
+        {
+            NSLog(@"error!!!");
+            self.circleDefaultColor = [UIColor redColor];
+            NSLog(@"%@", self.circleDefaultColor);
+            [self refreshCellColors];
+
+        }
+        
+        
+        if (!object) {
+            //no object
+            self.circleDefaultColor = [UIColor redColor];
+        } else {
+            
+            if (([type isEqualToString:@"driver"] || [type isEqualToString:@"fp"]) && !object[type]) // there isn't a volunteer for that type
+            {
+                self.circleDefaultColor = [UIColor redColor];
+            }
+            else if (!(object[@"chaperone1"] && object[@"chaperone2"]))   // chaperone
+            {
+                self.circleDefaultColor = [UIColor redColor];
+            }
+            
+        }
+    }];
+    //self.circleDefaultColor = [UIColor redColor];
+    //NSLog(@"%@", self.circleDefaultColor);
+
 }
-*/
+
 @end

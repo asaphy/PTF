@@ -1658,7 +1658,7 @@ r0
 
 CCheck dependencies
 r0
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependenciesb7b3f71c10fbb841^a433f81c10fbb841^---0#1#1#--18"Check dependencies36"78DA4921-76AA-4436-8AD3-82F935C3B41A-
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencieseecd8f9e22fbb841^5919919e22fbb841^---0#1#1#--18"Check dependencies36"1C2D1EE4-DCB0-4C0D-8AFE-1D3A378F901C-
 
 CCompileC /Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Facebook-iOS-SDK.build/Objects-normal/x86_64/FBAccessTokenData.o /Users/Jeremy_luo/Documents/XCode/PTF/Pods/Facebook-iOS-SDK/src/Login/FBAccessTokenData.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 s419103950.319385

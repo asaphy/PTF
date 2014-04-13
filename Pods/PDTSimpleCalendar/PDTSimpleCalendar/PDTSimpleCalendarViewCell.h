@@ -6,6 +6,8 @@
 //  Copyright (c) 2013 Producteev. All rights reserved.
 //
 
+#import <../../Parse/Parse.framework/Headers/Parse.h>
+
 @class PDTSimpleCalendarViewCell;
 
 @protocol PDTSimpleCalendarViewCellDelegate <NSObject>
@@ -116,5 +118,10 @@
  *  Force the refresh of the colors for the circle and the text
  */
 - (void)refreshCellColors;
+
+/* send request to database to check whether it lacks of volunteer on the current date
+ * according to property checkingType
+ */
+- (void)checkVolunteerOfType:(NSString * )type;
 
 @end

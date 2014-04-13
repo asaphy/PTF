@@ -28,9 +28,18 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
     // Do any additional setup after loading the view.
     self.loginPassword.secureTextEntry = YES;
-    setNavigationBarHidden:YES;
+setNavigationBarHidden:YES;
+    
+    UITapGestureRecognizer *tap = [[UITapGestureRecognizer alloc]
+                                   initWithTarget:self
+                                   action:@selector(dismissKeyboard)];
+    
+    [self.view addGestureRecognizer:tap];
+    
+    self.loginPassword.delegate = self;
     //Check if current user exists
     [[self navigationController] setNavigationBarHidden:YES animated:NO];
     PFUser * currentUser = [PFUser currentUser];
@@ -45,7 +54,6 @@
 }
 
 
-
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
@@ -53,18 +61,32 @@
 }
 
 - (IBAction)logIn:(id)sender {
-        [PFUser logInWithUsernameInBackground:self.loginUsername.text password:self.loginPassword.text block:^(PFUser *user, NSError *error) {
-            
-            if (user) {
-                [self goToLoggedInViewController];
-                [self.loginPassword resignFirstResponder];
-            }else
-            {
-                UIAlertView * view = [[UIAlertView alloc]initWithTitle:@"Log In Error" message:@"Unable to login, please try again" delegate:nil cancelButtonTitle:@"Okay" otherButtonTitles:nil];
-                [view show];
-                [self.loginPassword resignFirstResponder];
-            }
-        }];
+    [PFUser logInWithUsernameInBackground:self.loginUsername.text password:self.loginPassword.text block:^(PFUser *user, NSError *error) {
+        
+        if (user) {
+            [self goToLoggedInViewController];
+            [self.loginPassword resignFirstResponder];
+        }else
+        {
+            UIAlertView * view = [[UIAlertView alloc]initWithTitle:@"Log In Error" message:@"Unable to login, please try again" delegate:nil cancelButtonTitle:@"Okay" otherButtonTitles:nil];
+            [view show];
+            [self.loginPassword resignFirstResponder];
+        }
+    }];
+}
+
+- (BOOL)textFieldShouldReturn:(UITextField *)textField {
+    [self logIn:nil];
+    return YES;
+}
+
+//- (void)textFieldDidEndEditing:(UITextField *)textField {
+//[self logIn:nil];
+//}
+
+-(void)dismissKeyboard {
+    [_loginUsername resignFirstResponder];
+    [_loginPassword resignFirstResponder];
 }
 
 -(void) alreadyLoggedInViewController
@@ -83,14 +105,14 @@
     [self.navigationController pushViewController:svc animated:YES];
 }
 /*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
-{
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
+ #pragma mark - Navigation
+ 
+ // In a storyboard-based application, you will often want to do a little preparation before navigation
+ - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
+ {
+ // Get the new view controller using [segue destinationViewController].
+ // Pass the selected object to the new view controller.
+ }
+ */
 
 @end

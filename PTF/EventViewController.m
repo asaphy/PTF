@@ -53,6 +53,7 @@
     [query getFirstObjectInBackgroundWithBlock:^(PFObject * driver, NSError *error) {
         if (!error) {
             // Found Driver
+            
             if ([driver objectForKey:@"driver"]) {
                 // the object has a value for key driver
                 PFUser *user = [PFUser currentUser];

@@ -16,6 +16,10 @@
 		833AA2BD18DD7E0600C89860 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 833AA2BB18DD76F400C89860 /* QuartzCore.framework */; };
 		8360F1D918DD33E900337201 /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8360F1D818DD33E900337201 /* RegisterViewController.m */; };
 		8360F1FD18DD4F0B00337201 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8360F1FC18DD4F0B00337201 /* MapKit.framework */; };
+		836C803C18FFA28D005846DA /* signupbackground.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 836C803B18FFA28D005846DA /* signupbackground.jpg */; };
+		836C803E18FFADB6005846DA /* textfieldbackground.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 836C803D18FFADB6005846DA /* textfieldbackground.jpg */; };
+		836C804018FFB33E005846DA /* blurred.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 836C803F18FFB33E005846DA /* blurred.jpg */; };
+		836C804218FFB465005846DA /* blurred2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 836C804118FFB464005846DA /* blurred2.jpg */; };
 		8388048818DD976A0015B292 /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8388048718DD976A0015B292 /* AboutViewController.m */; };
 		8388048E18DDA2E30015B292 /* Info.m in Sources */ = {isa = PBXBuildFile; fileRef = 8388048D18DDA2E30015B292 /* Info.m */; };
 		8388049318DDDBEA0015B292 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8388049218DDDBEA0015B292 /* LoginViewController.m */; };
@@ -71,6 +75,10 @@
 		8360F1D718DD33E900337201 /* RegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterViewController.h; sourceTree = "<group>"; };
 		8360F1D818DD33E900337201 /* RegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterViewController.m; sourceTree = "<group>"; };
 		8360F1FC18DD4F0B00337201 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		836C803B18FFA28D005846DA /* signupbackground.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = signupbackground.jpg; sourceTree = "<group>"; };
+		836C803D18FFADB6005846DA /* textfieldbackground.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = textfieldbackground.jpg; sourceTree = "<group>"; };
+		836C803F18FFB33E005846DA /* blurred.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = blurred.jpg; sourceTree = "<group>"; };
+		836C804118FFB464005846DA /* blurred2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = blurred2.jpg; sourceTree = "<group>"; };
 		8388048618DD976A0015B292 /* AboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutViewController.h; sourceTree = "<group>"; };
 		8388048718DD976A0015B292 /* AboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutViewController.m; sourceTree = "<group>"; };
 		8388048C18DDA2E30015B292 /* Info.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Info.h; sourceTree = "<group>"; };
@@ -219,6 +227,10 @@
 		83D1E54018DD20A700457CCA /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				836C804118FFB464005846DA /* blurred2.jpg */,
+				836C803F18FFB33E005846DA /* blurred.jpg */,
+				836C803D18FFADB6005846DA /* textfieldbackground.jpg */,
+				836C803B18FFA28D005846DA /* signupbackground.jpg */,
 				83EC32B118E5C39400099E72 /* Calendar.png */,
 				83EC32AD18E5083100099E72 /* Info.png */,
 				83EC32A718E5076800099E72 /* Register.png */,
@@ -300,6 +312,9 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "Global App Initiative";
 				TargetAttributes = {
+					83D1E53518DD20A600457CCA = {
+						DevelopmentTeam = T36V9EZTBX;
+					};
 					83D1E55918DD20A700457CCA = {
 						TestTargetID = 83D1E53518DD20A600457CCA;
 					};
@@ -332,13 +347,17 @@
 				83EC32AE18E5083100099E72 /* Info.png in Resources */,
 				83EC32B218E5C39400099E72 /* Calendar.png in Resources */,
 				83D1E55018DD20A700457CCA /* Main_iPad.storyboard in Resources */,
+				836C804018FFB33E005846DA /* blurred.jpg in Resources */,
 				83EC32A418E5062F00099E72 /* Contact.png in Resources */,
 				83EC329618E4FECD00099E72 /* Map.png in Resources */,
 				83D1E55518DD20A700457CCA /* Images.xcassets in Resources */,
 				83EC32A818E5076800099E72 /* Register.png in Resources */,
 				83D1E54D18DD20A700457CCA /* Main_iPhone.storyboard in Resources */,
 				83052AB018DE1724001F7143 /* background_login.jpg in Resources */,
+				836C803C18FFA28D005846DA /* signupbackground.jpg in Resources */,
 				83D1E54418DD20A700457CCA /* InfoPlist.strings in Resources */,
+				836C803E18FFADB6005846DA /* textfieldbackground.jpg in Resources */,
+				836C804218FFB465005846DA /* blurred2.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -540,10 +559,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PTF/PTF-Prefix.pch";
 				INFOPLIST_FILE = "PTF/PTF-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -554,10 +576,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PTF/PTF-Prefix.pch";
 				INFOPLIST_FILE = "PTF/PTF-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

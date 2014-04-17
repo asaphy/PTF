@@ -20,7 +20,6 @@ DONE       make a “delete event” button
 -		add site coordinator contact info
 -		priviledge
 -		registration page, search, check in
--		change tab icons
 -		change frontpage
 -		send color scheme to Joel
 -		optimize for 3.5 inch

@@ -50,24 +50,24 @@
     
     PFQuery *query = [PFQuery queryWithClassName:@"EventDates"];
     [query whereKey:@"date" equalTo:theDate];
-    [query getFirstObjectInBackgroundWithBlock:^(PFObject * driver, NSError *error) {
-        if (!error) {
-            // Found Driver
-            
-            if ([driver objectForKey:@"driver"]) {
-                // the object has a value for key driver
-                PFUser *user = [PFUser currentUser];
-                NSString *firstnameString = [user objectForKey:@"firstname"];
-                NSString *lastnameString = [user objectForKey:@"lastname"];
-                
-                NSString *space = @" ";
-                
-                NSString *fullName = [firstnameString stringByAppendingString:space];
-                fullName = [fullName stringByAppendingString:lastnameString];
-                _driverName.text = (fullName);
-                _driverName.hidden=NO;
-                _driverButton.hidden=YES;
-                
+//    [query getFirstObjectInBackgroundWithBlock:^(PFObject * driver, NSError *error) {
+//        if (!error) {
+//            // Found Driver
+//            
+//            if ([driver objectForKey:@"driver"]) {
+//                // the object has a value for key driver
+//                PFUser *user = [PFUser currentUser];
+//                NSString *firstnameString = [user objectForKey:@"firstname"];
+//                NSString *lastnameString = [user objectForKey:@"lastname"];
+//                
+//                NSString *space = @" ";
+//                
+//                NSString *fullName = [firstnameString stringByAppendingString:space];
+//                fullName = [fullName stringByAppendingString:lastnameString];
+//                _driverName.text = (fullName);
+//                _driverName.hidden=NO;
+//                _driverButton.hidden=YES;
+    
 //                //get First/Last Name
 //                PFQuery *query = [PFQuery queryWithClassName:@"User"];
 //                [query whereKey:@"username" equalTo:[PFUser currentUser]];
@@ -80,15 +80,15 @@
 //                _driverName.hidden=NO;
 //                _driverButton.hidden=YES;
 //                }];
-            }
-
-            // Save
-            [driver saveInBackground];
-        } else {
-            // Did not find any for the current user
-            NSLog(@"Error: %@", error);
-        }
-    }];
+//            }
+//
+//            // Save
+//            [driver saveInBackground];
+//        } else {
+//            // Did not find any for the current user
+//            NSLog(@"Error: %@", error);
+//        }
+//    }];
 }
 
 - (void)didReceiveMemoryWarning

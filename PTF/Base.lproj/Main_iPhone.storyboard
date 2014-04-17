@@ -8,9 +8,7 @@
         <scene sceneID="nIa-VO-oP3">
             <objects>
                 <navigationController definesPresentationContext="YES" id="LCs-9e-uyD" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Map" image="Map.png" id="o3b-R6-n6H">
-                        <inset key="imageInsets" minX="6" minY="4" maxX="6" maxY="4"/>
-                    </tabBarItem>
+                    <tabBarItem key="tabBarItem" title="Map" image="map_marker" id="o3b-R6-n6H"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="Xzc-sT-F83">
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
@@ -26,7 +24,7 @@
         <scene sceneID="Uix-pd-aFx">
             <objects>
                 <navigationController storyboardIdentifier="CalendarNavigationController" title="Calendar" definesPresentationContext="YES" useStoryboardIdentifierAsRestorationIdentifier="YES" id="RWZ-jX-wVF" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Calendar" image="Calendar.png" id="yV9-p6-l2v"/>
+                    <tabBarItem key="tabBarItem" title="Calendar" image="calendar" id="yV9-p6-l2v"/>
                     <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" translucent="NO" prompted="NO"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" translucent="NO" id="UbF-iu-Hh7">
                         <rect key="frame" x="0.0" y="0.0" width="0.0" height="44"/>
@@ -48,9 +46,7 @@
         <scene sceneID="NEJ-fZ-cDv">
             <objects>
                 <navigationController definesPresentationContext="YES" id="GH0-AL-B2O" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Contact" image="Contact.png" id="xBY-f7-yb8">
-                        <inset key="imageInsets" minX="4" minY="4" maxX="4" maxY="4"/>
-                    </tabBarItem>
+                    <tabBarItem key="tabBarItem" title="Contact" image="contact_card" id="xBY-f7-yb8"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="hlr-FT-oxD">
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
@@ -137,9 +133,7 @@
         <scene sceneID="bvm-iV-NTY">
             <objects>
                 <navigationController definesPresentationContext="YES" id="tf7-hP-8Wh" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Info" image="Info.png" id="NVb-56-6Sy">
-                        <inset key="imageInsets" minX="4" minY="4" maxX="4" maxY="4"/>
-                    </tabBarItem>
+                    <tabBarItem key="tabBarItem" title="Info" image="info" id="NVb-56-6Sy"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="8CU-yA-ckc">
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
@@ -155,8 +149,8 @@
         <scene sceneID="5am-nD-d8r">
             <objects>
                 <navigationController definesPresentationContext="YES" id="ZTH-HZ-vzK" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Register" image="Register.png" id="DFt-9z-AgF">
-                        <inset key="imageInsets" minX="4" minY="4" maxX="4" maxY="4"/>
+                    <tabBarItem key="tabBarItem" title="Register" image="document_filled" id="DFt-9z-AgF">
+                        <inset key="imageInsets" minX="0.0" minY="0.0" maxX="0.0" maxY="3"/>
                     </tabBarItem>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="mcX-gX-Le0">
                         <autoresizingMask key="autoresizingMask"/>
@@ -753,12 +747,13 @@
     </scenes>
     <resources>
         <image name="Calendar.png" width="25" height="27"/>
-        <image name="Contact.png" width="35" height="36"/>
-        <image name="Info.png" width="34" height="35"/>
-        <image name="Map.png" width="50" height="36"/>
-        <image name="Register.png" width="28" height="34"/>
         <image name="background_login.jpg" width="540" height="960"/>
         <image name="blurred2.jpg" width="540" height="336"/>
+        <image name="calendar" width="25" height="25"/>
+        <image name="contact_card" width="25" height="25"/>
+        <image name="document_filled" width="25" height="25"/>
+        <image name="info" width="25" height="25"/>
+        <image name="map_marker" width="25" height="25"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>

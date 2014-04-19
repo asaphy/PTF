@@ -47,48 +47,58 @@
     dateFormat = [[NSDateFormatter alloc] init];
     [dateFormat setDateFormat:@"yyyy-MM-dd"];
     theDate = [dateFormat stringFromDate:tmpDate];
+
     
     PFQuery *query = [PFQuery queryWithClassName:@"EventDates"];
     [query whereKey:@"date" equalTo:theDate];
-//    [query getFirstObjectInBackgroundWithBlock:^(PFObject * driver, NSError *error) {
-//        if (!error) {
-//            // Found Driver
-//            
-//            if ([driver objectForKey:@"driver"]) {
-//                // the object has a value for key driver
-//                PFUser *user = [PFUser currentUser];
-//                NSString *firstnameString = [user objectForKey:@"firstname"];
-//                NSString *lastnameString = [user objectForKey:@"lastname"];
-//                
-//                NSString *space = @" ";
-//                
-//                NSString *fullName = [firstnameString stringByAppendingString:space];
-//                fullName = [fullName stringByAppendingString:lastnameString];
-//                _driverName.text = (fullName);
-//                _driverName.hidden=NO;
-//                _driverButton.hidden=YES;
+    PFObject *queryRes = [query getFirstObject];
+    NSString *content = [queryRes objectForKey:@"driver"];
+
+    if ([[queryRes objectForKey:@"driver"]  isEqual: @""]) {
+        // the object has no value for key driver
+    }
+    else{
+        //display name of volunteer, hide button
+        _driverName.text = (content);
+        _driverName.hidden=NO;
+        _driverButton.hidden=YES;
+    }
     
-//                //get First/Last Name
-//                PFQuery *query = [PFQuery queryWithClassName:@"User"];
-//                [query whereKey:@"username" equalTo:[PFUser currentUser]];
-//                
-//                [query getFirstObjectInBackgroundWithBlock:^(PFObject * driverID, NSError *error) {
-//                    
-//                NSString *currentDriver = driverID[@"firstname"];
-//                 NSLog(@"firstname: %@", currentDriver);
-//                _driverName.text = currentDriver;
-//                _driverName.hidden=NO;
-//                _driverButton.hidden=YES;
-//                }];
-//            }
-//
-//            // Save
-//            [driver saveInBackground];
-//        } else {
-//            // Did not find any for the current user
-//            NSLog(@"Error: %@", error);
-//        }
-//    }];
+    NSString *content2 = [queryRes objectForKey:@"foodProvider"];
+    
+    if ([[queryRes objectForKey:@"foodProvider"]  isEqual: @""]) {
+        // the object has no value for key driver
+    }
+    else{
+        //display name of volunteer, hide button
+        _foodProviderName.text = (content2);
+        _foodProviderName.hidden=NO;
+        _foodProviderButton.hidden=YES;
+    }
+    
+    NSString *content3 = [queryRes objectForKey:@"chaperone1"];
+    
+    if ([[queryRes objectForKey:@"chaperone1"]  isEqual: @""]) {
+        // the object has no value for key driver
+    }
+    else{
+        //display name of volunteer, hide button
+        _chaperone1Name.text = (content3);
+        _chaperone1Name.hidden=NO;
+        _chaperone1Button.hidden=YES;
+    }
+    
+    NSString *content4 = [queryRes objectForKey:@"chaperone2"];
+    
+    if ([[queryRes objectForKey:@"chaperone2"]  isEqual: @""]) {
+        // the object has no value for key driver
+    }
+    else{
+        //display name of volunteer, hide button
+        _chaperone2Name.text = (content4);
+        _chaperone2Name.hidden=NO;
+        _chaperone2Button.hidden=YES;
+    }
 }
 
 - (void)didReceiveMemoryWarning
@@ -118,7 +128,13 @@
     [query getFirstObjectInBackgroundWithBlock:^(PFObject * driver, NSError *error) {
         if (!error) {
             // Found Driver
-            [driver setObject:_username forKey:@"driver"];
+            
+            PFQuery *query= [PFUser query];
+            
+            [query whereKey:@"username" equalTo:[[PFUser currentUser]username]];
+            PFObject *queryRes = [query getFirstObject];
+            NSString *content = [queryRes objectForKey:@"signupName"];
+            [driver setObject:content forKey:@"driver"];
             // Save
             [driver saveInBackground];
         } else {
@@ -145,9 +161,14 @@
     [query whereKey:@"date" equalTo:theDate];
     [query getFirstObjectInBackgroundWithBlock:^(PFObject * foodProvider, NSError *error) {
         if (!error) {
-            // Found Driver
-            [foodProvider setObject:_username forKey:@"foodProvider"];
+            // Found Food Provider
             
+            PFQuery *query= [PFUser query];
+            
+            [query whereKey:@"username" equalTo:[[PFUser currentUser]username]];
+            PFObject *queryRes = [query getFirstObject];
+            NSString *content = [queryRes objectForKey:@"signupName"];
+            [foodProvider setObject:content forKey:@"foodProvider"];
             // Save
             [foodProvider saveInBackground];
         } else {
@@ -174,9 +195,14 @@
     [query whereKey:@"date" equalTo:theDate];
     [query getFirstObjectInBackgroundWithBlock:^(PFObject * chaperone1, NSError *error) {
         if (!error) {
-            // Found Driver
-            [chaperone1 setObject:_username forKey:@"chaperone1"];
+            // Found Chaperone 1
             
+            PFQuery *query= [PFUser query];
+            
+            [query whereKey:@"username" equalTo:[[PFUser currentUser]username]];
+            PFObject *queryRes = [query getFirstObject];
+            NSString *content = [queryRes objectForKey:@"signupName"];
+            [chaperone1 setObject:content forKey:@"chaperone1"];
             // Save
             [chaperone1 saveInBackground];
         } else {
@@ -203,9 +229,14 @@
     [query whereKey:@"date" equalTo:theDate];
     [query getFirstObjectInBackgroundWithBlock:^(PFObject * chaperone2, NSError *error) {
         if (!error) {
-            // Found Driver
-            [chaperone2 setObject:_username forKey:@"chaperone2"];
+            // Found Chaperone 2
             
+            PFQuery *query= [PFUser query];
+            
+            [query whereKey:@"username" equalTo:[[PFUser currentUser]username]];
+            PFObject *queryRes = [query getFirstObject];
+            NSString *content = [queryRes objectForKey:@"signupName"];
+            [chaperone2 setObject:content forKey:@"chaperone2"];
             // Save
             [chaperone2 saveInBackground];
         } else {

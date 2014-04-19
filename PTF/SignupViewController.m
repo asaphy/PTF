@@ -110,7 +110,7 @@
 - (IBAction)registerUser:(id)sender {
     
     PFUser * user = [PFUser user];
-    user[@"firstname"] = self.signupName.text;
+    user[@"signupName"] = self.signupName.text;
     user.username = self.signupUsername.text;
     user.username = self.signupUsername.text;
     user.email = self.signupEmail.text;

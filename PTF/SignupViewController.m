@@ -86,7 +86,7 @@
     _signupPassword.alpha = 0.8;
     _signupPassword.autocorrectionType = UITextAutocorrectionTypeNo;
     _signupPassword.keyboardType = UIKeyboardTypeDefault;
-    _signupPassword.returnKeyType = UIReturnKeyDone;
+    _signupPassword.returnKeyType = UIReturnKeyGo;
     _signupPassword.clearButtonMode = UITextFieldViewModeWhileEditing;
     _signupPassword.contentVerticalAlignment = UIControlContentVerticalAlignmentCenter;
     _signupPassword.delegate = self;
@@ -130,34 +130,48 @@
     }];
 }
 
+
+
+
+
 - (BOOL)textFieldShouldReturn:(UITextField *)textField {
-    
     if (textField == self.signupName) {
-        [self.signupName becomeFirstResponder];
-        textField.returnKeyType = UIReturnKeyNext;
+        [self.signupUsername becomeFirstResponder];
     }
     else if (textField == self.signupUsername) {
         [self.signupEmail becomeFirstResponder];
-        textField.returnKeyType = UIReturnKeyNext;
     }
     else if (textField == self.signupEmail) {
         [self.signupPassword becomeFirstResponder];
-        textField.returnKeyType = UIReturnKeyNext;
     }
     else if (textField == self.signupPassword) {
-        [textField resignFirstResponder];
-        textField.returnKeyType = UIReturnKeyDone;
+        PFUser * user = [PFUser user];
+        user[@"signupName"] = self.signupName.text;
+        user.username = self.signupUsername.text;
+        user.username = self.signupUsername.text;
+        user.email = self.signupEmail.text;
+        user.password = self.signupPassword.text;
+        [self.view endEditing:YES];
+        
+        [user signUpInBackgroundWithBlock:^(BOOL succeeded, NSError *error) {
+            if(succeeded)
+            {
+                [self.signupPassword resignFirstResponder];
+                [self.navigationController popToRootViewControllerAnimated:YES];
+            }else
+            {
+                self.statusLabel.text = @"Please try another username or email";
+                [self.signupPassword resignFirstResponder];
+            }
+        }];
     }
-    [self registerUser:nil];
     return YES;
-    
 }
 
 
 - (IBAction)backToLogin:(id)sender {
     [self.navigationController popToRootViewControllerAnimated:YES];
 }
-
 
 /*
  #pragma mark - Navigation

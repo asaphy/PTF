@@ -39,6 +39,39 @@
     self.navigationItem.title = theDate;
     self.array = data;
     self.startTimeArray = startTime;
+    
+    CGRect textfieldFrame = CGRectMake(0.0, 250.0, 320.0, 49.0);
+    _contactName = [[UITextField alloc] initWithFrame:textfieldFrame];
+    _contactName.borderStyle = UITextBorderStyleLine;
+    _contactName.font = [UIFont systemFontOfSize:18];
+    _contactName.placeholder = @"  Event Contact Name";
+    _contactName.alpha = 0.8;
+    _contactName.autocorrectionType = UITextAutocorrectionTypeNo;
+    _contactName.keyboardType = UIKeyboardTypeDefault;
+    _contactName.returnKeyType = UIReturnKeyNext;
+    _contactName.clearButtonMode = UITextFieldViewModeWhileEditing;
+    _contactName.contentVerticalAlignment = UIControlContentVerticalAlignmentCenter;
+    _contactName.delegate = self;
+    _contactName.background = [UIImage imageNamed:@"textfieldbackground.jpg"];
+    
+    [self.view addSubview:_contactName];
+    
+    CGRect textfieldFrame2 = CGRectMake(0.0, 300.0, 320.0, 49.0);
+    _contactNumber = [[UITextField alloc] initWithFrame:textfieldFrame2];
+    _contactNumber.borderStyle = UITextBorderStyleLine;
+    _contactNumber.font = [UIFont systemFontOfSize:18];
+    _contactNumber.placeholder = @"  Event Contact Number";
+    _contactNumber.alpha = 0.8;
+    _contactNumber.autocorrectionType = UITextAutocorrectionTypeNo;
+    _contactNumber.keyboardType = UIKeyboardTypeDefault;
+    _contactNumber.returnKeyType = UIReturnKeyGo;
+    _contactNumber.clearButtonMode = UITextFieldViewModeWhileEditing;
+    _contactNumber.contentVerticalAlignment = UIControlContentVerticalAlignmentCenter;
+    _contactNumber.delegate = self;
+    _contactNumber.background = [UIImage imageNamed:@"textfieldbackground.jpg"];
+    
+    [self.view addSubview:_contactNumber];
+    
 }
 
 - (void)didReceiveMemoryWarning
@@ -128,6 +161,50 @@
     return 0;
 }
 
+
+- (BOOL)textFieldShouldReturn:(UITextField *)textField {
+    if (textField == _contactName) {
+        [textField resignFirstResponder];
+        [_contactNumber becomeFirstResponder];
+    } else if (textField == _contactNumber) {
+        // getting an NSDate
+        NSDate *tmpDate = [[NSUserDefaults standardUserDefaults] objectForKey:@"date"];
+        
+        NSDateFormatter *dateFormat = [[NSDateFormatter alloc] init];
+        [dateFormat setDateFormat:@"yyyy-MM-dd"];
+        
+        NSString *theDate = [dateFormat stringFromDate:tmpDate];
+        
+        NSDateFormatter *timeFormat = [[NSDateFormatter alloc] init];
+        [timeFormat setDateFormat:@"HH"];
+        
+        //NSString *theTime = [timeFormat stringFromDate:_selectedDate];
+        
+        NSString *select = [_array objectAtIndex:[_locationPicker selectedRowInComponent:0]];
+        NSString *eventStartTime = [_startTimeArray objectAtIndex:[_timePicker selectedRowInComponent:0]];
+        
+        //push to Parse!
+        PFObject *eventDates = [PFObject objectWithClassName:@"EventDates"];
+        eventDates[@"location"] = select;
+        eventDates[@"date"] = theDate;
+        eventDates[@"time"] = eventStartTime;
+        eventDates[@"driver"] = @"";
+        eventDates[@"foodProvider"] = @"";
+        eventDates[@"chaperone1"] = @"";
+        eventDates[@"chaperone2"] = @"";
+        
+        [eventDates saveInBackground];
+        
+        NSString *title = [[NSString alloc] initWithFormat:@"You have succesfully added an event at %@ on %@ starting at %@!", select, theDate, eventStartTime];
+        
+        UIAlertView *alert = [[UIAlertView alloc] initWithTitle:title message:@"" delegate:nil cancelButtonTitle:@"OK" otherButtonTitles: nil];
+        
+        [alert show];
+        
+        [self.navigationController popViewControllerAnimated:YES];
+    }
+    return YES;
+}
 
 //-(NSInteger)numberOfComponentsInPickerView:(UIPickerView *)pickerView {
 //    

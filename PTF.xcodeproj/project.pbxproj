@@ -48,6 +48,7 @@
 		83EC32AE18E5083100099E72 /* Info.png in Resources */ = {isa = PBXBuildFile; fileRef = 83EC32AD18E5083100099E72 /* Info.png */; };
 		83EC32B218E5C39400099E72 /* Calendar.png in Resources */ = {isa = PBXBuildFile; fileRef = 83EC32B118E5C39400099E72 /* Calendar.png */; };
 		83F55BFB18EFB35000C8B52D /* EventViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83F55BFA18EFB35000C8B52D /* EventViewController.m */; };
+		DD3A4E0519033CAA00050B05 /* volunteerPage-01.png in Resources */ = {isa = PBXBuildFile; fileRef = DD3A4E0419033CAA00050B05 /* volunteerPage-01.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -120,6 +121,7 @@
 		83EC32B118E5C39400099E72 /* Calendar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Calendar.png; sourceTree = "<group>"; };
 		83F55BF918EFB35000C8B52D /* EventViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventViewController.h; sourceTree = "<group>"; };
 		83F55BFA18EFB35000C8B52D /* EventViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventViewController.m; sourceTree = "<group>"; };
+		DD3A4E0419033CAA00050B05 /* volunteerPage-01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "volunteerPage-01.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -231,6 +233,7 @@
 				836C803F18FFB33E005846DA /* blurred.jpg */,
 				836C803D18FFADB6005846DA /* textfieldbackground.jpg */,
 				836C803B18FFA28D005846DA /* signupbackground.jpg */,
+				DD3A4E0419033CAA00050B05 /* volunteerPage-01.png */,
 				83EC32B118E5C39400099E72 /* Calendar.png */,
 				83EC32AD18E5083100099E72 /* Info.png */,
 				83EC32A718E5076800099E72 /* Register.png */,
@@ -349,6 +352,7 @@
 				83D1E55018DD20A700457CCA /* Main_iPad.storyboard in Resources */,
 				836C804018FFB33E005846DA /* blurred.jpg in Resources */,
 				83EC32A418E5062F00099E72 /* Contact.png in Resources */,
+				DD3A4E0519033CAA00050B05 /* volunteerPage-01.png in Resources */,
 				83EC329618E4FECD00099E72 /* Map.png in Resources */,
 				83D1E55518DD20A700457CCA /* Images.xcassets in Resources */,
 				83EC32A818E5076800099E72 /* Register.png in Resources */,

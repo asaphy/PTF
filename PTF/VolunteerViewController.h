@@ -8,11 +8,13 @@
 
 #import <UIKit/UIKit.h>
 #import <Parse/Parse.h>
-@interface VolunteerViewController : UIViewController
+@interface VolunteerViewController : UIViewController <UITextFieldDelegate> 
 @property (strong, nonatomic) IBOutlet UIPickerView *locationPicker;
 @property (strong, nonatomic) IBOutlet UIPickerView *timePicker;
 @property (strong, nonatomic) NSArray *array;
 @property (strong, nonatomic) NSString *dateFromCal;
 @property (strong, nonatomic) NSArray *startTimeArray;
+@property (strong, nonatomic)  UITextField *contactName;
+@property (strong, nonatomic)  UITextField *contactNumber;
 - (IBAction)addEvent:(id)sender;
 @end

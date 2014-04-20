@@ -40,11 +40,11 @@
     self.array = data;
     self.startTimeArray = startTime;
     
-    CGRect textfieldFrame = CGRectMake(0.0, 250.0, 320.0, 49.0);
+    CGRect textfieldFrame = CGRectMake(120.0, 120.0, 260.0, 49.0);
     _contactName = [[UITextField alloc] initWithFrame:textfieldFrame];
     _contactName.borderStyle = UITextBorderStyleLine;
     _contactName.font = [UIFont systemFontOfSize:18];
-    _contactName.placeholder = @"  Event Contact Name";
+    _contactName.placeholder = @"Event Contact Name";
     _contactName.alpha = 0.8;
     _contactName.autocorrectionType = UITextAutocorrectionTypeNo;
     _contactName.keyboardType = UIKeyboardTypeDefault;
@@ -56,11 +56,11 @@
     
     [self.view addSubview:_contactName];
     
-    CGRect textfieldFrame2 = CGRectMake(0.0, 300.0, 320.0, 49.0);
+    CGRect textfieldFrame2 = CGRectMake(120.0, 170.0, 260.0, 49.0);
     _contactNumber = [[UITextField alloc] initWithFrame:textfieldFrame2];
     _contactNumber.borderStyle = UITextBorderStyleLine;
     _contactNumber.font = [UIFont systemFontOfSize:18];
-    _contactNumber.placeholder = @"  Event Contact Number";
+    _contactNumber.placeholder = @"Event Contact Number";
     _contactNumber.alpha = 0.8;
     _contactNumber.autocorrectionType = UITextAutocorrectionTypeNo;
     _contactNumber.keyboardType = UIKeyboardTypeDefault;
@@ -114,6 +114,8 @@
     eventDates[@"location"] = select;
     eventDates[@"date"] = theDate;
     eventDates[@"time"] = eventStartTime;
+    eventDates[@"contactName"] = _contactName.text;
+    eventDates[@"contactNumber"] = _contactNumber.text;
     eventDates[@"driver"] = @"";
     eventDates[@"foodProvider"] = @"";
     eventDates[@"chaperone1"] = @"";
@@ -188,11 +190,13 @@
         eventDates[@"location"] = select;
         eventDates[@"date"] = theDate;
         eventDates[@"time"] = eventStartTime;
+        eventDates[@"contactName"] = _contactName.text;
+        eventDates[@"contactNumber"] = _contactNumber.text;
         eventDates[@"driver"] = @"";
         eventDates[@"foodProvider"] = @"";
         eventDates[@"chaperone1"] = @"";
         eventDates[@"chaperone2"] = @"";
-        
+
         [eventDates saveInBackground];
         
         NSString *title = [[NSString alloc] initWithFormat:@"You have succesfully added an event at %@ on %@ starting at %@!", select, theDate, eventStartTime];
@@ -206,35 +210,9 @@
     return YES;
 }
 
-//-(NSInteger)numberOfComponentsInPickerView:(UIPickerView *)pickerView {
-//    
-//    return 1;
-//    
-//}
-//
-//
-//- (NSInteger)pickerView:(UIPickerView *)thePickerView numberOfRowsInComponent:(NSInteger)component {
-//    if ([thePickerView isEqual: _locationPicker]) {
-//        return [_array count];
-//    } else if ([thePickerView isEqual: _timePicker]) {
-//        NSLog(@"hey");
-//        return [_startTimeArray count];
-//    }
-//    return 0;
-//    
-//}
-//
-//#pragma mark Picker Delegate Methods
-//
-//-(NSString *)pickerView:(UIPickerView *)thePickerView titleForRow:(NSInteger)row forComponent:(NSInteger)component {
-//    if ([thePickerView isEqual: _locationPicker]) {
-//        return [_array objectAtIndex:row];
-//    }
-//    else if ([thePickerView isEqual: _timePicker]) {
-//        NSLog(@"hey");
-//        return [_startTimeArray objectAtIndex:row];
-//    }
-//    return 0;
-//}
+- (void)textFieldDidBeginEditing:(UITextField *)textField {
+    
+    self.scrollView.contentOffset = CGPointMake(0, textField.frame.origin.y);
+}
 
 @end

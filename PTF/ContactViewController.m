@@ -24,6 +24,62 @@
     return self;
 }
 
+- (void) viewWillAppear:(BOOL)animated
+{
+    
+    //hide today's contact labels
+    _todayContact.hidden=YES;
+    _todayNumber.hidden=YES;
+    
+    NSDate *tmpDate = [[NSUserDefaults standardUserDefaults] objectForKey:@"date"];
+    
+    NSDateFormatter *dateFormat = [[NSDateFormatter alloc] init];
+    [dateFormat setDateFormat:@"M/d/yyyy"];
+    
+    NSString *theDate = [dateFormat stringFromDate:tmpDate];
+    self.dateFromCal = theDate;
+    self.navigationItem.title = theDate;
+    dateFormat = [[NSDateFormatter alloc] init];
+    [dateFormat setDateFormat:@"yyyy-MM-dd"];
+    theDate = [dateFormat stringFromDate:tmpDate];
+    
+    //today's contact
+    PFQuery *query = [PFQuery queryWithClassName:@"EventDates"];
+    [query whereKey:@"date" equalTo:theDate];
+    //if this then do nothing
+    //[query whereKeyDoesNotExist:@"contactName"];
+    PFObject *queryRes = [query getFirstObject];
+    NSString *content = [queryRes objectForKey:@"contactName"];
+    
+    
+    if ([[queryRes objectForKey:@"contactName"]  isEqual: @""]) {
+        // the object has no value for contactName
+    }
+    else{
+        //display name of contact
+        NSLog(@"something: %@", content);
+        NSString *contact = @"Today's Contact: ";
+        NSString *result = [contact stringByAppendingString:content];
+        _todayContact.text = (result);
+        _todayContact.hidden=NO;
+    }
+    
+    NSString *content2 = [queryRes objectForKey:@"contactNumber"];
+    
+    if ([[queryRes objectForKey:@"contactNumber"]  isEqual: @""]) {
+        // the object has no value for contactNumber
+    }
+    else{
+        //display number of contact
+        NSString *contact = @"Contact #: ";
+        NSString *result = [contact stringByAppendingString:content2];
+        _todayNumber.text = (result);
+        _todayNumber.hidden=NO;
+    }
+
+}
+
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
@@ -37,6 +93,12 @@
     [self.navigationController.navigationBar setTitleTextAttributes:@{NSForegroundColorAttributeName : [UIColor whiteColor]}];
     self.navigationController.navigationBar.translucent = NO;
     self.tabBarController.tabBar.translucent = NO;
+    
+    //hide today's contact labels
+    _todayContact.hidden=YES;
+    _todayNumber.hidden=YES;
+    
+    
 }
 
 - (void)didReceiveMemoryWarning
@@ -58,9 +120,9 @@
 
 - (IBAction)showEmail:(id)sender {
     // Email Subject
-    NSString *emailTitle = @"I volunteer as tribute!";
+    NSString *emailTitle = @"Subject Line";
     // Email Content
-    NSString *messageBody = @"I can code all night!";
+    NSString *messageBody = @"Email Text";
     // To address
     NSArray *toRecipents = [NSArray arrayWithObject:@"conmel@aol.com"];
     

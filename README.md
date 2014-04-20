@@ -8,9 +8,7 @@ PTF Bug List
 -	the calendar sometimes crashed, haven't seen this in a while
 
 To Do List:
--		show difference on the volunteer page when certain positions are filled. For example, if the driver positions are filled, “Volunteer to be the drive” button will no longer appear.
 -		show different color on the calendar 
--		add site coordinator contact info
 -		priviledge
 -		change frontpage
 -		send color scheme to Joel

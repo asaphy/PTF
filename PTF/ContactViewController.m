@@ -46,8 +46,7 @@
     //today's contact
     PFQuery *query = [PFQuery queryWithClassName:@"EventDates"];
     [query whereKey:@"date" equalTo:theDate];
-    //if this then do nothing
-    //[query whereKeyDoesNotExist:@"contactName"];
+    [query whereKeyExists:@"contactName"];
     PFObject *queryRes = [query getFirstObject];
     NSString *content = [queryRes objectForKey:@"contactName"];
     

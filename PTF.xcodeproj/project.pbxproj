@@ -49,6 +49,7 @@
 		83EC32B218E5C39400099E72 /* Calendar.png in Resources */ = {isa = PBXBuildFile; fileRef = 83EC32B118E5C39400099E72 /* Calendar.png */; };
 		83F55BFB18EFB35000C8B52D /* EventViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83F55BFA18EFB35000C8B52D /* EventViewController.m */; };
 		DD9A0D7B19042F4B00A9150D /* volunteerPage-01.png in Resources */ = {isa = PBXBuildFile; fileRef = DD9A0D7A19042F4B00A9150D /* volunteerPage-01.png */; };
+		DD9A0D7D1904E47100A9150D /* DeleteEventButton.png in Resources */ = {isa = PBXBuildFile; fileRef = DD9A0D7C1904E47100A9150D /* DeleteEventButton.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -122,6 +123,7 @@
 		83F55BF918EFB35000C8B52D /* EventViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventViewController.h; sourceTree = "<group>"; };
 		83F55BFA18EFB35000C8B52D /* EventViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventViewController.m; sourceTree = "<group>"; };
 		DD9A0D7A19042F4B00A9150D /* volunteerPage-01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "volunteerPage-01.png"; sourceTree = "<group>"; };
+		DD9A0D7C1904E47100A9150D /* DeleteEventButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DeleteEventButton.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -231,6 +233,7 @@
 			children = (
 				836C804118FFB464005846DA /* blurred2.jpg */,
 				836C803F18FFB33E005846DA /* blurred.jpg */,
+				DD9A0D7C1904E47100A9150D /* DeleteEventButton.png */,
 				836C803D18FFADB6005846DA /* textfieldbackground.jpg */,
 				DD9A0D7A19042F4B00A9150D /* volunteerPage-01.png */,
 				836C803B18FFA28D005846DA /* signupbackground.jpg */,
@@ -356,6 +359,7 @@
 				83D1E55518DD20A700457CCA /* Images.xcassets in Resources */,
 				83EC32A818E5076800099E72 /* Register.png in Resources */,
 				83D1E54D18DD20A700457CCA /* Main_iPhone.storyboard in Resources */,
+				DD9A0D7D1904E47100A9150D /* DeleteEventButton.png in Resources */,
 				83052AB018DE1724001F7143 /* background_login.jpg in Resources */,
 				DD9A0D7B19042F4B00A9150D /* volunteerPage-01.png in Resources */,
 				836C803C18FFA28D005846DA /* signupbackground.jpg in Resources */,

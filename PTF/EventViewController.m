@@ -36,6 +36,28 @@
     _chaperone1Name.hidden=YES;
     _chaperone2Name.hidden=YES;
     
+    PFQuery *query1= [PFUser query];
+    
+    [query1 whereKey:@"username" equalTo:[[PFUser currentUser]username]];
+    PFObject *queryRes1 = [query1 getFirstObject];
+    NSString *permission = [queryRes1 objectForKey:@"permission"];
+    if ([permission isEqualToString:@"1"]){
+        //permission is not high enough to delete events
+        self.deleteEventButton.hidden = YES;
+    }
+    else if ([permission isEqualToString:@"2"]){
+        //highest permission
+    }
+    else{
+        //cannot volunteer or delete events
+        self.driverButton.hidden = YES;
+        self.foodProviderButton.hidden = YES;
+        self.chaperone1Button.hidden = YES;
+        self.chaperone2Button.hidden = YES;
+        self.deleteEventButton.hidden = YES;
+    }
+    
+    
     NSDate *tmpDate = [[NSUserDefaults standardUserDefaults] objectForKey:@"date"];
     
     NSDateFormatter *dateFormat = [[NSDateFormatter alloc] init];

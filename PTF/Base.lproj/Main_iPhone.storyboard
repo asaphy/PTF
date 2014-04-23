@@ -441,6 +441,7 @@
                                 <rect key="frame" x="223" y="55" width="69" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Volunteer!">
+                                    <color key="titleColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
@@ -523,6 +524,7 @@
                         <outlet property="chaperone1Name" destination="36y-Rg-5Tk" id="LMB-Jj-5a2"/>
                         <outlet property="chaperone2Button" destination="zdy-Or-suH" id="6eN-4I-SxO"/>
                         <outlet property="chaperone2Name" destination="snS-hI-ecb" id="woV-Dm-HA0"/>
+                        <outlet property="deleteEventButton" destination="gOt-3W-yqh" id="61u-50-3wq"/>
                         <outlet property="driverButton" destination="qXp-ho-3yj" id="jsV-iQ-41f"/>
                         <outlet property="driverName" destination="Omo-ZZ-E7l" id="adP-pf-jUa"/>
                         <outlet property="foodProviderButton" destination="mz2-tg-IxY" id="Zye-Rc-0gb"/>
@@ -591,6 +593,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <connections>
+                        <outlet property="addEventButton" destination="0H7-YR-HW5" id="BV4-wO-lq2"/>
                         <outlet property="locationPicker" destination="D3t-MN-xfP" id="ay1-0N-rhO"/>
                         <outlet property="timePicker" destination="lVk-Df-iXp" id="Gla-eU-aRX"/>
                     </connections>

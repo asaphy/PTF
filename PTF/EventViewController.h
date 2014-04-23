@@ -18,6 +18,7 @@
 @property (weak, nonatomic) IBOutlet UIButton *foodProviderButton;
 @property (weak, nonatomic) IBOutlet UIButton *chaperone1Button;
 @property (weak, nonatomic) IBOutlet UIButton *chaperone2Button;
+@property (weak, nonatomic) IBOutlet UIButton *deleteEventButton;
 @property (weak, nonatomic) IBOutlet UILabel *driverName;
 @property (weak, nonatomic) IBOutlet UILabel *foodProviderName;
 @property (weak, nonatomic) IBOutlet UILabel *chaperone1Name;

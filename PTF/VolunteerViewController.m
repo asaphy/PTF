@@ -27,6 +27,21 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    PFQuery *query= [PFUser query];
+    
+    [query whereKey:@"username" equalTo:[[PFUser currentUser]username]];
+    PFObject *queryRes = [query getFirstObject];
+    NSString *permission = [queryRes objectForKey:@"permission"];
+    if ([permission isEqualToString:@"2"]){
+        //permission is high enough to create event
+    }
+    else{
+        //hide create event button
+        self.addEventButton.hidden = YES;
+    }
+    
+    
+    
     NSDate *tmpDate = [[NSUserDefaults standardUserDefaults] objectForKey:@"date"];
     
     NSDateFormatter *dateFormat = [[NSDateFormatter alloc] init];
@@ -92,7 +107,19 @@
 */
 
 - (IBAction)addEvent:(id)sender {
+    //check if fields are filled in
+    if ([self.contactName.text isEqualToString:@""]){
+        UIAlertView *error1 = [[UIAlertView alloc] initWithTitle:@"Contact Name Required" message:@"Please enter a contact name." delegate:nil cancelButtonTitle:@"OK" otherButtonTitles: nil];
+        
+        [error1 show];
+    }
+    else if ([self.contactNumber.text isEqualToString:@""]){
+        UIAlertView *error2 = [[UIAlertView alloc] initWithTitle: @"Contact Number Required" message:@"Please enter a contact number." delegate:nil cancelButtonTitle:@"OK" otherButtonTitles: nil];
+        
+        [error2 show];
+    }
     
+    else {
     // getting an NSDate
     NSDate *tmpDate = [[NSUserDefaults standardUserDefaults] objectForKey:@"date"];
     
@@ -130,7 +157,7 @@
     [alert show];
     
     [self.navigationController popViewControllerAnimated:YES];
-    
+    }
 }
 
 
@@ -208,11 +235,6 @@
         [self.navigationController popViewControllerAnimated:YES];
     }
     return YES;
-}
-
-- (void)textFieldDidBeginEditing:(UITextField *)textField {
-    
-    self.scrollView.contentOffset = CGPointMake(0, textField.frame.origin.y);
 }
 
 @end

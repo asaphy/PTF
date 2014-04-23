@@ -31,7 +31,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     
-    CGRect textfieldFrame = CGRectMake(0.0, 80.0, 320.0, 49.0);
+    CGRect textfieldFrame = CGRectMake(3.0, 80.0, 315.0, 49.0);
     _signupName = [[UITextField alloc] initWithFrame:textfieldFrame];
     _signupName.borderStyle = UITextBorderStyleLine;
     _signupName.font = [UIFont systemFontOfSize:18];
@@ -47,7 +47,7 @@
 
     [self.view addSubview:_signupName];
     
-    CGRect textfieldFrame3 = CGRectMake(0.0, 130.0, 320.0, 49.0);
+    CGRect textfieldFrame3 = CGRectMake(3.0, 130.0, 315.0, 49.0);
     _signupUsername = [[UITextField alloc] initWithFrame:textfieldFrame3];
     _signupUsername.borderStyle = UITextBorderStyleLine;
     _signupUsername.font = [UIFont systemFontOfSize:18];
@@ -62,7 +62,7 @@
     _signupUsername.background = [UIImage imageNamed:@"textfieldbackground.jpg"];
     [self.view addSubview:_signupUsername];
     
-    CGRect textfieldFrame4 = CGRectMake(0.0, 180.0, 320.0, 49.0);
+    CGRect textfieldFrame4 = CGRectMake(3.0, 180.0, 315.0, 49.0);
     _signupEmail = [[UITextField alloc] initWithFrame:textfieldFrame4];
     _signupEmail.borderStyle = UITextBorderStyleLine;
     _signupEmail.font = [UIFont systemFontOfSize:18];
@@ -78,7 +78,7 @@
     [self.view addSubview:_signupEmail];
 
 
-    CGRect textfieldFrame5 = CGRectMake(0.0, 230.0, 320.0, 50.0);
+    CGRect textfieldFrame5 = CGRectMake(3.0, 230.0, 315.0, 50.0);
     _signupPassword = [[UITextField alloc] initWithFrame:textfieldFrame5];
     _signupPassword.borderStyle = UITextBorderStyleLine;
     _signupPassword.font = [UIFont systemFontOfSize:18];
@@ -108,7 +108,12 @@
     // Dispose of any resources that can be recreated.
 }
 - (IBAction)registerUser:(id)sender {
-    
+    if ([self.signupName.text isEqualToString:@""]){
+        UIAlertView *error1 = [[UIAlertView alloc] initWithTitle:@"Name Required" message:@"Please enter a name." delegate:nil cancelButtonTitle:@"OK" otherButtonTitles: nil];
+        
+        [error1 show];
+    }
+    else{
     PFUser * user = [PFUser user];
     user[@"signupName"] = self.signupName.text;
     user.username = self.signupUsername.text;
@@ -134,10 +139,13 @@
             
         }else
         {
+            NSString *errorMessage = [error localizedDescription];
+            NSLog(@"%@",errorMessage);
             self.statusLabel.text = @"Please try another username or email";
             [self.signupPassword resignFirstResponder];
         }
     }];
+    }
 }
 
 -(void) goToLoggedInViewController

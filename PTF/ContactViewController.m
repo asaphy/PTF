@@ -47,34 +47,36 @@
     PFQuery *query = [PFQuery queryWithClassName:@"EventDates"];
     [query whereKey:@"date" equalTo:theDate];
     [query whereKeyExists:@"contactName"];
-    PFObject *queryRes = [query getFirstObject];
-    NSString *content = [queryRes objectForKey:@"contactName"];
+    [query getFirstObjectInBackgroundWithBlock:^(PFObject *object, NSError *error) {
+        if (!object) {
+            NSLog(@"The getFirstObject request failed.");
+        } else {
+            // The find succeeded.
+            NSString *content = [object objectForKey:@"contactName"];
+            NSString *contact = @"Today's Contact: ";
+            NSString *result = [contact stringByAppendingString:content];
+            _todayContact.text = (result);
+            _todayContact.hidden=NO;
+        }
+    }];
     
     
-    if ([[queryRes objectForKey:@"contactName"]  isEqual: @""]) {
-        // the object has no value for contactName
-    }
-    else{
-        //display name of contact
-        NSLog(@"something: %@", content);
-        NSString *contact = @"Today's Contact: ";
-        NSString *result = [contact stringByAppendingString:content];
-        _todayContact.text = (result);
-        _todayContact.hidden=NO;
-    }
     
-    NSString *content2 = [queryRes objectForKey:@"contactNumber"];
-    
-    if ([[queryRes objectForKey:@"contactNumber"]  isEqual: @""]) {
-        // the object has no value for contactNumber
-    }
-    else{
-        //display number of contact
-        NSString *contact = @"Contact #: ";
-        NSString *result = [contact stringByAppendingString:content2];
-        _todayNumber.text = (result);
-        _todayNumber.hidden=NO;
-    }
+    PFQuery *query2 = [PFQuery queryWithClassName:@"EventDates"];
+    [query2 whereKey:@"date" equalTo:theDate];
+    [query2 whereKeyExists:@"contactName"];
+    [query2 getFirstObjectInBackgroundWithBlock:^(PFObject *object, NSError *error) {
+        if (!object) {
+            NSLog(@"The getFirstObject request failed.");
+        } else {
+            // The find succeeded.
+            NSString *content2 = [object objectForKey:@"contactNumber"];
+            NSString *contact = @"Today's Contact: ";
+            NSString *result = [contact stringByAppendingString:content2];
+            _todayNumber.text = (result);
+            _todayNumber.hidden=NO;
+        }
+    }];
 
 }
 

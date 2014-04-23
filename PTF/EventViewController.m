@@ -88,7 +88,13 @@
         _driverName.text = (content);
         _driverName.hidden=NO;
         _driverButton.hidden=YES;
-        self.cancelDriver.hidden=NO;
+        
+        [query whereKey:@"username" equalTo:[[PFUser currentUser]username]];
+        PFObject *queryRes1 = [query1 getFirstObject];
+        NSString *name = [queryRes1 objectForKey:@"signupName"];
+        if ([[queryRes objectForKey:@"driver"]  isEqualToString: name ]) {
+            self.cancelDriver.hidden=NO;
+        }
     }
     
     NSString *content2 = [queryRes objectForKey:@"foodProvider"];
@@ -101,7 +107,12 @@
         _foodProviderName.text = (content2);
         _foodProviderName.hidden=NO;
         _foodProviderButton.hidden=YES;
-        self.cancelFoodProvider.hidden=NO;
+        [query whereKey:@"username" equalTo:[[PFUser currentUser]username]];
+        PFObject *queryRes1 = [query1 getFirstObject];
+        NSString *name = [queryRes1 objectForKey:@"signupName"];
+        if ([[queryRes objectForKey:@"foodProvider"]  isEqualToString: name ]) {
+            self.cancelFoodProvider.hidden=NO;
+        }
     }
     
     NSString *content3 = [queryRes objectForKey:@"chaperone1"];
@@ -114,7 +125,11 @@
         _chaperone1Name.text = (content3);
         _chaperone1Name.hidden=NO;
         _chaperone1Button.hidden=YES;
-        self.cancelChaperone1.hidden=NO;
+        PFObject *queryRes1 = [query1 getFirstObject];
+        NSString *name = [queryRes1 objectForKey:@"signupName"];
+        if ([[queryRes objectForKey:@"chaperone1"]  isEqualToString: name ]) {
+            self.cancelChaperone1.hidden=NO;
+        }
     }
     
     NSString *content4 = [queryRes objectForKey:@"chaperone2"];
@@ -127,7 +142,11 @@
         _chaperone2Name.text = (content4);
         _chaperone2Name.hidden=NO;
         _chaperone2Button.hidden=YES;
-        self.cancelChaperone2.hidden=NO;
+        PFObject *queryRes1 = [query1 getFirstObject];
+        NSString *name = [queryRes1 objectForKey:@"signupName"];
+        if ([[queryRes objectForKey:@"chaperone2"]  isEqualToString: name ]) {
+            self.cancelChaperone2.hidden=NO;
+        }
     }
 }
 

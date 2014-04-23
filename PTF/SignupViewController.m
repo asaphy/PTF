@@ -121,7 +121,17 @@
         if(succeeded)
         {
             [self.signupPassword resignFirstResponder];
-            [self.navigationController popToRootViewControllerAnimated:YES];
+            [PFUser logInWithUsernameInBackground:self.signupUsername.text password:self.signupPassword.text block:^(PFUser *user, NSError *error) {
+                
+                if (user) {
+                    [self goToLoggedInViewController];
+                }else
+                {
+                    UIAlertView * view = [[UIAlertView alloc]initWithTitle:@"Log In Error" message:@"Unable to login, please try again" delegate:nil cancelButtonTitle:@"Okay" otherButtonTitles:nil];
+                    [view show];
+                }
+            }];
+            
         }else
         {
             self.statusLabel.text = @"Please try another username or email";
@@ -130,6 +140,11 @@
     }];
 }
 
+-(void) goToLoggedInViewController
+{
+    UITabBarController * mvc = [self.storyboard instantiateViewControllerWithIdentifier:@"TabBarController"];
+    [self.navigationController pushViewController:mvc animated:YES];
+}
 
 
 

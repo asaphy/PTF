@@ -68,14 +68,10 @@
     info5.text = @" Individual(s), family, or  community groups are responsible for buying, preparing, and serving a meal. Generally, the meals are prepared at home and heated at the site. All sites have a kitchen. Dinner is usually served around 6:30 PM.";
     
     Info *info6 = [Info new];
-    info6.title = @"Directors";
-    info6.text = @"Here is a list of our directors";
+    info6.title = @"Ways to Give";
+    info6.text = @"Checks may be made payable to the Plymouth Taskforce for the Homeless and mailed to PO Box 3896, Plymouth, MA 02361. We are an all volunteer organization, so 100% of funds raised go directly to programs and services. Thank you for your generosity that allows us to continue our shared mission.";
     
-    Info *info7 = [Info new];
-    info7.title = @"Ways to Give";
-    info7.text = @"Checks may be made payable to the Plymouth Taskforce for the Homeless and mailed to PO Box 3896, Plymouth, MA 02361. We are an all volunteer organization, so 100% of funds raised go directly to programs and services. Thank you for your generosity that allows us to continue our shared mission.";
-    
-    infos = [NSArray arrayWithObjects:info1, info2, info3, info4, info5, info6, info7, nil];
+    infos = [NSArray arrayWithObjects:info1, info2, info3, info4, info5, info6, nil];
 }
 
 

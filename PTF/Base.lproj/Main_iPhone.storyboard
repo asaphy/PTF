@@ -516,10 +516,54 @@
                                     <action selector="deleteEvent:" destination="0UM-ok-y1K" eventType="touchUpInside" id="x0E-Dt-0sB"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OKC-C0-Cns">
+                                <rect key="frame" x="234" y="73" width="48" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Cancel">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="cancelDriver:" destination="0UM-ok-y1K" eventType="touchUpInside" id="bmf-T8-iAg"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nCv-VZ-Z69">
+                                <rect key="frame" x="234" y="150" width="48" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Cancel">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="cancelFoodProvider:" destination="0UM-ok-y1K" eventType="touchUpInside" id="Wka-Ky-qXm"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jEd-RQ-2jj">
+                                <rect key="frame" x="234" y="232" width="48" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Cancel">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="cancelChaperone1:" destination="0UM-ok-y1K" eventType="touchUpInside" id="L9C-LB-Hie"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mhu-gQ-ZHH">
+                                <rect key="frame" x="234" y="311" width="48" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Cancel">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="cancelChaperone2:" destination="0UM-ok-y1K" eventType="touchUpInside" id="vyf-fL-Mge"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <connections>
+                        <outlet property="cancelChaperone1" destination="jEd-RQ-2jj" id="X7c-pO-sOw"/>
+                        <outlet property="cancelChaperone2" destination="mhu-gQ-ZHH" id="3tG-Kc-AZ8"/>
+                        <outlet property="cancelDriver" destination="OKC-C0-Cns" id="Twz-Mc-9BQ"/>
+                        <outlet property="cancelFoodProvider" destination="nCv-VZ-Z69" id="wAg-0R-o7w"/>
                         <outlet property="chaperone1Button" destination="bgo-ZW-O1D" id="J5l-e1-9KK"/>
                         <outlet property="chaperone1Name" destination="36y-Rg-5Tk" id="LMB-Jj-5a2"/>
                         <outlet property="chaperone2Button" destination="zdy-Or-suH" id="6eN-4I-SxO"/>

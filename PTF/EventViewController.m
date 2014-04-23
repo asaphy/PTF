@@ -35,6 +35,10 @@
     _foodProviderName.hidden=YES;
     _chaperone1Name.hidden=YES;
     _chaperone2Name.hidden=YES;
+    _cancelDriver.hidden=YES;
+    _cancelFoodProvider.hidden=YES;
+    _cancelChaperone1.hidden=YES;
+    _cancelChaperone2.hidden=YES;
     
     PFQuery *query1= [PFUser query];
     
@@ -84,6 +88,7 @@
         _driverName.text = (content);
         _driverName.hidden=NO;
         _driverButton.hidden=YES;
+        self.cancelDriver.hidden=NO;
     }
     
     NSString *content2 = [queryRes objectForKey:@"foodProvider"];
@@ -96,6 +101,7 @@
         _foodProviderName.text = (content2);
         _foodProviderName.hidden=NO;
         _foodProviderButton.hidden=YES;
+        self.cancelFoodProvider.hidden=NO;
     }
     
     NSString *content3 = [queryRes objectForKey:@"chaperone1"];
@@ -108,6 +114,7 @@
         _chaperone1Name.text = (content3);
         _chaperone1Name.hidden=NO;
         _chaperone1Button.hidden=YES;
+        self.cancelChaperone1.hidden=NO;
     }
     
     NSString *content4 = [queryRes objectForKey:@"chaperone2"];
@@ -120,6 +127,7 @@
         _chaperone2Name.text = (content4);
         _chaperone2Name.hidden=NO;
         _chaperone2Button.hidden=YES;
+        self.cancelChaperone2.hidden=NO;
     }
 }
 
@@ -139,6 +147,126 @@
     // Pass the selected object to the new view controller.
 }
 */
+
+- (IBAction)cancelDriver:(id)sender {
+    self.driverButton.hidden=NO;
+    self.cancelDriver.hidden=YES;
+    
+    NSDate *tmpDate = [[NSUserDefaults standardUserDefaults] objectForKey:@"date"];
+    
+    NSDateFormatter *dateFormat = [[NSDateFormatter alloc] init];
+    [dateFormat setDateFormat:@"M/d/yyyy"];
+    
+    NSString *theDate = [dateFormat stringFromDate:tmpDate];
+    self.dateFromCal = theDate;
+    self.navigationItem.title = theDate;
+    dateFormat = [[NSDateFormatter alloc] init];
+    [dateFormat setDateFormat:@"yyyy-MM-dd"];
+    theDate = [dateFormat stringFromDate:tmpDate];
+    
+    
+    PFQuery *query = [PFQuery queryWithClassName:@"EventDates"];
+    [query whereKey:@"date" equalTo:theDate];
+    PFObject *queryRes = [query getFirstObject];
+    if ([[queryRes objectForKey:@"driver"]  isEqual: @""]) {
+        // the object has no value for key driver
+    }
+    else{
+        queryRes[@"driver"] = @"";
+        [queryRes saveInBackground];
+    }
+    _driverName.hidden=YES;
+}
+
+- (IBAction)cancelFoodProvider:(id)sender {
+    self.foodProviderButton.hidden=NO;
+    self.cancelFoodProvider.hidden=YES;
+    
+    NSDate *tmpDate = [[NSUserDefaults standardUserDefaults] objectForKey:@"date"];
+    
+    NSDateFormatter *dateFormat = [[NSDateFormatter alloc] init];
+    [dateFormat setDateFormat:@"M/d/yyyy"];
+    
+    NSString *theDate = [dateFormat stringFromDate:tmpDate];
+    self.dateFromCal = theDate;
+    self.navigationItem.title = theDate;
+    dateFormat = [[NSDateFormatter alloc] init];
+    [dateFormat setDateFormat:@"yyyy-MM-dd"];
+    theDate = [dateFormat stringFromDate:tmpDate];
+    
+    
+    PFQuery *query = [PFQuery queryWithClassName:@"EventDates"];
+    [query whereKey:@"date" equalTo:theDate];
+    PFObject *queryRes = [query getFirstObject];
+    if ([[queryRes objectForKey:@"foodProvider"]  isEqual: @""]) {
+        // the object has no value for key foodProvider
+    }
+    else{
+        queryRes[@"foodProvider"] = @"";
+        [queryRes saveInBackground];
+    }
+    _foodProviderName.hidden=YES;
+}
+
+- (IBAction)cancelChaperone1:(id)sender {
+    self.chaperone1Button.hidden=NO;
+    self.cancelChaperone1.hidden=YES;
+    
+    NSDate *tmpDate = [[NSUserDefaults standardUserDefaults] objectForKey:@"date"];
+    
+    NSDateFormatter *dateFormat = [[NSDateFormatter alloc] init];
+    [dateFormat setDateFormat:@"M/d/yyyy"];
+    
+    NSString *theDate = [dateFormat stringFromDate:tmpDate];
+    self.dateFromCal = theDate;
+    self.navigationItem.title = theDate;
+    dateFormat = [[NSDateFormatter alloc] init];
+    [dateFormat setDateFormat:@"yyyy-MM-dd"];
+    theDate = [dateFormat stringFromDate:tmpDate];
+    
+    
+    PFQuery *query = [PFQuery queryWithClassName:@"EventDates"];
+    [query whereKey:@"date" equalTo:theDate];
+    PFObject *queryRes = [query getFirstObject];
+    if ([[queryRes objectForKey:@"chaperone1"]  isEqual: @""]) {
+        // the object has no value for key chaperone1
+    }
+    else{
+        queryRes[@"chaperone1"] = @"";
+        [queryRes saveInBackground];
+    }
+    _chaperone1Name.hidden=YES;
+}
+
+- (IBAction)cancelChaperone2:(id)sender {
+    self.chaperone2Button.hidden=NO;
+    self.cancelChaperone2.hidden=YES;
+    
+    NSDate *tmpDate = [[NSUserDefaults standardUserDefaults] objectForKey:@"date"];
+    
+    NSDateFormatter *dateFormat = [[NSDateFormatter alloc] init];
+    [dateFormat setDateFormat:@"M/d/yyyy"];
+    
+    NSString *theDate = [dateFormat stringFromDate:tmpDate];
+    self.dateFromCal = theDate;
+    self.navigationItem.title = theDate;
+    dateFormat = [[NSDateFormatter alloc] init];
+    [dateFormat setDateFormat:@"yyyy-MM-dd"];
+    theDate = [dateFormat stringFromDate:tmpDate];
+    
+    
+    PFQuery *query = [PFQuery queryWithClassName:@"EventDates"];
+    [query whereKey:@"date" equalTo:theDate];
+    PFObject *queryRes = [query getFirstObject];
+    if ([[queryRes objectForKey:@"chaperone2"]  isEqual: @""]) {
+        // the object has no value for key chaperone2
+    }
+    else{
+        queryRes[@"chaperone2"] = @"";
+        [queryRes saveInBackground];
+    }
+    _chaperone2Name.hidden=YES;
+}
 
 - (IBAction)driver:(id)sender {
     NSDate *tmpDate = [[NSUserDefaults standardUserDefaults] objectForKey:@"date"];

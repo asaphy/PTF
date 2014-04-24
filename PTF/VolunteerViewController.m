@@ -112,11 +112,13 @@
         UIAlertView *error1 = [[UIAlertView alloc] initWithTitle:@"Contact Name Required" message:@"Please enter a contact name." delegate:nil cancelButtonTitle:@"OK" otherButtonTitles: nil];
         
         [error1 show];
+        [self.contactName becomeFirstResponder];
     }
     else if ([self.contactNumber.text isEqualToString:@""]){
         UIAlertView *error2 = [[UIAlertView alloc] initWithTitle: @"Contact Number Required" message:@"Please enter a contact number." delegate:nil cancelButtonTitle:@"OK" otherButtonTitles: nil];
         
         [error2 show];
+        [self.contactNumber becomeFirstResponder];
     }
     
     else {

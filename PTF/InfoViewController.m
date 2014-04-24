@@ -65,7 +65,7 @@
     
     Info *info5 = [Info new];
     info5.title = @"Meal Providers' Role";
-    info5.text = @" Individual(s), family, or  community groups are responsible for buying, preparing, and serving a meal. Generally, the meals are prepared at home and heated at the site. All sites have a kitchen. Dinner is usually served around 6:30 PM.";
+    info5.text = @"Individual(s), family, or  community groups are responsible for buying, preparing, and serving a meal. Generally, the meals are prepared at home and heated at the site. All sites have a kitchen. Dinner is usually served around 6:30 PM.";
     
     Info *info6 = [Info new];
     info6.title = @"Ways to Give";

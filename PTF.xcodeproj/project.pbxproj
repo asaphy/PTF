@@ -21,6 +21,10 @@
 		836C804018FFB33E005846DA /* blurred.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 836C803F18FFB33E005846DA /* blurred.jpg */; };
 		836C804218FFB465005846DA /* blurred2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 836C804118FFB464005846DA /* blurred2.jpg */; };
 		8379EF5F1908E09A0009EB04 /* blurred3.png in Resources */ = {isa = PBXBuildFile; fileRef = 8379EF5E1908E09A0009EB04 /* blurred3.png */; };
+		8379EF611908F01B0009EB04 /* textfieldbackgroundorange.png in Resources */ = {isa = PBXBuildFile; fileRef = 8379EF601908F01B0009EB04 /* textfieldbackgroundorange.png */; };
+		8379EF631908F1950009EB04 /* textfieldbackgroundgray.png in Resources */ = {isa = PBXBuildFile; fileRef = 8379EF621908F1950009EB04 /* textfieldbackgroundgray.png */; };
+		8379EF671908F2310009EB04 /* textfieldbackgroundblue.png in Resources */ = {isa = PBXBuildFile; fileRef = 8379EF661908F2310009EB04 /* textfieldbackgroundblue.png */; };
+		8379EF691908F4A10009EB04 /* blurred4.png in Resources */ = {isa = PBXBuildFile; fileRef = 8379EF681908F4A10009EB04 /* blurred4.png */; };
 		8388048818DD976A0015B292 /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8388048718DD976A0015B292 /* AboutViewController.m */; };
 		8388048E18DDA2E30015B292 /* Info.m in Sources */ = {isa = PBXBuildFile; fileRef = 8388048D18DDA2E30015B292 /* Info.m */; };
 		8388049318DDDBEA0015B292 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8388049218DDDBEA0015B292 /* LoginViewController.m */; };
@@ -82,6 +86,10 @@
 		836C803F18FFB33E005846DA /* blurred.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = blurred.jpg; sourceTree = "<group>"; };
 		836C804118FFB464005846DA /* blurred2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = blurred2.jpg; sourceTree = "<group>"; };
 		8379EF5E1908E09A0009EB04 /* blurred3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blurred3.png; sourceTree = "<group>"; };
+		8379EF601908F01B0009EB04 /* textfieldbackgroundorange.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = textfieldbackgroundorange.png; sourceTree = "<group>"; };
+		8379EF621908F1950009EB04 /* textfieldbackgroundgray.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = textfieldbackgroundgray.png; sourceTree = "<group>"; };
+		8379EF661908F2310009EB04 /* textfieldbackgroundblue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = textfieldbackgroundblue.png; sourceTree = "<group>"; };
+		8379EF681908F4A10009EB04 /* blurred4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blurred4.png; sourceTree = "<group>"; };
 		8388048618DD976A0015B292 /* AboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutViewController.h; sourceTree = "<group>"; };
 		8388048718DD976A0015B292 /* AboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutViewController.m; sourceTree = "<group>"; };
 		8388048C18DDA2E30015B292 /* Info.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Info.h; sourceTree = "<group>"; };
@@ -231,6 +239,10 @@
 		83D1E54018DD20A700457CCA /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				8379EF681908F4A10009EB04 /* blurred4.png */,
+				8379EF661908F2310009EB04 /* textfieldbackgroundblue.png */,
+				8379EF621908F1950009EB04 /* textfieldbackgroundgray.png */,
+				8379EF601908F01B0009EB04 /* textfieldbackgroundorange.png */,
 				8379EF5E1908E09A0009EB04 /* blurred3.png */,
 				836C804118FFB464005846DA /* blurred2.jpg */,
 				836C803F18FFB33E005846DA /* blurred.jpg */,
@@ -350,11 +362,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8379EF611908F01B0009EB04 /* textfieldbackgroundorange.png in Resources */,
 				83EC32AE18E5083100099E72 /* Info.png in Resources */,
 				83EC32B218E5C39400099E72 /* Calendar.png in Resources */,
 				8379EF5F1908E09A0009EB04 /* blurred3.png in Resources */,
 				83D1E55018DD20A700457CCA /* Main_iPad.storyboard in Resources */,
 				836C804018FFB33E005846DA /* blurred.jpg in Resources */,
+				8379EF631908F1950009EB04 /* textfieldbackgroundgray.png in Resources */,
 				83EC32A418E5062F00099E72 /* Contact.png in Resources */,
 				83EC329618E4FECD00099E72 /* Map.png in Resources */,
 				83D1E55518DD20A700457CCA /* Images.xcassets in Resources */,
@@ -365,7 +379,9 @@
 				836C803C18FFA28D005846DA /* signupbackground.jpg in Resources */,
 				83D1E54418DD20A700457CCA /* InfoPlist.strings in Resources */,
 				836C803E18FFADB6005846DA /* textfieldbackground.jpg in Resources */,
+				8379EF671908F2310009EB04 /* textfieldbackgroundblue.png in Resources */,
 				836C804218FFB465005846DA /* blurred2.jpg in Resources */,
+				8379EF691908F4A10009EB04 /* blurred4.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -38,7 +38,7 @@
     
     NSString *theDate = [dateFormat stringFromDate:tmpDate];
     self.dateFromCal = theDate;
-    self.navigationItem.title = theDate;
+    self.navigationItem.title = @"Contact";
     dateFormat = [[NSDateFormatter alloc] init];
     [dateFormat setDateFormat:@"yyyy-MM-dd"];
     theDate = [dateFormat stringFromDate:tmpDate];

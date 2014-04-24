@@ -55,12 +55,12 @@
     self.array = data;
     self.startTimeArray = startTime;
     
-    CGRect textfieldFrame = CGRectMake(120.0, 120.0, 260.0, 49.0);
+    CGRect textfieldFrame = CGRectMake(5.0, 130.0, 310.0, 49.0);
     _contactName = [[UITextField alloc] initWithFrame:textfieldFrame];
     _contactName.borderStyle = UITextBorderStyleLine;
     _contactName.font = [UIFont systemFontOfSize:18];
     _contactName.placeholder = @"Event Contact Name";
-    _contactName.alpha = 0.8;
+    _contactName.alpha = 1;
     _contactName.autocorrectionType = UITextAutocorrectionTypeNo;
     _contactName.keyboardType = UIKeyboardTypeDefault;
     _contactName.returnKeyType = UIReturnKeyNext;
@@ -71,12 +71,12 @@
     
     [self.view addSubview:_contactName];
     
-    CGRect textfieldFrame2 = CGRectMake(120.0, 170.0, 260.0, 49.0);
+    CGRect textfieldFrame2 = CGRectMake(5.0, 180.0, 310.0, 49.0);
     _contactNumber = [[UITextField alloc] initWithFrame:textfieldFrame2];
     _contactNumber.borderStyle = UITextBorderStyleLine;
     _contactNumber.font = [UIFont systemFontOfSize:18];
     _contactNumber.placeholder = @"Event Contact Number";
-    _contactNumber.alpha = 0.8;
+    _contactNumber.alpha = 1;
     _contactNumber.autocorrectionType = UITextAutocorrectionTypeNo;
     _contactNumber.keyboardType = UIKeyboardTypeDefault;
     _contactNumber.returnKeyType = UIReturnKeyGo;

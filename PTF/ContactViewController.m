@@ -24,6 +24,67 @@
     return self;
 }
 
+- (void) viewWillAppear:(BOOL)animated
+{
+    
+    //hide today's contact labels
+    _todayContact.hidden=YES;
+    _todayNumber.hidden=YES;
+    
+    NSDate *tmpDate = [[NSUserDefaults standardUserDefaults] objectForKey:@"date"];
+    
+    NSDateFormatter *dateFormat = [[NSDateFormatter alloc] init];
+    [dateFormat setDateFormat:@"M/d/yyyy"];
+    
+    NSString *theDate = [dateFormat stringFromDate:tmpDate];
+    self.dateFromCal = theDate;
+    self.navigationItem.title = @"Contact";
+    dateFormat = [[NSDateFormatter alloc] init];
+    [dateFormat setDateFormat:@"yyyy-MM-dd"];
+    theDate = [dateFormat stringFromDate:tmpDate];
+    
+    //today's contact
+    PFQuery *query = [PFQuery queryWithClassName:@"EventDates"];
+    [query whereKey:@"date" equalTo:theDate];
+    [query whereKeyExists:@"contactName"];
+    [query getFirstObjectInBackgroundWithBlock:^(PFObject *object, NSError *error) {
+        if (!object) {
+            NSLog(@"The getFirstObject request failed.");
+        } else {
+            // The find succeeded.
+            NSString *content = [object objectForKey:@"contactName"];
+            if (![content  isEqual: @""]) {
+                NSString *contact = @"Today's Contact: ";
+                NSString *result = [contact stringByAppendingString:content];
+                _todayContact.text = (result);
+                _todayContact.hidden=NO;
+            }
+        }
+    }];
+    
+    
+    
+    PFQuery *query2 = [PFQuery queryWithClassName:@"EventDates"];
+    [query2 whereKey:@"date" equalTo:theDate];
+    [query2 whereKeyExists:@"contactName"];
+    [query2 getFirstObjectInBackgroundWithBlock:^(PFObject *object, NSError *error) {
+        if (!object) {
+            NSLog(@"The getFirstObject request failed.");
+        } else {
+            // The find succeeded.
+            NSString *content2 = [object objectForKey:@"contactNumber"];
+            if (![content2  isEqual: @""]) {
+                NSString *contact = @"Today's Contact: ";
+                NSString *result = [contact stringByAppendingString:content2];
+                _todayNumber.text = (result);
+                _todayNumber.hidden=NO;
+            }
+        }
+    }];
+
+}
+
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
@@ -32,11 +93,17 @@
     //navbar colors
     //nav colors
     self.navigationController.navigationBar.barStyle = UIBarStyleBlackTranslucent;
-    self.navigationController.navigationBar.barTintColor = [UIColor colorWithRed:123.0/255.0 green:63.0/255.0 blue:0.0/255.0 alpha:1];
+    self.navigationController.navigationBar.barTintColor = [UIColor colorWithRed:211.0/255.0 green:106.0/255.0 blue:18.0/255.0 alpha:1];
     self.navigationController.navigationBar.tintColor = [UIColor whiteColor];
     [self.navigationController.navigationBar setTitleTextAttributes:@{NSForegroundColorAttributeName : [UIColor whiteColor]}];
     self.navigationController.navigationBar.translucent = NO;
     self.tabBarController.tabBar.translucent = NO;
+    
+    //hide today's contact labels
+    _todayContact.hidden=YES;
+    _todayNumber.hidden=YES;
+    
+    
 }
 
 - (void)didReceiveMemoryWarning
@@ -58,11 +125,11 @@
 
 - (IBAction)showEmail:(id)sender {
     // Email Subject
-    NSString *emailTitle = @"I volunteer as tribute!";
+    NSString *emailTitle = @"Subject Line";
     // Email Content
-    NSString *messageBody = @"I can code all night!";
+    NSString *messageBody = @"Email Text";
     // To address
-    NSArray *toRecipents = [NSArray arrayWithObject:@"asaph.yuan@gmail.com"];
+    NSArray *toRecipents = [NSArray arrayWithObject:@"conmel@aol.com"];
     
     MFMailComposeViewController *mc = [[MFMailComposeViewController alloc] init];
     mc.mailComposeDelegate = self;

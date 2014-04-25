@@ -10,6 +10,7 @@
 #import "PDTSimpleCalendarViewFlowLayout.h"
 #import "PDTSimpleCalendarViewCell.h"
 #import "PDTSimpleCalendarViewHeader.h"
+//#import <../Parse/Frameworks/Parse.framework/Headers/Parse.h>
 
 
 //TODO: Remove this var in next release.
@@ -315,8 +316,7 @@ static NSString *PDTSimpleCalendarViewHeaderIdentifier = @"com.producteev.collec
 
 - (UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath
 {
-    PDTSimpleCalendarViewCell *cell = [self.collectionView dequeueReusableCellWithReuseIdentifier:PDTSimpleCalendarViewCellIdentifier
-                                                                                     forIndexPath:indexPath];
+    PDTSimpleCalendarViewCell *cell = [self.collectionView dequeueReusableCellWithReuseIdentifier:PDTSimpleCalendarViewCellIdentifier   forIndexPath:indexPath];
     
     //cell.circleDefaultColor = [UIColor whiteColor];
     
@@ -363,6 +363,7 @@ static NSString *PDTSimpleCalendarViewHeaderIdentifier = @"com.producteev.collec
     }
     else if (!self.today || [cellDate compare:self.today] < 0)
     {
+        //in the past
 
         NSDate *today = [NSDate date];
         
@@ -387,6 +388,8 @@ static NSString *PDTSimpleCalendarViewHeaderIdentifier = @"com.producteev.collec
     }
     else
     {
+        //in the future
+        
         cell.textDefaultColor = [UIColor blackColor];
         cell.circleTodayColor = [UIColor colorWithRed:211.0/255.0 green:106.0/255.0 blue:18.0/255.0 alpha:1];
         cell.circleSelectedColor = [UIColor whiteColor];

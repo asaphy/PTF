@@ -12,5 +12,8 @@
 
 @interface ContactViewController : UIViewController <MFMailComposeViewControllerDelegate>
 - (IBAction)showEmail:(id)sender;
+@property (weak, nonatomic) IBOutlet UILabel *todayContact;
+@property (weak, nonatomic) IBOutlet UILabel *todayNumber;
+@property (strong, nonatomic) NSString *dateFromCal;
 
 @end

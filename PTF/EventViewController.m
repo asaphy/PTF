@@ -35,6 +35,32 @@
     _foodProviderName.hidden=YES;
     _chaperone1Name.hidden=YES;
     _chaperone2Name.hidden=YES;
+    _cancelDriver.hidden=YES;
+    _cancelFoodProvider.hidden=YES;
+    _cancelChaperone1.hidden=YES;
+    _cancelChaperone2.hidden=YES;
+    
+    PFQuery *query1= [PFUser query];
+    
+    [query1 whereKey:@"username" equalTo:[[PFUser currentUser]username]];
+    PFObject *queryRes1 = [query1 getFirstObject];
+    NSString *permission = [queryRes1 objectForKey:@"permission"];
+    if ([permission isEqualToString:@"1"]){
+        //permission is not high enough to delete events
+        self.deleteEventButton.hidden = YES;
+    }
+    else if ([permission isEqualToString:@"2"]){
+        //highest permission
+    }
+    else{
+        //cannot volunteer or delete events
+        self.driverButton.hidden = YES;
+        self.foodProviderButton.hidden = YES;
+        self.chaperone1Button.hidden = YES;
+        self.chaperone2Button.hidden = YES;
+        self.deleteEventButton.hidden = YES;
+    }
+    
     
     NSDate *tmpDate = [[NSUserDefaults standardUserDefaults] objectForKey:@"date"];
     
@@ -47,47 +73,81 @@
     dateFormat = [[NSDateFormatter alloc] init];
     [dateFormat setDateFormat:@"yyyy-MM-dd"];
     theDate = [dateFormat stringFromDate:tmpDate];
+
     
     PFQuery *query = [PFQuery queryWithClassName:@"EventDates"];
     [query whereKey:@"date" equalTo:theDate];
-    [query getFirstObjectInBackgroundWithBlock:^(PFObject * driver, NSError *error) {
-        if (!error) {
-            // Found Driver
-            if ([driver objectForKey:@"driver"]) {
-                // the object has a value for key driver
-                PFUser *user = [PFUser currentUser];
-                NSString *firstnameString = [user objectForKey:@"firstname"];
-                NSString *lastnameString = [user objectForKey:@"lastname"];
-                
-                NSString *space = @" ";
-                
-                NSString *fullName = [firstnameString stringByAppendingString:space];
-                fullName = [fullName stringByAppendingString:lastnameString];
-                _driverName.text = (fullName);
-                _driverName.hidden=NO;
-                _driverButton.hidden=YES;
-                
-//                //get First/Last Name
-//                PFQuery *query = [PFQuery queryWithClassName:@"User"];
-//                [query whereKey:@"username" equalTo:[PFUser currentUser]];
-//                
-//                [query getFirstObjectInBackgroundWithBlock:^(PFObject * driverID, NSError *error) {
-//                    
-//                NSString *currentDriver = driverID[@"firstname"];
-//                 NSLog(@"firstname: %@", currentDriver);
-//                _driverName.text = currentDriver;
-//                _driverName.hidden=NO;
-//                _driverButton.hidden=YES;
-//                }];
-            }
+    PFObject *queryRes = [query getFirstObject];
+    NSString *content = [queryRes objectForKey:@"driver"];
 
-            // Save
-            [driver saveInBackground];
-        } else {
-            // Did not find any for the current user
-            NSLog(@"Error: %@", error);
+    if ([[queryRes objectForKey:@"driver"]  isEqual: @""]) {
+        // the object has no value for key driver
+    }
+    else{
+        //display name of volunteer, hide button
+        _driverName.text = (content);
+        _driverName.hidden=NO;
+        _driverButton.hidden=YES;
+        
+        [query whereKey:@"username" equalTo:[[PFUser currentUser]username]];
+        PFObject *queryRes1 = [query1 getFirstObject];
+        NSString *name = [queryRes1 objectForKey:@"signupName"];
+        if ([[queryRes objectForKey:@"driver"]  isEqualToString: name ]) {
+            self.cancelDriver.hidden=NO;
         }
-    }];
+    }
+    
+    NSString *content2 = [queryRes objectForKey:@"foodProvider"];
+    
+    if ([[queryRes objectForKey:@"foodProvider"]  isEqual: @""]) {
+        // the object has no value for key driver
+    }
+    else{
+        //display name of volunteer, hide button
+        _foodProviderName.text = (content2);
+        _foodProviderName.hidden=NO;
+        _foodProviderButton.hidden=YES;
+        [query whereKey:@"username" equalTo:[[PFUser currentUser]username]];
+        PFObject *queryRes1 = [query1 getFirstObject];
+        NSString *name = [queryRes1 objectForKey:@"signupName"];
+        if ([[queryRes objectForKey:@"foodProvider"]  isEqualToString: name ]) {
+            self.cancelFoodProvider.hidden=NO;
+        }
+    }
+    
+    NSString *content3 = [queryRes objectForKey:@"chaperone1"];
+    
+    if ([[queryRes objectForKey:@"chaperone1"]  isEqual: @""]) {
+        // the object has no value for key driver
+    }
+    else{
+        //display name of volunteer, hide button
+        _chaperone1Name.text = (content3);
+        _chaperone1Name.hidden=NO;
+        _chaperone1Button.hidden=YES;
+        PFObject *queryRes1 = [query1 getFirstObject];
+        NSString *name = [queryRes1 objectForKey:@"signupName"];
+        if ([[queryRes objectForKey:@"chaperone1"]  isEqualToString: name ]) {
+            self.cancelChaperone1.hidden=NO;
+        }
+    }
+    
+    NSString *content4 = [queryRes objectForKey:@"chaperone2"];
+    
+    if ([[queryRes objectForKey:@"chaperone2"]  isEqual: @""]) {
+        // the object has no value for key driver
+    }
+    else{
+        //display name of volunteer, hide button
+        _chaperone2Name.text = (content4);
+        _chaperone2Name.hidden=NO;
+        _chaperone2Button.hidden=YES;
+        PFObject *queryRes1 = [query1 getFirstObject];
+        NSString *name = [queryRes1 objectForKey:@"signupName"];
+        if ([[queryRes objectForKey:@"chaperone2"]  isEqualToString: name ]) {
+            self.cancelChaperone2.hidden=NO;
+        }
+    }
 }
 
 - (void)didReceiveMemoryWarning
@@ -107,6 +167,126 @@
 }
 */
 
+- (IBAction)cancelDriver:(id)sender {
+    self.driverButton.hidden=NO;
+    self.cancelDriver.hidden=YES;
+    
+    NSDate *tmpDate = [[NSUserDefaults standardUserDefaults] objectForKey:@"date"];
+    
+    NSDateFormatter *dateFormat = [[NSDateFormatter alloc] init];
+    [dateFormat setDateFormat:@"M/d/yyyy"];
+    
+    NSString *theDate = [dateFormat stringFromDate:tmpDate];
+    self.dateFromCal = theDate;
+    self.navigationItem.title = theDate;
+    dateFormat = [[NSDateFormatter alloc] init];
+    [dateFormat setDateFormat:@"yyyy-MM-dd"];
+    theDate = [dateFormat stringFromDate:tmpDate];
+    
+    
+    PFQuery *query = [PFQuery queryWithClassName:@"EventDates"];
+    [query whereKey:@"date" equalTo:theDate];
+    PFObject *queryRes = [query getFirstObject];
+    if ([[queryRes objectForKey:@"driver"]  isEqual: @""]) {
+        // the object has no value for key driver
+    }
+    else{
+        queryRes[@"driver"] = @"";
+        [queryRes saveInBackground];
+    }
+    _driverName.hidden=YES;
+}
+
+- (IBAction)cancelFoodProvider:(id)sender {
+    self.foodProviderButton.hidden=NO;
+    self.cancelFoodProvider.hidden=YES;
+    
+    NSDate *tmpDate = [[NSUserDefaults standardUserDefaults] objectForKey:@"date"];
+    
+    NSDateFormatter *dateFormat = [[NSDateFormatter alloc] init];
+    [dateFormat setDateFormat:@"M/d/yyyy"];
+    
+    NSString *theDate = [dateFormat stringFromDate:tmpDate];
+    self.dateFromCal = theDate;
+    self.navigationItem.title = theDate;
+    dateFormat = [[NSDateFormatter alloc] init];
+    [dateFormat setDateFormat:@"yyyy-MM-dd"];
+    theDate = [dateFormat stringFromDate:tmpDate];
+    
+    
+    PFQuery *query = [PFQuery queryWithClassName:@"EventDates"];
+    [query whereKey:@"date" equalTo:theDate];
+    PFObject *queryRes = [query getFirstObject];
+    if ([[queryRes objectForKey:@"foodProvider"]  isEqual: @""]) {
+        // the object has no value for key foodProvider
+    }
+    else{
+        queryRes[@"foodProvider"] = @"";
+        [queryRes saveInBackground];
+    }
+    _foodProviderName.hidden=YES;
+}
+
+- (IBAction)cancelChaperone1:(id)sender {
+    self.chaperone1Button.hidden=NO;
+    self.cancelChaperone1.hidden=YES;
+    
+    NSDate *tmpDate = [[NSUserDefaults standardUserDefaults] objectForKey:@"date"];
+    
+    NSDateFormatter *dateFormat = [[NSDateFormatter alloc] init];
+    [dateFormat setDateFormat:@"M/d/yyyy"];
+    
+    NSString *theDate = [dateFormat stringFromDate:tmpDate];
+    self.dateFromCal = theDate;
+    self.navigationItem.title = theDate;
+    dateFormat = [[NSDateFormatter alloc] init];
+    [dateFormat setDateFormat:@"yyyy-MM-dd"];
+    theDate = [dateFormat stringFromDate:tmpDate];
+    
+    
+    PFQuery *query = [PFQuery queryWithClassName:@"EventDates"];
+    [query whereKey:@"date" equalTo:theDate];
+    PFObject *queryRes = [query getFirstObject];
+    if ([[queryRes objectForKey:@"chaperone1"]  isEqual: @""]) {
+        // the object has no value for key chaperone1
+    }
+    else{
+        queryRes[@"chaperone1"] = @"";
+        [queryRes saveInBackground];
+    }
+    _chaperone1Name.hidden=YES;
+}
+
+- (IBAction)cancelChaperone2:(id)sender {
+    self.chaperone2Button.hidden=NO;
+    self.cancelChaperone2.hidden=YES;
+    
+    NSDate *tmpDate = [[NSUserDefaults standardUserDefaults] objectForKey:@"date"];
+    
+    NSDateFormatter *dateFormat = [[NSDateFormatter alloc] init];
+    [dateFormat setDateFormat:@"M/d/yyyy"];
+    
+    NSString *theDate = [dateFormat stringFromDate:tmpDate];
+    self.dateFromCal = theDate;
+    self.navigationItem.title = theDate;
+    dateFormat = [[NSDateFormatter alloc] init];
+    [dateFormat setDateFormat:@"yyyy-MM-dd"];
+    theDate = [dateFormat stringFromDate:tmpDate];
+    
+    
+    PFQuery *query = [PFQuery queryWithClassName:@"EventDates"];
+    [query whereKey:@"date" equalTo:theDate];
+    PFObject *queryRes = [query getFirstObject];
+    if ([[queryRes objectForKey:@"chaperone2"]  isEqual: @""]) {
+        // the object has no value for key chaperone2
+    }
+    else{
+        queryRes[@"chaperone2"] = @"";
+        [queryRes saveInBackground];
+    }
+    _chaperone2Name.hidden=YES;
+}
+
 - (IBAction)driver:(id)sender {
     NSDate *tmpDate = [[NSUserDefaults standardUserDefaults] objectForKey:@"date"];
     NSDateFormatter *dateFormat = [[NSDateFormatter alloc] init];
@@ -117,7 +297,13 @@
     [query getFirstObjectInBackgroundWithBlock:^(PFObject * driver, NSError *error) {
         if (!error) {
             // Found Driver
-            [driver setObject:_username forKey:@"driver"];
+            
+            PFQuery *query= [PFUser query];
+            
+            [query whereKey:@"username" equalTo:[[PFUser currentUser]username]];
+            PFObject *queryRes = [query getFirstObject];
+            NSString *content = [queryRes objectForKey:@"signupName"];
+            [driver setObject:content forKey:@"driver"];
             // Save
             [driver saveInBackground];
         } else {
@@ -144,9 +330,14 @@
     [query whereKey:@"date" equalTo:theDate];
     [query getFirstObjectInBackgroundWithBlock:^(PFObject * foodProvider, NSError *error) {
         if (!error) {
-            // Found Driver
-            [foodProvider setObject:_username forKey:@"foodProvider"];
+            // Found Food Provider
             
+            PFQuery *query= [PFUser query];
+            
+            [query whereKey:@"username" equalTo:[[PFUser currentUser]username]];
+            PFObject *queryRes = [query getFirstObject];
+            NSString *content = [queryRes objectForKey:@"signupName"];
+            [foodProvider setObject:content forKey:@"foodProvider"];
             // Save
             [foodProvider saveInBackground];
         } else {
@@ -173,9 +364,14 @@
     [query whereKey:@"date" equalTo:theDate];
     [query getFirstObjectInBackgroundWithBlock:^(PFObject * chaperone1, NSError *error) {
         if (!error) {
-            // Found Driver
-            [chaperone1 setObject:_username forKey:@"chaperone1"];
+            // Found Chaperone 1
             
+            PFQuery *query= [PFUser query];
+            
+            [query whereKey:@"username" equalTo:[[PFUser currentUser]username]];
+            PFObject *queryRes = [query getFirstObject];
+            NSString *content = [queryRes objectForKey:@"signupName"];
+            [chaperone1 setObject:content forKey:@"chaperone1"];
             // Save
             [chaperone1 saveInBackground];
         } else {
@@ -202,9 +398,14 @@
     [query whereKey:@"date" equalTo:theDate];
     [query getFirstObjectInBackgroundWithBlock:^(PFObject * chaperone2, NSError *error) {
         if (!error) {
-            // Found Driver
-            [chaperone2 setObject:_username forKey:@"chaperone2"];
+            // Found Chaperone 2
             
+            PFQuery *query= [PFUser query];
+            
+            [query whereKey:@"username" equalTo:[[PFUser currentUser]username]];
+            PFObject *queryRes = [query getFirstObject];
+            NSString *content = [queryRes objectForKey:@"signupName"];
+            [chaperone2 setObject:content forKey:@"chaperone2"];
             // Save
             [chaperone2 saveInBackground];
         } else {

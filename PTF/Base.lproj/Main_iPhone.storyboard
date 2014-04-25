@@ -751,8 +751,8 @@
                                 <rect key="frame" x="0.0" y="0.0" width="478" height="568"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="EMh-qw-hfe">
-                                <rect key="frame" x="10" y="10" width="240" height="128"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="signupbackground.png" translatesAutoresizingMaskIntoConstraints="NO" id="EMh-qw-hfe">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" alpha="0.90000000000000002" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GFl-No-9aE">
@@ -783,7 +783,7 @@
                                 </connections>
                             </button>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="          " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iCx-R6-5el">
-                                <rect key="frame" x="0.0" y="410" width="320" height="56"/>
+                                <rect key="frame" x="75" y="480" width="320" height="56"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="highlightedColor"/>
@@ -838,6 +838,7 @@
         <image name="document_filled" width="25" height="25"/>
         <image name="info" width="25" height="25"/>
         <image name="map_marker" width="25" height="25"/>
+        <image name="signupbackground.png" width="640" height="1140"/>
         <image name="textfieldbackground.jpg" width="320" height="50"/>
         <image name="textfieldbackgroundblue.png" width="320" height="50"/>
         <image name="volunteerPage-01.png" width="2667" height="4733"/>

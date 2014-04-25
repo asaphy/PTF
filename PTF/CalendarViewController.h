@@ -14,6 +14,7 @@
 
 @property (weak, nonatomic) IBOutlet UISegmentedControl *facultyTypeSegmentedControl;
 
+@property (weak, nonatomic) IBOutlet UIView *calView;
 
 - (IBAction)facultyTypeChanged:(UISegmentedControl *)sender;
 @end

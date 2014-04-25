@@ -10,7 +10,7 @@
 #import "PDTSimpleCalendarViewFlowLayout.h"
 #import "PDTSimpleCalendarViewCell.h"
 #import "PDTSimpleCalendarViewHeader.h"
-//#import <../Parse/Frameworks/Parse.framework/Headers/Parse.h>
+//#import "../Parse/Frameworks/Parse.framework/Headers/Parse.h"
 
 
 //TODO: Remove this var in next release.
@@ -350,10 +350,13 @@ static NSString *PDTSimpleCalendarViewHeaderIdentifier = @"com.producteev.collec
     
     if (isToday) {
         [cell setIsToday:isToday];
-
-        cell.circleTodayColor = [UIColor colorWithRed:211.0/255.0 green:106.0/255.0 blue:18.0/255.0 alpha:1];
-        cell.circleSelectedColor = [UIColor colorWithRed:211.0/255.0 green:106.0/255.0 blue:18.0/255.0 alpha:1];
-        cell.textSelectedColor = [UIColor whiteColor];
+        
+        cell.circleTodayColor = [UIColor whiteColor];  // [UIColor colorWithRed:211.0/255.0 green:106.0/255.0 blue:18.0/255.0 alpha:1];
+        cell.circleSelectedColor = [UIColor whiteColor];  //[UIColor colorWithRed:211.0/255.0 green:106.0/255.0 blue:18.0/255.0 alpha:1];
+        cell.textDefaultColor = [UIColor blackColor];
+        cell.textSelectedColor = [UIColor blackColor];
+        cell.textTodayColor = [UIColor blackColor];
+         
         // I add it
         if (!_today)
         {

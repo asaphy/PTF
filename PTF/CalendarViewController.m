@@ -19,7 +19,7 @@
 @implementation CalendarViewController
 
 @synthesize facultyTypeSegmentedControl;
-
+@synthesize calView;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -90,6 +90,10 @@
         UIAlertView *alert = [[UIAlertView alloc] initWithTitle:title message:@"" delegate:nil cancelButtonTitle:@"OK" otherButtonTitles: nil];
         
         [alert show];
+        //[self.calView setNeedsDisplay];
+        [self.calView removeFromSuperview];
+        [self.view addSubview:calView];
+
     }
     
     if (sender.selectedSegmentIndex == 1) {
@@ -99,6 +103,7 @@
         UIAlertView *alert = [[UIAlertView alloc] initWithTitle:title message:@"" delegate:nil cancelButtonTitle:@"OK" otherButtonTitles: nil];
         
         [alert show];
+        [self.calView setNeedsDisplay];
     }
     
     if (sender.selectedSegmentIndex == 2) {
@@ -106,10 +111,12 @@
         UIAlertView *alert = [[UIAlertView alloc] initWithTitle:title message:@"" delegate:nil cancelButtonTitle:@"OK" otherButtonTitles: nil];
         
         [alert show];
+        [self.calView setNeedsDisplay];
+
     }
 
 
-
+    //[self.view setNeedsDisplay];
     
     switch (sender.selectedSegmentIndex) {
         case 0: // Driver

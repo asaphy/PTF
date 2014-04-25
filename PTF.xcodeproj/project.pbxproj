@@ -53,7 +53,10 @@
 		83EC32AE18E5083100099E72 /* Info.png in Resources */ = {isa = PBXBuildFile; fileRef = 83EC32AD18E5083100099E72 /* Info.png */; };
 		83EC32B218E5C39400099E72 /* Calendar.png in Resources */ = {isa = PBXBuildFile; fileRef = 83EC32B118E5C39400099E72 /* Calendar.png */; };
 		83F55BFB18EFB35000C8B52D /* EventViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83F55BFA18EFB35000C8B52D /* EventViewController.m */; };
+		A8E1D8611909EF3800675C05 /* signupbackground.png in Resources */ = {isa = PBXBuildFile; fileRef = A8E1D8601909EF3800675C05 /* signupbackground.png */; };
+		DD99EF031909F0B600CCBB0C /* volunteerPageFinal-01.png in Resources */ = {isa = PBXBuildFile; fileRef = DD99EF021909F0B600CCBB0C /* volunteerPageFinal-01.png */; };
 		DD9A0D7B19042F4B00A9150D /* volunteerPage-01.png in Resources */ = {isa = PBXBuildFile; fileRef = DD9A0D7A19042F4B00A9150D /* volunteerPage-01.png */; };
+		DD9A0D7D1904E47100A9150D /* DeleteEventButton.png in Resources */ = {isa = PBXBuildFile; fileRef = DD9A0D7C1904E47100A9150D /* DeleteEventButton.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -131,7 +134,10 @@
 		83EC32B118E5C39400099E72 /* Calendar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Calendar.png; sourceTree = "<group>"; };
 		83F55BF918EFB35000C8B52D /* EventViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventViewController.h; sourceTree = "<group>"; };
 		83F55BFA18EFB35000C8B52D /* EventViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventViewController.m; sourceTree = "<group>"; };
+		A8E1D8601909EF3800675C05 /* signupbackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = signupbackground.png; sourceTree = "<group>"; };
+		DD99EF021909F0B600CCBB0C /* volunteerPageFinal-01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "volunteerPageFinal-01.png"; sourceTree = "<group>"; };
 		DD9A0D7A19042F4B00A9150D /* volunteerPage-01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "volunteerPage-01.png"; sourceTree = "<group>"; };
+		DD9A0D7C1904E47100A9150D /* DeleteEventButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DeleteEventButton.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -239,13 +245,16 @@
 		83D1E54018DD20A700457CCA /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				A8E1D8601909EF3800675C05 /* signupbackground.png */,
 				8379EF681908F4A10009EB04 /* blurred4.png */,
 				8379EF661908F2310009EB04 /* textfieldbackgroundblue.png */,
+				DD99EF021909F0B600CCBB0C /* volunteerPageFinal-01.png */,
 				8379EF621908F1950009EB04 /* textfieldbackgroundgray.png */,
 				8379EF601908F01B0009EB04 /* textfieldbackgroundorange.png */,
 				8379EF5E1908E09A0009EB04 /* blurred3.png */,
 				836C804118FFB464005846DA /* blurred2.jpg */,
 				836C803F18FFB33E005846DA /* blurred.jpg */,
+				DD9A0D7C1904E47100A9150D /* DeleteEventButton.png */,
 				836C803D18FFADB6005846DA /* textfieldbackground.jpg */,
 				DD9A0D7A19042F4B00A9150D /* volunteerPage-01.png */,
 				836C803B18FFA28D005846DA /* signupbackground.jpg */,
@@ -363,6 +372,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8379EF611908F01B0009EB04 /* textfieldbackgroundorange.png in Resources */,
+				DD99EF031909F0B600CCBB0C /* volunteerPageFinal-01.png in Resources */,
 				83EC32AE18E5083100099E72 /* Info.png in Resources */,
 				83EC32B218E5C39400099E72 /* Calendar.png in Resources */,
 				8379EF5F1908E09A0009EB04 /* blurred3.png in Resources */,
@@ -372,8 +382,10 @@
 				83EC32A418E5062F00099E72 /* Contact.png in Resources */,
 				83EC329618E4FECD00099E72 /* Map.png in Resources */,
 				83D1E55518DD20A700457CCA /* Images.xcassets in Resources */,
+				A8E1D8611909EF3800675C05 /* signupbackground.png in Resources */,
 				83EC32A818E5076800099E72 /* Register.png in Resources */,
 				83D1E54D18DD20A700457CCA /* Main_iPhone.storyboard in Resources */,
+				DD9A0D7D1904E47100A9150D /* DeleteEventButton.png in Resources */,
 				83052AB018DE1724001F7143 /* background_login.jpg in Resources */,
 				DD9A0D7B19042F4B00A9150D /* volunteerPage-01.png in Resources */,
 				836C803C18FFA28D005846DA /* signupbackground.jpg in Resources */,

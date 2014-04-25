@@ -21,6 +21,7 @@ cCompileC Build/Intermediates/PTF.build/Debug-iphonesimulator/PTF.build/Objects-
 cCompileC Build/Intermediates/PTF.build/Debug-iphonesimulator/PTF.build/Objects-normal/i386/VolunteerViewController.o /Users/Jeremy_luo/Documents/XCode/PTF/PTF/VolunteerViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cLd /Users/Jeremy_luo/Documents/XCode/PTF/Build/Products/Debug-iphonesimulator/PTF.app/PTF normal i386
 cCpResource PTF/textfieldbackgroundorange.png Build/Products/Debug-iphonesimulator/PTF.app/textfieldbackgroundorange.png
+cCpResource PTF/volunteerPageFinal-01.png Build/Products/Debug-iphonesimulator/PTF.app/volunteerPageFinal-01.png
 cCpResource PTF/Info.png Build/Products/Debug-iphonesimulator/PTF.app/Info.png
 cCpResource PTF/Calendar.png Build/Products/Debug-iphonesimulator/PTF.app/Calendar.png
 cCpResource PTF/blurred3.png Build/Products/Debug-iphonesimulator/PTF.app/blurred3.png
@@ -29,8 +30,10 @@ cCpResource PTF/blurred.jpg Build/Products/Debug-iphonesimulator/PTF.app/blurred
 cCpResource PTF/textfieldbackgroundgray.png Build/Products/Debug-iphonesimulator/PTF.app/textfieldbackgroundgray.png
 cCpResource PTF/Contact.png Build/Products/Debug-iphonesimulator/PTF.app/Contact.png
 cCpResource PTF/Map.png Build/Products/Debug-iphonesimulator/PTF.app/Map.png
+cCpResource PTF/signupbackground.png Build/Products/Debug-iphonesimulator/PTF.app/signupbackground.png
 cCpResource PTF/Register.png Build/Products/Debug-iphonesimulator/PTF.app/Register.png
 cCompileStoryboard /Users/Jeremy_luo/Documents/XCode/PTF/PTF/Base.lproj/Main_iPhone.storyboard
+cCpResource PTF/DeleteEventButton.png Build/Products/Debug-iphonesimulator/PTF.app/DeleteEventButton.png
 cCpResource PTF/background_login.jpg Build/Products/Debug-iphonesimulator/PTF.app/background_login.jpg
 cCpResource PTF/volunteerPage-01.png Build/Products/Debug-iphonesimulator/PTF.app/volunteerPage-01.png
 cCpResource PTF/signupbackground.jpg Build/Products/Debug-iphonesimulator/PTF.app/signupbackground.jpg
@@ -373,7 +376,7 @@ t1398385381
 s42128
 
 N/Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/PTF.build/Debug-iphonesimulator/PTF.build/Objects-normal/i386/CalendarViewController.o
-t1398389876
+t1398390789
 s77856
 
 N/Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/PTF.build/Debug-iphonesimulator/PTF.build/Objects-normal/i386/ContactViewController.o
@@ -448,11 +451,11 @@ t1398385381
 s123384
 
 N/Users/Jeremy_luo/Documents/XCode/PTF/Build/Products/Debug-iphonesimulator/PTF.app
-t1398389876
-s1088
+t1398390789
+s1190
 
 N/Users/Jeremy_luo/Documents/XCode/PTF/Build/Products/Debug-iphonesimulator/PTF.app.dSYM
-t1398389741
+t1398389876
 s102
 
 N/Users/Jeremy_luo/Documents/XCode/PTF/Build/Products/Debug-iphonesimulator/PTF.app/Base.lproj/Main_iPad.storyboardc
@@ -460,7 +463,7 @@ t1398385383
 s170
 
 N/Users/Jeremy_luo/Documents/XCode/PTF/Build/Products/Debug-iphonesimulator/PTF.app/Base.lproj/Main_iPhone.storyboardc
-t1398389725
+t1398390790
 s816
 
 N/Users/Jeremy_luo/Documents/XCode/PTF/Build/Products/Debug-iphonesimulator/PTF.app/Calendar.png
@@ -470,6 +473,10 @@ s552
 N/Users/Jeremy_luo/Documents/XCode/PTF/Build/Products/Debug-iphonesimulator/PTF.app/Contact.png
 t1398385382
 s654
+
+N/Users/Jeremy_luo/Documents/XCode/PTF/Build/Products/Debug-iphonesimulator/PTF.app/DeleteEventButton.png
+t1398390789
+s5555
 
 N/Users/Jeremy_luo/Documents/XCode/PTF/Build/Products/Debug-iphonesimulator/PTF.app/Info.plist
 t1398385385
@@ -484,7 +491,7 @@ t1398385382
 s695
 
 N/Users/Jeremy_luo/Documents/XCode/PTF/Build/Products/Debug-iphonesimulator/PTF.app/PTF
-t1398389876
+t1398390789
 s8963048
 
 N/Users/Jeremy_luo/Documents/XCode/PTF/Build/Products/Debug-iphonesimulator/PTF.app/PkgInfo
@@ -523,6 +530,10 @@ N/Users/Jeremy_luo/Documents/XCode/PTF/Build/Products/Debug-iphonesimulator/PTF.
 t1398385382
 s14699
 
+N/Users/Jeremy_luo/Documents/XCode/PTF/Build/Products/Debug-iphonesimulator/PTF.app/signupbackground.png
+t1398390789
+s366764
+
 N/Users/Jeremy_luo/Documents/XCode/PTF/Build/Products/Debug-iphonesimulator/PTF.app/textfieldbackground.jpg
 t1398385382
 s10846
@@ -542,6 +553,10 @@ s3094
 N/Users/Jeremy_luo/Documents/XCode/PTF/Build/Products/Debug-iphonesimulator/PTF.app/volunteerPage-01.png
 t1398385382
 s87543
+
+N/Users/Jeremy_luo/Documents/XCode/PTF/Build/Products/Debug-iphonesimulator/PTF.app/volunteerPageFinal-01.png
+t1398390789
+s2582745
 
 N/Users/Jeremy_luo/Documents/XCode/PTF/Build/Products/Debug-iphonesimulator/libPods.a
 c000000005359BAAA00000000003F8A10
@@ -574,9 +589,9 @@ t1397242726
 s1811
 
 N/Users/Jeremy_luo/Documents/XCode/PTF/PTF/Base.lproj/Main_iPhone.storyboard
-c000000005359BBDB00000000000127F9
-t1398389723
-s75769
+c000000005359BFF00000000000012D1B
+t1398390768
+s77083
 
 N/Users/Jeremy_luo/Documents/XCode/PTF/PTF/CalChildViewController.h
 c0000000053483B66000000000000014C
@@ -599,8 +614,8 @@ t1398389723
 s510
 
 N/Users/Jeremy_luo/Documents/XCode/PTF/PTF/CalendarViewController.m
-c000000005359BC730000000000001A45
-t1398389875
+c000000005359BF990000000000001A45
+t1398390681
 s6725
 
 N/Users/Jeremy_luo/Documents/XCode/PTF/PTF/Contact.png
@@ -617,6 +632,11 @@ N/Users/Jeremy_luo/Documents/XCode/PTF/PTF/ContactViewController.m
 c000000005359AA750000000000001557
 t1398385269
 s5463
+
+N/Users/Jeremy_luo/Documents/XCode/PTF/PTF/DeleteEventButton.png
+c000000005359BFF000000000000015B3
+t1398390768
+s5555
 
 N/Users/Jeremy_luo/Documents/XCode/PTF/PTF/EventViewController.h
 c000000005359AA7500000000000005EB
@@ -778,6 +798,11 @@ c000000005359AA75000000000000396B
 t1398385269
 s14699
 
+N/Users/Jeremy_luo/Documents/XCode/PTF/PTF/signupbackground.png
+c000000005359BFF000000000000598AC
+t1398390768
+s366764
+
 N/Users/Jeremy_luo/Documents/XCode/PTF/PTF/textfieldbackground.jpg
 c000000005359AA750000000000002A5E
 t1398385269
@@ -802,6 +827,11 @@ N/Users/Jeremy_luo/Documents/XCode/PTF/PTF/volunteerPage-01.png
 c000000005359AA7500000000000155F7
 t1398385269
 s87543
+
+N/Users/Jeremy_luo/Documents/XCode/PTF/PTF/volunteerPageFinal-01.png
+c000000005359BFF000000000002768D9
+t1398390768
+s2582745
 
 N/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Google-Maps-iOS-SDK/GoogleMaps.framework/GoogleMaps
 c0000000053483B66000000000319B6E4
@@ -1325,7 +1355,7 @@ r0
 
 CCheck dependencies
 r0
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies1e35fef3f309b941^82acfff3f309b941^---0#1#1#--18"Check dependencies36"3DE86EAE-4AE8-4ADB-8B30-2439D9205429-
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependenciese0d90a85f709b941^9d101685f709b941^---0#1#1#--18"Check dependencies36"BA7DEA0D-0D58-430D-8328-6E67B5C5D7BC-
 
 CCompileAssetCatalog /Users/Jeremy_luo/Documents/XCode/PTF/Build/Products/Debug-iphonesimulator/PTF.app /Users/Jeremy_luo/Documents/XCode/PTF/PTF/Images.xcassets
 s420078182.906613
@@ -1524,8 +1554,8 @@ lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection74"Compile
 b24176E02-3C3A-47EA-943C-394AC5D9344E
 
 CCompileC Build/Intermediates/PTF.build/Debug-iphonesimulator/PTF.build/Objects-normal/i386/CalendarViewController.o /Users/Jeremy_luo/Documents/XCode/PTF/PTF/CalendarViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s420082676.012688
-e420082676.125644
+s420083589.106661
+e420083589.222772
 r1
 xCompileC
 xBuild/Intermediates/PTF.build/Debug-iphonesimulator/PTF.build/Objects-normal/i386/CalendarViewController.o
@@ -1536,8 +1566,8 @@ xobjective-c
 xcom.apple.compilers.llvm.clang.1_0.compiler
 d/Users/Jeremy_luo/Documents/XCode/PTF/PTF/CalendarViewController.m
 d/Users/Jeremy_luo/Documents/XCode/PTF/PTF/CalendarViewController.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection74"Compile /Users/Jeremy_luo/Documents/XCode/PTF/PTF/CalendarViewController.m212"CompileC Build/Intermediates/PTF.build/Debug-iphonesimulator/PTF.build/Objects-normal/i386/CalendarViewController.o PTF/CalendarViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler865603f4f309b941^fe2a20f4f309b941^---0#0#1#-19%DVTDocumentLocation2@73"file:///Users/Jeremy_luo/Documents/XCode/PTF/PTF/CalendarViewController.m0000000000000000^4659"CompileC Build/Intermediates/PTF.build/Debug-iphonesimulator/PTF.build/Objects-normal/i386/CalendarViewController.o PTF/CalendarViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Jeremy_luo/Documents/XCode/PTF    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/Jeremy_luo/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.1 -iquote /Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/PTF.build/Debug-iphonesimulator/PTF.build/PTF-generated-files.hmap -I/Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/PTF.build/Debug-iphonesimulator/PTF.build/PTF-own-target-headers.hmap -I/Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/PTF.build/Debug-iphonesimulator/PTF.build/PTF-all-target-headers.hmap -iquote /Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/PTF.build/Debug-iphonesimulator/PTF.build/PTF-project-headers.hmap -I/Users/Jeremy_luo/Documents/XCode/PTF/Build/Products/Debug-iphonesimulator/include -I/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Headers -I/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Headers/Facebook-iOS-SDK -I/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Headers/Facebook-iOS-SDK/FacebookSDK -I/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Headers/Google-Maps-iOS-SDK -I/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Headers/Google-Maps-iOS-SDK/GoogleMaps -I/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Headers/PDTSimpleCalendar -I/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Headers/Parse -I/Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/PTF.build/Debug-iphonesimulator/PTF.build/DerivedSources/i386 -I/Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/PTF.build/Debug-iphonesimulator/PTF.build/DerivedSources -F/Users/Jeremy_luo/Documents/XCode/PTF/Build/Products/Debug-iphonesimulator -F/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Google-Maps-iOS-SDK -F/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse -isystem/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Headers -isystem/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Headers/Facebook-iOS-SDK -isystem/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Headers/Facebook-iOS-SDK/FacebookSDK -isystem/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Headers/Google-Maps-iOS-SDK -isystem/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Headers/Google-Maps-iOS-SDK/GoogleMaps -isystem/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Headers/PDTSimpleCalendar -isystem/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Headers/Parse -include /Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/PrecompiledHeaders/PTF-Prefix-hervfvacaggtzlfzenclcecsuyii/PTF-Prefix.pch -MMD -MT dependencies -MF /Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/PTF.build/Debug-iphonesimulator/PTF.build/Objects-normal/i386/CalendarViewController.d --serialize-diagnostics /Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/PTF.build/Debug-iphonesimulator/PTF.build/Objects-normal/i386/CalendarViewController.dia -c /Users/Jeremy_luo/Documents/XCode/PTF/PTF/CalendarViewController.m -o /Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/PTF.build/Debug-iphonesimulator/PTF.build/Objects-normal/i386/CalendarViewController.o36"3647A1FB-428E-41D5-BADC-D0A8F6AA7E45-
-b07656088-9BCD-4EA2-A363-93BA4E3FF1DB
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection74"Compile /Users/Jeremy_luo/Documents/XCode/PTF/PTF/CalendarViewController.m212"CompileC Build/Intermediates/PTF.build/Debug-iphonesimulator/PTF.build/Objects-normal/i386/CalendarViewController.o PTF/CalendarViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler0a671b85f709b941^c0093985f709b941^---0#0#1#-19%DVTDocumentLocation2@73"file:///Users/Jeremy_luo/Documents/XCode/PTF/PTF/CalendarViewController.m0000000000000000^4659"CompileC Build/Intermediates/PTF.build/Debug-iphonesimulator/PTF.build/Objects-normal/i386/CalendarViewController.o PTF/CalendarViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Jeremy_luo/Documents/XCode/PTF    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/Jeremy_luo/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.1 -iquote /Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/PTF.build/Debug-iphonesimulator/PTF.build/PTF-generated-files.hmap -I/Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/PTF.build/Debug-iphonesimulator/PTF.build/PTF-own-target-headers.hmap -I/Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/PTF.build/Debug-iphonesimulator/PTF.build/PTF-all-target-headers.hmap -iquote /Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/PTF.build/Debug-iphonesimulator/PTF.build/PTF-project-headers.hmap -I/Users/Jeremy_luo/Documents/XCode/PTF/Build/Products/Debug-iphonesimulator/include -I/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Headers -I/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Headers/Facebook-iOS-SDK -I/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Headers/Facebook-iOS-SDK/FacebookSDK -I/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Headers/Google-Maps-iOS-SDK -I/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Headers/Google-Maps-iOS-SDK/GoogleMaps -I/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Headers/PDTSimpleCalendar -I/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Headers/Parse -I/Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/PTF.build/Debug-iphonesimulator/PTF.build/DerivedSources/i386 -I/Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/PTF.build/Debug-iphonesimulator/PTF.build/DerivedSources -F/Users/Jeremy_luo/Documents/XCode/PTF/Build/Products/Debug-iphonesimulator -F/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Google-Maps-iOS-SDK -F/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse -isystem/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Headers -isystem/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Headers/Facebook-iOS-SDK -isystem/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Headers/Facebook-iOS-SDK/FacebookSDK -isystem/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Headers/Google-Maps-iOS-SDK -isystem/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Headers/Google-Maps-iOS-SDK/GoogleMaps -isystem/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Headers/PDTSimpleCalendar -isystem/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Headers/Parse -include /Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/PrecompiledHeaders/PTF-Prefix-hervfvacaggtzlfzenclcecsuyii/PTF-Prefix.pch -MMD -MT dependencies -MF /Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/PTF.build/Debug-iphonesimulator/PTF.build/Objects-normal/i386/CalendarViewController.d --serialize-diagnostics /Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/PTF.build/Debug-iphonesimulator/PTF.build/Objects-normal/i386/CalendarViewController.dia -c /Users/Jeremy_luo/Documents/XCode/PTF/PTF/CalendarViewController.m -o /Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/PTF.build/Debug-iphonesimulator/PTF.build/Objects-normal/i386/CalendarViewController.o36"8942A08F-9DAC-4B18-93C0-297567DC1F24-
+b58D3E55F-1FA4-4FE1-9E07-58C9696C9FF1
 
 CCompileC Build/Intermediates/PTF.build/Debug-iphonesimulator/PTF.build/Objects-normal/i386/ContactViewController.o /Users/Jeremy_luo/Documents/XCode/PTF/PTF/ContactViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 s420078181.759120
@@ -2012,14 +2042,14 @@ lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection53"Compile
 b24176E02-3C3A-47EA-943C-394AC5D9344E
 
 CCompileStoryboard /Users/Jeremy_luo/Documents/XCode/PTF/PTF/Base.lproj/Main_iPhone.storyboard
-s420082524.427442
-e420082525.708067
+s420083589.661378
+e420083590.965975
 r1
 xCompileStoryboard
 x/Users/Jeremy_luo/Documents/XCode/PTF/PTF/Base.lproj/Main_iPhone.storyboard
 onwi_state: registration failed (1000000)
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection55"CompileStoryboard PTF/Base.lproj/Main_iPhone.storyboard55"CompileStoryboard PTF/Base.lproj/Main_iPhone.storyboardc87b6d5cf309b941^7844b55df309b941^-41"nwi_state: registration failed (1000000)-0#0#1#-19%DVTDocumentLocation2@82"file:///Users/Jeremy_luo/Documents/XCode/PTF/PTF/Base.lproj/Main_iPhone.storyboard0000000000000000^845"CompileStoryboard PTF/Base.lproj/Main_iPhone.storyboard    cd /Users/Jeremy_luo/Documents/XCode/PTF    export IBSC_MINIMUM_COMPATIBILITY_VERSION=7.1    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    export XCODE_DEVELOPER_USR_PATH=/Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/ibtool --errors --warnings --notices --minimum-deployment-target 7.1 --output-format human-readable-text --compile /Users/Jeremy_luo/Documents/XCode/PTF/Build/Products/Debug-iphonesimulator/PTF.app/Base.lproj/Main_iPhone.storyboardc /Users/Jeremy_luo/Documents/XCode/PTF/PTF/Base.lproj/Main_iPhone.storyboard36"15FB359E-F83B-4694-B14D-80678A023A17-
-bE1533178-E877-4DC6-8CCA-643AC1F1ECA9
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection55"CompileStoryboard PTF/Base.lproj/Main_iPhone.storyboard55"CompileStoryboard PTF/Base.lproj/Main_iPhone.storyboardd864a985f709b941^904cf786f709b941^-41"nwi_state: registration failed (1000000)-0#0#1#-19%DVTDocumentLocation2@82"file:///Users/Jeremy_luo/Documents/XCode/PTF/PTF/Base.lproj/Main_iPhone.storyboard0000000000000000^845"CompileStoryboard PTF/Base.lproj/Main_iPhone.storyboard    cd /Users/Jeremy_luo/Documents/XCode/PTF    export IBSC_MINIMUM_COMPATIBILITY_VERSION=7.1    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    export XCODE_DEVELOPER_USR_PATH=/Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/ibtool --errors --warnings --notices --minimum-deployment-target 7.1 --output-format human-readable-text --compile /Users/Jeremy_luo/Documents/XCode/PTF/Build/Products/Debug-iphonesimulator/PTF.app/Base.lproj/Main_iPhone.storyboardc /Users/Jeremy_luo/Documents/XCode/PTF/PTF/Base.lproj/Main_iPhone.storyboard36"1BA7EF8F-DC13-43D6-97BB-38E6EA5382CA-
+b58D3E55F-1FA4-4FE1-9E07-58C9696C9FF1
 
 CCopyStringsFile /Users/Jeremy_luo/Documents/XCode/PTF/Build/Products/Debug-iphonesimulator/PTF.app/en.lproj/InfoPlist.strings PTF/en.lproj/InfoPlist.strings
 s420078182.903575
@@ -2050,6 +2080,16 @@ xPTF/Contact.png
 xBuild/Products/Debug-iphonesimulator/PTF.app/Contact.png
 lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection61"Copy Build/Products/Debug-iphonesimulator/PTF.app/Contact.png83"CpResource PTF/Contact.png Build/Products/Debug-iphonesimulator/PTF.app/Contact.pngf911e366e209b941^df36e766e209b941^---0#0#1#-19%DVTDocumentLocation2@101"file:///Users/Jeremy_luo/Documents/XCode/PTF/Build/Products/Debug-iphonesimulator/PTF.app/Contact.png00348c99deffdf42^573"CpResource PTF/Contact.png Build/Products/Debug-iphonesimulator/PTF.app/Contact.png    cd /Users/Jeremy_luo/Documents/XCode/PTF    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/Jeremy_luo/Documents/XCode/PTF/PTF/Contact.png /Users/Jeremy_luo/Documents/XCode/PTF/Build/Products/Debug-iphonesimulator/PTF.app36"281D0FE3-B5E7-47B1-BFEF-30938C53ABB1-
 b24176E02-3C3A-47EA-943C-394AC5D9344E
+
+CCpResource PTF/DeleteEventButton.png Build/Products/Debug-iphonesimulator/PTF.app/DeleteEventButton.png
+s420083589.661485
+e420083589.662408
+r1
+xCpResource
+xPTF/DeleteEventButton.png
+xBuild/Products/Debug-iphonesimulator/PTF.app/DeleteEventButton.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection71"Copy Build/Products/Debug-iphonesimulator/PTF.app/DeleteEventButton.png103"CpResource PTF/DeleteEventButton.png Build/Products/Debug-iphonesimulator/PTF.app/DeleteEventButton.pngfd67a985f709b941^8193a985f709b941^---0#0#1#-19%DVTDocumentLocation2@111"file:///Users/Jeremy_luo/Documents/XCode/PTF/Build/Products/Debug-iphonesimulator/PTF.app/DeleteEventButton.png00348c99deffdf42^603"CpResource PTF/DeleteEventButton.png Build/Products/Debug-iphonesimulator/PTF.app/DeleteEventButton.png    cd /Users/Jeremy_luo/Documents/XCode/PTF    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/Jeremy_luo/Documents/XCode/PTF/PTF/DeleteEventButton.png /Users/Jeremy_luo/Documents/XCode/PTF/Build/Products/Debug-iphonesimulator/PTF.app36"2B106CF9-47D9-446B-92DD-18489E0999A9-
+b58D3E55F-1FA4-4FE1-9E07-58C9696C9FF1
 
 CCpResource PTF/Info.png Build/Products/Debug-iphonesimulator/PTF.app/Info.png
 s420078182.885200
@@ -2141,6 +2181,16 @@ xBuild/Products/Debug-iphonesimulator/PTF.app/signupbackground.jpg
 lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection70"Copy Build/Products/Debug-iphonesimulator/PTF.app/signupbackground.jpg101"CpResource PTF/signupbackground.jpg Build/Products/Debug-iphonesimulator/PTF.app/signupbackground.jpg6951e766e209b941^9d7fe766e209b941^---0#0#1#-19%DVTDocumentLocation2@110"file:///Users/Jeremy_luo/Documents/XCode/PTF/Build/Products/Debug-iphonesimulator/PTF.app/signupbackground.jpg00348c99deffdf42^600"CpResource PTF/signupbackground.jpg Build/Products/Debug-iphonesimulator/PTF.app/signupbackground.jpg    cd /Users/Jeremy_luo/Documents/XCode/PTF    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/Jeremy_luo/Documents/XCode/PTF/PTF/signupbackground.jpg /Users/Jeremy_luo/Documents/XCode/PTF/Build/Products/Debug-iphonesimulator/PTF.app36"2A287039-8272-49DE-B177-2F2BAF65B467-
 b24176E02-3C3A-47EA-943C-394AC5D9344E
 
+CCpResource PTF/signupbackground.png Build/Products/Debug-iphonesimulator/PTF.app/signupbackground.png
+s420083589.661078
+e420083589.662415
+r1
+xCpResource
+xPTF/signupbackground.png
+xBuild/Products/Debug-iphonesimulator/PTF.app/signupbackground.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection70"Copy Build/Products/Debug-iphonesimulator/PTF.app/signupbackground.png101"CpResource PTF/signupbackground.png Build/Products/Debug-iphonesimulator/PTF.app/signupbackground.png2448a985f709b941^139da985f709b941^---0#0#1#-19%DVTDocumentLocation2@110"file:///Users/Jeremy_luo/Documents/XCode/PTF/Build/Products/Debug-iphonesimulator/PTF.app/signupbackground.png00348c99deffdf42^600"CpResource PTF/signupbackground.png Build/Products/Debug-iphonesimulator/PTF.app/signupbackground.png    cd /Users/Jeremy_luo/Documents/XCode/PTF    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/Jeremy_luo/Documents/XCode/PTF/PTF/signupbackground.png /Users/Jeremy_luo/Documents/XCode/PTF/Build/Products/Debug-iphonesimulator/PTF.app36"22994931-DD11-44AC-9F62-7ABC13B44927-
+b58D3E55F-1FA4-4FE1-9E07-58C9696C9FF1
+
 CCpResource PTF/textfieldbackground.jpg Build/Products/Debug-iphonesimulator/PTF.app/textfieldbackground.jpg
 s420078182.904549
 e420078182.905551
@@ -2191,19 +2241,29 @@ xBuild/Products/Debug-iphonesimulator/PTF.app/volunteerPage-01.png
 lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection70"Copy Build/Products/Debug-iphonesimulator/PTF.app/volunteerPage-01.png101"CpResource PTF/volunteerPage-01.png Build/Products/Debug-iphonesimulator/PTF.app/volunteerPage-01.png844be766e209b941^2079e766e209b941^---0#0#1#-19%DVTDocumentLocation2@110"file:///Users/Jeremy_luo/Documents/XCode/PTF/Build/Products/Debug-iphonesimulator/PTF.app/volunteerPage-01.png00348c99deffdf42^600"CpResource PTF/volunteerPage-01.png Build/Products/Debug-iphonesimulator/PTF.app/volunteerPage-01.png    cd /Users/Jeremy_luo/Documents/XCode/PTF    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/Jeremy_luo/Documents/XCode/PTF/PTF/volunteerPage-01.png /Users/Jeremy_luo/Documents/XCode/PTF/Build/Products/Debug-iphonesimulator/PTF.app36"D539FB06-5DC8-447F-BE02-D3388EA55B50-
 b24176E02-3C3A-47EA-943C-394AC5D9344E
 
+CCpResource PTF/volunteerPageFinal-01.png Build/Products/Debug-iphonesimulator/PTF.app/volunteerPageFinal-01.png
+s420083589.659680
+e420083589.662770
+r1
+xCpResource
+xPTF/volunteerPageFinal-01.png
+xBuild/Products/Debug-iphonesimulator/PTF.app/volunteerPageFinal-01.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection75"Copy Build/Products/Debug-iphonesimulator/PTF.app/volunteerPageFinal-01.png111"CpResource PTF/volunteerPageFinal-01.png Build/Products/Debug-iphonesimulator/PTF.app/volunteerPageFinal-01.png0beda885f709b941^8faba985f709b941^---0#0#1#-19%DVTDocumentLocation2@115"file:///Users/Jeremy_luo/Documents/XCode/PTF/Build/Products/Debug-iphonesimulator/PTF.app/volunteerPageFinal-01.png00348c99deffdf42^615"CpResource PTF/volunteerPageFinal-01.png Build/Products/Debug-iphonesimulator/PTF.app/volunteerPageFinal-01.png    cd /Users/Jeremy_luo/Documents/XCode/PTF    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/Jeremy_luo/Documents/XCode/PTF/PTF/volunteerPageFinal-01.png /Users/Jeremy_luo/Documents/XCode/PTF/Build/Products/Debug-iphonesimulator/PTF.app36"7F81B24D-8D3F-44D9-B368-5985A5C04CEC-
+b58D3E55F-1FA4-4FE1-9E07-58C9696C9FF1
+
 CGenerateDSYMFile /Users/Jeremy_luo/Documents/XCode/PTF/Build/Products/Debug-iphonesimulator/PTF.app.dSYM /Users/Jeremy_luo/Documents/XCode/PTF/Build/Products/Debug-iphonesimulator/PTF.app/PTF
-s420082676.566506
-e420082676.798766
+s420083590.966729
+e420083591.191372
 r1
 xGenerateDSYMFile
 x/Users/Jeremy_luo/Documents/XCode/PTF/Build/Products/Debug-iphonesimulator/PTF.app.dSYM
 x/Users/Jeremy_luo/Documents/XCode/PTF/Build/Products/Debug-iphonesimulator/PTF.app/PTF
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection96"Generate /Users/Jeremy_luo/Documents/XCode/PTF/Build/Products/Debug-iphonesimulator/PTF.app.dSYM115"GenerateDSYMFile Build/Products/Debug-iphonesimulator/PTF.app.dSYM Build/Products/Debug-iphonesimulator/PTF.app/PTFa11491f4f309b941^2c7dccf4f309b941^---0#0#1#-19%DVTDocumentLocation2@95"file:///Users/Jeremy_luo/Documents/XCode/PTF/Build/Products/Debug-iphonesimulator/PTF.app.dSYM/0000000000000000^634"GenerateDSYMFile Build/Products/Debug-iphonesimulator/PTF.app.dSYM Build/Products/Debug-iphonesimulator/PTF.app/PTF    cd /Users/Jeremy_luo/Documents/XCode/PTF    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/Jeremy_luo/Documents/XCode/PTF/Build/Products/Debug-iphonesimulator/PTF.app/PTF -o /Users/Jeremy_luo/Documents/XCode/PTF/Build/Products/Debug-iphonesimulator/PTF.app.dSYM36"164826AE-3E47-4382-AEA7-E2FC29443D4C-
-b07656088-9BCD-4EA2-A363-93BA4E3FF1DB
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection96"Generate /Users/Jeremy_luo/Documents/XCode/PTF/Build/Products/Debug-iphonesimulator/PTF.app.dSYM115"GenerateDSYMFile Build/Products/Debug-iphonesimulator/PTF.app.dSYM Build/Products/Debug-iphonesimulator/PTF.app/PTF4c8af786f709b941^bdfe3087f709b941^---0#0#1#-19%DVTDocumentLocation2@95"file:///Users/Jeremy_luo/Documents/XCode/PTF/Build/Products/Debug-iphonesimulator/PTF.app.dSYM/0000000000000000^634"GenerateDSYMFile Build/Products/Debug-iphonesimulator/PTF.app.dSYM Build/Products/Debug-iphonesimulator/PTF.app/PTF    cd /Users/Jeremy_luo/Documents/XCode/PTF    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/Jeremy_luo/Documents/XCode/PTF/Build/Products/Debug-iphonesimulator/PTF.app/PTF -o /Users/Jeremy_luo/Documents/XCode/PTF/Build/Products/Debug-iphonesimulator/PTF.app.dSYM36"0561ECB1-647D-4FB1-9E81-93246354894B-
+b58D3E55F-1FA4-4FE1-9E07-58C9696C9FF1
 
 CLd /Users/Jeremy_luo/Documents/XCode/PTF/Build/Products/Debug-iphonesimulator/PTF.app/PTF normal i386
-s420082676.127618
-e420082676.562187
+s420083589.224887
+e420083589.658471
 r1
 xLd
 x/Users/Jeremy_luo/Documents/XCode/PTF/Build/Products/Debug-iphonesimulator/PTF.app/PTF
@@ -2262,9 +2322,9 @@ d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/D
 d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreAudio.framework/CoreAudio
 d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreVideo.framework/CoreVideo
 d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreImage.framework/CoreImage
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/AVFoundation.framework/libAVFAudio.dylib
 d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libc++abi.dylib
 d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/PrivateFrameworks/UIFoundation.framework/UIFoundation
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/AVFoundation.framework/libAVFAudio.dylib
 d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_override.dylib
 d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcache_sim.dylib
 d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcommonCrypto_sim.dylib
@@ -2313,22 +2373,22 @@ d/usr/lib/system/libsystem_pthread.dylib
 d/usr/lib/system/libsystem_sandbox.dylib
 d/usr/lib/system/libunc.dylib
 d/usr/lib/system/libunwind.dylib
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection91"Link /Users/Jeremy_luo/Documents/XCode/PTF/Build/Products/Debug-iphonesimulator/PTF.app/PTF63"Ld Build/Products/Debug-iphonesimulator/PTF.app/PTF normal i386d4bb20f4f309b941^bbec8ff4f309b941^---0#0#1#--2027"Ld Build/Products/Debug-iphonesimulator/PTF.app/PTF normal i386    cd /Users/Jeremy_luo/Documents/XCode/PTF    export IPHONEOS_DEPLOYMENT_TARGET=7.1    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -L/Users/Jeremy_luo/Documents/XCode/PTF/Build/Products/Debug-iphonesimulator -F/Users/Jeremy_luo/Documents/XCode/PTF/Build/Products/Debug-iphonesimulator -F/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Google-Maps-iOS-SDK -F/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse -filelist /Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/PTF.build/Debug-iphonesimulator/PTF.build/Objects-normal/i386/PTF.LinkFileList -Xlinker -objc_abi_version -Xlinker 2 -ObjC -lc++ -licucore -lz -framework AVFoundation -framework AudioToolbox -framework CFNetwork -framework CoreData -framework CoreGraphics -framework CoreLocation -framework CoreText -framework GLKit -framework GoogleMaps -framework ImageIO -framework MobileCoreServices -framework OpenGLES -framework Parse -framework QuartzCore -framework Security -framework StoreKit -framework SystemConfiguration -weak_framework Accounts -weak_framework AdSupport -weak_framework Security -weak_framework Social -fobjc-arc -fobjc-link-runtime -Xlinker -no_implicit_dylibs -mios-simulator-version-min=7.1 -framework QuartzCore -framework MessageUI -framework MapKit -framework CoreGraphics -framework UIKit -framework Foundation -lPods -Xlinker -dependency_info -Xlinker /Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/PTF.build/Debug-iphonesimulator/PTF.build/Objects-normal/i386/PTF_dependency_info.dat -o /Users/Jeremy_luo/Documents/XCode/PTF/Build/Products/Debug-iphonesimulator/PTF.app/PTF36"CF88A428-8FF2-415C-A703-3A9E5EDC6654-
-b07656088-9BCD-4EA2-A363-93BA4E3FF1DB
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection91"Link /Users/Jeremy_luo/Documents/XCode/PTF/Build/Products/Debug-iphonesimulator/PTF.app/PTF63"Ld Build/Products/Debug-iphonesimulator/PTF.app/PTF normal i38627a43985f709b941^3692a885f709b941^---0#0#1#--2027"Ld Build/Products/Debug-iphonesimulator/PTF.app/PTF normal i386    cd /Users/Jeremy_luo/Documents/XCode/PTF    export IPHONEOS_DEPLOYMENT_TARGET=7.1    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -L/Users/Jeremy_luo/Documents/XCode/PTF/Build/Products/Debug-iphonesimulator -F/Users/Jeremy_luo/Documents/XCode/PTF/Build/Products/Debug-iphonesimulator -F/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Google-Maps-iOS-SDK -F/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Parse -filelist /Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/PTF.build/Debug-iphonesimulator/PTF.build/Objects-normal/i386/PTF.LinkFileList -Xlinker -objc_abi_version -Xlinker 2 -ObjC -lc++ -licucore -lz -framework AVFoundation -framework AudioToolbox -framework CFNetwork -framework CoreData -framework CoreGraphics -framework CoreLocation -framework CoreText -framework GLKit -framework GoogleMaps -framework ImageIO -framework MobileCoreServices -framework OpenGLES -framework Parse -framework QuartzCore -framework Security -framework StoreKit -framework SystemConfiguration -weak_framework Accounts -weak_framework AdSupport -weak_framework Security -weak_framework Social -fobjc-arc -fobjc-link-runtime -Xlinker -no_implicit_dylibs -mios-simulator-version-min=7.1 -framework QuartzCore -framework MessageUI -framework MapKit -framework CoreGraphics -framework UIKit -framework Foundation -lPods -Xlinker -dependency_info -Xlinker /Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/PTF.build/Debug-iphonesimulator/PTF.build/Objects-normal/i386/PTF_dependency_info.dat -o /Users/Jeremy_luo/Documents/XCode/PTF/Build/Products/Debug-iphonesimulator/PTF.app/PTF36"99943BB1-469C-42D8-A704-7182EC61A7E9-
+b58D3E55F-1FA4-4FE1-9E07-58C9696C9FF1
 
 CPhaseScriptExecution Check\ Pods\ Manifest.lock /Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/PTF.build/Debug-iphonesimulator/PTF.build/Script-8B5CE8E16C7E45CCB2B8EF73.sh
-s420082675.994114
-e420082676.010320
+s420083589.087219
+e420083589.102946
 r1
 xPhaseScriptExecution
 xCheck Pods Manifest.lock
 x/Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/PTF.build/Debug-iphonesimulator/PTF.build/Script-8B5CE8E16C7E45CCB2B8EF73.sh
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection50"Run custom shell script 'Check Pods Manifest.lock'144"PhaseScriptExecution Check\ Pods\ Manifest.lock Build/Intermediates/PTF.build/Debug-iphonesimulator/PTF.build/Script-8B5CE8E16C7E45CCB2B8EF73.shb91cfff3f309b941^1ea502f4f309b941^---0#0#1#--340"PhaseScriptExecution Check\ Pods\ Manifest.lock Build/Intermediates/PTF.build/Debug-iphonesimulator/PTF.build/Script-8B5CE8E16C7E45CCB2B8EF73.sh    cd /Users/Jeremy_luo/Documents/XCode/PTF    /bin/sh -c /Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/PTF.build/Debug-iphonesimulator/PTF.build/Script-8B5CE8E16C7E45CCB2B8EF73.sh36"E7600307-33D8-4E05-873B-EED79BF707E2-
-b07656088-9BCD-4EA2-A363-93BA4E3FF1DB
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection50"Run custom shell script 'Check Pods Manifest.lock'144"PhaseScriptExecution Check\ Pods\ Manifest.lock Build/Intermediates/PTF.build/Debug-iphonesimulator/PTF.build/Script-8B5CE8E16C7E45CCB2B8EF73.sh94a51685f709b941^c85b1a85f709b941^---0#0#1#--340"PhaseScriptExecution Check\ Pods\ Manifest.lock Build/Intermediates/PTF.build/Debug-iphonesimulator/PTF.build/Script-8B5CE8E16C7E45CCB2B8EF73.sh    cd /Users/Jeremy_luo/Documents/XCode/PTF    /bin/sh -c /Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/PTF.build/Debug-iphonesimulator/PTF.build/Script-8B5CE8E16C7E45CCB2B8EF73.sh36"E2734834-14F3-42FA-8D22-049670DB67D8-
+b58D3E55F-1FA4-4FE1-9E07-58C9696C9FF1
 
 CPhaseScriptExecution Copy\ Pods\ Resources /Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/PTF.build/Debug-iphonesimulator/PTF.build/Script-FC2ECC5A407C4B95ABC63305.sh
-s420082676.799110
-e420082677.632588
+s420083591.192351
+e420083591.575331
 r1
 xPhaseScriptExecution
 xCopy Pods Resources
@@ -2342,8 +2402,8 @@ ototal size is 1180861  speedup is 396.40
 o/* com.apple.actool.compilation-results */
 o/Users/Jeremy_luo/Documents/XCode/PTF/Build/Products/Debug-iphonesimulator/PTF.app/Assets.car
 o
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection45"Run custom shell script 'Copy Pods Resources'139"PhaseScriptExecution Copy\ Pods\ Resources Build/Intermediates/PTF.build/Debug-iphonesimulator/PTF.build/Script-FC2ECC5A407C4B95ABC63305.shb4e9ccf4f309b941^bff1a1f5f309b941^-484"/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Facebook-iOS-SDK/src/FBUserSettingsViewResources.bundle/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Google-Maps-iOS-SDK/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundlebuilding file list ... donesent 2959 bytes  received 20 bytes  5958.00 bytes/sectotal size is 1180861  speedup is 396.40/* com.apple.actool.compilation-results *//Users/Jeremy_luo/Documents/XCode/PTF/Build/Products/Debug-iphonesimulator/PTF.app/Assets.car7(21%IDEActivityLogMessage2@99"/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Facebook-iOS-SDK/src/FBUserSettingsViewResources.bundle-420082676#0#99#-0#-----2@123"/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Google-Maps-iOS-SDK/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle-420082676#99#123#-0#-----2@28"building file list ... done-420082676#222#28#-0#-----2@54"sent 2959 bytes  received 20 bytes  5958.00 bytes/sec-420082676#251#54#-0#-----2@41"total size is 1180861  speedup is 396.40-420082676#305#41#-0#-----2@43"/* com.apple.actool.compilation-results */-420082677#346#43#-0#-----2@94"/Users/Jeremy_luo/Documents/XCode/PTF/Build/Products/Debug-iphonesimulator/PTF.app/Assets.car-420082677#389#94#-0#-----0#0#1#--335"PhaseScriptExecution Copy\ Pods\ Resources Build/Intermediates/PTF.build/Debug-iphonesimulator/PTF.build/Script-FC2ECC5A407C4B95ABC63305.sh    cd /Users/Jeremy_luo/Documents/XCode/PTF    /bin/sh -c /Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/PTF.build/Debug-iphonesimulator/PTF.build/Script-FC2ECC5A407C4B95ABC63305.sh36"797AB827-3B95-479A-AA3A-0758E9FB0C22-
-b07656088-9BCD-4EA2-A363-93BA4E3FF1DB
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection45"Run custom shell script 'Copy Pods Resources'139"PhaseScriptExecution Copy\ Pods\ Resources Build/Intermediates/PTF.build/Debug-iphonesimulator/PTF.build/Script-FC2ECC5A407C4B95ABC63305.sha7923187f709b941^024a9387f709b941^-484"/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Facebook-iOS-SDK/src/FBUserSettingsViewResources.bundle/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Google-Maps-iOS-SDK/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundlebuilding file list ... donesent 2959 bytes  received 20 bytes  5958.00 bytes/sectotal size is 1180861  speedup is 396.40/* com.apple.actool.compilation-results *//Users/Jeremy_luo/Documents/XCode/PTF/Build/Products/Debug-iphonesimulator/PTF.app/Assets.car7(21%IDEActivityLogMessage2@99"/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Facebook-iOS-SDK/src/FBUserSettingsViewResources.bundle-420083591#0#99#-0#-----2@123"/Users/Jeremy_luo/Documents/XCode/PTF/Pods/Google-Maps-iOS-SDK/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle-420083591#99#123#-0#-----2@28"building file list ... done-420083591#222#28#-0#-----2@54"sent 2959 bytes  received 20 bytes  5958.00 bytes/sec-420083591#251#54#-0#-----2@41"total size is 1180861  speedup is 396.40-420083591#305#41#-0#-----2@43"/* com.apple.actool.compilation-results */-420083591#346#43#-0#-----2@94"/Users/Jeremy_luo/Documents/XCode/PTF/Build/Products/Debug-iphonesimulator/PTF.app/Assets.car-420083591#389#94#-0#-----0#0#1#--335"PhaseScriptExecution Copy\ Pods\ Resources Build/Intermediates/PTF.build/Debug-iphonesimulator/PTF.build/Script-FC2ECC5A407C4B95ABC63305.sh    cd /Users/Jeremy_luo/Documents/XCode/PTF    /bin/sh -c /Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/PTF.build/Debug-iphonesimulator/PTF.build/Script-FC2ECC5A407C4B95ABC63305.sh36"E4BA1929-E1D9-4976-89BF-FAF4DFCB9717-
+b58D3E55F-1FA4-4FE1-9E07-58C9696C9FF1
 
 CProcessInfoPlistFile /Users/Jeremy_luo/Documents/XCode/PTF/Build/Products/Debug-iphonesimulator/PTF.app/Info.plist /Users/Jeremy_luo/Documents/XCode/PTF/PTF/PTF-Info.plist
 s420078185.991773
@@ -2374,11 +2434,11 @@ CProcessPCH /Users/Jeremy_luo/Library/Developer/Xcode/DerivedData/PTF-cdvkrigxxq
 r0
 
 CTouch /Users/Jeremy_luo/Documents/XCode/PTF/Build/Products/Debug-iphonesimulator/PTF.app
-s420082526.332747
-e420082526.337717
+s420083591.576158
+e420083591.579669
 r1
 xTouch
 x/Users/Jeremy_luo/Documents/XCode/PTF/Build/Products/Debug-iphonesimulator/PTF.app
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection88"Touch /Users/Jeremy_luo/Documents/XCode/PTF/Build/Products/Debug-iphonesimulator/PTF.app50"Touch Build/Products/Debug-iphonesimulator/PTF.app9f3b555ef309b941^6476565ef309b941^---0#0#1#--396"Touch Build/Products/Debug-iphonesimulator/PTF.app    cd /Users/Jeremy_luo/Documents/XCode/PTF    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/Jeremy_luo/Documents/XCode/PTF/Build/Products/Debug-iphonesimulator/PTF.app36"B41791D8-BF86-4D0A-AEEB-284541101370-
-bE1533178-E877-4DC6-8CCA-643AC1F1ECA9
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection88"Touch /Users/Jeremy_luo/Documents/XCode/PTF/Build/Products/Debug-iphonesimulator/PTF.app50"Touch Build/Products/Debug-iphonesimulator/PTF.app268b9387f709b941^5e669487f709b941^---0#0#1#--396"Touch Build/Products/Debug-iphonesimulator/PTF.app    cd /Users/Jeremy_luo/Documents/XCode/PTF    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/Jeremy_luo/Documents/XCode/PTF/Build/Products/Debug-iphonesimulator/PTF.app36"3B5D45E1-8E0F-4C1A-938B-909CD9EF7F56-
+b58D3E55F-1FA4-4FE1-9E07-58C9696C9FF1
 

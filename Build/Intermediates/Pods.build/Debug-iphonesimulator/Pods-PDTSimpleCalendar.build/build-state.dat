@@ -475,7 +475,7 @@ r0
 
 CCheck dependencies
 r0
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies2655f3f3f309b941^bce7f4f3f309b941^---0#1#1#--18"Check dependencies36"963059F0-5308-4672-B7C3-B887603E81C9-
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies282b0285f709b941^bfb60285f709b941^---0#1#1#--18"Check dependencies36"93E749D0-96D4-47FC-89FC-B7EA8E8FABEC-
 
 CCompileC /Users/Jeremy_luo/Documents/XCode/PTF/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-PDTSimpleCalendar.build/Objects-normal/i386/PDTSimpleCalendarViewCell.o /Users/Jeremy_luo/Documents/XCode/PTF/Pods/PDTSimpleCalendar/PDTSimpleCalendar/PDTSimpleCalendarViewCell.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 s420082218.045335

@@ -38,7 +38,7 @@
     
     NSString *theDate = [dateFormat stringFromDate:tmpDate];
     self.dateFromCal = theDate;
-    self.navigationItem.title = theDate;
+    self.navigationItem.title = @"Contact";
     dateFormat = [[NSDateFormatter alloc] init];
     [dateFormat setDateFormat:@"yyyy-MM-dd"];
     theDate = [dateFormat stringFromDate:tmpDate];
@@ -53,10 +53,12 @@
         } else {
             // The find succeeded.
             NSString *content = [object objectForKey:@"contactName"];
-            NSString *contact = @"Today's Contact: ";
-            NSString *result = [contact stringByAppendingString:content];
-            _todayContact.text = (result);
-            _todayContact.hidden=NO;
+            if (![content  isEqual: @""]) {
+                NSString *contact = @"Today's Contact: ";
+                NSString *result = [contact stringByAppendingString:content];
+                _todayContact.text = (result);
+                _todayContact.hidden=NO;
+            }
         }
     }];
     
@@ -71,10 +73,12 @@
         } else {
             // The find succeeded.
             NSString *content2 = [object objectForKey:@"contactNumber"];
-            NSString *contact = @"Today's Contact: ";
-            NSString *result = [contact stringByAppendingString:content2];
-            _todayNumber.text = (result);
-            _todayNumber.hidden=NO;
+            if (![content2  isEqual: @""]) {
+                NSString *contact = @"Today's Contact: ";
+                NSString *result = [contact stringByAppendingString:content2];
+                _todayNumber.text = (result);
+                _todayNumber.hidden=NO;
+            }
         }
     }];
 

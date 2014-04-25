@@ -16,7 +16,9 @@
 @property (strong, nonatomic) NSArray *startTimeArray;
 @property (strong, nonatomic)  UITextField *contactName;
 @property (strong, nonatomic)  UITextField *contactNumber;
-@property (strong, nonatomic) IBOutlet UIScrollView *scrollView;
+@property (weak, nonatomic) IBOutlet UIButton *addEventButton;
+@property (weak, nonatomic) IBOutlet UITextField *contactName1;
+@property (weak, nonatomic) IBOutlet UITextField *contactNumber1;
 
 - (IBAction)addEvent:(id)sender;
 @end

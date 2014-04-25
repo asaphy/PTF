@@ -9,6 +9,18 @@
 #import <UIKit/UIKit.h>
 #import <Parse/Parse.h>
 @interface EventViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UIButton *cancelDriver;
+@property (weak, nonatomic) IBOutlet UIButton *cancelFoodProvider;
+@property (weak, nonatomic) IBOutlet UIButton *cancelChaperone1;
+@property (weak, nonatomic) IBOutlet UIButton *cancelChaperone2;
+
+- (IBAction)cancelDriver:(id)sender;
+- (IBAction)cancelFoodProvider:(id)sender;
+- (IBAction)cancelChaperone1:(id)sender;
+- (IBAction)cancelChaperone2:(id)sender;
+
+
+
 - (IBAction)driver:(id)sender;
 - (IBAction)food:(id)sender;
 - (IBAction)chaperone1:(id)sender;
@@ -18,6 +30,7 @@
 @property (weak, nonatomic) IBOutlet UIButton *foodProviderButton;
 @property (weak, nonatomic) IBOutlet UIButton *chaperone1Button;
 @property (weak, nonatomic) IBOutlet UIButton *chaperone2Button;
+@property (weak, nonatomic) IBOutlet UIButton *deleteEventButton;
 @property (weak, nonatomic) IBOutlet UILabel *driverName;
 @property (weak, nonatomic) IBOutlet UILabel *foodProviderName;
 @property (weak, nonatomic) IBOutlet UILabel *chaperone1Name;

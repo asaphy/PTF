@@ -13,4 +13,8 @@
 
 - (void) facultyChangedTo:(int)type;
 
+
+-(void) reloadCollectionView;
+
+
 @end

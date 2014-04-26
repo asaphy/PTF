@@ -175,6 +175,7 @@ static NSString *PDTSimpleCalendarViewHeaderIdentifier = @"com.producteev.collec
     return [self.calendar dateFromComponents:components];
 }
 
+
 - (void)setSelectedDate:(NSDate *)newSelectedDate
 {
     [self setSelectedDate:newSelectedDate animated:NO];

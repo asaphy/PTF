@@ -79,5 +79,10 @@
     }
 }
 
+-(void)reloadCollectionView
+{
+    [self.collectionView reloadData];
+}
+
 
 @end

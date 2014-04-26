@@ -13,6 +13,7 @@
 		75B98C2718ED239C00564385 /* CalendarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75B98C2618ED239C00564385 /* CalendarViewController.m */; };
 		83052AB018DE1724001F7143 /* background_login.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 83052AAF18DE1724001F7143 /* background_login.jpg */; };
 		831965FF190B6D480053760B /* infoBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 831965FE190B6D480053760B /* infoBackground.png */; };
+		83196601190B74EF0053760B /* eventbackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 83196600190B74EF0053760B /* eventbackground.png */; };
 		833AA2BA18DD71C300C89860 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 833AA2B918DD71C300C89860 /* MessageUI.framework */; };
 		833AA2BD18DD7E0600C89860 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 833AA2BB18DD76F400C89860 /* QuartzCore.framework */; };
 		8360F1D918DD33E900337201 /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8360F1D818DD33E900337201 /* RegisterViewController.m */; };
@@ -81,6 +82,7 @@
 		75B98C2618ED239C00564385 /* CalendarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalendarViewController.m; sourceTree = "<group>"; };
 		83052AAF18DE1724001F7143 /* background_login.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background_login.jpg; sourceTree = "<group>"; };
 		831965FE190B6D480053760B /* infoBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = infoBackground.png; sourceTree = "<group>"; };
+		83196600190B74EF0053760B /* eventbackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = eventbackground.png; sourceTree = "<group>"; };
 		833AA2B918DD71C300C89860 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 		833AA2BB18DD76F400C89860 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		8360F1D718DD33E900337201 /* RegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterViewController.h; sourceTree = "<group>"; };
@@ -247,6 +249,7 @@
 		83D1E54018DD20A700457CCA /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				83196600190B74EF0053760B /* eventbackground.png */,
 				831965FE190B6D480053760B /* infoBackground.png */,
 				A8E1D8601909EF3800675C05 /* signupbackground.png */,
 				8379EF681908F4A10009EB04 /* blurred4.png */,
@@ -384,6 +387,7 @@
 				836C804018FFB33E005846DA /* blurred.jpg in Resources */,
 				8379EF631908F1950009EB04 /* textfieldbackgroundgray.png in Resources */,
 				83EC32A418E5062F00099E72 /* Contact.png in Resources */,
+				83196601190B74EF0053760B /* eventbackground.png in Resources */,
 				83EC329618E4FECD00099E72 /* Map.png in Resources */,
 				83D1E55518DD20A700457CCA /* Images.xcassets in Resources */,
 				A8E1D8611909EF3800675C05 /* signupbackground.png in Resources */,

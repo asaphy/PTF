@@ -12,6 +12,7 @@
 		75A8D2DA18ED507F0035BBEC /* CalChildViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75A8D2D918ED507F0035BBEC /* CalChildViewController.m */; };
 		75B98C2718ED239C00564385 /* CalendarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75B98C2618ED239C00564385 /* CalendarViewController.m */; };
 		83052AB018DE1724001F7143 /* background_login.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 83052AAF18DE1724001F7143 /* background_login.jpg */; };
+		831965FF190B6D480053760B /* infoBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 831965FE190B6D480053760B /* infoBackground.png */; };
 		833AA2BA18DD71C300C89860 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 833AA2B918DD71C300C89860 /* MessageUI.framework */; };
 		833AA2BD18DD7E0600C89860 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 833AA2BB18DD76F400C89860 /* QuartzCore.framework */; };
 		8360F1D918DD33E900337201 /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8360F1D818DD33E900337201 /* RegisterViewController.m */; };
@@ -79,6 +80,7 @@
 		75B98C2518ED239C00564385 /* CalendarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalendarViewController.h; sourceTree = "<group>"; };
 		75B98C2618ED239C00564385 /* CalendarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalendarViewController.m; sourceTree = "<group>"; };
 		83052AAF18DE1724001F7143 /* background_login.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background_login.jpg; sourceTree = "<group>"; };
+		831965FE190B6D480053760B /* infoBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = infoBackground.png; sourceTree = "<group>"; };
 		833AA2B918DD71C300C89860 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 		833AA2BB18DD76F400C89860 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		8360F1D718DD33E900337201 /* RegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterViewController.h; sourceTree = "<group>"; };
@@ -245,6 +247,7 @@
 		83D1E54018DD20A700457CCA /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				831965FE190B6D480053760B /* infoBackground.png */,
 				A8E1D8601909EF3800675C05 /* signupbackground.png */,
 				8379EF681908F4A10009EB04 /* blurred4.png */,
 				8379EF661908F2310009EB04 /* textfieldbackgroundblue.png */,
@@ -372,6 +375,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8379EF611908F01B0009EB04 /* textfieldbackgroundorange.png in Resources */,
+				831965FF190B6D480053760B /* infoBackground.png in Resources */,
 				DD99EF031909F0B600CCBB0C /* volunteerPageFinal-01.png in Resources */,
 				83EC32AE18E5083100099E72 /* Info.png in Resources */,
 				83EC32B218E5C39400099E72 /* Calendar.png in Resources */,

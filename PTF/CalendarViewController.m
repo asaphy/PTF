@@ -52,6 +52,9 @@
     self.navigationController.navigationBar.translucent = NO;
     self.tabBarController.tabBar.translucent = NO;
     
+    [[UISegmentedControl appearance] setTintColor:[UIColor colorWithRed:107.0/255.0 green:66.0/255.0 blue:38.0/255.0 alpha:1]];
+    [[UISegmentedControl appearance] setTitleTextAttributes:@{NSForegroundColorAttributeName:[UIColor brownColor]} forState:UIControlStateNormal];
+    
     self.redDates = [[NSMutableArray alloc] init];
     self.greenDates = [[NSMutableArray alloc] init];
     self.typeOfVolunteer = [[NSString alloc] init];
@@ -80,59 +83,7 @@
         
         [self.calViewContainer reloadCollectionView];
     }];
-    
-    
-    //    NSDateFormatter *dateFormat = [[NSDateFormatter alloc] init];
-    //    [dateFormat setDateFormat:@"yyyy-MM-dd"];
-    //    NSString *date = [dateFormat stringFromDate:self.date];
-    //
-    //    PFQuery * query = [PFQuery queryWithClassName:@"EventDates"];
-    //    [query whereKey:@"date" equalTo:date];
-    //    //[query whereKeyExists:type];
-    //    //NSLog(@"%@", self.date);
-    //    return;
-    //    [query getFirstObjectInBackgroundWithBlock:^(PFObject *object, NSError *error) {
-    //        /*
-    //         if (error)
-    //         {
-    //         //NSLog(@"error!!!");
-    //         self.circleDefaultColor = [UIColor whiteColor];
-    //         //NSLog(@"%@", self.circleDefaultColor);
-    //         [self refreshCellColors];
-    //
-    //         }
-    //         */
-    //
-    //        if (!object) {
-    //            //no object
-    //            white color = [UIColor whiteColor];
-    //        } else {
-    //            if (([type isEqualToString:@"driver"] || [type isEqualToString:@"fp"]) && [object[type] isEqualToString:@""]) // there isn't a volunteer for that type
-    //            {
-    //                NSLog(@"redd!!!");
-    //                self.circleDefaultColor = [UIColor redColor];
-    //                self.textDefaultColor = [UIColor whiteColor];
-    //                self.circleSelectedColor = [UIColor redColor];
-    //                self.textSelectedColor = [UIColor whiteColor];
-    //            }
-    //            else if (!(object[@"chaperone1"] && object[@"chaperone2"]))   // chaperone
-    //            {
-    //                self.circleDefaultColor = [UIColor redColor];
-    //                self.textDefaultColor = [UIColor whiteColor];
-    //                self.circleSelectedColor = [UIColor redColor];
-    //                self.textSelectedColor = [UIColor whiteColor];
-    //            }
-    //            else
-    //            {
-    //                self.circleDefaultColor = [UIColor colorWithRed:0.0/255.0 green:204.0/255.0 blue:0.0/255.0 alpha:1];  //[UIColor greenColor];
-    //                self.textDefaultColor = [UIColor whiteColor];
-    //                self.circleSelectedColor = [UIColor colorWithRed:0.0/255.0 green:204.0/255.0 blue:0.0/255.0 alpha:1];
-    //                self.textSelectedColor = [UIColor whiteColor];
-    //            }
-    //            [self refreshCellColors];
-    //
-    //        }
-    //    }];
+
     
 }
 
@@ -161,16 +112,6 @@
 
 - (IBAction)facultyTypeChanged:(UISegmentedControl *)sender
 {
-    /*
-     NSDateComponents *components = [calViewContainer.calendar components:NSCalendarUnitDay | NSCalendarUnitMonth | NSCalendarUnitYear fromDate:calViewContainer.today];
-     
-     int year = (int)[components year];
-     int month = (int)[components month];
-     int day = (int)[components day];
-     
-     NSString * d = [NSString stringWithFormat:@"%d%d%d", month,day, year];
-     NSLog(@"%@",d);
-     */
     
     if (sender.selectedSegmentIndex == 0) {
         self.typeOfVolunteer = @"driver";

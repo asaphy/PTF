@@ -52,7 +52,7 @@
     self.navigationController.navigationBar.translucent = NO;
     self.tabBarController.tabBar.translucent = NO;
     
-    [[UISegmentedControl appearance] setTintColor:[UIColor colorWithRed:107.0/255.0 green:66.0/255.0 blue:38.0/255.0 alpha:1]];
+    [[UISegmentedControl appearance] setTintColor:[UIColor colorWithRed:123.0/255.0 green:63.0/255.0 blue:0.0/255.0 alpha:1]];
     [[UISegmentedControl appearance] setTitleTextAttributes:@{NSForegroundColorAttributeName:[UIColor brownColor]} forState:UIControlStateNormal];
     
     self.redDates = [[NSMutableArray alloc] init];
@@ -297,7 +297,7 @@
 
 - (UIColor *)simpleCalendarViewController:(PDTSimpleCalendarViewController *)controller circleColorForDate:(NSDate *)date
 {
-    NSDate *today = [NSDate date]; // it will give you current date
+    NSDate *today = [NSDate dateWithTimeIntervalSinceNow: -(60.0f*60.0f*24.0f)];
     NSComparisonResult result;
     //has three possible values: NSOrderedSame,NSOrderedDescending, NSOrderedAscending
     result = [today compare:date]; // comparing two dates
@@ -307,12 +307,10 @@
     NSString *date2 = [dateFormat stringFromDate:date];
     if(result==NSOrderedAscending){
         if ([self.redDates containsObject:date2]){
-            NSLog(@"red");
             
             return [UIColor redColor];
         }
         else if ([self.greenDates containsObject:date2]){
-            NSLog(@"green");
             
             return [UIColor colorWithRed:0.0/255.0 green:204.0/255.0 blue:0.0/255.0 alpha:1];
             
@@ -339,7 +337,7 @@
 
 - (UIColor *)simpleCalendarViewController:(PDTSimpleCalendarViewController *)controller textColorForDate:(NSDate *)date
 {
-    NSDate *today = [NSDate date]; // it will give you current date
+    NSDate *today = [NSDate dateWithTimeIntervalSinceNow: -(60.0f*60.0f*24.0f)];
     NSComparisonResult result;
     //has three possible values: NSOrderedSame,NSOrderedDescending, NSOrderedAscending
     result = [today compare:date]; // comparing two dates

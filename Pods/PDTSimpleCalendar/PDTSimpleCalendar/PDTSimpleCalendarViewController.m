@@ -152,7 +152,7 @@ static NSString *PDTSimpleCalendarViewHeaderIdentifier = @"com.producteev.collec
     if (!_lastDate) {
         NSDateComponents *offsetComponents = [[NSDateComponents alloc] init];
         //offsetComponents.year = 1;
-        offsetComponents.month = 2;
+        offsetComponents.month = 3;
         offsetComponents.day = -1;
         [self setLastDate:[self.calendar dateByAddingComponents:offsetComponents toDate:self.firstDateMonth options:0]];
     }
@@ -353,12 +353,12 @@ static NSString *PDTSimpleCalendarViewHeaderIdentifier = @"com.producteev.collec
     if (isToday) {
         [cell setIsToday:isToday];
         
-        cell.circleTodayColor = [UIColor whiteColor];  // [UIColor colorWithRed:211.0/255.0 green:106.0/255.0 blue:18.0/255.0 alpha:1];
-        cell.circleSelectedColor = [UIColor whiteColor];  //[UIColor colorWithRed:211.0/255.0 green:106.0/255.0 blue:18.0/255.0 alpha:1];
-        cell.textDefaultColor = [UIColor blackColor];
-        cell.textSelectedColor = [UIColor blackColor];
-        cell.textTodayColor = [UIColor blackColor];
-         
+//        cell.circleTodayColor = [UIColor whiteColor];  // [UIColor colorWithRed:211.0/255.0 green:106.0/255.0 blue:18.0/255.0 alpha:1];
+//        cell.circleSelectedColor = [UIColor whiteColor];  //[UIColor colorWithRed:211.0/255.0 green:106.0/255.0 blue:18.0/255.0 alpha:1];
+//        cell.textDefaultColor = [UIColor blackColor];
+//        cell.textSelectedColor = [UIColor blackColor];
+//        cell.textTodayColor = [UIColor blackColor];
+        
         // I add it
         if (!_today)
         {
@@ -378,10 +378,10 @@ static NSString *PDTSimpleCalendarViewHeaderIdentifier = @"com.producteev.collec
         {
             if ([self isEnabledDate:cellDate])
             {
-                cell.circleDefaultColor = [UIColor whiteColor];
-                cell.circleSelectedColor = [UIColor whiteColor];
-                cell.textDefaultColor = [UIColor colorWithRed:192.0/255.0 green:192.0/255.0 blue:192.0/255.0 alpha:1];
-                cell.textSelectedColor = [UIColor colorWithRed:192.0/255.0 green:192.0/255.0 blue:192.0/255.0 alpha:1];
+//                cell.circleDefaultColor = [UIColor whiteColor];
+//                cell.circleSelectedColor = [UIColor whiteColor];
+//                cell.textDefaultColor = [UIColor colorWithRed:192.0/255.0 green:192.0/255.0 blue:192.0/255.0 alpha:1];
+//                cell.textSelectedColor = [UIColor colorWithRed:192.0/255.0 green:192.0/255.0 blue:192.0/255.0 alpha:1];
             }
         }
     }
@@ -395,12 +395,12 @@ static NSString *PDTSimpleCalendarViewHeaderIdentifier = @"com.producteev.collec
     {
         //in the future
         
-        cell.textDefaultColor = [UIColor blackColor];
-        cell.circleTodayColor = [UIColor colorWithRed:211.0/255.0 green:106.0/255.0 blue:18.0/255.0 alpha:1];
-        cell.circleSelectedColor = [UIColor whiteColor];
-        cell.circleDefaultColor = [UIColor whiteColor];
-        cell.textSelectedColor = [UIColor blackColor];
-        [cell checkVolunteerOfType:self.checkingType];
+//        cell.textDefaultColor = [UIColor blackColor];
+//        cell.circleTodayColor = [UIColor colorWithRed:211.0/255.0 green:106.0/255.0 blue:18.0/255.0 alpha:1];
+//        cell.circleSelectedColor = [UIColor whiteColor];
+//        cell.circleDefaultColor = [UIColor whiteColor];
+//        cell.textSelectedColor = [UIColor blackColor];
+//        [cell checkVolunteerOfType:self.checkingType];
         
     }
     //NSLog(@"%@", self.checkingType);

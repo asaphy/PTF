@@ -31,7 +31,7 @@
     _todayContact.hidden=YES;
     _todayNumber.hidden=YES;
     
-    NSDate *tmpDate = [[NSUserDefaults standardUserDefaults] objectForKey:@"date"];
+    NSDate *tmpDate = [NSDate date];
     
     NSDateFormatter *dateFormat = [[NSDateFormatter alloc] init];
     [dateFormat setDateFormat:@"M/d/yyyy"];
@@ -46,6 +46,7 @@
     //today's contact
     PFQuery *query = [PFQuery queryWithClassName:@"EventDates"];
     [query whereKey:@"date" equalTo:theDate];
+    NSLog(@"%@",theDate);
     [query whereKeyExists:@"contactName"];
     [query getFirstObjectInBackgroundWithBlock:^(PFObject *object, NSError *error) {
         if (!object) {

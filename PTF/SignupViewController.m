@@ -112,6 +112,22 @@
         UIAlertView *error1 = [[UIAlertView alloc] initWithTitle:@"Name Required" message:@"Please enter a name." delegate:nil cancelButtonTitle:@"OK" otherButtonTitles: nil];
         
         [error1 show];
+        [self.signupName becomeFirstResponder];
+    }
+    else if ([self.signupUsername.text isEqualToString:@""]){
+        UIAlertView *error1 = [[UIAlertView alloc] initWithTitle:@"Username Required" message:@"Please enter a username." delegate:nil cancelButtonTitle:@"OK" otherButtonTitles: nil];
+        [self.signupUsername becomeFirstResponder];
+        [error1 show];
+    }
+    else if ([self.signupEmail.text isEqualToString:@""]){
+        UIAlertView *error1 = [[UIAlertView alloc] initWithTitle:@"Email Required" message:@"Please enter an email." delegate:nil cancelButtonTitle:@"OK" otherButtonTitles: nil];
+        [self.signupEmail becomeFirstResponder];
+        [error1 show];
+    }
+    else if ([self.signupPassword.text isEqualToString:@""]){
+        UIAlertView *error1 = [[UIAlertView alloc] initWithTitle:@"Password Required" message:@"Please enter a password." delegate:nil cancelButtonTitle:@"OK" otherButtonTitles: nil];
+        [self.signupPassword becomeFirstResponder];
+        [error1 show];
     }
     else{
     PFUser * user = [PFUser user];

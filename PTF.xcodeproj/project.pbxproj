@@ -18,11 +18,7 @@
 		833AA2BD18DD7E0600C89860 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 833AA2BB18DD76F400C89860 /* QuartzCore.framework */; };
 		8360F1D918DD33E900337201 /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8360F1D818DD33E900337201 /* RegisterViewController.m */; };
 		8360F1FD18DD4F0B00337201 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8360F1FC18DD4F0B00337201 /* MapKit.framework */; };
-		836C803C18FFA28D005846DA /* signupbackground.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 836C803B18FFA28D005846DA /* signupbackground.jpg */; };
 		836C803E18FFADB6005846DA /* textfieldbackground.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 836C803D18FFADB6005846DA /* textfieldbackground.jpg */; };
-		836C804018FFB33E005846DA /* blurred.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 836C803F18FFB33E005846DA /* blurred.jpg */; };
-		836C804218FFB465005846DA /* blurred2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 836C804118FFB464005846DA /* blurred2.jpg */; };
-		8379EF5F1908E09A0009EB04 /* blurred3.png in Resources */ = {isa = PBXBuildFile; fileRef = 8379EF5E1908E09A0009EB04 /* blurred3.png */; };
 		8379EF611908F01B0009EB04 /* textfieldbackgroundorange.png in Resources */ = {isa = PBXBuildFile; fileRef = 8379EF601908F01B0009EB04 /* textfieldbackgroundorange.png */; };
 		8379EF631908F1950009EB04 /* textfieldbackgroundgray.png in Resources */ = {isa = PBXBuildFile; fileRef = 8379EF621908F1950009EB04 /* textfieldbackgroundgray.png */; };
 		8379EF671908F2310009EB04 /* textfieldbackgroundblue.png in Resources */ = {isa = PBXBuildFile; fileRef = 8379EF661908F2310009EB04 /* textfieldbackgroundblue.png */; };
@@ -49,15 +45,9 @@
 		83D1E57618DD32B600457CCA /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83D1E57518DD32B600457CCA /* MapViewController.m */; };
 		83D1E57C18DD32CC00457CCA /* InfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83D1E57B18DD32CC00457CCA /* InfoViewController.m */; };
 		83D1E57F18DD32D700457CCA /* ContactViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83D1E57E18DD32D700457CCA /* ContactViewController.m */; };
-		83EC329618E4FECD00099E72 /* Map.png in Resources */ = {isa = PBXBuildFile; fileRef = 83EC329518E4FECD00099E72 /* Map.png */; };
-		83EC32A418E5062F00099E72 /* Contact.png in Resources */ = {isa = PBXBuildFile; fileRef = 83EC32A318E5062F00099E72 /* Contact.png */; };
-		83EC32A818E5076800099E72 /* Register.png in Resources */ = {isa = PBXBuildFile; fileRef = 83EC32A718E5076800099E72 /* Register.png */; };
-		83EC32AE18E5083100099E72 /* Info.png in Resources */ = {isa = PBXBuildFile; fileRef = 83EC32AD18E5083100099E72 /* Info.png */; };
-		83EC32B218E5C39400099E72 /* Calendar.png in Resources */ = {isa = PBXBuildFile; fileRef = 83EC32B118E5C39400099E72 /* Calendar.png */; };
 		83F55BFB18EFB35000C8B52D /* EventViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83F55BFA18EFB35000C8B52D /* EventViewController.m */; };
 		A8E1D8611909EF3800675C05 /* signupbackground.png in Resources */ = {isa = PBXBuildFile; fileRef = A8E1D8601909EF3800675C05 /* signupbackground.png */; };
 		DD99EF031909F0B600CCBB0C /* volunteerPageFinal-01.png in Resources */ = {isa = PBXBuildFile; fileRef = DD99EF021909F0B600CCBB0C /* volunteerPageFinal-01.png */; };
-		DD9A0D7B19042F4B00A9150D /* volunteerPage-01.png in Resources */ = {isa = PBXBuildFile; fileRef = DD9A0D7A19042F4B00A9150D /* volunteerPage-01.png */; };
 		DD9A0D7D1904E47100A9150D /* DeleteEventButton.png in Resources */ = {isa = PBXBuildFile; fileRef = DD9A0D7C1904E47100A9150D /* DeleteEventButton.png */; };
 /* End PBXBuildFile section */
 
@@ -88,11 +78,7 @@
 		8360F1D718DD33E900337201 /* RegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterViewController.h; sourceTree = "<group>"; };
 		8360F1D818DD33E900337201 /* RegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterViewController.m; sourceTree = "<group>"; };
 		8360F1FC18DD4F0B00337201 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
-		836C803B18FFA28D005846DA /* signupbackground.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = signupbackground.jpg; sourceTree = "<group>"; };
 		836C803D18FFADB6005846DA /* textfieldbackground.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = textfieldbackground.jpg; sourceTree = "<group>"; };
-		836C803F18FFB33E005846DA /* blurred.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = blurred.jpg; sourceTree = "<group>"; };
-		836C804118FFB464005846DA /* blurred2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = blurred2.jpg; sourceTree = "<group>"; };
-		8379EF5E1908E09A0009EB04 /* blurred3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blurred3.png; sourceTree = "<group>"; };
 		8379EF601908F01B0009EB04 /* textfieldbackgroundorange.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = textfieldbackgroundorange.png; sourceTree = "<group>"; };
 		8379EF621908F1950009EB04 /* textfieldbackgroundgray.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = textfieldbackgroundgray.png; sourceTree = "<group>"; };
 		8379EF661908F2310009EB04 /* textfieldbackgroundblue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = textfieldbackgroundblue.png; sourceTree = "<group>"; };
@@ -131,16 +117,10 @@
 		83D1E57B18DD32CC00457CCA /* InfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfoViewController.m; sourceTree = "<group>"; };
 		83D1E57D18DD32D700457CCA /* ContactViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactViewController.h; sourceTree = "<group>"; };
 		83D1E57E18DD32D700457CCA /* ContactViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactViewController.m; sourceTree = "<group>"; };
-		83EC329518E4FECD00099E72 /* Map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Map.png; sourceTree = "<group>"; };
-		83EC32A318E5062F00099E72 /* Contact.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Contact.png; sourceTree = "<group>"; };
-		83EC32A718E5076800099E72 /* Register.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Register.png; sourceTree = "<group>"; };
-		83EC32AD18E5083100099E72 /* Info.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Info.png; sourceTree = "<group>"; };
-		83EC32B118E5C39400099E72 /* Calendar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Calendar.png; sourceTree = "<group>"; };
 		83F55BF918EFB35000C8B52D /* EventViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventViewController.h; sourceTree = "<group>"; };
 		83F55BFA18EFB35000C8B52D /* EventViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventViewController.m; sourceTree = "<group>"; };
 		A8E1D8601909EF3800675C05 /* signupbackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = signupbackground.png; sourceTree = "<group>"; };
 		DD99EF021909F0B600CCBB0C /* volunteerPageFinal-01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "volunteerPageFinal-01.png"; sourceTree = "<group>"; };
-		DD9A0D7A19042F4B00A9150D /* volunteerPage-01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "volunteerPage-01.png"; sourceTree = "<group>"; };
 		DD9A0D7C1904E47100A9150D /* DeleteEventButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DeleteEventButton.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -257,18 +237,8 @@
 				DD99EF021909F0B600CCBB0C /* volunteerPageFinal-01.png */,
 				8379EF621908F1950009EB04 /* textfieldbackgroundgray.png */,
 				8379EF601908F01B0009EB04 /* textfieldbackgroundorange.png */,
-				8379EF5E1908E09A0009EB04 /* blurred3.png */,
-				836C804118FFB464005846DA /* blurred2.jpg */,
-				836C803F18FFB33E005846DA /* blurred.jpg */,
 				DD9A0D7C1904E47100A9150D /* DeleteEventButton.png */,
 				836C803D18FFADB6005846DA /* textfieldbackground.jpg */,
-				DD9A0D7A19042F4B00A9150D /* volunteerPage-01.png */,
-				836C803B18FFA28D005846DA /* signupbackground.jpg */,
-				83EC32B118E5C39400099E72 /* Calendar.png */,
-				83EC32AD18E5083100099E72 /* Info.png */,
-				83EC32A718E5076800099E72 /* Register.png */,
-				83EC32A318E5062F00099E72 /* Contact.png */,
-				83EC329518E4FECD00099E72 /* Map.png */,
 				83052AAF18DE1724001F7143 /* background_login.jpg */,
 				83D1E54118DD20A700457CCA /* PTF-Info.plist */,
 				83D1E54218DD20A700457CCA /* InfoPlist.strings */,
@@ -380,27 +350,17 @@
 				8379EF611908F01B0009EB04 /* textfieldbackgroundorange.png in Resources */,
 				831965FF190B6D480053760B /* infoBackground.png in Resources */,
 				DD99EF031909F0B600CCBB0C /* volunteerPageFinal-01.png in Resources */,
-				83EC32AE18E5083100099E72 /* Info.png in Resources */,
-				83EC32B218E5C39400099E72 /* Calendar.png in Resources */,
-				8379EF5F1908E09A0009EB04 /* blurred3.png in Resources */,
 				83D1E55018DD20A700457CCA /* Main_iPad.storyboard in Resources */,
-				836C804018FFB33E005846DA /* blurred.jpg in Resources */,
 				8379EF631908F1950009EB04 /* textfieldbackgroundgray.png in Resources */,
-				83EC32A418E5062F00099E72 /* Contact.png in Resources */,
 				83196601190B74EF0053760B /* eventbackground.png in Resources */,
-				83EC329618E4FECD00099E72 /* Map.png in Resources */,
 				83D1E55518DD20A700457CCA /* Images.xcassets in Resources */,
 				A8E1D8611909EF3800675C05 /* signupbackground.png in Resources */,
-				83EC32A818E5076800099E72 /* Register.png in Resources */,
 				83D1E54D18DD20A700457CCA /* Main_iPhone.storyboard in Resources */,
 				DD9A0D7D1904E47100A9150D /* DeleteEventButton.png in Resources */,
 				83052AB018DE1724001F7143 /* background_login.jpg in Resources */,
-				DD9A0D7B19042F4B00A9150D /* volunteerPage-01.png in Resources */,
-				836C803C18FFA28D005846DA /* signupbackground.jpg in Resources */,
 				83D1E54418DD20A700457CCA /* InfoPlist.strings in Resources */,
 				836C803E18FFADB6005846DA /* textfieldbackground.jpg in Resources */,
 				8379EF671908F2310009EB04 /* textfieldbackgroundblue.png in Resources */,
-				836C804218FFB465005846DA /* blurred2.jpg in Resources */,
 				8379EF691908F4A10009EB04 /* blurred4.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -46,14 +46,14 @@
     
     //nav colors
     self.navigationController.navigationBar.barStyle = UIBarStyleBlackTranslucent;
-    self.navigationController.navigationBar.barTintColor = [UIColor colorWithRed:211.0/255.0 green:106.0/255.0 blue:18.0/255.0 alpha:1];
+    self.navigationController.navigationBar.barTintColor = [UIColor colorWithRed:123.0/255.0 green:63.0/255.0 blue:0.0/255.0 alpha:1];
     self.navigationController.navigationBar.tintColor = [UIColor whiteColor];
     [self.navigationController.navigationBar setTitleTextAttributes:@{NSForegroundColorAttributeName : [UIColor whiteColor]}];
     self.navigationController.navigationBar.translucent = NO;
     self.tabBarController.tabBar.translucent = NO;
     
-    [[UISegmentedControl appearance] setTintColor:[UIColor colorWithRed:123.0/255.0 green:63.0/255.0 blue:0.0/255.0 alpha:1]];
-    [[UISegmentedControl appearance] setTitleTextAttributes:@{NSForegroundColorAttributeName:[UIColor brownColor]} forState:UIControlStateNormal];
+    [[UISegmentedControl appearance] setTintColor:[UIColor colorWithRed:211.0/255.0 green:106.0/255.0 blue:18.0/255.0 alpha:1]];
+    [[UISegmentedControl appearance] setTitleTextAttributes:@{NSForegroundColorAttributeName:[UIColor colorWithRed:211.0/255.0 green:106.0/255.0 blue:18.0/255.0 alpha:1]} forState:UIControlStateNormal];
     
     self.redDates = [[NSMutableArray alloc] init];
     self.greenDates = [[NSMutableArray alloc] init];
@@ -156,13 +156,10 @@
                 // Do something with the found objects
                 for (PFObject *object in objects) {
                     if ([[object objectForKey:self.typeOfVolunteer] isEqual: @""]){
-                        NSLog(@"red food provider");
                         [self.redDates addObject:[object objectForKey:@"date"]];
                     }
                     else{
-                        NSLog(@"greeeeen food provider");
                         [self.greenDates addObject:[object objectForKey:@"date"]];
-                        NSLog(@"%@", self.greenDates);
                     }
                 }
             } else {

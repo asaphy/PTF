@@ -31,7 +31,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     
-    CGRect textfieldFrame = CGRectMake(3.0, 80.0, 315.0, 49.0);
+    CGRect textfieldFrame = CGRectMake(3.0, 30.0, 315.0, 34.0);
     _signupName = [[UITextField alloc] initWithFrame:textfieldFrame];
     _signupName.borderStyle = UITextBorderStyleLine;
     _signupName.font = [UIFont systemFontOfSize:18];
@@ -47,7 +47,7 @@
 
     [self.view addSubview:_signupName];
     
-    CGRect textfieldFrame3 = CGRectMake(3.0, 130.0, 315.0, 49.0);
+    CGRect textfieldFrame3 = CGRectMake(3.0, 65.0, 315.0, 34.0);
     _signupUsername = [[UITextField alloc] initWithFrame:textfieldFrame3];
     _signupUsername.borderStyle = UITextBorderStyleLine;
     _signupUsername.font = [UIFont systemFontOfSize:18];
@@ -62,7 +62,7 @@
     _signupUsername.background = [UIImage imageNamed:@"textfieldbackground.jpg"];
     [self.view addSubview:_signupUsername];
     
-    CGRect textfieldFrame4 = CGRectMake(3.0, 180.0, 315.0, 49.0);
+    CGRect textfieldFrame4 = CGRectMake(3.0, 100.0, 315.0, 34.0);
     _signupEmail = [[UITextField alloc] initWithFrame:textfieldFrame4];
     _signupEmail.borderStyle = UITextBorderStyleLine;
     _signupEmail.font = [UIFont systemFontOfSize:18];
@@ -78,7 +78,7 @@
     [self.view addSubview:_signupEmail];
 
 
-    CGRect textfieldFrame5 = CGRectMake(3.0, 230.0, 315.0, 50.0);
+    CGRect textfieldFrame5 = CGRectMake(3.0, 135.0, 315.0, 34.0);
     _signupPassword = [[UITextField alloc] initWithFrame:textfieldFrame5];
     _signupPassword.borderStyle = UITextBorderStyleLine;
     _signupPassword.font = [UIFont systemFontOfSize:18];
@@ -86,12 +86,58 @@
     _signupPassword.alpha = 0.8;
     _signupPassword.autocorrectionType = UITextAutocorrectionTypeNo;
     _signupPassword.keyboardType = UIKeyboardTypeDefault;
-    _signupPassword.returnKeyType = UIReturnKeyGo;
+    _signupPassword.returnKeyType = UIReturnKeyNext;
     _signupPassword.clearButtonMode = UITextFieldViewModeWhileEditing;
     _signupPassword.contentVerticalAlignment = UIControlContentVerticalAlignmentCenter;
     _signupPassword.delegate = self;
     _signupPassword.background = [UIImage imageNamed:@"textfieldbackground.jpg"];
     [self.view addSubview:_signupPassword];
+    
+    CGRect textfieldFrame6 = CGRectMake(3.0, 170.0, 315.0, 34.0);
+    _homeAddress = [[UITextField alloc] initWithFrame:textfieldFrame6];
+    _homeAddress.borderStyle = UITextBorderStyleLine;
+    _homeAddress.font = [UIFont systemFontOfSize:18];
+    _homeAddress.placeholder = @"  Home Address";
+    _homeAddress.alpha = 0.8;
+    _homeAddress.autocorrectionType = UITextAutocorrectionTypeNo;
+    _homeAddress.keyboardType = UIKeyboardTypeDefault;
+    _homeAddress.returnKeyType = UIReturnKeyNext;
+    _homeAddress.clearButtonMode = UITextFieldViewModeWhileEditing;
+    _homeAddress.contentVerticalAlignment = UIControlContentVerticalAlignmentCenter;
+    _homeAddress.delegate = self;
+    _homeAddress.background = [UIImage imageNamed:@"textfieldbackground.jpg"];
+    [self.view addSubview:_homeAddress];
+    
+    CGRect textfieldFrame7 = CGRectMake(3.0, 205, 315.0, 34.0);
+    _phoneNumber = [[UITextField alloc] initWithFrame:textfieldFrame7];
+    _phoneNumber.borderStyle = UITextBorderStyleLine;
+    _phoneNumber.font = [UIFont systemFontOfSize:18];
+    _phoneNumber.placeholder = @"  Phone Number";
+    _phoneNumber.alpha = 0.8;
+    _phoneNumber.autocorrectionType = UITextAutocorrectionTypeNo;
+    _phoneNumber.keyboardType = UIKeyboardTypeDefault;
+    _phoneNumber.returnKeyType = UIReturnKeyNext;
+    _phoneNumber.clearButtonMode = UITextFieldViewModeWhileEditing;
+    _phoneNumber.contentVerticalAlignment = UIControlContentVerticalAlignmentCenter;
+    _phoneNumber.delegate = self;
+    _phoneNumber.background = [UIImage imageNamed:@"textfieldbackground.jpg"];
+    [self.view addSubview:_phoneNumber];
+    
+    
+    CGRect textfieldFrame8 = CGRectMake(3.0, 240, 315.0, 34.0);
+    _affiliation = [[UITextField alloc] initWithFrame:textfieldFrame8];
+    _affiliation.borderStyle = UITextBorderStyleLine;
+    _affiliation.font = [UIFont systemFontOfSize:18];
+    _affiliation.placeholder = @"  Affiliation";
+    _affiliation.alpha = 0.8;
+    _affiliation.autocorrectionType = UITextAutocorrectionTypeNo;
+    _affiliation.keyboardType = UIKeyboardTypeDefault;
+    _affiliation.returnKeyType = UIReturnKeyGo;
+    _affiliation.clearButtonMode = UITextFieldViewModeWhileEditing;
+    _affiliation.contentVerticalAlignment = UIControlContentVerticalAlignmentCenter;
+    _affiliation.delegate = self;
+    _affiliation.background = [UIImage imageNamed:@"textfieldbackground.jpg"];
+    [self.view addSubview:_affiliation];
     
     
     self.signupPassword.secureTextEntry = YES;
@@ -99,6 +145,9 @@
     self.signupEmail.delegate = self;
     self.signupPassword.delegate = self;
     self.signupName.delegate = self;
+    self.homeAddress.delegate = self;
+    self.phoneNumber.delegate = self;
+    self.affiliation.delegate = self;
     
 }
 
@@ -184,12 +233,25 @@
         [self.signupPassword becomeFirstResponder];
     }
     else if (textField == self.signupPassword) {
+        [self.homeAddress becomeFirstResponder];
+    }
+    else if (textField == self.homeAddress) {
+        [self.phoneNumber becomeFirstResponder];
+    }
+    else if (textField == self.phoneNumber) {
+        [self.affiliation becomeFirstResponder];
+    }
+    else if (textField == self.affiliation) {
         PFUser * user = [PFUser user];
-        user[@"signupName"] = self.signupName.text;
         user.username = self.signupUsername.text;
         user.username = self.signupUsername.text;
         user.email = self.signupEmail.text;
         user.password = self.signupPassword.text;
+        user[@"signupName"] = self.signupName.text;
+        user[@"homeAddress"] = self.homeAddress.text;
+        user[@"phoneNumber"] = self.phoneNumber.text;
+        user[@"affiliation"] = self.affiliation.text;
+        user[@"permission"] = @"1";
         [self.view endEditing:YES];
         
         [user signUpInBackgroundWithBlock:^(BOOL succeeded, NSError *error) {

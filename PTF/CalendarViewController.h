@@ -9,8 +9,9 @@
 #import <UIKit/UIKit.h>
 #import <PDTSimpleCalendar/PDTSimpleCalendar.h>
 #import <Parse/Parse.h>
+#import "VolunteerViewController.h"
 
-@interface CalendarViewController : UIViewController
+@interface CalendarViewController : UIViewController <VolunteerViewControllerDelegate>
 
 @property (weak, nonatomic) IBOutlet UISegmentedControl *facultyTypeSegmentedControl;
 

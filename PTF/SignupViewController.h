@@ -13,6 +13,9 @@
 @property (strong, nonatomic)  UITextField *signupEmail;
 @property (strong, nonatomic) UITextField *signupUsername;
 @property (strong, nonatomic)  UITextField *signupPassword;
+@property (strong, nonatomic) UITextField *homeAddress;
+@property (strong, nonatomic)  UITextField *phoneNumber;
+@property (strong, nonatomic)  UITextField *affiliation;
 @property (strong, nonatomic) IBOutlet UILabel *statusLabel;
 
 @end

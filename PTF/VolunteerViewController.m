@@ -189,6 +189,12 @@
 }
 
 
+-(void) viewDidAppear:(BOOL)animated
+{
+    [super viewDidAppear:animated];
+    
+    [self.delegate voluneteerViewControllerDidFinishUnloading:self];
+}
 
 - (void)didReceiveMemoryWarning
 

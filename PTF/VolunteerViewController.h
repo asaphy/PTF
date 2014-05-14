@@ -18,6 +18,13 @@
 
 #import <Parse/Parse.h>
 
+@class VolunteerViewController;
+@protocol VolunteerViewControllerDelegate
+
+-(void) voluneteerViewControllerDidFinishUnloading:(VolunteerViewController *) vc;
+
+@end
+
 @interface VolunteerViewController : UIViewController <UITextFieldDelegate,UIPickerViewDataSource,UIPickerViewDelegate>
 
 
@@ -38,6 +45,7 @@
 
 @property (weak, nonatomic) IBOutlet UIButton *addEventButton;
 
+@property (weak,nonatomic) id <VolunteerViewControllerDelegate> delegate;
 
 
 - (IBAction)addEvent:(id)sender;

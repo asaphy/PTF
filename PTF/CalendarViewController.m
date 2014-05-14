@@ -52,7 +52,8 @@
     self.navigationController.navigationBar.translucent = NO;
     self.tabBarController.tabBar.translucent = NO;
     
-    [[UISegmentedControl appearance] setTintColor:[UIColor colorWithRed:211.0/255.0 green:106.0/255.0 blue:18.0/255.0 alpha:1]];
+    [[UISegmentedControl appearance] setTintColor: [UIColor colorWithRed:123.0/255.0 green:63.0/255.0 blue:0.0/255.0 alpha:1]];
+
     [[UISegmentedControl appearance] setTitleTextAttributes:@{NSForegroundColorAttributeName:[UIColor colorWithRed:211.0/255.0 green:106.0/255.0 blue:18.0/255.0 alpha:1]} forState:UIControlStateNormal];
     
     self.redDates = [[NSMutableArray alloc] init];
@@ -254,8 +255,9 @@
         [query getFirstObjectInBackgroundWithBlock:^(PFObject *object, NSError *error) {
             if (!object) {
                 //no event for day, so push to volunteerView
-                UIViewController * volunteerView = [self.storyboard instantiateViewControllerWithIdentifier:@"VolunteerViewController"];
+                VolunteerViewController * volunteerView = [self.storyboard instantiateViewControllerWithIdentifier:@"VolunteerViewController"];
                 [self.navigationController pushViewController:volunteerView animated:YES];
+                 volunteerView.delegate = self;
             } else {
                 //event for day exists already
                 UIViewController * eventView = [self.storyboard instantiateViewControllerWithIdentifier:@"EventViewController"];
@@ -270,8 +272,9 @@
         [query getFirstObjectInBackgroundWithBlock:^(PFObject *object, NSError *error) {
             if (!object) {
                 //no event for day, so push to volunteerView
-                UIViewController * volunteerView = [self.storyboard instantiateViewControllerWithIdentifier:@"VolunteerViewController"];
+                VolunteerViewController * volunteerView = [self.storyboard instantiateViewControllerWithIdentifier:@"VolunteerViewController"];
                 [self.navigationController pushViewController:volunteerView animated:YES];
+                 volunteerView.delegate = self;
             } else {
                 //event for day exists already
                 UIViewController * eventView = [self.storyboard instantiateViewControllerWithIdentifier:@"EventViewController"];
@@ -368,6 +371,11 @@
             return [UIColor blackColor];
         }
     }
+}
+
+-(void)voluneteerViewControllerDidFinishUnloading:(VolunteerViewController *)vc
+{
+    [self.calViewContainer reloadCollectionView];
 }
 
 @end

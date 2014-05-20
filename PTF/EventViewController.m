@@ -310,12 +310,15 @@
             NSString *emailMessage = [NSString stringWithFormat:@"%@ volunteered for the Driver position on %@",content, theDate];
             
             //send email
-            sendgrid *msg = [sendgrid user:@"asaphy" andPass:@"password"];
+            sendgrid *msg = [sendgrid user:@"asaphy" andPass:@"connie2014"];
             msg.tolist = @[@"asaph.yuan@gmail.com"];
             msg.subject = @"New Driver Volunteer";
             msg.from = @"asaphy@bu.edu";
             msg.text = emailMessage;
-            msg.html = @"<h1>hello world!</h1>";
+            msg.html = emailMessage;
+            
+
+            [msg sendWithWeb]; 
             
         } else {
             // Did not find any for the current user

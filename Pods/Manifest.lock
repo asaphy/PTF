@@ -29,6 +29,7 @@ PODS:
     - AFNetworking (~> 2.0)
 
 DEPENDENCIES:
+  - AFNetworking (~> 2.2)
   - Google-Maps-iOS-SDK (~> 1.7)
   - Parse
   - PDTSimpleCalendar (~> 0.6)

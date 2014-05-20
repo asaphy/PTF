@@ -194,6 +194,24 @@
         queryRes[@"driver"] = @"";
         [queryRes saveInBackground];
     }
+    
+    PFQuery *userquery= [PFUser query];
+    
+    [userquery whereKey:@"username" equalTo:[[PFUser currentUser]username]];
+    PFObject *userqueryRes = [userquery getFirstObject];
+    NSString *content = [userqueryRes objectForKey:@"signupName"];
+    
+    NSString *emailMessage = [NSString stringWithFormat:@"%@ has cancelled for the Driver position for %@",content, theDate];
+    
+    //send email
+    sendgrid *msg = [sendgrid user:@"asaphy" andPass:@"connie2014"];
+    msg.tolist = @[@"asaph.yuan@gmail.com"];
+    msg.subject = @"Driver Cancellation";
+    msg.from = @"asaphy@bu.edu";
+    msg.text = emailMessage;
+    msg.html = emailMessage;
+    [msg sendWithWeb];
+    
     _driverName.hidden=YES;
 }
 
@@ -224,6 +242,22 @@
         queryRes[@"foodProvider"] = @"";
         [queryRes saveInBackground];
     }
+    PFQuery *userquery= [PFUser query];
+    
+    [userquery whereKey:@"username" equalTo:[[PFUser currentUser]username]];
+    PFObject *userqueryRes = [userquery getFirstObject];
+    NSString *content = [userqueryRes objectForKey:@"signupName"];
+    
+    NSString *emailMessage = [NSString stringWithFormat:@"%@ has cancelled for the Food Provider position for %@",content, theDate];
+    
+    //send email
+    sendgrid *msg = [sendgrid user:@"asaphy" andPass:@"connie2014"];
+    msg.tolist = @[@"asaph.yuan@gmail.com"];
+    msg.subject = @"Food Provider Cancellation";
+    msg.from = @"asaphy@bu.edu";
+    msg.text = emailMessage;
+    msg.html = emailMessage;
+    [msg sendWithWeb];
     _foodProviderName.hidden=YES;
 }
 
@@ -254,6 +288,22 @@
         queryRes[@"chaperone1"] = @"";
         [queryRes saveInBackground];
     }
+    PFQuery *userquery= [PFUser query];
+    
+    [userquery whereKey:@"username" equalTo:[[PFUser currentUser]username]];
+    PFObject *userqueryRes = [userquery getFirstObject];
+    NSString *content = [userqueryRes objectForKey:@"signupName"];
+    
+    NSString *emailMessage = [NSString stringWithFormat:@"%@ has cancelled for a Chaperone position for %@",content, theDate];
+    
+    //send email
+    sendgrid *msg = [sendgrid user:@"asaphy" andPass:@"connie2014"];
+    msg.tolist = @[@"asaph.yuan@gmail.com"];
+    msg.subject = @"Chaperone Cancellation";
+    msg.from = @"asaphy@bu.edu";
+    msg.text = emailMessage;
+    msg.html = emailMessage;
+    [msg sendWithWeb];
     _chaperone1Name.hidden=YES;
 }
 
@@ -284,6 +334,22 @@
         queryRes[@"chaperone2"] = @"";
         [queryRes saveInBackground];
     }
+    PFQuery *userquery= [PFUser query];
+    
+    [userquery whereKey:@"username" equalTo:[[PFUser currentUser]username]];
+    PFObject *userqueryRes = [userquery getFirstObject];
+    NSString *content = [userqueryRes objectForKey:@"signupName"];
+    
+    NSString *emailMessage = [NSString stringWithFormat:@"%@ has cancelled for a Chaperone position for %@",content, theDate];
+    
+    //send email
+    sendgrid *msg = [sendgrid user:@"asaphy" andPass:@"connie2014"];
+    msg.tolist = @[@"asaph.yuan@gmail.com"];
+    msg.subject = @"Chaperone Cancellation";
+    msg.from = @"asaphy@bu.edu";
+    msg.text = emailMessage;
+    msg.html = emailMessage;
+    [msg sendWithWeb];
     _chaperone2Name.hidden=YES;
 }
 
@@ -307,7 +373,7 @@
             // Save
             [driver saveInBackground];
             
-            NSString *emailMessage = [NSString stringWithFormat:@"%@ volunteered for the Driver position on %@",content, theDate];
+            NSString *emailMessage = [NSString stringWithFormat:@"%@ volunteered for the Driver position for %@",content, theDate];
             
             //send email
             sendgrid *msg = [sendgrid user:@"asaphy" andPass:@"connie2014"];
@@ -358,6 +424,19 @@
             [foodProvider setObject:content forKey:@"foodProvider"];
             // Save
             [foodProvider saveInBackground];
+            
+            NSString *emailMessage = [NSString stringWithFormat:@"%@ volunteered for the Food Provider position for %@",content, theDate];
+            
+            //send email
+            sendgrid *msg = [sendgrid user:@"asaphy" andPass:@"connie2014"];
+            msg.tolist = @[@"asaph.yuan@gmail.com"];
+            msg.subject = @"New Food Provider Volunteer";
+            msg.from = @"asaphy@bu.edu";
+            msg.text = emailMessage;
+            msg.html = emailMessage;
+            
+            
+            [msg sendWithWeb];
         } else {
             // Did not find any for the current user
             NSLog(@"Error: %@", error);
@@ -392,6 +471,19 @@
             [chaperone1 setObject:content forKey:@"chaperone1"];
             // Save
             [chaperone1 saveInBackground];
+            
+            NSString *emailMessage = [NSString stringWithFormat:@"%@ volunteered for the Chaperone position for %@",content, theDate];
+            
+            //send email
+            sendgrid *msg = [sendgrid user:@"asaphy" andPass:@"connie2014"];
+            msg.tolist = @[@"asaph.yuan@gmail.com"];
+            msg.subject = @"New Chaperone Volunteer";
+            msg.from = @"asaphy@bu.edu";
+            msg.text = emailMessage;
+            msg.html = emailMessage;
+            
+            
+            [msg sendWithWeb];
         } else {
             // Did not find any for the current user
             NSLog(@"Error: %@", error);
@@ -426,6 +518,18 @@
             [chaperone2 setObject:content forKey:@"chaperone2"];
             // Save
             [chaperone2 saveInBackground];
+            NSString *emailMessage = [NSString stringWithFormat:@"%@ volunteered for the Chaperone position for %@",content, theDate];
+            
+            //send email
+            sendgrid *msg = [sendgrid user:@"asaphy" andPass:@"connie2014"];
+            msg.tolist = @[@"asaph.yuan@gmail.com"];
+            msg.subject = @"New Chaperone Volunteer";
+            msg.from = @"asaphy@bu.edu";
+            msg.text = emailMessage;
+            msg.html = emailMessage;
+            
+            
+            [msg sendWithWeb];
         } else {
             // Did not find any for the current user
             NSLog(@"Error: %@", error);

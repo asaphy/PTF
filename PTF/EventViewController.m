@@ -306,11 +306,26 @@
             [driver setObject:content forKey:@"driver"];
             // Save
             [driver saveInBackground];
+            
+            NSString *emailMessage = [NSString stringWithFormat:@"%@ volunteered for the Driver position on %@",content, theDate];
+            
+            //send email
+            sendgrid *msg = [sendgrid user:@"asaphy" andPass:@"password"];
+            msg.tolist = @[@"asaph.yuan@gmail.com"];
+            msg.subject = @"New Driver Volunteer";
+            msg.from = @"asaphy@bu.edu";
+            msg.text = emailMessage;
+            msg.html = @"<h1>hello world!</h1>";
+            
         } else {
             // Did not find any for the current user
             NSLog(@"Error: %@", error);
         }
     }];
+    
+    
+    
+    
     
     NSString *title = [[NSString alloc] initWithFormat:@"You have succesfully volunteered as a driver!"];
     

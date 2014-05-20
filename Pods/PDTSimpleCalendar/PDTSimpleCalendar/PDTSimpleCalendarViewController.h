@@ -22,16 +22,6 @@ extern const NSUInteger PDTSimpleCalendarDaysPerWeek __deprecated_msg("Days per 
 
 /** @name Calendar Setup */
 
-/* I add it for convenience */
-@property (nonatomic, strong) NSDate * today;
-
-/* I add it
- * for segmentation buttons on cal page.
- * This means which job needs to be checked in database
- */
-@property (nonatomic, strong) NSString * checkingType;
-
-
 /**
  *  The calendar used to generate the view.
  *

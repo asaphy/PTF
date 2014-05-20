@@ -7,10 +7,10 @@
 //
 
 #import "PDTSimpleCalendarViewController.h"
+
 #import "PDTSimpleCalendarViewFlowLayout.h"
 #import "PDTSimpleCalendarViewCell.h"
 #import "PDTSimpleCalendarViewHeader.h"
-//#import "../Parse/Frameworks/Parse.framework/Headers/Parse.h"
 
 
 //TODO: Remove this var in next release.
@@ -33,7 +33,6 @@ static NSString *PDTSimpleCalendarViewHeaderIdentifier = @"com.producteev.collec
 //Number of days per week
 @property (nonatomic, assign) NSUInteger daysPerWeek;
 
-
 @end
 
 
@@ -43,10 +42,6 @@ static NSString *PDTSimpleCalendarViewHeaderIdentifier = @"com.producteev.collec
 @synthesize firstDate = _firstDate;
 @synthesize lastDate = _lastDate;
 @synthesize calendar = _calendar;
-
-// I add it
-@synthesize today = _today;
-@synthesize checkingType = _checkingType;
 
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
@@ -151,8 +146,7 @@ static NSString *PDTSimpleCalendarViewHeaderIdentifier = @"com.producteev.collec
 {
     if (!_lastDate) {
         NSDateComponents *offsetComponents = [[NSDateComponents alloc] init];
-        //offsetComponents.year = 1;
-        offsetComponents.month = 3;
+        offsetComponents.year = 1;
         offsetComponents.day = -1;
         [self setLastDate:[self.calendar dateByAddingComponents:offsetComponents toDate:self.firstDateMonth options:0]];
     }
@@ -174,7 +168,6 @@ static NSString *PDTSimpleCalendarViewHeaderIdentifier = @"com.producteev.collec
 
     return [self.calendar dateFromComponents:components];
 }
-
 
 - (void)setSelectedDate:(NSDate *)newSelectedDate
 {
@@ -259,11 +252,8 @@ static NSString *PDTSimpleCalendarViewHeaderIdentifier = @"com.producteev.collec
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    
-    // I add it
-    // set the default checkType to driver
-    self.checkingType = @"driver";
-    
+
+    //Configure the Collection View
     [self.collectionView registerClass:[PDTSimpleCalendarViewCell class] forCellWithReuseIdentifier:PDTSimpleCalendarViewCellIdentifier];
     [self.collectionView registerClass:[PDTSimpleCalendarViewHeader class] forSupplementaryViewOfKind:UICollectionElementKindSectionHeader withReuseIdentifier:PDTSimpleCalendarViewHeaderIdentifier];
 
@@ -285,9 +275,6 @@ static NSString *PDTSimpleCalendarViewHeaderIdentifier = @"com.producteev.collec
 
     [self.view addConstraints:[NSLayoutConstraint constraintsWithVisualFormat:@"|[overlayView]|" options:NSLayoutFormatAlignAllTop metrics:nil views:viewsDictionary]];
     [self.view addConstraints:[NSLayoutConstraint constraintsWithVisualFormat:@"V:|[overlayView(==overlayViewHeight)]" options:NSLayoutFormatAlignAllTop metrics:metricsDictionary views:viewsDictionary]];
-    
-    
-
 }
 
 #pragma mark - Rotation Handling
@@ -318,10 +305,9 @@ static NSString *PDTSimpleCalendarViewHeaderIdentifier = @"com.producteev.collec
 
 - (UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath
 {
-    PDTSimpleCalendarViewCell *cell = [self.collectionView dequeueReusableCellWithReuseIdentifier:PDTSimpleCalendarViewCellIdentifier   forIndexPath:indexPath];
-    
-    //cell.circleDefaultColor = [UIColor whiteColor];
-    
+    PDTSimpleCalendarViewCell *cell = [self.collectionView dequeueReusableCellWithReuseIdentifier:PDTSimpleCalendarViewCellIdentifier
+                                                                                     forIndexPath:indexPath];
+
     cell.delegate = self;
     
     NSDate *firstOfMonth = [self firstOfMonthForSection:indexPath.section];
@@ -348,68 +334,13 @@ static NSString *PDTSimpleCalendarViewHeaderIdentifier = @"com.producteev.collec
         }
 
 
+    } else {
+        [cell setDate:nil calendar:nil];
     }
-    
+
     if (isToday) {
         [cell setIsToday:isToday];
-        
-//        cell.circleTodayColor = [UIColor whiteColor];  // [UIColor colorWithRed:211.0/255.0 green:106.0/255.0 blue:18.0/255.0 alpha:1];
-//        cell.circleSelectedColor = [UIColor whiteColor];  //[UIColor colorWithRed:211.0/255.0 green:106.0/255.0 blue:18.0/255.0 alpha:1];
-//        cell.textDefaultColor = [UIColor blackColor];
-//        cell.textSelectedColor = [UIColor blackColor];
-//        cell.textTodayColor = [UIColor blackColor];
-        
-        // I add it
-        if (!_today)
-        {
-            _today = cellDate;
-        }
-        
     }
-    else if (!self.today || [cellDate compare:self.today] < 0)
-    {
-        //in the past
-
-        NSDate *today = [NSDate date];
-        
-        NSComparisonResult compareResult = [today compare : cellDate];
-        
-        if (compareResult == NSOrderedDescending)
-        {
-            if ([self isEnabledDate:cellDate])
-            {
-//                cell.circleDefaultColor = [UIColor whiteColor];
-//                cell.circleSelectedColor = [UIColor whiteColor];
-//                cell.textDefaultColor = [UIColor colorWithRed:192.0/255.0 green:192.0/255.0 blue:192.0/255.0 alpha:1];
-//                cell.textSelectedColor = [UIColor colorWithRed:192.0/255.0 green:192.0/255.0 blue:192.0/255.0 alpha:1];
-            }
-        }
-    }
-    else if (![self isEnabledDate:cellDate])
-    {
-        cell.circleDefaultColor = [UIColor whiteColor];
-        cell.circleSelectedColor = [UIColor whiteColor];
-        cell.textDefaultColor = [UIColor whiteColor];
-    }
-    else
-    {
-        //in the future
-        
-//        cell.textDefaultColor = [UIColor blackColor];
-//        cell.circleTodayColor = [UIColor colorWithRed:211.0/255.0 green:106.0/255.0 blue:18.0/255.0 alpha:1];
-//        cell.circleSelectedColor = [UIColor whiteColor];
-//        cell.circleDefaultColor = [UIColor whiteColor];
-//        cell.textSelectedColor = [UIColor blackColor];
-//        [cell checkVolunteerOfType:self.checkingType];
-        
-    }
-    //NSLog(@"%@", self.checkingType);
-    //NSLog(@"%@", cellDate);
-
-    [cell refreshCellColors];
-
-    
-    
 
     if (isSelected) {
         [cell setSelected:isSelected];
@@ -663,7 +594,5 @@ static NSString *PDTSimpleCalendarViewHeaderIdentifier = @"com.producteev.collec
     
     return nil;
 }
-
-
 
 @end

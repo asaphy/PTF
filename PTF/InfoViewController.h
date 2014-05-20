@@ -10,5 +10,6 @@
 
 @interface InfoViewController : UIViewController <UITableViewDataSource, UITableViewDelegate>
 @property (strong, nonatomic) IBOutlet UITableView *tableView;
+- (IBAction)websiteButton:(id)sender;
 
 @end

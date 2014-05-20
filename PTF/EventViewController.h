@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import <Parse/Parse.h>
+#import <sendgrid.h>
 @interface EventViewController : UIViewController
 @property (weak, nonatomic) IBOutlet UIButton *cancelDriver;
 @property (weak, nonatomic) IBOutlet UIButton *cancelFoodProvider;

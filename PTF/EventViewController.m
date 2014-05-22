@@ -202,11 +202,11 @@
     NSString *content = [userqueryRes objectForKey:@"signupName"];
     
     NSString *emailMessage = [NSString stringWithFormat:@"%@ has cancelled for the Driver position for %@",content, theDate];
-    
+    NSString *emailSubject = [NSString stringWithFormat:@"Driver Cancellation for %@", theDate];
     //send email
     sendgrid *msg = [sendgrid user:@"asaphy" andPass:@"connie2014"];
     msg.tolist = @[@"asaph.yuan@gmail.com"];
-    msg.subject = @"Driver Cancellation";
+    msg.subject = emailSubject;
     msg.from = @"asaphy@bu.edu";
     msg.text = emailMessage;
     msg.html = emailMessage;
@@ -249,11 +249,12 @@
     NSString *content = [userqueryRes objectForKey:@"signupName"];
     
     NSString *emailMessage = [NSString stringWithFormat:@"%@ has cancelled for the Food Provider position for %@",content, theDate];
+    NSString *emailSubject = [NSString stringWithFormat:@"Food Provider Cancellation for %@", theDate];
     
     //send email
     sendgrid *msg = [sendgrid user:@"asaphy" andPass:@"connie2014"];
     msg.tolist = @[@"asaph.yuan@gmail.com"];
-    msg.subject = @"Food Provider Cancellation";
+    msg.subject = emailSubject;
     msg.from = @"asaphy@bu.edu";
     msg.text = emailMessage;
     msg.html = emailMessage;
@@ -295,11 +296,12 @@
     NSString *content = [userqueryRes objectForKey:@"signupName"];
     
     NSString *emailMessage = [NSString stringWithFormat:@"%@ has cancelled for a Chaperone position for %@",content, theDate];
+    NSString *emailSubject = [NSString stringWithFormat:@"Chaperone Cancellation for %@", theDate];
     
     //send email
     sendgrid *msg = [sendgrid user:@"asaphy" andPass:@"connie2014"];
     msg.tolist = @[@"asaph.yuan@gmail.com"];
-    msg.subject = @"Chaperone Cancellation";
+    msg.subject = emailSubject;
     msg.from = @"asaphy@bu.edu";
     msg.text = emailMessage;
     msg.html = emailMessage;
@@ -341,11 +343,12 @@
     NSString *content = [userqueryRes objectForKey:@"signupName"];
     
     NSString *emailMessage = [NSString stringWithFormat:@"%@ has cancelled for a Chaperone position for %@",content, theDate];
+    NSString *emailSubject = [NSString stringWithFormat:@"Chaperone Cancellation for %@", theDate];
     
     //send email
     sendgrid *msg = [sendgrid user:@"asaphy" andPass:@"connie2014"];
     msg.tolist = @[@"asaph.yuan@gmail.com"];
-    msg.subject = @"Chaperone Cancellation";
+    msg.subject = emailSubject;
     msg.from = @"asaphy@bu.edu";
     msg.text = emailMessage;
     msg.html = emailMessage;
@@ -374,11 +377,11 @@
             [driver saveInBackground];
             
             NSString *emailMessage = [NSString stringWithFormat:@"%@ volunteered for the Driver position for %@",content, theDate];
-            
+            NSString *emailSubject = [NSString stringWithFormat:@"Driver Volunteered for %@", theDate];
             //send email
             sendgrid *msg = [sendgrid user:@"asaphy" andPass:@"connie2014"];
             msg.tolist = @[@"asaph.yuan@gmail.com"];
-            msg.subject = @"New Driver Volunteer";
+            msg.subject = emailSubject;
             msg.from = @"asaphy@bu.edu";
             msg.text = emailMessage;
             msg.html = emailMessage;
@@ -426,11 +429,11 @@
             [foodProvider saveInBackground];
             
             NSString *emailMessage = [NSString stringWithFormat:@"%@ volunteered for the Food Provider position for %@",content, theDate];
-            
+            NSString *emailSubject = [NSString stringWithFormat:@"Food Provider Volunteered for %@", theDate];
             //send email
             sendgrid *msg = [sendgrid user:@"asaphy" andPass:@"connie2014"];
             msg.tolist = @[@"asaph.yuan@gmail.com"];
-            msg.subject = @"New Food Provider Volunteer";
+            msg.subject = emailSubject;
             msg.from = @"asaphy@bu.edu";
             msg.text = emailMessage;
             msg.html = emailMessage;
@@ -473,11 +476,11 @@
             [chaperone1 saveInBackground];
             
             NSString *emailMessage = [NSString stringWithFormat:@"%@ volunteered for the Chaperone position for %@",content, theDate];
-            
+            NSString *emailSubject = [NSString stringWithFormat:@"Chaperone Volunteered for %@", theDate];
             //send email
             sendgrid *msg = [sendgrid user:@"asaphy" andPass:@"connie2014"];
             msg.tolist = @[@"asaph.yuan@gmail.com"];
-            msg.subject = @"New Chaperone Volunteer";
+            msg.subject = emailSubject;
             msg.from = @"asaphy@bu.edu";
             msg.text = emailMessage;
             msg.html = emailMessage;
@@ -519,11 +522,11 @@
             // Save
             [chaperone2 saveInBackground];
             NSString *emailMessage = [NSString stringWithFormat:@"%@ volunteered for the Chaperone position for %@",content, theDate];
-            
+            NSString *emailSubject = [NSString stringWithFormat:@"Chaperone Volunteered for %@", theDate];
             //send email
             sendgrid *msg = [sendgrid user:@"asaphy" andPass:@"connie2014"];
             msg.tolist = @[@"asaph.yuan@gmail.com"];
-            msg.subject = @"New Chaperone Volunteer";
+            msg.subject = emailSubject;
             msg.from = @"asaphy@bu.edu";
             msg.text = emailMessage;
             msg.html = emailMessage;

@@ -30,6 +30,40 @@
     [super viewDidLoad];
     
     // Do any additional setup after loading the view.
+    
+    CGRect textfieldFrame = CGRectMake(3.0, 120.0, 315.0, 39.0);
+    _loginUsername = [[UITextField alloc] initWithFrame:textfieldFrame];
+    _loginUsername.borderStyle = UITextBorderStyleLine;
+    _loginUsername.font = [UIFont systemFontOfSize:18];
+    _loginUsername.placeholder = @" Username";
+    _loginUsername.alpha = 0.8;
+    _loginUsername.autocorrectionType = UITextAutocorrectionTypeNo;
+    _loginUsername.keyboardType = UIKeyboardTypeDefault;
+    _loginUsername.returnKeyType = UIReturnKeyNext;
+    _loginUsername.clearButtonMode = UITextFieldViewModeWhileEditing;
+    _loginUsername.contentVerticalAlignment = UIControlContentVerticalAlignmentCenter;
+    _loginUsername.delegate = self;
+    _loginUsername.background = [UIImage imageNamed:@"textfieldbackground.jpg"];
+    
+    [self.view addSubview:_loginUsername];
+    
+    CGRect textfieldFrame2 = CGRectMake(3.0, 160.0, 315.0, 39.0);
+    _loginPassword = [[UITextField alloc] initWithFrame:textfieldFrame2];
+    _loginPassword.borderStyle = UITextBorderStyleLine;
+    _loginPassword.font = [UIFont systemFontOfSize:18];
+    _loginPassword.placeholder = @" Password";
+    _loginPassword.alpha = 0.8;
+    _loginPassword.autocorrectionType = UITextAutocorrectionTypeNo;
+    _loginPassword.keyboardType = UIKeyboardTypeDefault;
+    _loginPassword.returnKeyType = UIReturnKeyGo;
+    _loginPassword.clearButtonMode = UITextFieldViewModeWhileEditing;
+    _loginPassword.contentVerticalAlignment = UIControlContentVerticalAlignmentCenter;
+    _loginPassword.delegate = self;
+    _loginPassword.background = [UIImage imageNamed:@"textfieldbackground.jpg"];
+    
+    [self.view addSubview:_loginPassword];
+    
+    
     self.loginPassword.secureTextEntry = YES;
 setNavigationBarHidden:YES;
     

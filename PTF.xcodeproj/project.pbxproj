@@ -45,6 +45,7 @@
 		83D1E57618DD32B600457CCA /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83D1E57518DD32B600457CCA /* MapViewController.m */; };
 		83D1E57C18DD32CC00457CCA /* InfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83D1E57B18DD32CC00457CCA /* InfoViewController.m */; };
 		83D1E57F18DD32D700457CCA /* ContactViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83D1E57E18DD32D700457CCA /* ContactViewController.m */; };
+		83F0186C192E9B600037E6AE /* ptf_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 83F0186B192E9B600037E6AE /* ptf_logo.png */; };
 		83F55BFB18EFB35000C8B52D /* EventViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83F55BFA18EFB35000C8B52D /* EventViewController.m */; };
 		A8E1D8611909EF3800675C05 /* signupbackground.png in Resources */ = {isa = PBXBuildFile; fileRef = A8E1D8601909EF3800675C05 /* signupbackground.png */; };
 		DD99EF031909F0B600CCBB0C /* volunteerPageFinal-01.png in Resources */ = {isa = PBXBuildFile; fileRef = DD99EF021909F0B600CCBB0C /* volunteerPageFinal-01.png */; };
@@ -117,6 +118,7 @@
 		83D1E57B18DD32CC00457CCA /* InfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfoViewController.m; sourceTree = "<group>"; };
 		83D1E57D18DD32D700457CCA /* ContactViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactViewController.h; sourceTree = "<group>"; };
 		83D1E57E18DD32D700457CCA /* ContactViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactViewController.m; sourceTree = "<group>"; };
+		83F0186B192E9B600037E6AE /* ptf_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ptf_logo.png; sourceTree = "<group>"; };
 		83F55BF918EFB35000C8B52D /* EventViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventViewController.h; sourceTree = "<group>"; };
 		83F55BFA18EFB35000C8B52D /* EventViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventViewController.m; sourceTree = "<group>"; };
 		A8E1D8601909EF3800675C05 /* signupbackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = signupbackground.png; sourceTree = "<group>"; };
@@ -229,6 +231,7 @@
 		83D1E54018DD20A700457CCA /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				83F0186B192E9B600037E6AE /* ptf_logo.png */,
 				83196600190B74EF0053760B /* eventbackground.png */,
 				831965FE190B6D480053760B /* infoBackground.png */,
 				A8E1D8601909EF3800675C05 /* signupbackground.png */,
@@ -356,6 +359,7 @@
 				83D1E55518DD20A700457CCA /* Images.xcassets in Resources */,
 				A8E1D8611909EF3800675C05 /* signupbackground.png in Resources */,
 				83D1E54D18DD20A700457CCA /* Main_iPhone.storyboard in Resources */,
+				83F0186C192E9B600037E6AE /* ptf_logo.png in Resources */,
 				DD9A0D7D1904E47100A9150D /* DeleteEventButton.png in Resources */,
 				83052AB018DE1724001F7143 /* background_login.jpg in Resources */,
 				83D1E54418DD20A700457CCA /* InfoPlist.strings in Resources */,

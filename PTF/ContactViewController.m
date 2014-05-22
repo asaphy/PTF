@@ -73,7 +73,7 @@
             // The find succeeded.
             NSString *content2 = [object objectForKey:@"contactNumber"];
             if (![content2  isEqual: @""]) {
-                NSString *contact = @"Today's Contact: ";
+                NSString *contact = @"Phone #: ";
                 NSString *result = [contact stringByAppendingString:content2];
                 _todayNumber.text = (result);
                 _todayNumber.hidden=NO;

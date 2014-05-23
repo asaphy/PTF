@@ -319,7 +319,7 @@
 				ORGANIZATIONNAME = "Global App Initiative";
 				TargetAttributes = {
 					83D1E53518DD20A600457CCA = {
-						DevelopmentTeam = T36V9EZTBX;
+						DevelopmentTeam = A6U3U98955;
 					};
 					83D1E55918DD20A700457CCA = {
 						TestTargetID = 83D1E53518DD20A600457CCA;

@@ -205,7 +205,7 @@
     NSString *emailSubject = [NSString stringWithFormat:@"Driver Cancellation for %@", theDate];
     //send email
     sendgrid *msg = [sendgrid user:@"asaphy" andPass:@"connie2014"];
-    msg.tolist = @[@"asaph.yuan@gmail.com"];
+    msg.tolist = @[@"conmel@aol.com", @"barbara.wojtklewicz@gmail.com"];
     msg.subject = emailSubject;
     msg.from = @"asaphy@bu.edu";
     msg.text = emailMessage;
@@ -253,7 +253,7 @@
     
     //send email
     sendgrid *msg = [sendgrid user:@"asaphy" andPass:@"connie2014"];
-    msg.tolist = @[@"asaph.yuan@gmail.com"];
+    msg.tolist = @[@"conmel@aol.com", @"barbara.wojtklewicz@gmail.com"];
     msg.subject = emailSubject;
     msg.from = @"asaphy@bu.edu";
     msg.text = emailMessage;
@@ -300,7 +300,7 @@
     
     //send email
     sendgrid *msg = [sendgrid user:@"asaphy" andPass:@"connie2014"];
-    msg.tolist = @[@"asaph.yuan@gmail.com"];
+    msg.tolist = @[@"conmel@aol.com", @"barbara.wojtklewicz@gmail.com"];
     msg.subject = emailSubject;
     msg.from = @"asaphy@bu.edu";
     msg.text = emailMessage;
@@ -347,7 +347,7 @@
     
     //send email
     sendgrid *msg = [sendgrid user:@"asaphy" andPass:@"connie2014"];
-    msg.tolist = @[@"asaph.yuan@gmail.com"];
+    msg.tolist = @[@"conmel@aol.com", @"barbara.wojtklewicz@gmail.com"];
     msg.subject = emailSubject;
     msg.from = @"asaphy@bu.edu";
     msg.text = emailMessage;
@@ -380,7 +380,7 @@
             NSString *emailSubject = [NSString stringWithFormat:@"Driver Volunteered for %@", theDate];
             //send email
             sendgrid *msg = [sendgrid user:@"asaphy" andPass:@"connie2014"];
-            msg.tolist = @[@"asaph.yuan@gmail.com"];
+            msg.tolist = @[@"conmel@aol.com", @"barbara.wojtklewicz@gmail.com"];
             msg.subject = emailSubject;
             msg.from = @"asaphy@bu.edu";
             msg.text = emailMessage;
@@ -432,7 +432,7 @@
             NSString *emailSubject = [NSString stringWithFormat:@"Food Provider Volunteered for %@", theDate];
             //send email
             sendgrid *msg = [sendgrid user:@"asaphy" andPass:@"connie2014"];
-            msg.tolist = @[@"asaph.yuan@gmail.com"];
+            msg.tolist = @[@"conmel@aol.com", @"barbara.wojtklewicz@gmail.com"];
             msg.subject = emailSubject;
             msg.from = @"asaphy@bu.edu";
             msg.text = emailMessage;
@@ -479,7 +479,7 @@
             NSString *emailSubject = [NSString stringWithFormat:@"Chaperone Volunteered for %@", theDate];
             //send email
             sendgrid *msg = [sendgrid user:@"asaphy" andPass:@"connie2014"];
-            msg.tolist = @[@"asaph.yuan@gmail.com"];
+            msg.tolist = @[@"conmel@aol.com", @"barbara.wojtklewicz@gmail.com"];
             msg.subject = emailSubject;
             msg.from = @"asaphy@bu.edu";
             msg.text = emailMessage;
@@ -525,7 +525,7 @@
             NSString *emailSubject = [NSString stringWithFormat:@"Chaperone Volunteered for %@", theDate];
             //send email
             sendgrid *msg = [sendgrid user:@"asaphy" andPass:@"connie2014"];
-            msg.tolist = @[@"asaph.yuan@gmail.com"];
+            msg.tolist = @[@"conmel@aol.com", @"barbara.wojtklewicz@gmail.com"];
             msg.subject = emailSubject;
             msg.from = @"asaphy@bu.edu";
             msg.text = emailMessage;

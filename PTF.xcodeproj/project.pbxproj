@@ -37,11 +37,6 @@
 		83D1E55018DD20A700457CCA /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83D1E54E18DD20A700457CCA /* Main_iPad.storyboard */; };
 		83D1E55318DD20A700457CCA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83D1E55218DD20A700457CCA /* ViewController.m */; };
 		83D1E55518DD20A700457CCA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83D1E55418DD20A700457CCA /* Images.xcassets */; };
-		83D1E55C18DD20A700457CCA /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83D1E55B18DD20A700457CCA /* XCTest.framework */; };
-		83D1E55D18DD20A700457CCA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83D1E53918DD20A600457CCA /* Foundation.framework */; };
-		83D1E55E18DD20A700457CCA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83D1E53D18DD20A700457CCA /* UIKit.framework */; };
-		83D1E56618DD20A700457CCA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 83D1E56418DD20A700457CCA /* InfoPlist.strings */; };
-		83D1E56818DD20A700457CCA /* PTFTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 83D1E56718DD20A700457CCA /* PTFTests.m */; };
 		83D1E57618DD32B600457CCA /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83D1E57518DD32B600457CCA /* MapViewController.m */; };
 		83D1E57C18DD32CC00457CCA /* InfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83D1E57B18DD32CC00457CCA /* InfoViewController.m */; };
 		83D1E57F18DD32D700457CCA /* ContactViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83D1E57E18DD32D700457CCA /* ContactViewController.m */; };
@@ -51,16 +46,6 @@
 		DD99EF031909F0B600CCBB0C /* volunteerPageFinal-01.png in Resources */ = {isa = PBXBuildFile; fileRef = DD99EF021909F0B600CCBB0C /* volunteerPageFinal-01.png */; };
 		DD9A0D7D1904E47100A9150D /* DeleteEventButton.png in Resources */ = {isa = PBXBuildFile; fileRef = DD9A0D7C1904E47100A9150D /* DeleteEventButton.png */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		83D1E55F18DD20A700457CCA /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 83D1E52E18DD20A600457CCA /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 83D1E53518DD20A600457CCA;
-			remoteInfo = PTF;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		17443ACF6F2D4157A5F463A5 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
@@ -92,7 +77,7 @@
 		8388049218DDDBEA0015B292 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 		8388049418DDE3030015B292 /* SignupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignupViewController.h; sourceTree = "<group>"; };
 		8388049518DDE3030015B292 /* SignupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignupViewController.m; sourceTree = "<group>"; };
-		83D1E53618DD20A600457CCA /* PTF.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PTF.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		83D1E53618DD20A600457CCA /* Plymouth Taskforce for the Homeless.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Plymouth Taskforce for the Homeless.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		83D1E53918DD20A600457CCA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		83D1E53B18DD20A600457CCA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		83D1E53D18DD20A700457CCA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -107,7 +92,6 @@
 		83D1E55118DD20A700457CCA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		83D1E55218DD20A700457CCA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		83D1E55418DD20A700457CCA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		83D1E55A18DD20A700457CCA /* PTFTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PTFTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		83D1E55B18DD20A700457CCA /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		83D1E56318DD20A700457CCA /* PTFTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PTFTests-Info.plist"; sourceTree = "<group>"; };
 		83D1E56518DD20A700457CCA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -141,16 +125,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		83D1E55718DD20A700457CCA /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				83D1E55C18DD20A700457CCA /* XCTest.framework in Frameworks */,
-				83D1E55E18DD20A700457CCA /* UIKit.framework in Frameworks */,
-				83D1E55D18DD20A700457CCA /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -168,8 +142,7 @@
 		83D1E53718DD20A600457CCA /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				83D1E53618DD20A600457CCA /* PTF.app */,
-				83D1E55A18DD20A700457CCA /* PTFTests.xctest */,
+				83D1E53618DD20A600457CCA /* Plymouth Taskforce for the Homeless.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -272,9 +245,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		83D1E53518DD20A600457CCA /* PTF */ = {
+		83D1E53518DD20A600457CCA /* Plymouth Taskforce for the Homeless */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 83D1E56B18DD20A700457CCA /* Build configuration list for PBXNativeTarget "PTF" */;
+			buildConfigurationList = 83D1E56B18DD20A700457CCA /* Build configuration list for PBXNativeTarget "Plymouth Taskforce for the Homeless" */;
 			buildPhases = (
 				8B5CE8E16C7E45CCB2B8EF73 /* Check Pods Manifest.lock */,
 				83D1E53218DD20A600457CCA /* Sources */,
@@ -286,28 +259,10 @@
 			);
 			dependencies = (
 			);
-			name = PTF;
+			name = "Plymouth Taskforce for the Homeless";
 			productName = PTF;
-			productReference = 83D1E53618DD20A600457CCA /* PTF.app */;
+			productReference = 83D1E53618DD20A600457CCA /* Plymouth Taskforce for the Homeless.app */;
 			productType = "com.apple.product-type.application";
-		};
-		83D1E55918DD20A700457CCA /* PTFTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 83D1E56E18DD20A700457CCA /* Build configuration list for PBXNativeTarget "PTFTests" */;
-			buildPhases = (
-				83D1E55618DD20A700457CCA /* Sources */,
-				83D1E55718DD20A700457CCA /* Frameworks */,
-				83D1E55818DD20A700457CCA /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				83D1E56018DD20A700457CCA /* PBXTargetDependency */,
-			);
-			name = PTFTests;
-			productName = PTFTests;
-			productReference = 83D1E55A18DD20A700457CCA /* PTFTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -320,9 +275,6 @@
 				TargetAttributes = {
 					83D1E53518DD20A600457CCA = {
 						DevelopmentTeam = A6U3U98955;
-					};
-					83D1E55918DD20A700457CCA = {
-						TestTargetID = 83D1E53518DD20A600457CCA;
 					};
 				};
 			};
@@ -339,8 +291,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				83D1E53518DD20A600457CCA /* PTF */,
-				83D1E55918DD20A700457CCA /* PTFTests */,
+				83D1E53518DD20A600457CCA /* Plymouth Taskforce for the Homeless */,
 			);
 		};
 /* End PBXProject section */
@@ -366,14 +317,6 @@
 				836C803E18FFADB6005846DA /* textfieldbackground.jpg in Resources */,
 				8379EF671908F2310009EB04 /* textfieldbackgroundblue.png in Resources */,
 				8379EF691908F4A10009EB04 /* blurred4.png in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		83D1E55818DD20A700457CCA /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				83D1E56618DD20A700457CCA /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -435,23 +378,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		83D1E55618DD20A700457CCA /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				83D1E56818DD20A700457CCA /* PTFTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		83D1E56018DD20A700457CCA /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 83D1E53518DD20A600457CCA /* PTF */;
-			targetProxy = 83D1E55F18DD20A700457CCA /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		83D1E54218DD20A700457CCA /* InfoPlist.strings */ = {
@@ -572,8 +499,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PTF/PTF-Prefix.pch";
 				INFOPLIST_FILE = "PTF/PTF-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "452C5C20-6B11-4A02-8385-2369806AED2F";
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
@@ -585,55 +513,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Plymouth Taskforce for the Homeless (A6U3U98955)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Plymouth Taskforce for the Homeless (A6U3U98955)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PTF/PTF-Prefix.pch";
 				INFOPLIST_FILE = "PTF/PTF-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "452C5C20-6B11-4A02-8385-2369806AED2F";
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
-			};
-			name = Release;
-		};
-		83D1E56F18DD20A700457CCA /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PTF.app/PTF";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "PTF/PTF-Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "PTFTests/PTFTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Debug;
-		};
-		83D1E57018DD20A700457CCA /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PTF.app/PTF";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "PTF/PTF-Prefix.pch";
-				INFOPLIST_FILE = "PTFTests/PTFTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
 			};
 			name = Release;
 		};
@@ -649,20 +538,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		83D1E56B18DD20A700457CCA /* Build configuration list for PBXNativeTarget "PTF" */ = {
+		83D1E56B18DD20A700457CCA /* Build configuration list for PBXNativeTarget "Plymouth Taskforce for the Homeless" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				83D1E56C18DD20A700457CCA /* Debug */,
 				83D1E56D18DD20A700457CCA /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		83D1E56E18DD20A700457CCA /* Build configuration list for PBXNativeTarget "PTFTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				83D1E56F18DD20A700457CCA /* Debug */,
-				83D1E57018DD20A700457CCA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

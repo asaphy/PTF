@@ -15,8 +15,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "83D1E53518DD20A600457CCA"
-               BuildableName = "PTF.app"
-               BlueprintName = "PTF"
+               BuildableName = "Plymouth Taskforce for the Homeless.app"
+               BlueprintName = "Plymouth Taskforce for the Homeless"
                ReferencedContainer = "container:PTF.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -43,8 +43,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "83D1E53518DD20A600457CCA"
-            BuildableName = "PTF.app"
-            BlueprintName = "PTF"
+            BuildableName = "Plymouth Taskforce for the Homeless.app"
+            BlueprintName = "Plymouth Taskforce for the Homeless"
             ReferencedContainer = "container:PTF.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -62,8 +62,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "83D1E53518DD20A600457CCA"
-            BuildableName = "PTF.app"
-            BlueprintName = "PTF"
+            BuildableName = "Plymouth Taskforce for the Homeless.app"
+            BlueprintName = "Plymouth Taskforce for the Homeless"
             ReferencedContainer = "container:PTF.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -80,8 +80,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "83D1E53518DD20A600457CCA"
-            BuildableName = "PTF.app"
-            BlueprintName = "PTF"
+            BuildableName = "Plymouth Taskforce for the Homeless.app"
+            BlueprintName = "Plymouth Taskforce for the Homeless"
             ReferencedContainer = "container:PTF.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>

@@ -180,11 +180,15 @@
     }
     else{
     PFUser * user = [PFUser user];
-    user[@"signupName"] = self.signupName.text;
     user.username = self.signupUsername.text;
     user.username = self.signupUsername.text;
     user.email = self.signupEmail.text;
     user.password = self.signupPassword.text;
+    user[@"signupName"] = self.signupName.text;
+    user[@"homeAddress"] = self.homeAddress.text;
+    user[@"phoneNumber"] = self.phoneNumber.text;
+    user[@"affiliation"] = self.affiliation.text;
+    user[@"permission"] = @"1";
     [self.view endEditing:YES];
 
     [user signUpInBackgroundWithBlock:^(BOOL succeeded, NSError *error) {
@@ -244,14 +248,8 @@
     else if (textField == self.affiliation) {
         PFUser * user = [PFUser user];
         user.username = self.signupUsername.text;
-        user.username = self.signupUsername.text;
         user.email = self.signupEmail.text;
         user.password = self.signupPassword.text;
-        user[@"signupName"] = self.signupName.text;
-        user[@"homeAddress"] = self.homeAddress.text;
-        user[@"phoneNumber"] = self.phoneNumber.text;
-        user[@"affiliation"] = self.affiliation.text;
-        user[@"permission"] = @"1";
         [self.view endEditing:YES];
         
         [user signUpInBackgroundWithBlock:^(BOOL succeeded, NSError *error) {
